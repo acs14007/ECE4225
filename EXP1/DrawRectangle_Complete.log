@@ -1,0 +1,45 @@
+Evaluating file ./DrawRectangle_Complete.scm
+---> (define Width 10)
+Width
+---> (define Length (/ Width 20))
+Length
+---> (define DopingLevel 1e+17)
+DopingLevel
+---> (sdegeo:create-rectangle (position 0 0 0) (position Length Width 0) Silicon R.Si)
+#[body 5 1]
+---> (sdegeo:define-contact-set Left 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:define-contact-set Right 4 (color:rgb 0 1 0) ##)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position (/ Length 2) 0.0 0.0)) Left)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position (/ Length 2) Width 0.0)) Right)
+()
+---> (sdedr:define-constant-profile Const.Silicon BoronActiveConcentration DopingLevel)
+#t
+---> (sdedr:define-constant-profile-material PlaceCD.Silicon Const.Silicon Silicon)
+#t
+---> (define xmin (/ Length 20))
+xmin
+---> (define xmax (/ Length 20))
+xmax
+---> (define ymin (/ Width 20))
+ymin
+---> (define ymax (/ Width 20))
+ymax
+---> (sdedr:define-refinement-size RefDef.all xmax ymax xmin ymin)
+#t
+---> (sdedr:define-refinement-region PlaceRF.RSi RefDef.all R.Si)
+#t
+---> (sde:build-mesh -a Rectangle_geo_msh)
+#t
+---> (sde:save-model Rectangle_geo)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Tue Sep  8 11:26:30 2020"
+"End   Time:    Tue Sep  8 11:26:32 2020"
+"Total Execution Time (sec):    2"
+"Total System calls Time (sec): 0"
+"************************************************************************"

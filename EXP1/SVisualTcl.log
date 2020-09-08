@@ -1,0 +1,53 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Sep 08, 2020. 12:28:15.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/EXP1/Rectangle_geo_msh.tdr
+create_plot -dataset Rectangle_geo_msh
+select_plots {Plot_Rectangle_geo_msh}
+#-> Plot_Rectangle_geo_msh
+#-> Plot_Rectangle_geo_msh
+#-> Rectangle_geo_msh
+set_legend_prop -plot Plot_Rectangle_geo_msh -position {0.726119 0.481159} -size {0.231138 0.3}
+#-> 0
+set_material_prop {Silicon} -plot Plot_Rectangle_geo_msh -geom Rectangle_geo_msh -show_mesh
+#-> 0
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 1.1
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 1.1
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 1.1
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.909091
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.909091
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.909091
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.909091
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 1.1
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 1.4641
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 1.1
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 1.1
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 1.4641
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 1.21
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 1.1
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 1.61051
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.909091
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.683013
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.826446
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.909091
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.826446
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.751315
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.909091
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.909091
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.909091
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.909091
+zoom_plot -plot Plot_Rectangle_geo_msh -factor 0.909091
+export_view /home/student/Documents/EXP1/1.png -plots {Plot_Rectangle_geo_msh} -format png
+#-> 0
+exit 0
+ 

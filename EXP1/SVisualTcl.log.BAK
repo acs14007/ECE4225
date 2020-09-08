@@ -1,0 +1,27 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Sep 08, 2020. 12:27:11.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/EXP1/Class1Out_des.tdr
+create_plot -dataset Class1Out_des
+select_plots {Plot_Class1Out_des}
+#-> Plot_Class1Out_des
+#-> Plot_Class1Out_des
+#-> Class1Out_des
+load_file /home/student/Documents/EXP1/Rectangle_geo_msh.tdr
+create_plot -dataset Rectangle_geo_msh
+select_plots {Plot_Rectangle_geo_msh}
+#-> Plot_Rectangle_geo_msh
+#-> Plot_Rectangle_geo_msh
+#-> Rectangle_geo_msh
+exit 0
+ 
