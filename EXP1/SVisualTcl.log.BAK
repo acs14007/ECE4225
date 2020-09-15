@@ -2,7 +2,7 @@
 # Sentaurus Visual O-2018.06.
 # Tcl log file.
 #------------------------------------------
-# Date: Sep 08, 2020. 12:27:11.
+# Date: Sep 15, 2020. 11:54:28.
 # Version: 28.0.1030 (1.1030)
 # Mode: Interactive (GUI).
 # Mesa: enabled.
@@ -17,11 +17,151 @@ select_plots {Plot_Class1Out_des}
 #-> Plot_Class1Out_des
 #-> Plot_Class1Out_des
 #-> Class1Out_des
-load_file /home/student/Documents/EXP1/Rectangle_geo_msh.tdr
-create_plot -dataset Rectangle_geo_msh
-select_plots {Plot_Rectangle_geo_msh}
-#-> Plot_Rectangle_geo_msh
-#-> Plot_Rectangle_geo_msh
-#-> Rectangle_geo_msh
+windows_style -style max
+#-> 0
+create_cutline -plot Plot_Class1Out_des -type x -at 0.210213
+#-> C1(Class1Out_des)
+create_plot -dataset C1(Class1Out_des) -1d
+select_plots {Plot_C1(Class1Out_des)}
+#-> Plot_C1(Class1Out_des)
+#-> Plot_C1(Class1Out_des)
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis y -type log
+#-> 0
+create_curve -plot Plot_C1(Class1Out_des) -dataset {C1(Class1Out_des)} -axisX Y -axisY DopingConcentration
+#-> Curve_1
+remove_curves -plot Plot_C1(Class1Out_des) {Curve_1}
+#-> Curve_1
+create_curve -plot Plot_C1(Class1Out_des) -dataset {C1(Class1Out_des)} -axisX Y -axisY ElectricField
+#-> Curve_1
+remove_curves -plot Plot_C1(Class1Out_des) {Curve_1}
+#-> Curve_1
+create_curve -plot Plot_C1(Class1Out_des) -dataset {C1(Class1Out_des)} -axisX Y -axisY ElectrostaticPotential
+#-> Curve_1
+remove_curves -plot Plot_C1(Class1Out_des) {Curve_1}
+#-> Curve_1
+create_curve -plot Plot_C1(Class1Out_des) -dataset {C1(Class1Out_des)} -axisX Y -axisY ElectricField
+#-> Curve_1
+remove_curves -plot Plot_C1(Class1Out_des) {Curve_1}
+#-> Curve_1
+create_curve -plot Plot_C1(Class1Out_des) -dataset {C1(Class1Out_des)} -axisX Y -axisY ElectrostaticPotential
+#-> Curve_1
+remove_curves -plot Plot_C1(Class1Out_des) {Curve_1}
+#-> Curve_1
+create_curve -plot Plot_C1(Class1Out_des) -dataset {C1(Class1Out_des)} -axisX Y -axisY ElectricField
+#-> Curve_1
+remove_curves -plot Plot_C1(Class1Out_des) {Curve_1}
+#-> Curve_1
+create_curve -plot Plot_C1(Class1Out_des) -dataset {C1(Class1Out_des)} -axisX Y -axisY ElectrostaticPotential
+#-> Curve_1
+set_plot_prop -plot {Plot_C1(Class1Out_des)} -title "Electrostatic Potential Plot"
+#-> 0
+set_plot_prop -plot {Plot_C1(Class1Out_des)} -title_font_family times -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_legend_prop -plot Plot_C1(Class1Out_des) -position {0.0608059 0.197785}
+#-> 0
+set_curve_prop -plot Plot_C1(Class1Out_des) {Curve_1} -line_width 2
+#-> 0
+set_curve_prop -plot Plot_C1(Class1Out_des) {Curve_1} -line_width 3
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis x -title "Distance from edge (um)"
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis x -title "Distance from edge (um)"
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis x -title "Distance (um)"
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis x -title_font_family times -title_font_size 21 -title_font_color #000000 -title_font_att normal
+#-> 0
+move_plot -plot Plot_C1(Class1Out_des) -position {0 0}
+#-> 0
+move_plot -plot Plot_C1(Class1Out_des) -position {0 0}
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis x -title "Distance (um )"
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis x -title "Distance (um )"
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis x -title "Distance (um)"
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis x -title "Distance (um)"
+#-> 0
+move_plot -plot Plot_C1(Class1Out_des) -position {0 0}
+#-> 0
+move_plot -plot Plot_C1(Class1Out_des) -position {0 0}
+#-> 0
+export_view {/home/student/Documents/EXP1/Electrostatic Potential Plot.png} -plots {Plot_C1(Class1Out_des)} -format png
+#-> 0
+remove_curves -plot Plot_C1(Class1Out_des) {Curve_1}
+#-> Curve_1
+create_curve -plot Plot_C1(Class1Out_des) -dataset {C1(Class1Out_des)} -axisX Y -axisY ElectricField
+#-> Curve_1
+set_plot_prop -plot {Plot_C1(Class1Out_des)} -title "Electrostatic Field Plot"
+#-> 0
+set_legend_prop -plot Plot_C1(Class1Out_des) -position {0.752381 0.256329}
+#-> 0
+move_plot -plot Plot_C1(Class1Out_des) -position {0 0}
+#-> 0
+move_plot -plot Plot_C1(Class1Out_des) -position {0 0}
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis y2 -type log
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis y2 -type linear
+#-> 0
+set_plot_prop -plot {Plot_C1(Class1Out_des)} -title "Electrostatic Field Plot"
+#-> 0
+set_plot_prop -plot {Plot_C1(Class1Out_des)} -title "Electrostatic Field Plot"
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis y -title f
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis y -title "Voltage (V)"
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis y -title "Voltage (V)"
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis y -title "Electric Field (V/m)"
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis y -title_font_family times -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+export_view {/home/student/Documents/EXP1/Electrostatic Field Plot.png} -plots {Plot_C1(Class1Out_des)} -format png
+#-> 0
+remove_curves -plot Plot_C1(Class1Out_des) {Curve_1}
+#-> Curve_1
+create_curve -plot Plot_C1(Class1Out_des) -dataset {C1(Class1Out_des)} -axisX Y -axisY ElectrostaticPotential
+#-> Curve_1
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis y -title "Voltage (V)"
+#-> 0
+set_plot_prop -plot {Plot_C1(Class1Out_des)} -title "Electrostatic Plot"
+#-> 0
+set_legend_prop -plot Plot_C1(Class1Out_des) -position {0.112821 0.256329}
+#-> 0
+set_plot_prop -plot {Plot_C1(Class1Out_des)} -title "Electrostatic Potential Plot"
+#-> 0
+set_plot_prop -plot {Plot_C1(Class1Out_des)} -title "Electrostatic Potential Plot"
+#-> 0
+set_plot_prop -plot {Plot_C1(Class1Out_des)} -title "Electrostatic Potential Plot"
+#-> 0
+export_view {/home/student/Documents/EXP1/Electrostatic Potential Plot.png} -plots {Plot_C1(Class1Out_des)} -format png -overwrite
+#-> 0
+set_plot_prop -plot {Plot_C1(Class1Out_des)} -title "Electrostatic Potential Plot"
+#-> 0
+remove_curves -plot Plot_C1(Class1Out_des) {Curve_1}
+#-> Curve_1
+create_curve -plot Plot_C1(Class1Out_des) -dataset {C1(Class1Out_des)} -axisX Y -axisY ElectricField
+#-> Curve_1
+set_plot_prop -plot {Plot_C1(Class1Out_des)} -title "Electric Field Plot"
+#-> 0
+set_legend_prop -plot Plot_C1(Class1Out_des) -position {0.767766 0.293874}
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis y -title "Electric Field (V/m)"
+#-> 0
+set_legend_prop -plot Plot_C1(Class1Out_des) -position {0.748718 0.285962}
+#-> 0
+export_view {/home/student/Documents/EXP1/Electric Field Plot.png} -plots {Plot_C1(Class1Out_des)} -format png
+#-> 0
+set_band_diagram {Plot_C1(Class1Out_des)}
+#-> 0
+set_plot_prop -plot {Plot_C1(Class1Out_des)} -title "Band Diagram"
+#-> 0
+set_axis_prop -plot Plot_C1(Class1Out_des) -axis x -title "Distance (um)"
+#-> 0
+export_view {/home/student/Documents/EXP1/Band Diagram.png} -plots {Plot_C1(Class1Out_des)} -format png
+#-> 0
 exit 0
  

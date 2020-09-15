@@ -9,6 +9,7 @@ File {
   *Plot =    FieldOutputFile
   Plot = "Class1Out"
   *Output =  LogOutputFile
+  Output = "Class1Out"
 }
 
 
