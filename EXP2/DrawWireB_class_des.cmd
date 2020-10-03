@@ -29,17 +29,17 @@ Electrode {
 	{Name="BottomBridge"	Voltage = 0}
 }
 
-*Thermode{
-*  { Name="TopBridge"  Temperature = 300 }
-*  { Name="BottomBridge" Temperature = 300 }
-*}
+Thermode{
+  { Name="TopBridge"  Temperature = 300 }
+  { Name="BottomBridge" Temperature = 300 }
+}
 
 
 ***Assign Physics
 ***We can specify which physics we want to use. For example, here we calculate recombination according to Shockley Read Hall, Auger, and Avalanche effects.
 ***Thermodynamic is to solve for temperature
 Physics {
-  *Thermodynamic
+  Thermodynamic
   Mobility( DopingDep HighFieldSat Enormal )
   EffectiveIntrinsicDensity( OldSlotboom )
   Recombination( SRH Auger Avalanche )
@@ -55,7 +55,7 @@ Plot {
   Doping DonorConcentration AcceptorConcentration
   ConductionBand ValenceBand equasiFermi hquasiFermi  
   *--Heat quantities 
-  *Temperature TotalHeat eJouleHeat hJouleHeat
+  Temperature TotalHeat eJouleHeat hJouleHeat
 }
 
 
@@ -71,7 +71,7 @@ Solve{
   *Initial Solution with just Poisson, then with Poisson, Electrons, and Hole conservation
   Coupled(Iterations=100){ Poisson }
   Coupled{ Poisson Electron Hole
-	   *Temperature
+	   Temperature
 	 }
 
   *Using the last solution obtained (initial condition), sweep voltage on "TopBridge" up to 2.
@@ -80,7 +80,7 @@ Solve{
     Goal{ Name="TopBridge" Voltage = 2 }
 	        )
   {Coupled{ Poisson Electron Hole 
-	  *Temperature}
+	  Temperature}
   } 
     
 }
