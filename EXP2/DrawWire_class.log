@@ -1,0 +1,165 @@
+Evaluating file ./DrawWire_class.scm
+---> (define DopingLevel 1e+18)
+DopingLevel
+---> (define First 1)
+First
+---> (define Second 4)
+Second
+---> (define Third 0)
+Third
+---> (define Fourth 0)
+Fourth
+---> (define Fifth 7)
+Fifth
+---> (define FirstSecond (+ (* First 10) Second))
+FirstSecond
+---> (define FourthFifth (+ (* Fourth 10) Fifth))
+FourthFifth
+---> (define WBase 20)
+WBase
+---> (define HBase1 10)
+HBase1
+---> (define HBase2 (+ 12 (/ FirstSecond 10)))
+HBase2
+---> (define WBridge (+ 5 (/ Third 5)))
+WBridge
+---> (define HBridge (+ 30 (/ FourthFifth 10)))
+HBridge
+---> (define x1 0)
+x1
+---> (define x2 (+ x1 WBase))
+x2
+---> (define x3 x2)
+x3
+---> (define x4 (- x2 (- (/ WBase 2) (/ WBridge 2))))
+x4
+---> (define x5 x4)
+x5
+---> (define x6 x3)
+x6
+---> (define x7 x2)
+x7
+---> (define x8 x1)
+x8
+---> (define x9 x8)
+x9
+---> (define x10 (+ x1 (- (/ WBase 2) (/ WBridge 2))))
+x10
+---> (define x11 x10)
+x11
+---> (define x12 x9)
+x12
+---> (define y1 0)
+y1
+---> (define y2 y1)
+y2
+---> (define y3 (+ y2 HBase1))
+y3
+---> (define y12 y3)
+y12
+---> (define y4 (+ y3 HBase2))
+y4
+---> (define y11 y4)
+y11
+---> (define y5 (+ y4 HBridge))
+y5
+---> (define y10 y5)
+y10
+---> (define y6 (+ y5 HBase2))
+y6
+---> (define y9 y6)
+y9
+---> (define y7 (+ y6 HBase1))
+y7
+---> (define y8 y7)
+y8
+---> (define height (- y8 y1))
+height
+---> (define width (- x2 x1))
+width
+---> (define N1 (position x1 y1 0))
+N1
+---> (define N2 (position x2 y2 0))
+N2
+---> (define N3 (position x3 y3 0))
+N3
+---> (define N4 (position x4 y4 0))
+N4
+---> (define N5 (position x5 y5 0))
+N5
+---> (define N6 (position x6 y6 0))
+N6
+---> (define N7 (position x7 y7 0))
+N7
+---> (define N8 (position x8 y8 0))
+N8
+---> (define N9 (position x9 y9 0))
+N9
+---> (define N10 (position x10 y10 0))
+N10
+---> (define N11 (position x11 y11 0))
+N11
+---> (define N12 (position x12 y12 0))
+N12
+---> (sdegeo:create-rectangle (position (- x1 10) (- y1 10) 0) (position (+ x7 10) (+ y7 10) 0) SiO2 R.SiO2)
+#[body 5 1]
+---> (sdegeo:create-polygon (list N1 N2 N3 N4 N5 N6 N7 N8 N9 N10 N11 N12) Silicon R.Si)
+#[body 6 1]
+---> (sdegeo:define-contact-set TopBridge 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:define-contact-set BottomBridge 4 (color:rgb 0 1 0) ##)
+()
+---> (sdegeo:define-contact-set Left 4 (color:rgb 1 1 0) ##)
+()
+---> (sdegeo:define-contact-set Right 4 (color:rgb 0 0 1) ##)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position (+ x1 (/ WBase 2)) y1 0)) TopBridge)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position (+ x1 (/ WBase 2)) y8 0)) BottomBridge)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position (- x1 10) (- y1 0) 0)) Left)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position (+ x7 10) (+ y7 0) 0)) Right)
+()
+---> (sdedr:define-constant-profile Const.Silicon BoronActiveConcentration DopingLevel)
+#t
+---> (sdedr:define-constant-profile-material PlaceCD.Silicon Const.Silicon Silicon)
+#t
+---> (sdedr:define-refinement-window RefWin.Bridge Rectangle (position x11 y11 0) (position x5 y5 0))
+#[body 35 1]
+---> (define xmin (/ width 20))
+xmin
+---> (define xmax (/ width 20))
+xmax
+---> (define ymin (/ height 100))
+ymin
+---> (define ymax (/ height 100))
+ymax
+---> (sdedr:define-refinement-size RefDef.all xmax ymax xmin ymin)
+#t
+---> (define xminBridge (/ WBridge 10))
+xminBridge
+---> (define xmaxBridge (/ WBridge 10))
+xmaxBridge
+---> (define yminBridge (/ HBridge 100))
+yminBridge
+---> (define ymaxBridge (/ HBridge 100))
+ymaxBridge
+---> (sdedr:define-refinement-size RefDef.Bridge xmaxBridge ymaxBridge xminBridge yminBridge)
+#t
+---> (sdedr:define-refinement-region PlaceRF.RSi RefDef.all R.Si)
+#t
+---> (sdedr:define-refinement-placement PlaceRF.Bridge RefDef.Bridge RefWin.Bridge)
+#t
+---> (sde:build-mesh -a Wire_geo_msh)
+#t
+---> (sde:save-model Wire_geo2)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Fri Oct  2 22:04:20 2020"
+"End   Time:    Fri Oct  2 22:04:24 2020"
+"Total Execution Time (sec):    4"
+"Total System calls Time (sec): 0"
+"************************************************************************"
