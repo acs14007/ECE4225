@@ -1,0 +1,65 @@
+Evaluating file ./DrawStackB.scm
+---> (sde:clear)
+#f
+---> (sdegeo:set-default-boolean ABA)
+"ABA"
+---> (define LMetal 0.03)
+LMetal
+---> (define LOxide 0.03)
+LOxide
+---> (define LNitride 0.03)
+LNitride
+---> (define Height 0.01)
+Height
+---> (define TotalLength (+ LNitride (+ LOxide (+ LMetal (+ LOxide LMetal)))))
+TotalLength
+---> (define DopingLevel 1e+20)
+DopingLevel
+---> (sdegeo:create-rectangle (position 0 0 0) (position LMetal Height 0) Silicon R.M1)
+#[body 9 1]
+---> (sdegeo:create-rectangle (position LMetal 0 0) (position (* 2 LMetal) Height 0) SiO2 R.Ox1)
+#[body 10 1]
+---> (sdegeo:create-rectangle (position (* 2 LMetal) 0 0) (position (* 3 LMetal) Height 0) Si3N4 R.N)
+#[body 11 1]
+---> (sdegeo:create-rectangle (position (* 3 LMetal) 0 0) (position (* 4 LMetal) Height 0) SiO2 R.Ox2)
+#[body 12 1]
+---> (sdegeo:create-rectangle (position (* 4 LMetal) 0 0) (position (* 5 LMetal) Height 0) Silicon R.M2)
+#[body 13 1]
+---> (sdegeo:define-contact-set Left 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:define-contact-set Right 4 (color:rgb 0 1 0) ##)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position 0 (/ Height 2) 0)) Left)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position TotalLength (/ Height 2) 0)) Right)
+()
+---> (sdedr:define-constant-profile Const.Silicon BoronActiveConcentration DopingLevel)
+#t
+---> (sdedr:define-constant-profile-material PlaceCD.Silicon Const.Silicon Silicon)
+#t
+---> (sdedr:define-refinement-window RefWin.stack Rectangle (position 0 0 0) (position TotalLength Height 0))
+#[body 34 1]
+---> (define xmin (/ LMetal 20))
+xmin
+---> (define xmax (/ LMetal 20))
+xmax
+---> (define ymin (/ Height 20))
+ymin
+---> (define ymax (/ Height 20))
+ymax
+---> (sdedr:define-refinement-size RefDef.stack xmax ymax xmin ymin)
+#t
+---> (sdedr:define-refinement-placement PlaceRF.stack RefDef.stack RefWin.stack)
+#t
+---> (sde:build-mesh -a StackB_geo_msh)
+#t
+---> (sde:save-model StackB_geo)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Fri Oct  9 21:59:51 2020"
+"End   Time:    Fri Oct  9 21:59:56 2020"
+"Total Execution Time (sec):    5"
+"Total System calls Time (sec): 0"
+"************************************************************************"

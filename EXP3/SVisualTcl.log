@@ -1,0 +1,49 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Oct 09, 2020. 22:29:47.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/ECE4225/EXP3/Exp3BOut_des.tdr
+create_plot -dataset Exp3BOut_des
+select_plots {Plot_Exp3BOut_des}
+#-> Plot_Exp3BOut_des
+#-> Plot_Exp3BOut_des
+#-> Exp3BOut_des
+set_plot_prop -plot {Plot_Exp3BOut_des} -not_axes_interchanged
+#-> 0
+create_cutline -plot Plot_Exp3BOut_des -type y -at 0.00522928
+#-> C1(Exp3BOut_des)
+create_plot -dataset C1(Exp3BOut_des) -1d
+select_plots {Plot_C1(Exp3BOut_des)}
+#-> Plot_C1(Exp3BOut_des)
+#-> Plot_C1(Exp3BOut_des)
+set_axis_prop -plot Plot_C1(Exp3BOut_des) -axis y -type log
+#-> 0
+create_curve -plot Plot_C1(Exp3BOut_des) -dataset {C1(Exp3BOut_des)} -axisX X -axisY DopingConcentration
+#-> Curve_1
+set_band_diagram {Plot_C1(Exp3BOut_des)}
+#-> 0
+set_axis_prop -plot Plot_C1(Exp3BOut_des) -axis x -title "Distance (um)"
+#-> 0
+set_axis_prop -plot Plot_C1(Exp3BOut_des) -axis x -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_C1(Exp3BOut_des) -axis y -title "Energy (eV)"
+#-> 0
+set_plot_prop -plot {Plot_C1(Exp3BOut_des)} -title "Band Diagram"
+#-> 0
+set_plot_prop -plot {Plot_C1(Exp3BOut_des)} -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_C1(Exp3BOut_des) -axis y -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+export_view /home/student/Documents/ECE4225/EXP3/bandDiagram2unBias.png -plots {Plot_C1(Exp3BOut_des)} -format png
+#-> 0
+exit 0
+ 
