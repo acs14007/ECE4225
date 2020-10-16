@@ -10,15 +10,15 @@
 File {
   **Input Files
   *Grid = MeshFile
-  Grid = "StackA_geo_msh.tdr"
+  Grid = "Stack_geo_msh.tdr"
 
   **Output Files
   *Current = ContactOutputFile
-  Current = "Exp3AOut"
+  Current = "EXP4Out_rvrse" 
   *Plot =    FieldOutputFile
-  Plot = "Exp3AOut"
+  Plot = "EXP4Out_rvrse"
   *Output =  LogOutputFile
-  Output = "Exp3AOut"
+  Output = "EXP4Out_rvrse"
 }
 
 
@@ -68,7 +68,7 @@ Solve{
   *Using the last solution obtained (initial condition), sweep voltage on "Left" up to 2.
   Quasistationary(
     InitialStep = 0.01 MinStep = 1e-5 MaxStep = 0.2
-    Goal{ Name="Left" Voltage = 2 }
+    Goal{ Name="Left" Voltage = -5}
 	        )
   {Coupled{ Poisson Electron Hole 
 	  }

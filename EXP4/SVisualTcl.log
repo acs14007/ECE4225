@@ -1,0 +1,231 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Oct 16, 2020. 18:43:32.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/ECE4225/EXP4/EXP4Out_fwrd_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> EXP4Out_fwrd_des
+load_file /home/student/Documents/ECE4225/EXP4/EXP4Out_rvrse_des.plt
+#-> EXP4Out_rvrse_des
+create_curve -plot Plot_1 -dataset {EXP4Out_fwrd_des} -axisX time -axisY {Left eCurrent}
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {EXP4Out_fwrd_des} -axisX time -axisY {Left eCurrent}
+#-> Curve_2
+create_curve -plot Plot_1 -dataset {EXP4Out_fwrd_des} -axisX time -axisY {Left hCurrent}
+#-> Curve_3
+create_curve -plot Plot_1 -dataset {EXP4Out_fwrd_des} -axisX time -axisY {Left TotalCurrent}
+#-> Curve_4
+remove_curves -plot Plot_1 {Curve_1}
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {EXP4Out_rvrse_des} -axisX time -axisY2 {Right eCurrent}
+#-> Curve_5
+create_curve -plot Plot_1 -dataset {EXP4Out_rvrse_des} -axisX time -axisY2 {Right hCurrent}
+#-> Curve_6
+create_curve -plot Plot_1 -dataset {EXP4Out_rvrse_des} -axisX time -axisY2 {Right TotalCurrent}
+#-> Curve_7
+set_curve_prop -plot Plot_1 {Curve_7} -line_width 3
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_7} -line_width 4
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_7} -line_width 5
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_5} -line_width 5
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_6} -line_width 5
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -line_width 5
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_3} -line_width 5
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_4} -line_width 5
+#-> 0
+remove_curves -plot Plot_1 {Curve_2 Curve_3 Curve_4 Curve_5 Curve_6 Curve_7}
+#-> Curve_2 Curve_3 Curve_4 Curve_5 Curve_6 Curve_7
+create_curve -plot Plot_1 -dataset {EXP4Out_fwrd_des} -axisX {Left InnerVoltage} -axisY {Left eCurrent}
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {EXP4Out_fwrd_des} -axisX {Left InnerVoltage} -axisY {Left hCurrent}
+#-> Curve_2
+create_curve -plot Plot_1 -dataset {EXP4Out_fwrd_des} -axisX {Left InnerVoltage} -axisY {Left TotalCurrent}
+#-> Curve_3
+create_curve -plot Plot_1 -dataset {EXP4Out_rvrse_des} -axisX {Left InnerVoltage} -axisY2 {Left eCurrent}
+#-> Curve_4
+create_curve -plot Plot_1 -dataset {EXP4Out_rvrse_des} -axisX {Left InnerVoltage} -axisY2 {Left hCurrent}
+#-> Curve_5
+create_curve -plot Plot_1 -dataset {EXP4Out_rvrse_des} -axisX {Left InnerVoltage} -axisY2 {Left TotalCurrent}
+#-> Curve_6
+remove_curves -plot Plot_1 {Curve_6 Curve_5 Curve_4}
+#-> Curve_6 Curve_5 Curve_4
+create_curve -plot Plot_1 -dataset {EXP4Out_rvrse_des} -axisX {Left InnerVoltage} -axisY {Left eCurrent}
+#-> Curve_4
+create_curve -plot Plot_1 -dataset {EXP4Out_rvrse_des} -axisX {Left InnerVoltage} -axisY {Left hCurrent}
+#-> Curve_5
+create_curve -plot Plot_1 -dataset {EXP4Out_rvrse_des} -axisX {Left InnerVoltage} -axisY {Left TotalCurrent}
+#-> Curve_6
+set_axis_prop -plot Plot_1 -axis y -type log
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -type linear
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -type log
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.7
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+set_curve_prop -plot Plot_1 {Curve_4} -line_width 5
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_5} -line_width 5
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+set_curve_prop -plot Plot_1 {Curve_6} -line_width 5
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+set_curve_prop -plot Plot_1 {Curve_3} -line_width 5
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_1} -line_width 5
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -line_width 5
+#-> 0
+move_plot -plot Plot_1 -position {0.529767 -4.49462e-21}
+#-> 0
+move_plot -plot Plot_1 -position {0 5.39396e-21}
+#-> 0
+move_plot -plot Plot_1 -position {-0.594943 1.25216e-21}
+#-> 0
+set_legend_prop -plot Plot_1 -position {0.138827 0.886477}
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -type linear
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -type log
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -type linear
+#-> 0
+move_plot -plot Plot_1 -position {0.346142 -4.90135e-5}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+set_axis_prop -plot Plot_1 -axis y -type log
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+set_legend_prop -plot Plot_1 -position {0.244246 0.891486}
+#-> 0
+set_plot_prop -plot {Plot_1} -title "Currents vs. Voltage"
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -title "Current (A)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title "Voltage (V)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_plot_prop -plot {Plot_1} -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_legend_prop -plot Plot_1 -position {0.111359 0.867426}
+#-> 0
+export_view /home/student/Documents/ECE4225/EXP4/part4.png -plots {Plot_1} -format png
+#-> 0
