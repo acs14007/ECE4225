@@ -1,1 +1,12 @@
-test
+sde -l ./ .scm
+sdevice .cmd
+
+
+
+set_axis_prop -plot Plot_C1(EXP4Out_equ_des) -axis x -title "Distance (um)"
+
+set_axis_prop -plot Plot_C1(EXP4Out_equ_des) -axis x -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+set_axis_prop -plot Plot_C1(EXP4Out_equ_des) -axis y -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+
+swb
+f9 to show nodes
