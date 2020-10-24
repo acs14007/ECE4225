@@ -1,0 +1,67 @@
+Evaluating file n4_dvs.cmd
+---> (sde:clear)
+#f
+---> (sdegeo:set-default-boolean ABA)
+"ABA"
+---> (define LMetal 1)
+LMetal
+---> (define LOxide 0.03)
+LOxide
+---> (define LNitride 0.03)
+LNitride
+---> (define Height 1)
+Height
+---> (define TotalLength 2)
+TotalLength
+---> (define DopingLevel 1e+18)
+DopingLevel
+---> (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) Silicon R.pSi)
+#[body 9 1]
+---> (sdegeo:create-rectangle (position 1 0 0) (position 2 1 0) Silicon R.nSi)
+#[body 10 1]
+---> (sdegeo:define-contact-set Left 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:define-contact-set Right 4 (color:rgb 0 1 0) ##)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position 0 (/ Height 2) 0)) Left)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position TotalLength (/ Height 2) 0)) Right)
+()
+---> (sdeio:save-tdr-bnd (get-body-list) n4_bnd.tdr)
+(#t "v1")
+---> (sdedr:define-constant-profile Const.pSilicon BoronActiveConcentration DopingLevel)
+#t
+---> (sdedr:define-constant-profile Const.nSilicon ArsenicActiveConcentration DopingLevel)
+#t
+---> (sdedr:define-constant-profile-region PlaceCD.pSilicon Const.pSilicon R.pSi)
+#t
+---> (sdedr:define-constant-profile-region PlaceCD.nSilicon Const.nSilicon R.nSi)
+#t
+---> (sdedr:define-refinement-window RefWin.stack Rectangle (position 0 0 0) (position TotalLength Height 0))
+#[body 31 1]
+---> (define xmin (/ 1 20))
+xmin
+---> (define xmax (/ 1 20))
+xmax
+---> (define ymin (/ 1 20))
+ymin
+---> (define ymax (/ 1 20))
+ymax
+---> (sdedr:define-refinement-size RefDef.stack xmax ymax xmin ymin)
+#t
+---> (sdedr:define-refinement-placement PlaceRF.stack RefDef.stack RefWin.stack)
+#t
+---> (sde:save-model n4_geo)
+#t
+---> (sdedr:write-cmd-file n4_msh.cmd)
+#t
+---> (system:command snmesh n4_msh)
+0
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Fri Oct 23 22:56:05 2020"
+"End   Time:    Fri Oct 23 22:56:09 2020"
+"Total Execution Time (sec):    4"
+"Total System calls Time (sec): 0"
+"************************************************************************"

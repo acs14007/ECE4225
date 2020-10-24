@@ -1,0 +1,136 @@
+****************************************************************************
+***                      Sentaurus Structure Editor                      ***
+***                          Version O-2018.06                           ***
+***                       (1.1029, x86_64, Linux)                        ***
+***                                                                      ***
+***               Copyright (C) 1994-2018 Synopsys, Inc.                 ***
+***        Portions of this software are owned by Spatial Corp.          ***
+***            Copyright (C) 1986-2018. All Rights Reserved.             ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Thu May  3 06:02:45 PDT 2018 on tcadprod10
+
+Machine type information not available.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+****************************************************************************
+***                            Sentaurus Mesh                            ***
+***                          Version O-2018.06                           ***
+***                       (1.1029, x86_64, Linux)                        ***
+***                                                                      ***
+***                       Copyright (C) 2005-2018                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Thu May  3 05:29:02 PDT 2018 on: tcadprod10
+Running on: acs14007.4225.cse.uconn.edu
+Hardware type: x86_64
+OS name: Linux
+OS release: 3.10.0-1127.18.2.el7.x86_64
+OS version: #1 SMP Mon Jul 20 22:32:16 UTC 2020
+Process ID: 16792
+
+Flags used: -a
+
+** Generating 2d grid **
+
+Creating binary tree...done.
+Imprinting binary tree on the boundary...done.
+Optimizing boundary nodes...done.
+
+Number of vertices after binary tree generation : 
+  2145 (tree) + 223 (boundary)
+
+
+=================================  brep2d quality  =====================================
+minAngle: 90  [near (1 -0)] at region=R.nSi
+nVerts = 223  nTris = 224  nRegs = 4
+bmin: -0 -0
+bmax: 2 1
+min area: 0.03125  max area: 0.03125  min edge length : 0.03125
+total area  : 7 interface area: 1
+total volume: 2
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+** Delaunizing the mesh **
+
+Creating delaunizer input...done.
+Solving edges...done 
+Optimizing elements...done. (2149 vertices)
+Fixing diagonals...done.
+
+The final mesh has: 
+    2145 points.
+    4096 elements.
+       4 regions.
+Max. connectivity = 6 located at (0.03125;0.03125)
+
+
+==============================  tri-grid quality  ================================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %                       67              33                                
+---------------------------------------------------------------------------------
+minAngle: 45  maxAngle: 90
+nVerts = 2145  nTris = 4096  nMats = 2
+max connectivity (tris per node): 6
+bmin: -0 -0
+bmax: 2 1
+min edgeLength: 0.03125  [near (1.98438 0.96875)]
+min volume: 0.000488281  max volume: 0.000488281  Total volume: 2
+bbox  volume: 2
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: R.nSi  Total volume: 1
+Interpolating data...done.
+done.
+Saving file Stack_geo_msh.tdr...done.
+
+===============================  Timer Report===================================
+              Total Mesh Generation Time:     0.133s       100%
+                       Rate of #Vertices:  1.61e+04
+                          Rate of #Edges:  3.15e+04
+                          Rate of #Faces:  3.08e+04
+                       Rate of #Elements:         0
+
+                            Time Covered:         0s         0%
+
+
+

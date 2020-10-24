@@ -1,0 +1,194 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version O-2018.06                           ***
+***                       (1.1029, x86_64, Linux)                        ***
+***                                                                      ***
+***                Copyright (c) 1994-2018 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'acs14007.4225.cse.uconn.edu' by user 'student'
+Binary '/usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/bin/../lib/gsub0'
+Command line options '-verbose -swb_pid 15995 -q local:priority -e {26 + 29 + 9 + 27 + 30 + 10 + 28 + 31} /home/student/Documents/ECE4225/EXP5/task3'
+Current directory '/home/student/Documents/ECE4225/EXP5'
+Some relevant environment variables:
+	STROOT=/usr/synopsys/sentaurus/O_2018.06
+	STRELEASE=current
+	STROOT_LIB=/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib
+	STDB=/home/student/Documents/ECE4225/EXP5
+	DATEX=/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=:0
+
+Starting swblm daemon...OK
+Loading global tool database '/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/glib2/tooldb.tcl'
+Project '/home/student/Documents/ECE4225/EXP5/task3'
+Loading project tree '/home/student/Documents/ECE4225/EXP5/task3/gtree.dat'
+23:06:39 Oct 23 2020 <task3> submitted to the batch system
+Loading global queue configuration file '/usr/synopsys/sentaurus/O_2018.06/queues/gqueues.dat'...ok
+Loading project tree '/home/student/Documents/ECE4225/EXP5/task3/gtree.dat'
+>>>>> Preprocessing the project to run in normal mode
+Loading jobs and dependence graph '"/home/student/Documents/ECE4225/EXP5/task3/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/student/Documents/ECE4225/EXP5/task3/gtree.dat'
+Loading project variables '/home/student/Documents/ECE4225/EXP5/task3/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/student/Documents/ECE4225/EXP5/task3/sde_dvs.cmd
+Reading file /home/student/Documents/ECE4225/EXP5/task3/sdevice_des.cmd
+Reading file /home/student/Documents/ECE4225/EXP5/task3/sdevice.par
+Include the contents of the  file 'Si.par in the file '/home/student/Documents/ECE4225/EXP5/task3/sdevice.par
+
+PREPROCESSING STEP 2:
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice_des.cmd fornode 9
+'@tdr@' creates dependences with the node(s) '4'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice.par fornode 9
++++Node successfully preprocessed+++
+The node '9' has dependencies to the node(s) '4'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice_des.cmd fornode 10
+'@tdr@' creates dependences with the node(s) '6'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice.par fornode 10
++++Node successfully preprocessed+++
+The node '10' has dependencies to the node(s) '6'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice_des.cmd fornode 26
+'@tdr@' creates dependences with the node(s) '1'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice.par fornode 26
++++Node successfully preprocessed+++
+The node '26' has dependencies to the node(s) '1'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice_des.cmd fornode 27
+'@tdr@' creates dependences with the node(s) '4'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice.par fornode 27
++++Node successfully preprocessed+++
+The node '27' has dependencies to the node(s) '4'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice_des.cmd fornode 28
+'@tdr@' creates dependences with the node(s) '6'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice.par fornode 28
++++Node successfully preprocessed+++
+The node '28' has dependencies to the node(s) '6'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice_des.cmd fornode 29
+'@tdr@' creates dependences with the node(s) '1'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice.par fornode 29
++++Node successfully preprocessed+++
+The node '29' has dependencies to the node(s) '1'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice_des.cmd fornode 30
+'@tdr@' creates dependences with the node(s) '4'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice.par fornode 30
++++Node successfully preprocessed+++
+The node '30' has dependencies to the node(s) '4'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice_des.cmd fornode 31
+'@tdr@' creates dependences with the node(s) '6'
+Preprocessing file /home/student/Documents/ECE4225/EXP5/task3/sdevice.par fornode 31
++++Node successfully preprocessed+++
+The node '31' has dependencies to the node(s) '6'
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/home/student/Documents/ECE4225/EXP5/task3/gexec.cmd"'
+>>>>>>>>>> job '26' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '29' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '9' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '27' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '30' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '10' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '28' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '31' status changed from 'failed' to 'queued'
+-----------------------------------------------------------------
+queue "local:priority" - 26 29 9 27 30 10 28 31
+-----------------------------------------------------------------
+>>>>> cleaning the index file from previous simulations 
+                       /home/student/Documents/ECE4225/EXP5/task3/.gindex
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '26' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP5/task3/n26_des.job
+local% submit job 26 for local execution
+>>>>>>>>>> job '26' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '29' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP5/task3/n29_des.job
+local% submit job 29 for local execution
+>>>>>>>>>> job '29' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '9' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP5/task3/n9_des.job
+local% submit job 9 for local execution
+>>>>>>>>>> job '9' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '27' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP5/task3/n27_des.job
+local% submit job 27 for local execution
+>>>>>>>>>> job '27' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '30' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP5/task3/n30_des.job
+local% submit job 30 for local execution
+>>>>>>>>>> job '30' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '10' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP5/task3/n10_des.job
+local% submit job 10 for local execution
+>>>>>>>>>> job '10' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '28' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP5/task3/n28_des.job
+local% submit job 28 for local execution
+>>>>>>>>>> job '28' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '31' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP5/task3/n31_des.job
+local% submit job 31 for local execution
+>>>>>>>>>> job '31' status changed from 'ready' to 'pending'
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 0   -job 26 -swb_pid 15995 -gsub_pid 21455 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 35928  "/home/student/Documents/ECE4225/EXP5/task3""
+>>>>>>>>>> job '26' status changed from 'pending' to 'running'
+23:06:40 Oct 23 2020     job 26 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp26_des.cmd"
+>>>>>>>>>> job '26' status changed from 'running' to 'done'
+23:06:43 Oct 23 2020 +++ job 26 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 0   -job 29 -swb_pid 15995 -gsub_pid 21455 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 35928  "/home/student/Documents/ECE4225/EXP5/task3""
+>>>>>>>>>> job '29' status changed from 'pending' to 'running'
+23:06:44 Oct 23 2020     job 29 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp29_des.cmd"
+>>>>>>>>>> job '29' status changed from 'running' to 'done'
+23:07:06 Oct 23 2020 +++ job 29 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 0   -job 9 -swb_pid 15995 -gsub_pid 21455 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 35928  "/home/student/Documents/ECE4225/EXP5/task3""
+>>>>>>>>>> job '9' status changed from 'pending' to 'running'
+23:07:07 Oct 23 2020     job 9 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp9_des.cmd"
+>>>>>>>>>> job '9' status changed from 'running' to 'done'
+23:07:21 Oct 23 2020 +++ job 9 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 0   -job 27 -swb_pid 15995 -gsub_pid 21455 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 35928  "/home/student/Documents/ECE4225/EXP5/task3""
+>>>>>>>>>> job '27' status changed from 'pending' to 'running'
+23:07:22 Oct 23 2020     job 27 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp27_des.cmd"
+>>>>>>>>>> job '27' status changed from 'running' to 'done'
+23:07:25 Oct 23 2020 +++ job 27 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 0   -job 30 -swb_pid 15995 -gsub_pid 21455 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 35928  "/home/student/Documents/ECE4225/EXP5/task3""
+>>>>>>>>>> job '30' status changed from 'pending' to 'running'
+23:07:26 Oct 23 2020     job 30 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp30_des.cmd"
+>>>>>>>>>> job '30' status changed from 'running' to 'done'
+23:07:41 Oct 23 2020 +++ job 30 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 0   -job 10 -swb_pid 15995 -gsub_pid 21455 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 35928  "/home/student/Documents/ECE4225/EXP5/task3""
+>>>>>>>>>> job '10' status changed from 'pending' to 'running'
+23:07:42 Oct 23 2020     job 10 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp10_des.cmd"
+>>>>>>>>>> job '10' status changed from 'running' to 'done'
+23:07:58 Oct 23 2020 +++ job 10 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 0   -job 28 -swb_pid 15995 -gsub_pid 21455 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 35928  "/home/student/Documents/ECE4225/EXP5/task3""
+>>>>>>>>>> job '28' status changed from 'pending' to 'running'
+23:07:59 Oct 23 2020     job 28 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp28_des.cmd"
+>>>>>>>>>> job '28' status changed from 'running' to 'done'
+23:08:02 Oct 23 2020 +++ job 28 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 0   -job 31 -swb_pid 15995 -gsub_pid 21455 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 35928  "/home/student/Documents/ECE4225/EXP5/task3""
+>>>>>>>>>> job '31' status changed from 'pending' to 'running'
+23:08:03 Oct 23 2020     job 31 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp31_des.cmd"
+>>>>>>>>>> job '31' status changed from 'running' to 'done'
+23:08:11 Oct 23 2020 +++ job 31 <sdevice> done: exit(0)
+
+SCHEDULING REPORT
++++ done     : 26 29 9 27 30 10 28 31
+
+23:08:14 Oct 23 2020 <task3> done (95 sec)
+>>>>>> Writing to status file 95
+gsub exits with status 0

@@ -1,0 +1,36 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Oct 23, 2020. 20:51:05.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/ECE4225/EXP5/part1/EXP4Out_rvrse_des.tdr
+create_plot -dataset EXP4Out_rvrse_des
+select_plots {Plot_EXP4Out_rvrse_des}
+#-> Plot_EXP4Out_rvrse_des
+#-> Plot_EXP4Out_rvrse_des
+#-> EXP4Out_rvrse_des
+windows_style -style max
+#-> 0
+windows_style -style grid
+#-> 0
+create_cutline -plot Plot_EXP4Out_rvrse_des -type y -at 0.4375
+#-> C1(EXP4Out_rvrse_des)
+create_plot -dataset C1(EXP4Out_rvrse_des) -1d
+select_plots {Plot_C1(EXP4Out_rvrse_des)}
+#-> Plot_C1(EXP4Out_rvrse_des)
+#-> Plot_C1(EXP4Out_rvrse_des)
+set_axis_prop -plot Plot_C1(EXP4Out_rvrse_des) -axis y -type log
+#-> 0
+create_curve -plot Plot_C1(EXP4Out_rvrse_des) -dataset {C1(EXP4Out_rvrse_des)} -axisX X -axisY DopingConcentration
+#-> Curve_1
+set_band_diagram {Plot_C1(EXP4Out_rvrse_des)}
+#-> 0
+exit 0
+ 

@@ -1,0 +1,28 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Oct 16, 2020. 22:19:22.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/ECE4225/EXP4/EXP4Out_fwrd_des.tdr
+create_plot -dataset EXP4Out_fwrd_des
+select_plots {Plot_EXP4Out_fwrd_des}
+#-> Plot_EXP4Out_fwrd_des
+#-> Plot_EXP4Out_fwrd_des
+#-> EXP4Out_fwrd_des
+set_material_prop {Contact} -plot Plot_EXP4Out_fwrd_des -geom EXP4Out_fwrd_des -show_mesh
+#-> 0
+set_material_prop {Contact} -plot Plot_EXP4Out_fwrd_des -geom EXP4Out_fwrd_des -hide_mesh
+#-> 0
+set_material_prop {Silicon} -plot Plot_EXP4Out_fwrd_des -geom EXP4Out_fwrd_des -show_mesh
+#-> 0
+zoom_plot -plot Plot_EXP4Out_fwrd_des -factor 0.751315
+exit 0
+ 

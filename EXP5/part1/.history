@@ -1,0 +1,51 @@
+20:49:15 Oct 23 2020 <part1> submitted to the batch system
+20:49:15 Oct 23 2020     job 1 <sde> started on host 'acs14007.4225.cse.uconn.edu': "sde -l n1_dvs.cmd"
+20:49:51 Oct 23 2020 +++ job 1 <sde> done: exit(0)
+20:49:53 Oct 23 2020 <part1> done (38 sec)
+20:50:24 Oct 23 2020 <part1> submitted to the batch system
+20:50:25 Oct 23 2020     job 2 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp2_des.cmd"
+20:50:34 Oct 23 2020 +++ job 2 <sdevice> done: exit(0)
+20:50:36 Oct 23 2020 <part1> done (12 sec)
+21:04:40 Oct 23 2020 <part1> submitted to the batch system
+21:04:41 Oct 23 2020     job 1 <sde> started on host 'acs14007.4225.cse.uconn.edu': "sde -l n1_dvs.cmd"
+21:09:55 Oct 23 2020 <part1> done (315 sec)
+21:10:40 Oct 23 2020 <part1> submitted to the batch system
+21:10:41 Oct 23 2020     job 4 <sde> started on host 'acs14007.4225.cse.uconn.edu': "sde -l n4_dvs.cmd"
+21:10:45 Oct 23 2020 --- job 4 <sde> exited abnormally: exit()
+21:10:47 Oct 23 2020 <part1> failed
+21:11:12 Oct 23 2020 <part1> submitted to the batch system
+21:11:12 Oct 23 2020     job 4 <sde> started on host 'acs14007.4225.cse.uconn.edu': "sde -l n4_dvs.cmd"
+21:11:21 Oct 23 2020 +++ job 4 <sde> done: exit(0)
+21:11:24 Oct 23 2020 <part1> done (12 sec)
+21:11:34 Oct 23 2020 <part1> submitted to the batch system
+21:11:35 Oct 23 2020     job 6 <sde> started on host 'acs14007.4225.cse.uconn.edu': "sde -l n6_dvs.cmd"
+21:11:45 Oct 23 2020 +++ job 6 <sde> done: exit(0)
+21:11:47 Oct 23 2020 <part1> done (13 sec)
+21:11:59 Oct 23 2020 <part1> submitted to the batch system
+21:12:00 Oct 23 2020     job 1 <sde> started on host 'acs14007.4225.cse.uconn.edu': "sde -l n1_dvs.cmd"
+21:12:39 Oct 23 2020 +++ job 1 <sde> done: exit(0)
+21:12:40 Oct 23 2020     job 5 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp5_des.cmd"
+21:12:49 Oct 23 2020 +++ job 5 <sdevice> done: exit(0)
+21:12:50 Oct 23 2020     job 7 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp7_des.cmd"
+21:12:58 Oct 23 2020 +++ job 7 <sdevice> done: exit(0)
+21:13:01 Oct 23 2020 <part1> done (62 sec)
+21:18:11 Oct 23 2020 <part1> submitted to the batch system
+21:18:12 Oct 23 2020     job 8 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp8_des.cmd"
+21:18:21 Oct 23 2020 +++ job 8 <sdevice> done: exit(0)
+21:18:22 Oct 23 2020     job 26 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp26_des.cmd"
+21:18:25 Oct 23 2020 +++ job 26 <sdevice> done: exit(0)
+21:18:26 Oct 23 2020     job 29 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp29_des.cmd"
+21:18:44 Oct 23 2020 +++ job 29 <sdevice> done: exit(0)
+21:18:45 Oct 23 2020     job 9 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp9_des.cmd"
+21:18:53 Oct 23 2020 +++ job 9 <sdevice> done: exit(0)
+21:18:54 Oct 23 2020     job 27 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp27_des.cmd"
+21:18:57 Oct 23 2020 +++ job 27 <sdevice> done: exit(0)
+21:18:58 Oct 23 2020     job 30 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp30_des.cmd"
+21:19:16 Oct 23 2020 +++ job 30 <sdevice> done: exit(0)
+21:19:17 Oct 23 2020     job 10 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp10_des.cmd"
+21:19:26 Oct 23 2020 +++ job 10 <sdevice> done: exit(0)
+21:19:27 Oct 23 2020     job 28 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp28_des.cmd"
+21:19:30 Oct 23 2020 +++ job 28 <sdevice> done: exit(0)
+21:19:31 Oct 23 2020     job 31 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp31_des.cmd"
+21:19:49 Oct 23 2020 +++ job 31 <sdevice> done: exit(0)
+21:19:51 Oct 23 2020 <part1> done (100 sec)

@@ -1,0 +1,27 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Oct 23, 2020. 23:26:08.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/ECE4225/EXP5/task3/n30_des.tdr
+create_plot -dataset n30_des
+select_plots {Plot_n30_des}
+#-> Plot_n30_des
+#-> Plot_n30_des
+#-> n30_des
+load_file /home/student/Documents/ECE4225/EXP5/task3/n31_des.tdr
+create_plot -dataset n31_des
+select_plots {Plot_n31_des}
+#-> Plot_n31_des
+#-> Plot_n31_des
+#-> n31_des
+exit 0
+ 

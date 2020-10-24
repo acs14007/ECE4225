@@ -1,0 +1,99 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Oct 23, 2020. 23:26:42.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/ECE4225/EXP5/task3/n29_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> n29_des
+load_file /home/student/Documents/ECE4225/EXP5/task3/n30_des.plt
+#-> n30_des
+load_file /home/student/Documents/ECE4225/EXP5/task3/n31_des.plt
+#-> n31_des
+create_curve -plot Plot_1 -dataset {n31_des} -axisX {Left InnerVoltage} -axisY {Left TotalCurrent}
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {n30_des} -axisX {Left InnerVoltage} -axisY {Left TotalCurrent}
+#-> Curve_2
+create_curve -plot Plot_1 -dataset {n29_des} -axisX {Left InnerVoltage} -axisY {Left TotalCurrent}
+#-> Curve_3
+move_plot -plot Plot_1 -position {0 0}
+#-> 0
+move_plot -plot Plot_1 -position {0 0}
+#-> 0
+move_plot -plot Plot_1 -position {0 0}
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_1} -label "Current (A) "
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_1} -label "1e20 Doping"
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -label "1e18 Doping"
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_3} -label "1e16 Doping"
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_3} -label "1e16 Doping"
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_3} -line_width 2
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_3} -line_width 3
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_3} -line_width 4
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_3} -line_width 5
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_3} -line_width 6
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_3} -label "1e16 Doping"
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_1} -line_width 2
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_1} -line_width 3
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_1} -line_width 4
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_1} -line_width 5
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_1} -line_width 6
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_1} -line_width 5
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -line_width 2
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -line_width 3
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -line_width 4
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -line_width 5
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -line_width 6
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -line_width 5
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -title "Current (A)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title Doping
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title "Voltage (V)"
+#-> 0
+set_plot_prop -plot {Plot_1} -title "Current vs. Voltage"
+#-> 0
+set_plot_prop -plot {Plot_1} -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title "Voltage (V)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+export_view /home/student/Documents/ECE4225/EXP5/task3/currentVoltage.png -plots {Plot_1} -format png
+#-> 0
