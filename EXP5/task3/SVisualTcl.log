@@ -97,3 +97,5 @@ set_axis_prop -plot Plot_1 -axis y -title_font_family arial -title_font_size 20 
 #-> 0
 export_view /home/student/Documents/ECE4225/EXP5/task3/currentVoltage.png -plots {Plot_1} -format png
 #-> 0
+exit 0
+ 
