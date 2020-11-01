@@ -1,0 +1,71 @@
+Evaluating file ./Draw.scm
+---> (sde:clear)
+#f
+---> (sdegeo:set-default-boolean ABA)
+"ABA"
+---> (define LMetal 1)
+LMetal
+---> (define LOxide 0.03)
+LOxide
+---> (define LNitride 0.03)
+LNitride
+---> (define Height 1)
+Height
+---> (define TotalLength 4)
+TotalLength
+---> (define DopingLevel 1e+16)
+DopingLevel
+---> (sdegeo:create-rectangle (position 0 0 0) (position 1 1 0) Silicon R.pSi1)
+#[body 9 1]
+---> (sdegeo:create-rectangle (position 1 0 0) (position 2 1 0) Silicon R.nSi1)
+#[body 10 1]
+---> (sdegeo:create-rectangle (position 2 0 0) (position 3 1 0) Silicon R.pSi2)
+#[body 11 1]
+---> (sdegeo:create-rectangle (position 3 0 0) (position 4 1 0) Silicon R.nSi2)
+#[body 12 1]
+---> (sdegeo:define-contact-set Left 4 (color:rgb 1 0 0) ##)
+()
+---> (sdegeo:define-contact-set Right 4 (color:rgb 0 1 0) ##)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position 0 (/ Height 2) 0)) Left)
+()
+---> (sdegeo:define-2d-contact (find-edge-id (position TotalLength (/ Height 2) 0)) Right)
+()
+---> (sdedr:define-constant-profile Const.pSilicon BoronActiveConcentration DopingLevel)
+#t
+---> (sdedr:define-constant-profile Const.nSilicon ArsenicActiveConcentration DopingLevel)
+#t
+---> (sdedr:define-constant-profile-region PlaceCD.pSi1licon Const.pSilicon R.pSi1)
+#t
+---> (sdedr:define-constant-profile-region PlaceCD.nSi1licon Const.nSilicon R.nSi1)
+#t
+---> (sdedr:define-constant-profile-region PlaceCD.pSi2licon Const.pSilicon R.pSi2)
+#t
+---> (sdedr:define-constant-profile-region PlaceCD.nSi2licon Const.nSilicon R.nSi2)
+#t
+---> (sdedr:define-refinement-window RefWin.stack Rectangle (position 0 0 0) (position TotalLength Height 0))
+#[body 29 1]
+---> (define xmin (/ 1 20))
+xmin
+---> (define xmax (/ 1 20))
+xmax
+---> (define ymin (/ 1 20))
+ymin
+---> (define ymax (/ 1 20))
+ymax
+---> (sdedr:define-refinement-size RefDef.stack xmax ymax xmin ymin)
+#t
+---> (sdedr:define-refinement-placement PlaceRF.stack RefDef.stack RefWin.stack)
+#t
+---> (sde:build-mesh -a Stack_geo_msh)
+#t
+---> (sde:save-model Stack_geo)
+#t
+---> #[end-of-file]
+"************************************************************************"
+"Sentaurus Structure Editor "
+"Start Time:    Sun Nov  1 18:11:55 2020"
+"End   Time:    Sun Nov  1 18:12:01 2020"
+"Total Execution Time (sec):    6"
+"Total System calls Time (sec): 0"
+"************************************************************************"

@@ -1,0 +1,43 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 01, 2020. 18:40:05.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/ECE4225/HW1/EXP4Out_rvrse_des.tdr
+create_plot -dataset EXP4Out_rvrse_des
+select_plots {Plot_EXP4Out_rvrse_des}
+#-> Plot_EXP4Out_rvrse_des
+#-> Plot_EXP4Out_rvrse_des
+#-> EXP4Out_rvrse_des
+set_plot_prop -plot {Plot_EXP4Out_rvrse_des} -not_axes_interchanged
+#-> 0
+create_cutline -plot Plot_EXP4Out_rvrse_des -type y -at 0.480417
+#-> C1(EXP4Out_rvrse_des)
+create_plot -dataset C1(EXP4Out_rvrse_des) -1d
+select_plots {Plot_C1(EXP4Out_rvrse_des)}
+#-> Plot_C1(EXP4Out_rvrse_des)
+#-> Plot_C1(EXP4Out_rvrse_des)
+set_axis_prop -plot Plot_C1(EXP4Out_rvrse_des) -axis y -type log
+#-> 0
+create_curve -plot Plot_C1(EXP4Out_rvrse_des) -dataset {C1(EXP4Out_rvrse_des)} -axisX X -axisY DopingConcentration
+#-> Curve_1
+set_plot_prop -plot {Plot_EXP4Out_rvrse_des} -hide
+#-> 0
+set_band_diagram {Plot_C1(EXP4Out_rvrse_des)}
+#-> 0
+set_plot_prop -plot {Plot_C1(EXP4Out_rvrse_des)} -title "Band Diagram Off Condition"
+#-> 0
+set_plot_prop -plot {Plot_C1(EXP4Out_rvrse_des)} -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+export_view /home/student/Documents/ECE4225/HW1/off.png -plots {Plot_C1(EXP4Out_rvrse_des)} -format png
+#-> 0
+exit 0
+ 

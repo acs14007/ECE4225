@@ -1,0 +1,1522 @@
+****************************************************************************
+***                           Sentaurus Device                           ***
+***                          Version O-2018.06                           ***
+***                       (1.1029, x86_64, Linux)                        ***
+***                                                                      ***
+***                       Copyright (C) 1994-2018                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+	Running on machine with the following configuration:
+	Host Name: acs14007.4225.cse.uconn.edu
+	Operating System: Linux rel. 3.10.0-1127.18.2.el7.x86_64 ver. #1 SMP Mon Jul 20 22:32:16 UTC 2020
+	Machine Type: x86_64
+	Process ID: 4330
+	Number of processors: 2
+	Domain Name: (none)
+	Date: Sun Nov  1 18:17:13 2020  (EDT)
+
+Sun Nov  1 18:17:13 2020: checked out 1 sdevice license(s)
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/bs_psource.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_vsource.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_SRL1.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_isource.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_pGC.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_vsource2.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_sRL.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_isource2.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/scm/ferroelectric.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/scm/MOS_harness.ccf
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/scm/MOS_harness.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/scm/ferroelectric.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_isource2.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_sRL.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_vsource2.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_pGC.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_isource.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_SRL1.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_vsource.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/bs_psource.so.linux64
+
+Input source: ./Draw.cmd
+
+===============================
+
+Output file: EXP4Out_rvrse_des.log
+
+
+GlobalParameter {
+}
+no ACExtract file
+
+PMIPath file: /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029 /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice
+
+CMIPath file: /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029 /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/scm
+
+SPICEPath file: /usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/sdevice-28.0.1029/spice
+
+no DevicePath file
+
+no CIRCUITSAVENAME file
+
+no CIRCUITLOADNAME file
+
+Numerical parameters:
+  Absolute error : 
+    Poisson : 1.0000e-03
+    eqPoisson : 1.0000e-03
+    Electron : 1.0000e-05
+    Hole : 1.0000e-05
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1.0000e-05
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e-05
+    QW-eScattering-Equation : 1.0000e-05
+    QW-hScattering-Equation : 1.0000e-05
+    Optical Problem : 1.0000e-03
+    Wavelength : 1.0000e-03
+    Bandstructure : 1.0000e-03
+    EmissionTable : 1.0000e-03
+    DephasingRates : 1.0000e-03
+    Photon Recycling : 1.0000e-03
+    Electron-Temperature : 1.0000e-04
+    Hole-Temperature : 1.0000e-04
+    Lattice-Hole-Electron-Temperature : 1.0000e-03
+    Circuit : 1.0000e-03
+    TCircuit : 1.0000e-03
+    Contact : 1.0000e-03
+    TContact : 1.0000e-03
+    Continuation : 1.0000e-03
+    eLaplace : 1.0000e-03
+    hLaplace : 1.0000e-03
+    tLaplace : 1.0000e-03
+    MonteCarlo : 1.0000e-03
+    MCPoissonPDE : 1.0000e-03
+    eQuantumPotential : 1.0000e-03
+    hQuantumPotential : 1.0000e-03
+    quasi-fermi-potential : 1.0000e-03
+    ConductiveInsulator : 1.0000e-03
+    ContactAndConductiveInsulator : 1.0000e-03
+    SingletExciton : 1.0000e-05
+    FEPolarization : 1.0000e-05
+    eHopping : 1.0000e-03
+    hHopping : 1.0000e-03
+    HydrogenAtom : 1.0000e-03
+    HydrogenMolecule : 1.0000e-03
+    HydrogenIon : 1.0000e-03
+    HydrogenSiliconBondOccupation : 1.0000e-03
+    TrapPDE : 1.0000e-03
+    eSHEDistribution : 1.0000e-03
+    hSHEDistribution : 1.0000e-03
+    Landau-Lifshitz-Gilbert[theta] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[phi] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[x] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[y] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[z] : 1.0000e-03
+    Mechanics : 1.0000e-03
+    ExternalTransportSolver : 1.0000e-03
+    ReactionDiffusionPDE : 1.0000e-03
+  RelErrControl (Reference error): 
+    Poisson : 0.025852
+    eqPoisson : 1
+    Electron : 1.0000e+10
+    Hole : 1.0000e+10
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e+10
+    QW-eScattering-Equation : 1.0000e+10
+    QW-hScattering-Equation : 1.0000e+10
+    Optical Problem : 1
+    Wavelength : 1
+    Bandstructure : 1
+    EmissionTable : 1
+    DephasingRates : 1
+    Photon Recycling : 1
+    Electron-Temperature : 3.0000e+02
+    Hole-Temperature : 3.0000e+02
+    Lattice-Hole-Electron-Temperature : 3.0000e+02
+    Circuit : 1
+    TCircuit : 1
+    Contact : 0.025852
+    TContact : 1
+    Continuation : 1
+    eLaplace : 1
+    hLaplace : 1
+    tLaplace : 1
+    MonteCarlo : 1
+    MCPoissonPDE : 1
+    eQuantumPotential : 0.025852
+    hQuantumPotential : 0.025852
+    quasi-fermi-potential : 0.025852
+    ConductiveInsulator : 1
+    ContactAndConductiveInsulator : 1
+    SingletExciton : 1.0000e+10
+    FEPolarization : 0.025852
+    eHopping : 0.025852
+    hHopping : 0.025852
+    HydrogenAtom : 1.0000e+10
+    HydrogenMolecule : 1.0000e+10
+    HydrogenIon : 1.0000e+10
+    HydrogenSiliconBondOccupation : 1
+    TrapPDE : 1.0000e-05
+    eSHEDistribution : 0.025852
+    hSHEDistribution : 0.025852
+    Landau-Lifshitz-Gilbert[theta] : 1
+    Landau-Lifshitz-Gilbert[phi] : 1
+    Landau-Lifshitz-Gilbert[x] : 1
+    Landau-Lifshitz-Gilbert[y] : 1
+    Landau-Lifshitz-Gilbert[z] : 1
+    Mechanics : 1
+    ExternalTransportSolver : 1
+    ReactionDiffusionPDE : 1
+  Relative error : 5 digits
+  Without checked transient error
+  Max. #iterations : 50
+  LineSearchDamping=1
+  #undamped iterations : 1000
+  No incomplete Newton
+  transient method : TR-BDF
+  Linear solver : blocked decomposition
+  Linear solver for AC analysis : blocked decomposition
+  Linear solver for SHEDistribution Model : Super
+  do not use extrapolation in transient/quasistationary computations
+  use complex supernodal in ac-analysis (if possible)
+  do not use smoothed PDE's in transient/quasistationary computations
+  use automatic coupling of contact/circuit stuff
+  Spice temperature: 3.0015e+02
+  Spice nominal temperature of parameter measurements: 3.0015e+02
+  Spice minimum conductance gmin: 1.0000e-12
+  Use 64 bit (double) normal precision floating point arithmetic.
+  Mininum |rhs| : 1.0000e-05
+  Maximum |rhs| : 1.0000e+15
+  Maximum |rhs| factor : 1.0000e+10
+  Maximum |rhs| factor1 : 1.0000e+10
+  Lattice Temperature Range : (50,5.0000e+03)
+  Carrier Temperature Range : (10,8.0000e+04)
+  Simplified first order SHE of BTE will be solved
+  SHERefinementCutoff : 20
+  No user dependencies.
+  Number of assembly threads: 1 (default)
+  Number of solver threads: 1 (OMP_NUM_THREADS)
+  Thread stacksize: 1000000 bytes (default)
+  Go serial if not enough parallel licenses are available.
+
+Default device parameters:
+  Electrodes:
+    "Left" : 5 V (Ohmic), area factor : 1
+    "Right" : 0.0000e+00 V (Ohmic), area factor : 1
+  RayTrace Boundaries:
+  Files:
+    no Boundary file
+    Grid file: Stack_geo_msh.tdr
+    no Doping file
+    no MobilityDoping file
+    no Load file
+    no Save file
+    Plot file: EXP4Out_rvrse (extension see below)
+    no DevFieldsName file
+    AutoNewtonPlot file: EXP4Out_rvrse_%d_des.tdr
+    no Path file
+    no Lifetime file
+    no Temperature file
+    Current file: EXP4Out_rvrse_des.plt
+    no PMIUserFields file
+    no Extraction file
+    no ModelParameters file
+    ParameterPath directories: 
+    no Piezo file
+    no mcDOS file
+    no ModeGain file
+    no Optical emission table for stimulated emission file
+    no Optical emission table for spontaneous emission file
+    no Optical emission table for photon phase change coefficient file
+    no EmissionTable file
+    no DephasingRates file
+    no ASESpectrum file
+    no OpticalFarField file
+    no OpticalIntensityPattern file
+    no SaveOpticalIntensityPattern file
+    no OpticalXYAnglePattern file
+    no SaveOpticalXYAnglePattern file
+    no IlluminationSpectrum file
+    no SpectralPlot file
+    no OpticalSolverInput file
+    no OpticalGenerationInput file
+    no OpticalGenerationOutuput file
+    no OptGenTransientScaling file
+    no MonteCarloInput file
+    no MonteCarloOutput file
+    no ACPlot file
+-----------------------------------------------
+  Numerical parameters:
+    With avalanche derivatives
+    Using old wavelength search algorithm
+    Do not reinitialize quasi Fermi potentials in quasi-stationary simulations
+    Ignore ionization integral constraints
+    Without diagonal preconditioning
+    With Scharfetter-Gummel Discretization
+    Relative error : 5 digits
+    Delta for numerical tunnelling derivatives : 1.0000e-03
+    Do not compute breakdown paths and ionization integrals
+    QuasiFermiPotential is used for Contact Equation
+    With usage of best vertex in element (maximum element-vertex volume angle) for impact ionization models
+-----------------------------------------------
+-----------------------------------------------
+  Physical models:
+    Without incomplete ionization
+    Use Si parameters
+    TATNonlocalPathNC = 0.0000e+00
+    With SRH-Recombination
+      Without field dependent lifetimes
+      Without doping dependent lifetimes
+      Without temperature dependent lifetimes
+    Without CDL-Recombination
+    With optical generation computation 
+    Without Band-to-Band-Tunneling
+    With Auger-Recombination (without Generation)
+    Without Radiative Recombination
+    Without Surface-Recombination
+    Without Trap-Assisted-Auger-Recombination
+    PMI recombination models: none
+    Without thermal resistance interfaces
+    Without distributed resistance interfaces for electrons
+    Without distributed resistance interfaces for holes
+    Without Piezo
+    Without Anisotropic Material Properties
+
+    With Avalanche-Generation: 
+    For electrons:
+      driving force is Gradient Quasi Fermi,
+      model according to van Overstraeten / de Man
+    For holes:
+      driving force is Gradient Quasi Fermi,
+      model according to van Overstraeten / de Man
+
+    Without Alpha Particle
+    Without Heavy Ion
+    Without polarization
+    Volume charge density: 0.0000e+00 cm^-3
+    Device Temperature = 3.0000e+02 K
+    Electron Quasi Fermi Potential: 0.0000e+00 V
+    Hole Quasi Fermi Potential: 0.0000e+00 V
+    Without MagneticField
+    With SingletExciton Barrier Type
+    Intrinsic density models:
+      default bandgap model
+      Bandgap narrowing model: OldSlotboom with bandgap narrowing (no Fermi)
+    default affinity model
+    default effective mass model
+    Electron mobility:
+      Doping dependence:
+        Default
+      no Carrier-Carrier scattering
+      E_normal dependence:
+        Lombardi
+      Without ThinLayer mobility model
+      High-field mobility: Caughey-Thomas saturation model, using gradient quasi-Fermi potential.
+      Einstein relation for diffusivity-mobility ratio.
+    Hole mobility:
+      Doping dependence:
+        Default
+      no Carrier-Carrier scattering
+      E_normal dependence:
+        Lombardi
+      Without ThinLayer mobility model
+      High-field mobility: Caughey-Thomas saturation model, using gradient quasi-Fermi potential.
+      Einstein relation for diffusivity-mobility ratio.
+    Energy relaxation time model: according to formula in parameter file
+    Schottky resistance model: default bult-in model
+    Lattice thermal conductivity model: according to formula in parameter file
+    Metal Resistivity model: according to formula in parameter file
+    Thermo Electric Power model: extraploted Si data
+    Metal Thermo Electric Power model: MetalThermoElectricPower model not defined
+    Lattice heat capacity model: temperature dependent
+    no piezoelectric polarization model
+    Without default parameters from file (use built-in default parameters)
+-----------------------------------------------
+  Process information for extraction purposes:
+    none
+  Plot variables:
+    eDensity
+    hDensity
+    eCurrentDensity
+    hCurrentDensity
+    ElectrostaticPotential
+    SpaceCharge
+    ElectricField
+    eMobility
+    hMobility
+    eVelocity
+    hVelocity
+    DopingConcentration
+    DonorConcentration
+    AcceptorConcentration
+    ConductionBandEnergy
+    ValenceBandEnergy
+    eQuasiFermiPotential
+    hQuasiFermiPotential
+
+------------------------------------------------
+  NoisePlot variables:
+    none
+  Plot groups:
+    none
+
+------------------------------------------------
+  CurrentPlot variables:
+    none
+Devices:
+Systems:
+Solve :
+ Poisson
+Coupled ( Digits : 5, Max. #iterations : 50, 
+    Solver : blocked decomposition,
+    #undamped iterations : 1000 
+    )
+    { Poisson Electron Hole } 
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 0.01, 
+      Minimum step in t : 1.0000e-05, Maximum step in t : 0.2, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact Left : 0.0000e+00V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+        )
+        { Poisson Electron Hole } 
+  }
+
+===============================
+
+Reading grid 'Stack_geo_msh.tdr' ... 
+  coordinate system: UCS, 3d_sprocess (x is device down direction)
+  use coordinate system as is (no transformation)
+  TDR format
+  Number of grid points is 4257.
+done.
+
+Adding interfaces and contacts .... done.
+
+Computing edges ...
+  Number of edges: 12514
+done.
+Computing boxes ...
+
+  CVPL_AverageBoxMethod = TRUE 
+   
+  Boxmethod Parallel Computing: nbThreads = 1 
+
+  Computing Delaunay coefficients ...   done.
+  Delaunay coefficients time: (wallclock = 0.0000e+00 s, tcpu = 0.0000e+00 s)
+
+  Parallel Computing Voronoi faces, coefficients, and measures ... 
+  CVPL_Algorithm = TRUE 
+
+    Computing Obtuse Elements ... 
+     Obtuse Elements time:  tcpu = 0.0000e+00 s
+      New Parameters time: (wallclock = 0.0000e+00 s, tcpu = 0.0000e+00 s)
+
+Info for all regions (NumberOfRegions = 4):
+        ElementWithMinVolume(  1075) Vertex0( 1372)( 1.062500e+00, 5.937500e-01) Volume = 4.882812e-04 um3 (1.22e-04 from TotalVolume)
+          ElementWithMinEdge(    21) Vertex0(  562)( 1.062500e+00, 3.125000e-02) Length = 3.125000e-02 um
+              MaxFlatElement(  8191) Vertex0( 4254)( 3.000000e+00, 1.000000e+00)  Angle = 9.000000e+01 degrees
+         ElementWithMinAngle(  8187) Vertex0( 3479)( 3.000000e+00, 9.687500e-01)  Angle = 4.500000e+01 degrees
+   ElementWithMaxQualityEdge(  2634) Vertex0( 3479)( 3.125000e+00, 5.937500e-01)    R/L = 7.071068e-01 
+ ElementWithMaxQualityHeight(     0) Vertex0(  473)( 1.000000e+00, 3.125000e-02)    R/H = 1.000000e+00 
+
+Info for semiconductor regions (NumberOfRegions = 4):
+        ElementWithMinVolume(  1075) Vertex0( 1372)( 1.062500e+00, 5.937500e-01) Volume = 4.882812e-04 um3 (1.22e-04 from TotalVolume)
+          ElementWithMinEdge(    21) Vertex0(  562)( 1.062500e+00, 3.125000e-02) Length = 3.125000e-02 um
+              MaxFlatElement(  8191) Vertex0( 4254)( 3.000000e+00, 1.000000e+00)  Angle = 9.000000e+01 degrees
+         ElementWithMinAngle(  8187) Vertex0( 3479)( 3.000000e+00, 9.687500e-01)  Angle = 4.500000e+01 degrees
+   ElementWithMaxQualityEdge(  2634) Vertex0( 3479)( 3.125000e+00, 5.937500e-01)    R/L = 7.071068e-01 
+ ElementWithMaxQualityHeight(     0) Vertex0(  473)( 1.000000e+00, 3.125000e-02)    R/H = 1.000000e+00 
+
+   NumberOfEdges              =  12514 
+   NumberOfGeometricalEdges   =  12448 
+   NumberOfDoubleEdges        =      0 
+   MaxNumberOfEdgesPerVertex  =      6; vertex(0) = ( 3.125000e-02,  3.125000e-02) [um]
+   MaxNumberOfElementsPerEdge =      2; edge(0) = (473, 561) 
+                                        vertex(473) = ( 1.000000e+00,  3.125000e-02) [um]
+                                        vertex(561) = ( 1.031250e+00,  6.250000e-02) [um]
+
+                        NumberOfVertices =   4323 
+                        NumberOfElements =   8192 
+                       NumberOfTriangles =   8192  (100.00 %)
+                      NumberOfRectangles =      0  ( 0.00 %)
+                  NumberOfObtuseElements =      0  ( 0.00 %)
+
+  VertexWithMaxMeasure( 2664)( 3.000000e+00, 3.437500e-01)
+  MaxVertMeasure(9.765625e-04)/VertVolume(4.882813e-04) = 2.00e+00
+
+
+/-------- Region non-Delaunay elements ----------------------------------------------------------------
+ Region     Volume      BoxMethodVolume  DeltaVolume  Elements  non-Delaunay      non-DelaunayVolume 
+  name       [um2]          [um2]           [%]                   Elements              [um2]   [%]   
+ ------------------------------------------------------------------------------------------------------
+ R.nSi1  1.0000000e+00  1.0000000e+00     1.4e-11      2048       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ R.nSi2  1.0000000e+00  1.0000000e+00     1.4e-11      2048       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ R.pSi1  1.0000000e+00  1.0000000e+00     1.4e-11      2048       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ R.pSi2  1.0000000e+00  1.0000000e+00     1.4e-11      2048       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ ......................................................................................................
+ Total   4.0000000e+00  4.0000000e+00     4.1e-11      8192       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+\------------------------------------------------------------------------------------------------------
+    done.
+  done.
+  (times: wallclock = 0.02 s, tcpu = 0.01 s)
+done.
+Reading doping 'Stack_geo_msh.tdr' (TDR format) ...
+done.
+done.
+
+
+=======
+Region: "R.nSi1"
+  (material is "Silicon")
+=======
+  Using default lattice crystal coordinate system:
+    effective LatticeParameters:
+      X = (1, 0.0000e+00, 0.0000e+00)
+      Y = (0.0000e+00, 1, 0.0000e+00)
+      Z = (0.0000e+00, 0.0000e+00, 1)
+  Constants are not modified and equal to default ones
+
+=======
+Region: "R.nSi2"
+  (material is "Silicon")
+=======
+  Using default lattice crystal coordinate system:
+    effective LatticeParameters:
+      X = (1, 0.0000e+00, 0.0000e+00)
+      Y = (0.0000e+00, 1, 0.0000e+00)
+      Z = (0.0000e+00, 0.0000e+00, 1)
+  Constants are not modified and equal to default ones
+
+=======
+Region: "R.pSi1"
+  (material is "Silicon")
+=======
+  Using default lattice crystal coordinate system:
+    effective LatticeParameters:
+      X = (1, 0.0000e+00, 0.0000e+00)
+      Y = (0.0000e+00, 1, 0.0000e+00)
+      Z = (0.0000e+00, 0.0000e+00, 1)
+  Constants are not modified and equal to default ones
+
+=======
+Region: "R.pSi2"
+  (material is "Silicon")
+=======
+  Using default lattice crystal coordinate system:
+    effective LatticeParameters:
+      X = (1, 0.0000e+00, 0.0000e+00)
+      Y = (0.0000e+00, 1, 0.0000e+00)
+      Z = (0.0000e+00, 0.0000e+00, 1)
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "R.nSi1/R.pSi1"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "R.nSi1/R.pSi2"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "R.nSi2/R.pSi2"
+  (material interface is "Silicon/Silicon")
+================
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "Left"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "Right"
+==========
+  Constants are not modified and equal to default ones
+
+
+Acceptor and donor concentrations (AcceptorConcentration, DonorConcentration):
+    computed based on the following species from the doping file:
+        ArsenicActiveConcentration (donor)
+        BoronActiveConcentration (acceptor)
+Net doping concentration (DopingConcentration):
+    obtained from doping file
+Total doping concentration (TotalConcentration):
+    recomputed from acceptor and donor concentrations
+
+
+
+With Constant Reference Potential:
+  Parameters of Reference Semiconductor:
+    The Electron Affinity: 4.07274
+    The Band Gap: 1.10821
+    The Electron DOS: 2.8583e+19
+    The Hole DOS: 3.1046e+19
+  The Constant Reference Potential: 4.62578
+
+===============================
+Starting solve of next problem:
+ Poisson
+===============================
+
+Computing poisson-equation 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.70e+08                                                      0.00
+    1      7.81e+08   1.00e+00   1.07e+02   2.65e+05    0         1      0.01
+    2      3.59e+08   1.00e+00   6.99e+01   1.19e+05    0         1      0.02
+    3      7.77e+05   1.00e+00   2.19e+01   3.11e+04    0         1      0.03
+    4      2.86e+05   1.00e+00   3.58e-01   2.06e+03    0         1      0.04
+    5      1.05e+05   1.00e+00   3.48e-01   4.14e+03    0         1      0.05
+    6      3.87e+04   1.00e+00   3.17e-01   4.24e+03    0         1      0.06
+    7      1.42e+04   1.00e+00   2.80e-01   3.93e+03    0         1      0.07
+    8      5.21e+03   1.00e+00   2.70e-01   3.28e+03    0         1      0.08
+    9      1.90e+03   1.00e+00   2.83e-01   3.41e+03    0         1      0.09
+   10      6.79e+02   1.00e+00   3.02e-01   3.82e+03    0         1      0.10
+   11      2.32e+02   1.00e+00   3.16e-01   4.05e+03    0         1      0.11
+   12      6.95e+01   1.00e+00   3.24e-01   4.95e+03    0         1      0.12
+   13      1.47e+01   1.00e+00   3.37e-01   8.15e+03    0         1      0.13
+   14      1.31e+00   1.00e+00   2.89e-01   4.73e+03    0         1      0.14
+   15      1.83e-02   1.00e+00   8.74e-02   1.36e+03    0         1      0.15
+   16      2.02e-05   1.00e+00   3.26e-03   5.05e+01    0         1      0.16
+   17      7.95e-08   1.00e+00   3.65e-06   5.64e-02    0         1      0.17
+Finished, because...
+Error smaller than 1 ( 5.6394E-02 ).
+
+Accumulated times:
+Rhs time:        0.00 s
+Jacobian time:   0.00 s
+Solve time:      0.16 s
+Total time:      0.17 s
+
+contact        voltage     electron current    hole current  conduction current
+ Left         5.000E+00      -1.994E+13         1.994E+13       -4.728E+04
+ Right        0.000E+00      -1.931E+13         1.931E+13        3.695E+04
+
+
+===============================
+Starting solve of next problem:
+Coupled ( Digits : 5, Max. #iterations : 50, 
+    Solver : blocked decomposition,
+    #undamped iterations : 1000 
+    )
+    { Poisson Electron Hole } 
+===============================
+
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.20e+22                                                      0.07
+    1      2.43e+22   1.00e+00   7.11e+03   1.33e+10    0         1      0.35
+    2      7.20e+21   1.00e+00   1.38e+08   3.37e+16    0         1      0.56
+    3      2.13e+21   1.00e+00   1.50e+08   4.94e+06    0         1      0.76
+    4      6.32e+20   1.00e+00   2.02e+07   3.55e+06    0         1      0.98
+    5      1.87e+20   1.00e+00   6.58e+06   1.09e+06    0         1      1.20
+    6      5.55e+19   1.00e+00   2.44e+06   3.19e+05    0         1      1.42
+    7      1.64e+19   1.00e+00   2.70e+07   7.82e+06    0         1      1.64
+    8      4.87e+18   1.00e+00   2.91e+07   2.52e+07    0         1      1.86
+    9      1.44e+18   1.00e+00   3.29e+06   5.52e+06    0         1      2.08
+   10      4.28e+17   1.00e+00   4.34e+07   2.29e+07    0         1      2.30
+   11      1.27e+17   1.00e+00   3.27e+07   2.52e+06    0         1      2.52
+   12      3.77e+16   1.00e+00   9.71e+06   2.65e+07    0         1      2.74
+   13      1.12e+16   1.00e+00   1.43e+06   5.61e+05    0         1      2.98
+   14      3.34e+15   1.00e+00   3.10e+06   9.32e+06    0         1      3.20
+   15      2.62e+16   1.00e+00   2.93e+06   1.36e+07    0         1      3.42
+   16      5.93e+17   1.00e+00   3.18e+05   3.32e+07    0         1      3.65
+   17      1.61e+19   1.00e+00   6.94e+05   1.05e+07    0         1      3.87
+   18      4.76e+18   1.00e+00   9.04e+05   2.52e+07    0         1      4.09
+   19      1.41e+18   1.00e+00   4.00e+05   2.96e+08    0         1      4.32
+   20      4.17e+17   1.00e+00   9.20e+04   8.18e+05    0         1      4.54
+   21      1.02e+17   1.00e+00   3.10e+05   7.54e+06    0         1      4.76
+   22      1.27e+18   1.00e+00   4.78e+05   1.08e+08    0         1      4.98
+   23      1.14e+19   1.00e+00   1.83e+05   4.06e+08    0         1      5.20
+   24      3.35e+18   1.00e+00   6.30e+04   4.93e+07    0         1      5.42
+   25      9.90e+17   1.00e+00   8.57e+04   2.46e+08    0         1      5.65
+   26      2.94e+17   1.00e+00   1.23e+06   1.20e+10    0         1      5.88
+   27      8.74e+16   1.00e+00   1.57e+06   4.17e+06    0         1      6.10
+   28      2.61e+16   1.00e+00   3.65e+05   3.86e+05    0         1      6.33
+   29      1.53e+18   1.00e+00   2.00e+06   7.08e+07    0         1      6.55
+   30      3.61e+23   1.00e+00   2.40e+06   1.51e+10    0         1      6.76
+   31      1.07e+23   1.00e+00   1.28e+06   4.78e+11    0         1      6.98
+   32      3.17e+22   1.00e+00   9.02e+06   1.58e+15    0         1      7.20
+   33      2.04e+24   1.00e+00   8.41e+06   3.78e+11    0         1      7.42
+   34      5.98e+23   1.00e+00   2.38e+06   3.45e+06    0         1      7.64
+   35      1.76e+23   1.00e+00   1.46e+06   3.91e+07    0         1      7.85
+   36      5.22e+22   1.00e+00   6.37e+05   2.89e+06    0         1      8.08
+   37      1.55e+22   1.00e+00   2.88e+05   8.91e+05    0         1      8.30
+   38      4.58e+21   1.00e+00   1.37e+05   7.74e+05    0         1      8.52
+   39      1.36e+21   1.00e+00   6.08e+04   4.23e+05    0         1      8.74
+   40      4.02e+20   1.00e+00   2.49e+04   2.37e+06    0         1      8.97
+   41      1.19e+20   1.00e+00   8.80e+04   3.72e+06    0         1      9.19
+   42      3.53e+19   1.00e+00   1.52e+05   1.11e+08    0         1      9.41
+   43      1.04e+19   1.00e+00   9.68e+04   5.86e+08    0         1      9.62
+   44      3.10e+18   1.00e+00   2.37e+04   1.01e+09    0         1      9.84
+   45      9.18e+17   1.00e+00   6.58e+03   1.22e+10    0         1     10.06
+   46      2.72e+17   1.00e+00   2.34e+03   2.99e+07    0         1     10.29
+   47      8.08e+16   1.00e+00   5.74e+02   1.33e+07    0         1     10.51
+   48      2.41e+16   1.00e+00   2.54e+02   8.77e+08    0         1     10.74
+   49      7.28e+15   1.00e+00   1.58e+03   4.90e+10    0         1     10.96
+   50      2.24e+15   1.00e+00   1.47e+03   7.98e+07    0         1     11.19
+writing EXP4Out_rvrse_50_des.tdr (TDR format) ... done.
+Finished, because...
+#iterations larger than 50.
+
+Accumulated times:
+Rhs time:        5.49 s
+Jacobian time:   0.91 s
+Solve time:      4.71 s
+Total time:     11.24 s
+
+contact        voltage     electron current    hole current  conduction current
+ Left         5.000E+00      -3.560E+02         3.578E+02        1.859E+00
+ Right        0.000E+00      -5.534E+02         5.039E+02       -4.950E+01
+
+
+===============================
+Starting solve of next problem:
+Quasistationary ( Digits : 5, Max. #iterations : 50, 
+      Initial step in t : 0.01, 
+      Minimum step in t : 1.0000e-05, Maximum step in t : 0.2, 
+      Increment : 2, Decrement : 2, 
+      Goal values :
+        Contact Left : 0.0000e+00V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 50, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+        )
+        { Poisson Electron Hole } 
+  }
+===============================
+
+Computing step from t=0.0000e+00 to t=0.01 (Stepsize: 0.01) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.24e+15                                                      0.11
+    1      3.09e+15   1.00e+00   4.80e+03   3.53e+10    0         1      0.33
+    2      7.48e+16   1.00e+00   5.78e+04   9.22e+12    0         1      0.54
+    3      6.19e+17   1.00e+00   7.94e+04   1.17e+12    0         1      0.80
+    4      1.80e+17   1.00e+00   6.17e+04   2.59e+10    0         1      1.03
+    5      5.30e+16   1.00e+00   2.24e+04   2.64e+09    0         1      1.25
+    6      8.52e+16   1.00e+00   5.30e+04   7.74e+13    0         1      1.47
+    7      2.71e+17   1.00e+00   3.57e+05   6.82e+14    0         1      1.70
+    8      2.30e+19   1.00e+00   6.22e+05   2.31e+12    0         1      1.93
+    9      6.60e+18   1.00e+00   3.09e+05   1.39e+06    0         1      2.16
+   10      1.94e+18   1.00e+00   3.71e+04   1.31e+07    0         1      2.38
+   11      5.74e+17   1.00e+00   1.37e+04   2.22e+07    0         1      2.60
+   12      1.70e+17   1.00e+00   5.20e+03   1.35e+08    0         1      2.83
+   13      5.06e+16   1.00e+00   4.71e+03   4.16e+09    0         1      3.05
+   14      1.51e+16   1.00e+00   4.56e+03   2.86e+05    0         1      3.27
+   15      4.54e+15   1.00e+00   2.04e+03   8.01e+05    0         1      3.50
+   16      1.19e+15   1.00e+00   7.99e+03   5.82e+06    0         1      3.71
+   17      1.41e+16   1.00e+00   1.02e+04   9.10e+07    0         1      3.93
+   18      8.23e+15   1.00e+00   5.41e+03   2.12e+07    0         1      4.16
+   19      2.54e+15   1.00e+00   3.50e+03   4.26e+08    0         1      4.37
+   20      8.31e+14   1.00e+00   2.14e+03   9.52e+05    0         1      4.59
+   21      3.15e+14   1.00e+00   7.05e+02   4.09e+06    0         1      4.80
+   22      1.47e+14   1.00e+00   2.05e+02   3.41e+05    0         1      5.02
+   23      5.07e+14   1.00e+00   3.88e+03   5.74e+07    0         1      5.24
+   24      1.51e+16   1.00e+00   3.09e+04   1.84e+09    0         1      5.46
+   25      9.67e+17   1.00e+00   2.31e+05   5.96e+11    0         1      5.68
+   26      1.23e+18   1.00e+00   4.27e+05   6.54e+08    0         1      5.90
+   27      8.17e+17   1.00e+00   3.48e+05   2.02e+10    0         1      6.11
+   28      2.40e+17   1.00e+00   3.39e+04   2.29e+06    0         1      6.33
+   29      1.38e+16   1.00e+00   3.11e+05   1.37e+07    0         1      6.54
+   30      3.87e+19   1.00e+00   1.52e+06   1.77e+09    0         1      6.76
+   31      1.14e+19   1.00e+00   1.59e+06   3.52e+10    0         1      6.99
+   32      4.19e+20   1.00e+00   4.19e+05   3.81e+07    0         1      7.21
+   33      1.22e+20   1.00e+00   1.90e+05   1.43e+07    0         1      7.42
+   34      1.81e+19   1.00e+00   6.83e+05   2.83e+07    0         1      7.63
+   35      4.71e+18   1.00e+00   7.69e+05   4.44e+08    0         1      7.85
+   36      1.55e+18   1.00e+00   4.58e+05   2.79e+10    0         1      8.07
+   37      6.80e+17   1.00e+00   7.75e+04   5.77e+09    0         1      8.28
+   38      2.02e+17   1.00e+00   3.12e+04   1.34e+06    0         1      8.51
+   39      4.86e+19   1.00e+00   1.55e+05   1.72e+07    0         1      8.72
+   40      1.44e+19   1.00e+00   1.02e+06   9.99e+09    0         1      8.94
+   41      9.77e+24   1.00e+00   1.08e+09   1.23e+13    0         1      9.15
+   42      2.29e+30   1.00e+00   2.62e+09   2.99e+16    0         1      9.36
+Finished, because...
+|RHS| increased by more than factor 1.0000E+10.
+
+Accumulated times:
+Rhs time:        4.62 s
+Jacobian time:   0.69 s
+Solve time:      4.01 s
+Total time:      9.37 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=5.0000e-03 (Stepsize: 5.0000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.24e+15                                                      0.11
+    1      3.09e+15   1.00e+00   4.80e+03   3.53e+10    0         1      0.32
+    2      7.47e+16   1.00e+00   5.78e+04   9.02e+12    0         1      0.55
+    3      6.18e+17   1.00e+00   7.91e+04   1.18e+12    0         1      0.77
+    4      1.80e+17   1.00e+00   5.94e+04   3.20e+10    0         1      0.99
+    5      5.30e+16   1.00e+00   2.07e+04   8.23e+07    0         1      1.21
+    6      1.58e+16   1.00e+00   1.46e+04   4.69e+12    0         1      1.44
+    7      1.39e+18   1.00e+00   9.64e+05   8.99e+16    0         1      1.65
+    8      1.99e+20   1.00e+00   3.06e+06   8.00e+16    0         1      1.86
+    9      5.08e+21   1.00e+00   2.81e+06   6.09e+16    0         1      2.09
+   10      1.46e+21   1.00e+00   8.25e+05   1.35e+07    0         1      2.31
+   11      4.24e+20   1.00e+00   3.76e+05   2.41e+06    0         1      2.53
+   12      1.25e+20   1.00e+00   1.38e+05   8.25e+05    0         1      2.75
+   13      1.36e+19   1.00e+00   3.38e+05   7.81e+06    0         1      2.98
+   14      3.76e+18   1.00e+00   2.31e+05   5.01e+08    0         1      3.21
+   15      1.08e+18   1.00e+00   9.63e+04   3.83e+08    0         1      3.44
+   16      3.12e+17   1.00e+00   3.80e+04   1.82e+10    0         1      3.67
+   17      9.16e+16   1.00e+00   1.97e+04   6.75e+12    0         1      3.89
+   18      2.71e+16   1.00e+00   2.42e+04   4.97e+09    0         1      4.12
+   19      8.15e+15   1.00e+00   2.72e+04   4.49e+10    0         1      4.34
+   20      1.70e+17   1.00e+00   5.69e+04   1.45e+09    0         1      4.57
+   21      1.07e+17   1.00e+00   3.27e+04   5.62e+05    0         1      4.79
+   22      3.17e+16   1.00e+00   2.12e+04   4.52e+07    0         1      5.01
+   23      2.04e+17   1.00e+00   2.16e+05   5.03e+10    0         1      5.23
+   24      6.70e+17   1.00e+00   2.26e+06   8.39e+12    0         1      5.45
+   25      5.55e+20   1.00e+00   6.93e+06   3.47e+13    0         1      5.68
+   26      3.35e+20   1.00e+00   3.64e+06   7.45e+11    0         1      5.91
+   27      9.85e+19   1.00e+00   1.27e+06   6.76e+05    0         1      6.14
+   28      4.95e+19   1.00e+00   6.19e+05   6.50e+05    0         1      6.37
+   29      1.47e+19   1.00e+00   2.97e+05   9.07e+05    0         1      6.59
+   30      4.31e+18   1.00e+00   5.03e+05   9.05e+06    0         1      6.82
+   31      1.27e+18   1.00e+00   2.78e+05   6.95e+07    0         1      7.04
+   32      3.78e+17   1.00e+00   6.19e+04   1.44e+08    0         1      7.26
+   33      1.12e+17   1.00e+00   2.12e+04   1.05e+06    0         1      7.49
+   34      3.30e+16   1.00e+00   5.33e+04   1.80e+07    0         1      7.71
+   35      1.98e+19   1.00e+00   6.91e+04   1.63e+08    0         1      7.93
+   36      5.68e+18   1.00e+00   2.50e+05   5.57e+10    0         1      8.14
+   37      1.17e+20   1.00e+00   1.55e+05   1.44e+11    0         1      8.35
+   38      3.47e+19   1.00e+00   6.67e+04   1.04e+10    0         1      8.58
+   39      1.03e+19   1.00e+00   4.56e+04   5.56e+11    0         1      8.81
+   40      3.05e+18   1.00e+00   5.76e+04   2.85e+12    0         1      9.04
+   41      9.03e+17   1.00e+00   3.91e+04   9.08e+13    0         1      9.25
+   42      2.68e+17   1.00e+00   1.86e+04   1.63e+07    0         1      9.47
+   43      7.95e+16   1.00e+00   6.39e+03   7.03e+05    0         1      9.69
+   44      2.31e+16   1.00e+00   2.56e+04   8.22e+06    0         1      9.91
+   45      9.01e+15   1.00e+00   2.37e+04   1.69e+08    0         1     10.11
+   46      9.56e+15   1.00e+00   1.12e+04   2.42e+09    0         1     10.32
+   47      2.89e+15   1.00e+00   2.89e+03   6.01e+06    0         1     10.53
+   48      9.12e+14   1.00e+00   8.50e+02   8.13e+07    0         1     10.75
+   49      3.27e+14   1.00e+00   1.79e+02   9.14e+05    0         1     10.98
+   50      1.27e+14   1.00e+00   2.79e+01   3.38e+06    0         1     11.20
+Finished, because...
+#iterations larger than 50.
+
+Accumulated times:
+Rhs time:        5.62 s
+Jacobian time:   0.76 s
+Solve time:      4.73 s
+Total time:     11.20 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=2.5000e-03 (Stepsize: 2.5000e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.24e+15                                                      0.11
+    1      3.09e+15   1.00e+00   4.80e+03   3.53e+10    0         1      0.34
+    2      7.47e+16   1.00e+00   5.78e+04   9.00e+12    0         1      0.56
+    3      6.18e+17   1.00e+00   7.91e+04   1.18e+12    0         1      0.77
+    4      1.80e+17   1.00e+00   5.91e+04   3.27e+10    0         1      0.99
+    5      5.30e+16   1.00e+00   2.06e+04   3.35e+07    0         1      1.22
+    6      6.10e+16   1.00e+00   1.17e+04   1.87e+12    0         1      1.44
+    7      3.29e+18   1.00e+00   2.17e+06   4.39e+14    0         1      1.67
+    8      3.78e+21   1.00e+00   1.55e+07   2.40e+15    0         1      1.89
+    9      8.40e+21   1.00e+00   9.97e+06   5.99e+15    0         1      2.12
+   10      2.42e+21   1.00e+00   3.58e+06   3.37e+13    0         1      2.35
+   11      7.12e+20   1.00e+00   1.78e+06   4.82e+13    0         1      2.57
+   12      2.10e+20   1.00e+00   5.99e+05   3.15e+06    0         1      2.80
+   13      6.22e+19   1.00e+00   1.71e+05   1.96e+07    0         1      3.02
+   14      1.10e+21   1.00e+00   3.64e+06   2.93e+07    0         1      3.24
+   15      3.26e+20   1.00e+00   2.44e+06   2.97e+08    0         1      3.47
+   16      9.65e+19   1.00e+00   6.76e+05   1.61e+11    0         1      3.69
+   17      2.86e+19   1.00e+00   3.34e+05   4.72e+08    0         1      3.92
+   18      8.47e+18   1.00e+00   1.42e+05   4.08e+09    0         1      4.15
+   19      2.51e+18   1.00e+00   5.86e+04   6.37e+05    0         1      4.37
+   20      7.40e+17   1.00e+00   1.45e+05   2.79e+07    0         1      4.64
+   21      1.95e+18   1.00e+00   1.63e+05   5.68e+08    0         1      4.86
+   22      7.10e+17   1.00e+00   1.65e+05   4.15e+10    0         1      5.08
+   23      1.31e+19   1.00e+00   2.45e+05   3.22e+12    0         1      5.31
+   24      3.28e+18   1.00e+00   1.31e+05   2.28e+09    0         1      5.53
+   25      8.73e+17   1.00e+00   6.00e+04   9.39e+05    0         1      5.75
+   26      7.72e+19   1.00e+00   7.97e+05   5.34e+07    0         1      5.96
+   27      1.10e+22   1.00e+00   7.73e+05   7.40e+10    0         1      6.17
+   28      5.15e+21   1.00e+00   2.67e+06   7.10e+12    0         1      6.39
+   29      1.42e+23   1.00e+00   2.95e+07   1.36e+15    0         1      6.62
+   30      3.76e+25   1.00e+00   8.37e+07   2.65e+15    0         1      6.84
+Finished, because...
+|RHS| increased by more than factor 1.0000E+10.
+
+Accumulated times:
+Rhs time:        3.42 s
+Jacobian time:   0.48 s
+Solve time:      2.90 s
+Total time:      6.84 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.2500e-03 (Stepsize: 1.2500e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.24e+15                                                      0.11
+    1      3.09e+15   1.00e+00   4.80e+03   3.53e+10    0         1      0.34
+    2      7.47e+16   1.00e+00   5.78e+04   9.00e+12    0         1      0.56
+    3      6.18e+17   1.00e+00   7.91e+04   1.18e+12    0         1      0.78
+    4      1.80e+17   1.00e+00   5.91e+04   3.27e+10    0         1      1.00
+    5      5.30e+16   1.00e+00   2.05e+04   3.52e+07    0         1      1.21
+    6      1.58e+16   1.00e+00   9.93e+03   7.77e+10    0         1      1.43
+    7      1.12e+18   1.00e+00   8.72e+04   2.07e+10    0         1      1.65
+    8      2.00e+18   1.00e+00   1.66e+05   2.38e+09    0         1      1.87
+    9      5.85e+17   1.00e+00   8.97e+04   2.22e+08    0         1      2.08
+   10      1.72e+17   1.00e+00   2.08e+04   9.10e+10    0         1      2.29
+   11      5.12e+16   1.00e+00   5.06e+04   9.19e+10    0         1      2.50
+   12      1.21e+18   1.00e+00   4.34e+04   1.64e+08    0         1      2.72
+   13      3.57e+17   1.00e+00   1.81e+04   2.75e+05    0         1      2.94
+   14      7.33e+16   1.00e+00   2.81e+04   3.51e+06    0         1      3.16
+   15      4.15e+17   1.00e+00   3.45e+04   3.56e+07    0         1      3.41
+   16      1.22e+17   1.00e+00   2.05e+04   8.20e+07    0         1      3.63
+   17      3.63e+16   1.00e+00   7.71e+03   1.70e+11    0         1      3.85
+   18      1.09e+16   1.00e+00   1.60e+04   1.90e+11    0         1      4.07
+   19      4.79e+17   1.00e+00   3.88e+04   6.42e+09    0         1      4.29
+   20      1.39e+17   1.00e+00   2.45e+04   4.13e+10    0         1      4.51
+   21      4.09e+16   1.00e+00   1.05e+04   1.78e+09    0         1      4.73
+   22      1.22e+16   1.00e+00   7.84e+03   1.46e+10    0         1      4.94
+   23      3.71e+15   1.00e+00   7.93e+03   4.33e+11    0         1      5.15
+   24      2.19e+17   1.00e+00   4.40e+04   3.47e+13    0         1      5.36
+   25      2.99e+17   1.00e+00   8.29e+04   1.11e+13    0         1      5.58
+   26      1.97e+17   1.00e+00   1.30e+05   6.00e+14    0         1      5.80
+   27      6.45e+16   1.00e+00   1.03e+05   2.36e+06    0         1      6.02
+   28      1.89e+16   1.00e+00   1.91e+04   1.12e+06    0         1      6.25
+   29      5.10e+15   1.00e+00   6.68e+04   3.98e+06    0         1      6.47
+   30      3.65e+17   1.00e+00   7.10e+04   2.91e+08    0         1      6.69
+   31      1.62e+17   1.00e+00   1.09e+05   8.06e+09    0         1      6.93
+   32      2.31e+18   1.00e+00   8.92e+04   4.04e+09    0         1      7.15
+   33      6.69e+17   1.00e+00   2.01e+04   7.59e+09    0         1      7.38
+   34      1.97e+17   1.00e+00   6.99e+03   2.63e+11    0         1      7.60
+   35      5.85e+16   1.00e+00   1.12e+04   3.18e+09    0         1      7.82
+   36      1.75e+16   1.00e+00   6.74e+03   3.77e+05    0         1      8.05
+   37      1.43e+17   1.00e+00   2.45e+04   7.04e+06    0         1      8.27
+   38      4.27e+16   1.00e+00   1.77e+04   1.05e+07    0         1      8.50
+   39      1.29e+16   1.00e+00   7.43e+03   4.73e+07    0         1      8.72
+   40      3.94e+15   1.00e+00   2.56e+03   5.02e+05    0         1      8.94
+   41      1.23e+15   1.00e+00   7.13e+02   2.53e+05    0         1      9.17
+   42      3.87e+14   1.00e+00   3.47e+03   2.32e+06    0         1      9.39
+   43      3.53e+15   1.00e+00   9.49e+03   6.13e+07    0         1      9.60
+   44      2.62e+15   1.00e+00   1.53e+04   2.17e+09    0         1      9.83
+   45      6.07e+15   1.00e+00   8.64e+03   1.49e+06    0         1     10.05
+   46      1.86e+15   1.00e+00   3.24e+03   3.41e+05    0         1     10.27
+   47      3.98e+14   1.00e+00   1.01e+04   4.64e+06    0         1     10.49
+   48      1.42e+16   1.00e+00   1.68e+04   8.08e+07    0         1     10.71
+   49      3.93e+16   1.00e+00   1.24e+04   1.27e+09    0         1     10.93
+   50      1.17e+16   1.00e+00   6.13e+03   7.06e+08    0         1     11.14
+Finished, because...
+#iterations larger than 50.
+
+Accumulated times:
+Rhs time:        5.64 s
+Jacobian time:   0.75 s
+Solve time:      4.71 s
+Total time:     11.14 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=6.2500e-04 (Stepsize: 6.2500e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.24e+15                                                      0.11
+    1      3.09e+15   1.00e+00   4.80e+03   3.53e+10    0         1      0.35
+    2      7.47e+16   1.00e+00   5.78e+04   9.00e+12    0         1      0.57
+    3      6.18e+17   1.00e+00   7.91e+04   1.18e+12    0         1      0.79
+    4      1.80e+17   1.00e+00   5.91e+04   3.28e+10    0         1      1.01
+    5      5.30e+16   1.00e+00   2.05e+04   3.26e+07    0         1      1.24
+    6      1.58e+16   1.00e+00   8.57e+03   8.30e+09    0         1      1.46
+    7      2.39e+17   1.00e+00   7.75e+04   5.36e+11    0         1      1.69
+    8      7.02e+16   1.00e+00   1.46e+05   3.86e+10    0         1      1.91
+    9      3.60e+17   1.00e+00   2.45e+05   5.08e+13    0         1      2.13
+   10      4.87e+17   1.00e+00   2.55e+05   8.61e+11    0         1      2.35
+   11      6.64e+17   1.00e+00   7.12e+04   3.78e+06    0         1      2.58
+   12      4.28e+17   1.00e+00   1.99e+04   7.76e+05    0         1      2.80
+   13      4.47e+18   1.00e+00   1.75e+05   6.09e+07    0         1      3.00
+   14      1.73e+18   1.00e+00   1.56e+05   2.71e+10    0         1      3.21
+   15      1.78e+18   1.00e+00   3.03e+05   2.02e+12    0         1      3.42
+   16      9.54e+19   1.00e+00   6.47e+05   2.42e+12    0         1      3.64
+   17      2.82e+19   1.00e+00   2.74e+05   4.33e+05    0         1      3.86
+   18      8.36e+18   1.00e+00   1.04e+05   2.77e+06    0         1      4.09
+   19      2.48e+18   1.00e+00   4.10e+04   8.75e+05    0         1      4.31
+   20      7.19e+17   1.00e+00   9.67e+04   8.38e+06    0         1      4.52
+   21      6.90e+18   1.00e+00   1.09e+05   5.10e+08    0         1      4.74
+   22      4.23e+18   1.00e+00   1.36e+05   1.33e+10    0         1      4.96
+   23      1.24e+18   1.00e+00   6.35e+04   8.15e+10    0         1      5.17
+   24      3.65e+17   1.00e+00   2.64e+04   9.51e+11    0         1      5.39
+   25      1.08e+17   1.00e+00   1.90e+04   4.01e+13    0         1      5.61
+   26      3.21e+16   1.00e+00   1.03e+04   1.41e+08    0         1      5.84
+   27      9.60e+15   1.00e+00   2.18e+03   3.34e+05    0         1      6.06
+   28      2.49e+15   1.00e+00   1.07e+04   2.82e+07    0         1      6.28
+   29      5.16e+18   1.00e+00   2.37e+04   4.05e+08    0         1      6.50
+   30      3.51e+19   1.00e+00   6.45e+04   2.50e+09    0         1      6.71
+   31      9.42e+20   1.00e+00   4.55e+04   8.47e+12    0         1      6.94
+   32      3.11e+22   1.00e+00   9.27e+06   9.75e+12    0         1      7.18
+   33      1.80e+24   1.00e+00   1.57e+07   7.67e+14    0         1      7.41
+   34      5.23e+23   1.00e+00   1.84e+07   4.99e+15    0         1      7.62
+   35      6.75e+24   1.00e+00   3.86e+07   1.04e+17    0         1      7.82
+   36      1.85e+24   1.00e+00   1.69e+07   8.72e+10    0         1      8.04
+   37      5.26e+23   1.00e+00   7.31e+06   1.18e+06    0         1      8.26
+   38      1.53e+23   1.00e+00   3.10e+06   7.44e+06    0         1      8.49
+   39      4.50e+22   1.00e+00   1.16e+06   1.24e+06    0         1      8.72
+   40      1.33e+22   1.00e+00   4.20e+05   3.55e+06    0         1      8.95
+   41      2.46e+21   1.00e+00   2.19e+06   7.16e+07    0         1      9.16
+   42      7.24e+20   1.00e+00   2.69e+06   9.75e+08    0         1      9.38
+   43      2.15e+20   1.00e+00   1.31e+06   8.55e+09    0         1      9.61
+   44      6.36e+19   1.00e+00   2.83e+05   3.86e+06    0         1      9.83
+   45      1.88e+19   1.00e+00   4.55e+06   3.95e+07    0         1     10.05
+   46      5.56e+18   1.00e+00   4.56e+06   4.87e+08    0         1     10.28
+   47      1.65e+18   1.00e+00   8.45e+05   1.83e+07    0         1     10.50
+   48      4.88e+17   1.00e+00   1.13e+05   1.45e+06    0         1     10.72
+   49      1.43e+17   1.00e+00   2.57e+05   1.47e+07    0         1     10.95
+   50      1.13e+17   1.00e+00   2.81e+05   3.29e+08    0         1     11.18
+Finished, because...
+#iterations larger than 50.
+
+Accumulated times:
+Rhs time:        5.56 s
+Jacobian time:   0.81 s
+Solve time:      4.75 s
+Total time:     11.18 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=3.1250e-04 (Stepsize: 3.1250e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.24e+15                                                      0.11
+    1      3.09e+15   1.00e+00   4.80e+03   3.53e+10    0         1      0.34
+    2      7.47e+16   1.00e+00   5.78e+04   9.00e+12    0         1      0.57
+    3      6.18e+17   1.00e+00   7.91e+04   1.18e+12    0         1      0.79
+    4      1.80e+17   1.00e+00   5.91e+04   3.28e+10    0         1      1.00
+    5      5.30e+16   1.00e+00   2.05e+04   7.92e+06    0         1      1.22
+    6      1.58e+16   1.00e+00   9.14e+03   1.45e+09    0         1      1.43
+    7      3.25e+18   1.00e+00   9.34e+04   1.49e+11    0         1      1.64
+    8      1.44e+19   1.00e+00   1.69e+05   4.11e+10    0         1      1.85
+    9      4.20e+18   1.00e+00   1.09e+05   8.94e+10    0         1      2.07
+   10      1.24e+18   1.00e+00   4.88e+04   4.38e+11    0         1      2.28
+   11      3.66e+17   1.00e+00   3.36e+04   1.22e+10    0         1      2.51
+   12      1.09e+17   1.00e+00   1.80e+04   9.13e+06    0         1      2.75
+   13      3.24e+16   1.00e+00   4.99e+03   1.70e+07    0         1      2.97
+   14      9.72e+15   1.00e+00   1.82e+03   3.35e+06    0         1      3.19
+   15      2.97e+15   1.00e+00   5.78e+02   4.01e+05    0         1      3.41
+   16      9.53e+14   1.00e+00   1.51e+02   1.04e+06    0         1      3.63
+   17      3.44e+14   1.00e+00   4.99e+01   6.59e+05    0         1      3.85
+   18      1.48e+14   1.00e+00   2.24e+01   5.33e+05    0         1      4.07
+   19      6.33e+13   1.00e+00   4.14e+00   2.97e+04    0         1      4.29
+   20      2.44e+13   1.00e+00   1.08e+01   2.36e+07    0         1      4.51
+   21      6.93e+13   1.00e+00   3.36e+02   2.08e+08    0         1      4.74
+   22      1.88e+14   1.00e+00   5.39e+02   2.83e+04    0         1      4.97
+   23      8.19e+13   1.00e+00   2.71e+03   2.91e+06    0         1      5.19
+   24      7.17e+14   1.00e+00   3.25e+03   2.51e+06    0         1      5.40
+   25      3.38e+14   1.00e+00   1.78e+03   1.75e+05    0         1      5.62
+   26      2.30e+14   1.00e+00   1.21e+03   7.99e+05    0         1      5.84
+   27      7.54e+13   1.00e+00   3.89e+03   3.18e+07    0         1      6.05
+   28      2.17e+17   1.00e+00   2.73e+04   5.60e+09    0         1      6.26
+   29      4.12e+17   1.00e+00   1.51e+05   8.00e+10    0         1      6.47
+   30      3.65e+17   1.00e+00   5.93e+05   1.02e+14    0         1      6.70
+   31      4.19e+18   1.00e+00   1.15e+06   1.22e+14    0         1      6.92
+   32      3.67e+20   1.00e+00   2.63e+06   7.32e+15    0         1      7.14
+   33      1.07e+20   1.00e+00   4.20e+06   1.36e+16    0         1      7.36
+   34      3.16e+19   1.00e+00   1.17e+06   2.54e+09    0         1      7.58
+   35      9.36e+18   1.00e+00   4.58e+05   1.08e+08    0         1      7.82
+   36      2.77e+18   1.00e+00   1.64e+05   2.84e+06    0         1      8.05
+   37      8.22e+17   1.00e+00   6.41e+04   3.37e+05    0         1      8.27
+   38      2.31e+17   1.00e+00   1.61e+05   4.71e+06    0         1      8.48
+   39      3.86e+17   1.00e+00   1.71e+05   3.41e+09    0         1      8.70
+   40      3.12e+17   1.00e+00   9.18e+04   5.58e+08    0         1      8.92
+   41      9.21e+16   1.00e+00   3.39e+04   1.46e+06    0         1      9.15
+   42      9.91e+15   1.00e+00   1.71e+05   6.92e+07    0         1      9.36
+   43      8.86e+17   1.00e+00   1.86e+05   3.66e+09    0         1      9.58
+   44      8.33e+21   1.00e+00   3.58e+06   8.11e+12    0         1      9.79
+   45      1.89e+22   1.00e+00   2.28e+07   4.33e+14    0         1     10.01
+   46      1.08e+24   1.00e+00   2.72e+07   1.15e+16    0         1     10.24
+   47      3.09e+23   1.00e+00   1.20e+07   2.84e+12    0         1     10.46
+   48      9.03e+22   1.00e+00   3.19e+06   1.11e+08    0         1     10.68
+   49      2.65e+22   1.00e+00   1.34e+06   1.87e+07    0         1     10.90
+   50      5.30e+21   1.00e+00   2.55e+06   9.95e+06    0         1     11.13
+Finished, because...
+#iterations larger than 50.
+
+Accumulated times:
+Rhs time:        5.57 s
+Jacobian time:   0.76 s
+Solve time:      4.77 s
+Total time:     11.13 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.5625e-04 (Stepsize: 1.5625e-04) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.24e+15                                                      0.11
+    1      3.09e+15   1.00e+00   4.80e+03   3.53e+10    0         1      0.33
+    2      7.47e+16   1.00e+00   5.78e+04   9.00e+12    0         1      0.55
+    3      6.18e+17   1.00e+00   7.91e+04   1.18e+12    0         1      0.77
+    4      1.80e+17   1.00e+00   5.91e+04   3.28e+10    0         1      0.99
+    5      5.30e+16   1.00e+00   2.05e+04   1.61e+06    0         1      1.21
+    6      1.58e+16   1.00e+00   8.60e+03   4.36e+08    0         1      1.44
+    7      2.21e+19   1.00e+00   9.45e+04   5.32e+09    0         1      1.66
+    8      1.41e+19   1.00e+00   1.52e+05   1.00e+10    0         1      1.88
+    9      4.16e+18   1.00e+00   1.32e+05   5.91e+11    0         1      2.09
+   10      1.23e+18   1.00e+00   8.92e+04   3.46e+12    0         1      2.31
+   11      3.64e+17   1.00e+00   3.73e+05   2.63e+13    0         1      2.53
+   12      3.43e+20   1.00e+00   2.58e+06   6.61e+14    0         1      2.74
+   13      1.26e+26   1.00e+00   7.71e+08   2.54e+16    0         1      2.96
+Finished, because...
+|RHS| increased by more than factor 1.0000E+10.
+
+Accumulated times:
+Rhs time:        1.51 s
+Jacobian time:   0.21 s
+Solve time:      1.22 s
+Total time:      2.96 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=7.8125e-05 (Stepsize: 7.8125e-05) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.24e+15                                                      0.11
+    1      3.09e+15   1.00e+00   4.80e+03   3.53e+10    0         1      0.33
+    2      7.47e+16   1.00e+00   5.78e+04   9.00e+12    0         1      0.54
+    3      6.18e+17   1.00e+00   7.91e+04   1.18e+12    0         1      0.76
+    4      1.80e+17   1.00e+00   5.91e+04   3.28e+10    0         1      0.97
+    5      5.30e+16   1.00e+00   2.05e+04   1.60e+06    0         1      1.18
+    6      1.58e+16   1.00e+00   8.60e+03   3.18e+08    0         1      1.40
+    7      3.11e+20   1.00e+00   1.21e+05   2.51e+11    0         1      1.62
+    8      2.31e+20   1.00e+00   2.25e+05   8.02e+09    0         1      1.85
+    9      6.55e+19   1.00e+00   1.81e+05   8.77e+11    0         1      2.08
+   10      1.90e+19   1.00e+00   1.12e+05   4.74e+11    0         1      2.30
+   11      5.57e+18   1.00e+00   3.35e+04   5.54e+09    0         1      2.54
+   12      1.64e+18   1.00e+00   1.17e+04   6.74e+05    0         1      2.77
+   13      4.87e+17   1.00e+00   3.99e+03   1.45e+06    0         1      2.99
+   14      8.25e+16   1.00e+00   2.72e+04   3.87e+06    0         1      3.22
+   15      3.11e+17   1.00e+00   3.63e+04   1.31e+08    0         1      3.45
+   16      9.19e+16   1.00e+00   3.08e+04   1.50e+10    0         1      3.68
+   17      2.74e+16   1.00e+00   7.84e+03   2.42e+07    0         1      3.91
+   18      8.23e+15   1.00e+00   3.16e+03   2.20e+08    0         1      4.13
+   19      2.53e+15   1.00e+00   9.56e+02   2.38e+08    0         1      4.35
+   20      8.11e+14   1.00e+00   2.34e+02   2.72e+10    0         1      4.57
+   21      2.90e+14   1.00e+00   4.96e+01   8.51e+04    0         1      4.79
+   22      1.04e+15   1.00e+00   2.14e+02   2.51e+06    0         1      5.01
+   23      3.57e+14   1.00e+00   9.66e+02   1.47e+05    0         1      5.23
+   24      2.12e+18   1.00e+00   4.35e+04   2.46e+08    0         1      5.45
+   25      9.54e+19   1.00e+00   8.93e+04   2.72e+09    0         1      5.67
+   26      2.82e+19   1.00e+00   2.52e+05   7.57e+11    0         1      5.89
+   27      8.35e+18   1.00e+00   3.50e+05   1.98e+14    0         1      6.11
+   28      4.39e+18   1.00e+00   5.68e+05   1.91e+14    0         1      6.34
+   29      1.40e+18   1.00e+00   7.92e+05   7.14e+13    0         1      6.56
+   30      5.73e+19   1.00e+00   2.31e+05   6.67e+07    0         1      6.80
+   31      1.68e+19   1.00e+00   6.61e+04   1.43e+06    0         1      7.03
+   32      3.43e+18   1.00e+00   1.29e+05   8.20e+06    0         1      7.25
+   33      9.48e+17   1.00e+00   1.42e+05   9.70e+08    0         1      7.47
+   34      2.87e+17   1.00e+00   1.02e+05   2.48e+09    0         1      7.68
+   35      3.95e+17   1.00e+00   1.00e+05   7.78e+09    0         1      7.90
+   36      1.58e+20   1.00e+00   4.60e+05   1.27e+14    0         1      8.13
+   37      5.04e+20   1.00e+00   3.17e+06   2.69e+10    0         1      8.35
+   38      1.06e+22   1.00e+00   4.38e+06   7.16e+12    0         1      8.58
+   39      2.98e+21   1.00e+00   1.83e+06   1.29e+12    0         1      8.81
+   40      8.58e+20   1.00e+00   7.34e+05   2.31e+09    0         1      9.04
+   41      2.50e+20   1.00e+00   2.58e+05   4.52e+05    0         1      9.29
+   42      7.33e+19   1.00e+00   1.08e+05   3.07e+05    0         1      9.51
+   43      8.75e+18   1.00e+00   2.83e+05   4.31e+06    0         1      9.73
+   44      5.63e+18   1.00e+00   1.90e+05   4.49e+07    0         1      9.95
+   45      1.67e+18   1.00e+00   5.09e+04   1.68e+08    0         1     10.17
+   46      4.94e+17   1.00e+00   1.48e+04   3.17e+06    0         1     10.39
+   47      2.49e+17   1.00e+00   4.83e+05   7.54e+06    0         1     10.61
+   48      2.27e+18   1.00e+00   3.74e+05   3.29e+09    0         1     10.83
+   49      6.73e+17   1.00e+00   3.28e+05   1.26e+12    0         1     11.05
+   50      2.54e+20   1.00e+00   4.90e+06   1.50e+14    0         1     11.26
+Finished, because...
+#iterations larger than 50.
+
+Accumulated times:
+Rhs time:        5.61 s
+Jacobian time:   0.83 s
+Solve time:      4.77 s
+Total time:     11.26 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=3.9063e-05 (Stepsize: 3.9063e-05) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.24e+15                                                      0.11
+    1      3.09e+15   1.00e+00   4.80e+03   3.53e+10    0         1      0.32
+    2      7.47e+16   1.00e+00   5.78e+04   9.00e+12    0         1      0.53
+    3      6.18e+17   1.00e+00   7.91e+04   1.18e+12    0         1      0.76
+    4      1.80e+17   1.00e+00   5.91e+04   3.28e+10    0         1      0.99
+    5      5.30e+16   1.00e+00   2.05e+04   1.60e+06    0         1      1.22
+    6      1.58e+16   1.00e+00   8.61e+03   2.72e+08    0         1      1.44
+    7      2.19e+18   1.00e+00   8.17e+04   2.46e+09    0         1      1.67
+    8      3.56e+18   1.00e+00   1.97e+05   1.13e+10    0         1      1.90
+    9      7.31e+19   1.00e+00   1.24e+06   6.37e+12    0         1      2.13
+   10      1.74e+25   1.00e+00   3.86e+09   1.40e+18    0         1      2.35
+   11      1.15e+32   1.00e+00   3.46e+10   2.16e+20    0         1      2.58
+Finished, because...
+|RHS| increased by more than factor 1.0000E+10.
+
+Accumulated times:
+Rhs time:        1.34 s
+Jacobian time:   0.17 s
+Solve time:      1.06 s
+Total time:      2.58 s
+
+Newton didn't converge, trying again with smaller step...
+
+Computing step from t=0.0000e+00 to t=1.9531e-05 (Stepsize: 1.9531e-05) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.24e+15                                                      0.11
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.119816e+02	2345	(2.500000e+00, 2.187500e-01)	4.726749e-02 
+ electron:	7.483906e+06	2818	(2.593750e+00, 5.312500e-01)	2.527901e+14 
+ hole:		3.029332e+07	2812	(2.562500e+00, 5.312500e-01)	2.498464e+14 
+    1      3.09e+15   1.00e+00   4.80e+03   3.53e+10    0         1      0.35
+writing EXP4Out_rvrse_min_des.tdr (TDR format) ... done.
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	3.299036e+01	2861	(2.687500e+00, 6.875000e-01)	-2.198863e+00 
+ electron:	8.332227e+09	4015	(3.562500e+00, 7.500000e-01)	2.069431e+12 
+ hole:		3.833152e+09	2499	(2.531250e+00, 4.062500e-01)	1.313038e+12 
+    2      7.47e+16   1.00e+00   5.78e+04   9.00e+12    0         1      0.64
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	7.240370e+02	2382	(2.437500e+00, 3.125000e-01)	5.952728e+00 
+ electron:	3.236757e+08	2275	(2.281250e+00, 3.125000e-02)	1.447023e+12 
+ hole:		1.169966e+09	2275	(2.281250e+00, 3.125000e-02)	1.420691e+12 
+    3      6.18e+17   1.00e+00   7.91e+04   1.18e+12    0         1      0.87
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	2.096154e+03	2566	(2.875000e+00, 1.250000e-01)	2.974072e-01 
+ electron:	2.167810e+07	4029	(3.656250e+00, 6.250000e-01)	2.133674e+14 
+ hole:		2.979164e+07	4029	(3.656250e+00, 6.250000e-01)	2.132949e+14 
+    4      1.80e+17   1.00e+00   5.91e+04   3.28e+10    0         1      1.11
+writing EXP4Out_rvrse_min_des.tdr (TDR format) ... done.
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	2.710587e+02	2304	(2.343750e+00, 1.875000e-01)	5.995605e+00 
+ electron:	4.465300e+02	3988	(3.968750e+00, 4.687500e-01)	7.480662e+18 
+ hole:		4.467374e+02	3988	(3.968750e+00, 4.687500e-01)	7.486761e+18 
+    5      5.30e+16   1.00e+00   2.05e+04   1.59e+06    0         1      1.41
+writing EXP4Out_rvrse_min_des.tdr (TDR format) ... done.
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.256510e+03	3356	(3.312500e+00, 2.500000e-01)	-1.839331e-01 
+ electron:	1.570028e+05	1146	(1.562500e-01, 5.937500e-01)	5.356040e+15 
+ hole:		7.661986e+03	1161	(1.875000e-01, 6.875000e-01)	3.537126e+16 
+    6      1.58e+16   1.00e+00   8.62e+03   2.54e+08    0         1      1.67
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	4.964745e+02	2503	(2.531250e+00, 4.687500e-01)	-8.506628e-02 
+ electron:	1.573572e+06	12	(6.250000e-02, 9.375000e-02)	3.804893e+16 
+ hole:		2.986445e+05	12	(6.250000e-02, 9.375000e-02)	1.236508e+17 
+    7      1.26e+19   1.00e+00   8.36e+04   1.75e+09    0         1      1.89
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	9.081919e+01	2839	(2.593750e+00, 7.500000e-01)	1.875844e+00 
+ electron:	4.922789e+02	4228	(3.968750e+00, 8.437500e-01)	8.299578e+18 
+ hole:		7.797314e+06	50	(1.562500e-01, 9.375000e-02)	1.114181e+15 
+    8      3.14e+19   1.00e+00   1.73e+05   1.07e+10    0         1      2.11
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.402137e+03	30	(3.125000e-02, 2.187500e-01)	-2.686125e+00 
+ electron:	4.591360e+08	53	(1.875000e-01, 1.250000e-01)	1.202299e+13 
+ hole:		4.196370e+08	51	(1.562500e-01, 1.250000e-01)	1.190537e+13 
+    9      9.09e+18   1.00e+00   1.62e+05   5.53e+11    0         1      2.33
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	2.357541e+02	65	(1.562500e-01, 1.875000e-01)	4.369755e+02 
+ electron:	2.566439e+07	985	(1.875000e+00, 9.375000e-02)	2.589273e+14 
+ hole:		2.368521e+07	985	(1.875000e+00, 9.375000e-02)	2.589427e+14 
+   10      2.66e+18   1.00e+00   9.52e+04   3.38e+10    0         1      2.55
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.457886e+03	95	(1.250000e-01, 3.125000e-01)	-5.941409e-01 
+ electron:	6.992136e+06	4239	(3.937500e+00, 1.000000e+00)	9.202080e+12 
+ hole:		6.723717e+03	2454	(2.656250e+00, 1.250000e-01)	4.926365e+16 
+   11      7.84e+17   1.00e+00   1.77e+04   6.28e+09    0         1      2.78
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.392391e+03	1850	(1.781250e+00, 7.812500e-01)	-9.341018e-03 
+ electron:	1.000000e+00	4239	(3.937500e+00, 1.000000e+00)	5.230467e+20 
+ hole:		1.819415e+03	4237	(3.906250e+00, 1.000000e+00)	7.172750e+17 
+   12      2.32e+17   1.00e+00   7.19e+03   2.86e+06    0         1      3.01
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	4.034048e+02	4223	(3.937500e+00, 8.750000e-01)	1.028960e-01 
+ electron:	1.447331e+05	2448	(2.656250e+00, -0.000000e+00)	2.107166e+16 
+ hole:		4.720123e+03	3977	(3.968750e+00, 3.125000e-01)	2.082704e+17 
+   13      6.90e+16   1.00e+00   6.67e+03   1.29e+08    0         1      3.24
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	2.271352e+02	4235	(3.937500e+00, 9.375000e-01)	-4.288089e-02 
+ electron:	2.588098e+02	3960	(3.968750e+00, -0.000000e+00)	5.163444e+17 
+ hole:		2.560717e+02	3960	(3.968750e+00, -0.000000e+00)	5.191979e+17 
+   14      2.06e+16   1.00e+00   4.28e+03   1.05e+06    0         1      3.46
+writing EXP4Out_rvrse_min_des.tdr (TDR format) ... done.
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	5.469712e+02	42	(1.250000e-01, 2.187500e-01)	-3.983906e-02 
+ electron:	1.185652e+00	4181	(3.968750e+00, 7.500000e-01)	1.872113e+20 
+ hole:		1.182386e+00	4181	(3.968750e+00, 7.500000e-01)	1.873792e+20 
+   15      6.23e+15   1.00e+00   1.76e+03   5.11e+05    0         1      3.73
+writing EXP4Out_rvrse_min_des.tdr (TDR format) ... done.
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	6.298526e+01	972	(1.812500e+00, 6.250000e-02)	-5.596040e-02 
+ electron:	3.092421e+03	4096	(3.656250e+00, 9.062500e-01)	1.129240e+17 
+ hole:		2.854383e+03	4096	(3.656250e+00, 9.062500e-01)	1.223351e+17 
+   16      4.17e+14   1.00e+00   1.59e+04   4.57e+06    0         1      4.01
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	2.500839e+02	4239	(3.937500e+00, 1.000000e+00)	-1.486075e+02 
+ electron:	3.513127e+06	1118	(9.375000e-02, 5.937500e-01)	6.373585e+17 
+ hole:		3.165022e+06	1118	(9.375000e-02, 5.937500e-01)	6.366371e+17 
+   17      1.35e+21   1.00e+00   6.40e+04   5.22e+09    0         1      4.24
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	7.446008e+01	36	(9.375000e-02, 1.562500e-01)	5.120308e+01 
+ electron:	3.887091e+08	4096	(3.656250e+00, 9.062500e-01)	1.129240e+13 
+ hole:		1.144227e+09	4096	(3.656250e+00, 9.062500e-01)	1.223351e+13 
+   18      2.72e+21   1.00e+00   4.08e+06   1.15e+12    0         1      4.46
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.792476e+02	108	(3.125000e-02, 5.000000e-01)	3.854088e+02 
+ electron:	1.398125e+11	4085	(3.718750e+00, 8.750000e-01)	3.664164e+12 
+ hole:		8.716830e+09	1184	(3.750000e-01, 5.312500e-01)	6.983421e+14 
+   19      1.03e+21   1.00e+00   3.68e+06   1.26e+14    0         1      4.69
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	4.585547e+03	448	(7.812500e-01, 2.187500e-01)	1.184484e+01 
+ electron:	5.809761e+11	2936	(3.000000e+00, 7.187500e-01)	1.091412e+12 
+ hole:		4.787779e+11	4053	(3.718750e+00, 7.500000e-01)	7.568185e+11 
+   20      8.50e+21   1.00e+00   6.69e+06   9.09e+14    0         1      4.92
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	5.244583e+02	1144	(1.875000e-01, 5.312500e-01)	-1.013659e+02 
+ electron:	2.744915e+13	1089	(1.937500e+00, 4.375000e-01)	6.356684e+12 
+ hole:		9.929528e+13	1100	(2.000000e+00, 4.687500e-01)	3.995540e+12 
+   21      3.97e+21   1.00e+00   7.78e+07   9.50e+16    0         1      5.14
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	4.442452e+03	1020	(2.000000e+00, 9.375000e-02)	2.439765e+02 
+ electron:	2.663936e+11	3124	(2.937500e+00, 9.062500e-01)	2.652681e+10 
+ hole:		4.429696e+10	3510	(3.218750e+00, 6.250000e-01)	2.225201e+11 
+   22      2.00e+23   1.00e+00   8.41e+07   4.06e+14    0         1      5.36
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.259868e+04	3825	(3.656250e+00, 2.812500e-01)	-7.394989e+00 
+ electron:	9.439668e+11	1486	(1.468750e+00, 6.562500e-01)	4.755057e+08 
+ hole:		4.954289e+07	3125	(2.937500e+00, 9.375000e-01)	1.055176e+13 
+   23      5.40e+22   1.00e+00   1.45e+07   8.40e+14    0         1      5.57
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	7.782310e+03	1958	(1.187500e+00, 9.062500e-01)	5.982229e+00 
+ electron:	1.963135e+02	1087	(1.906250e+00, 4.375000e-01)	1.521671e+21 
+ hole:		1.153633e+03	1065	(1.875000e+00, 4.375000e-01)	4.937992e+18 
+   24      1.52e+22   1.00e+00   3.26e+06   7.49e+06    0         1      5.79
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	2.102602e+03	1071	(1.906250e+00, 3.125000e-01)	-4.025055e+01 
+ electron:	2.101589e+02	2241	(2.125000e+00, 4.687500e-01)	8.307137e+20 
+ hole:		3.830823e+02	1052	(1.875000e+00, 3.437500e-01)	1.960316e+20 
+   25      4.35e+21   1.00e+00   1.46e+06   2.06e+06    0         1      6.02
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.461512e+02	1616	(2.000000e+00, 6.562500e-01)	-2.845974e+01 
+ electron:	1.610223e+02	2263	(2.156250e+00, 4.687500e-01)	2.689258e+20 
+ hole:		2.290606e+02	1090	(1.906250e+00, 4.687500e-01)	2.169461e+19 
+   26      1.28e+21   1.00e+00   6.55e+05   3.80e+05    0         1      6.25
+writing EXP4Out_rvrse_min_des.tdr (TDR format) ... done.
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	6.136286e+01	1604	(2.000000e+00, 5.937500e-01)	-6.920504e+01 
+ electron:	1.321389e+00	1599	(1.968750e+00, 5.625000e-01)	2.522647e+22 
+ hole:		1.300263e+00	1096	(2.000000e+00, 4.062500e-01)	3.983009e+22 
+   27      3.78e+20   1.00e+00   2.76e+05   2.22e+05    0         1      6.52
+writing EXP4Out_rvrse_min_des.tdr (TDR format) ... done.
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	3.951806e+02	3810	(3.531250e+00, 4.375000e-01)	-8.924195e-01 
+ electron:	3.206582e+03	219	(5.000000e-01, 1.875000e-01)	9.662403e+17 
+ hole:		2.528440e+04	3766	(3.687500e+00, 1.250000e-01)	2.154399e+17 
+   28      7.07e+19   1.00e+00   7.87e+05   2.40e+07    0         1      6.81
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	4.315841e+02	1042	(1.781250e+00, 3.437500e-01)	2.094478e+02 
+ electron:	1.372503e+05	4018	(3.625000e+00, 6.562500e-01)	5.760924e+17 
+ hole:		1.218505e+05	4018	(3.625000e+00, 6.562500e-01)	5.751212e+17 
+   29      2.02e+19   1.00e+00   9.93e+05   2.59e+08    0         1      7.03
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.976975e+04	3377	(3.468750e+00, 6.250000e-02)	-7.615266e-01 
+ electron:	1.671391e+00	1049	(1.875000e+00, 3.125000e-01)	6.590847e+21 
+ hole:		7.520786e+05	4006	(3.625000e+00, 5.937500e-01)	5.600896e+15 
+   30      5.85e+18   1.00e+00   5.69e+05   8.10e+08    0         1      7.26
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	5.386440e+03	3606	(3.093750e+00, 8.750000e-01)	-4.376978e-01 
+ electron:	1.541138e+00	4018	(3.625000e+00, 6.562500e-01)	7.215647e+21 
+ hole:		2.260649e+00	4010	(3.562500e+00, 6.562500e-01)	9.969390e+21 
+   31      1.71e+18   1.00e+00   9.04e+04   5.19e+06    0         1      7.49
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.571690e+01	1104	(3.125000e-02, 5.625000e-01)	-2.869237e-01 
+ electron:	3.063699e+03	4108	(3.593750e+00, 9.687500e-01)	2.058043e+18 
+ hole:		3.164257e+03	3516	(3.187500e+00, 6.875000e-01)	1.882045e+18 
+   32      3.59e+17   1.00e+00   9.38e+05   1.06e+07    0         1      7.72
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	2.190117e+03	4015	(3.562500e+00, 7.500000e-01)	4.158532e+00 
+ electron:	4.145544e+04	2282	(2.281250e+00, 1.250000e-01)	5.654664e+17 
+ hole:		6.565758e+04	3731	(3.593750e+00, 3.125000e-02)	5.450186e+17 
+   33      2.57e+18   1.00e+00   1.78e+06   1.41e+08    0         1      7.95
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	9.640584e+03	2248	(2.156250e+00, 3.750000e-01)	-3.377299e+00 
+ electron:	3.491279e+08	2289	(2.375000e+00, -0.000000e+00)	5.464633e+15 
+ hole:		2.838230e+08	2288	(2.375000e+00, 3.125000e-02)	5.187581e+15 
+   34      1.97e+19   1.00e+00   9.60e+05   6.10e+11    0         1      8.17
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	2.412303e+03	945	(1.750000e+00, 2.812500e-01)	3.540970e+00 
+ electron:	4.736991e+02	2276	(2.281250e+00, -0.000000e+00)	2.574918e+19 
+ hole:		1.201588e+05	2279	(2.312500e+00, -0.000000e+00)	2.603320e+17 
+   35      2.17e+19   1.00e+00   4.30e+05   1.43e+08    0         1      8.40
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	3.626161e+03	594	(1.125000e+00, 2.500000e-01)	-1.385828e-01 
+ electron:	1.166467e+00	2281	(2.281250e+00, 9.375000e-02)	2.040989e+22 
+ hole:		1.121215e+00	2316	(2.437500e+00, 6.250000e-02)	3.362936e+22 
+   36      6.30e+18   1.00e+00   1.07e+05   5.14e+06    0         1      8.62
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	6.559580e+02	3673	(3.281250e+00, 9.062500e-01)	-1.440714e-01 
+ electron:	1.749355e+04	3889	(3.843750e+00, 2.187500e-01)	4.153596e+17 
+ hole:		2.299417e+03	2046	(5.312500e-01, 1.000000e+00)	5.753881e+19 
+   37      8.01e+18   1.00e+00   2.46e+05   2.06e+07    0         1      8.84
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	4.150167e+02	4127	(3.812500e+00, 6.250000e-01)	-6.125540e+00 
+ electron:	9.358606e+04	3815	(3.562500e+00, 4.687500e-01)	1.672082e+17 
+ hole:		1.034472e+05	4101	(3.718750e+00, 9.375000e-01)	6.533174e+17 
+   38      3.39e+18   1.00e+00   5.87e+05   2.45e+08    0         1      9.07
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	4.280544e+04	1134	(9.375000e-02, 6.562500e-01)	-2.303270e-02 
+ electron:	5.178916e+05	4201	(3.781250e+00, 9.375000e-01)	7.033406e+16 
+ hole:		1.800489e+05	324	(6.562500e-01, 3.125000e-02)	6.120716e+15 
+   39      2.48e+18   1.00e+00   5.43e+05   4.89e+08    0         1      9.29
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.276807e+03	2769	(2.312500e+00, 7.500000e-01)	1.412040e+00 
+ electron:	1.215599e+00	4103	(3.750000e+00, 9.375000e-01)	8.741554e+22 
+ hole:		1.028241e+00	4101	(3.718750e+00, 9.375000e-01)	3.476765e+22 
+   40      7.27e+17   1.00e+00   7.83e+04   1.80e+06    0         1      9.51
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	8.940090e+01	909	(1.562500e+00, 3.437500e-01)	-5.114748e+00 
+ electron:	1.357274e+04	1965	(1.281250e+00, 9.375000e-01)	4.670192e+17 
+ hole:		2.011098e+03	2286	(2.343750e+00, -0.000000e+00)	6.533843e+19 
+   41      6.09e+16   1.00e+00   4.50e+05   1.38e+07    0         1      9.74
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	5.049389e+03	1675	(4.062500e-01, 8.125000e-01)	2.828959e+00 
+ electron:	3.968655e+04	3017	(2.625000e+00, 8.750000e-01)	6.656847e+17 
+ hole:		3.651016e+04	3017	(2.625000e+00, 8.750000e-01)	6.652229e+17 
+   42      6.50e+17   1.00e+00   5.50e+05   9.65e+07    0         1      9.97
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	5.699536e+03	583	(1.031250e+00, 2.187500e-01)	-7.400623e-01 
+ electron:	3.609843e+05	3170	(2.656250e+00, 9.687500e-01)	9.212569e+16 
+ hole:		3.649482e+05	3170	(2.656250e+00, 9.687500e-01)	9.213333e+16 
+   43      1.45e+20   1.00e+00   2.11e+05   5.72e+08    0         1     10.20
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.156347e+03	1	(3.125000e-02, -0.000000e+00)	4.127302e-02 
+ electron:	1.024701e+00	3157	(2.437500e+00, 1.000000e+00)	3.504916e+22 
+ hole:		5.458095e+00	2215	(2.031250e+00, 3.437500e-01)	1.931148e+21 
+   44      4.21e+19   1.00e+00   7.67e+04   1.16e+06    0         1     10.42
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.662201e+01	2089	(1.218750e+00, 1.000000e+00)	5.575163e+00 
+ electron:	4.506160e+03	3343	(3.375000e+00, -0.000000e+00)	5.890771e+19 
+ hole:		1.023478e+04	3942	(3.937500e+00, 2.500000e-01)	5.879470e+17 
+   45      3.46e+18   1.00e+00   3.15e+05   1.65e+07    0         1     10.65
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	5.226508e+03	4137	(3.781250e+00, 6.875000e-01)	6.239154e-01 
+ electron:	6.342891e+05	3147	(2.281250e+00, 1.000000e+00)	6.913793e+16 
+ hole:		5.717121e+05	2115	(1.625000e+00, 1.000000e+00)	1.435088e+18 
+   46      1.02e+18   1.00e+00   4.86e+05   1.06e+09    0         1     10.89
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	1.170670e+03	3773	(3.718750e+00, 9.375000e-02)	9.699648e+00 
+ electron:	2.197180e+06	3151	(2.343750e+00, 1.000000e+00)	7.631785e+15 
+ hole:		2.541364e+06	3140	(2.187500e+00, 9.687500e-01)	5.742521e+15 
+   47      4.17e+19   1.00e+00   5.02e+05   3.29e+09    0         1     11.11
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	6.856757e+02	3000	(2.500000e+00, 8.437500e-01)	-1.344619e+01 
+ electron:	3.161428e+08	3083	(2.281250e+00, 9.375000e-01)	6.170232e+13 
+ hole:		4.618895e+02	3153	(2.375000e+00, 1.000000e+00)	6.842624e+19 
+   48      1.23e+19   1.00e+00   3.21e+05   2.81e+11    0         1     11.33
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	3.045699e+03	2889	(2.875000e+00, 6.250000e-01)	1.428961e-01 
+ electron:	1.680597e+02	3082	(2.281250e+00, 9.062500e-01)	1.033809e+20 
+ hole:		1.061006e+00	3087	(2.343750e+00, 9.375000e-01)	4.825897e+22 
+   49      3.66e+18   1.00e+00   9.21e+04   3.08e+06    0         1     11.56
+C-norm_equation  max_error	vertex		coordinate [um]		value 
+ poisson:	3.505065e+02	3591	(3.500000e+00, 7.187500e-01)	-2.944223e-02 
+ electron:	1.274422e+00	3143	(2.218750e+00, 1.000000e+00)	2.717720e+22 
+ hole:		1.027906e+00	3087	(2.343750e+00, 9.375000e-01)	2.379744e+22 
+   50      1.08e+18   1.00e+00   2.64e+04   5.40e+05    0         1     11.79
+Finished, because...
+#iterations larger than 50.
+
+Accumulated times:
+Rhs time:        5.61 s
+Jacobian time:   0.84 s
+Solve time:      4.77 s
+Total time:     11.79 s
+
+Newton didn't converge, trying again with smaller step...
+
+
+Finished, because of...
+Step-size less than MinStep ( step-size = 9.7656e-06).
+
+Writing plot 'EXP4Out_rvrse_des.tdr' (TDR format) ... done.
+
+Sun Nov  1 18:18:55 2020: checked in 1 sdevice license(s)
+
+******************************************************************************
+Sentaurus Device process size: 547 megabytes
+Sentaurus Device simulation times:
+  wallclock: 102.29 s (0 h:01 m:42 s)
+  total cpu: 101.91 s (0 h:01 m:41 s)
+Sentaurus Device simulation finished (Date: Sun Nov  1 18:18:55 2020  (EDT)).
+********************************* Good Bye ! *********************************
