@@ -1,0 +1,163 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 01, 2020. 16:20:39.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/ECE4225/EXP6/task1/n3_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> n3_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n3_des.tdr
+create_plot -dataset n3_des_2
+select_plots {Plot_n3_des_2}
+#-> Plot_n3_des_2
+#-> Plot_n3_des_2
+#-> n3_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n6_des.plt
+#-> n6_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n6_des.tdr
+create_plot -dataset n6_des_2
+select_plots {Plot_n6_des_2}
+#-> Plot_n6_des_2
+#-> Plot_n6_des_2
+#-> n6_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n10_des.plt
+#-> n10_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n10_des.tdr
+create_plot -dataset n10_des_2
+select_plots {Plot_n10_des_2}
+#-> Plot_n10_des_2
+#-> Plot_n10_des_2
+#-> n10_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n12_des.plt
+#-> n12_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n12_des.tdr
+create_plot -dataset n12_des_2
+select_plots {Plot_n12_des_2}
+#-> Plot_n12_des_2
+#-> Plot_n12_des_2
+#-> n12_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n14_des.plt
+#-> n14_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n14_des.tdr
+create_plot -dataset n14_des_2
+select_plots {Plot_n14_des_2}
+#-> Plot_n14_des_2
+#-> Plot_n14_des_2
+#-> n14_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n16_des.plt
+#-> n16_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n16_des.tdr
+create_plot -dataset n16_des_2
+select_plots {Plot_n16_des_2}
+#-> Plot_n16_des_2
+#-> Plot_n16_des_2
+#-> n16_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n24_des.plt
+#-> n24_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n24_des.tdr
+create_plot -dataset n24_des_2
+select_plots {Plot_n24_des_2}
+#-> Plot_n24_des_2
+#-> Plot_n24_des_2
+#-> n24_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n26_des.plt
+#-> n26_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n26_des.tdr
+create_plot -dataset n26_des_2
+select_plots {Plot_n26_des_2}
+#-> Plot_n26_des_2
+#-> Plot_n26_des_2
+#-> n26_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n28_des.plt
+#-> n28_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n28_des.tdr
+create_plot -dataset n28_des_2
+select_plots {Plot_n28_des_2}
+#-> Plot_n28_des_2
+#-> Plot_n28_des_2
+#-> n28_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n30_des.plt
+#-> n30_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n30_des.tdr
+create_plot -dataset n30_des_2
+select_plots {Plot_n30_des_2}
+#-> Plot_n30_des_2
+#-> Plot_n30_des_2
+#-> n30_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n32_des.plt
+#-> n32_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n32_des.tdr
+create_plot -dataset n32_des_2
+select_plots {Plot_n32_des_2}
+#-> Plot_n32_des_2
+#-> Plot_n32_des_2
+#-> n32_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n34_des.plt
+#-> n34_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n34_des.tdr
+create_plot -dataset n34_des_2
+select_plots {Plot_n34_des_2}
+#-> Plot_n34_des_2
+#-> Plot_n34_des_2
+#-> n34_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n36_des.plt
+#-> n36_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n36_des.tdr
+create_plot -dataset n36_des_2
+select_plots {Plot_n36_des_2}
+#-> Plot_n36_des_2
+#-> Plot_n36_des_2
+#-> n36_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n38_des.plt
+#-> n38_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n38_des.tdr
+create_plot -dataset n38_des_2
+select_plots {Plot_n38_des_2}
+#-> Plot_n38_des_2
+#-> Plot_n38_des_2
+#-> n38_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n40_des.plt
+#-> n40_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n40_des.tdr
+create_plot -dataset n40_des_2
+select_plots {Plot_n40_des_2}
+#-> Plot_n40_des_2
+#-> Plot_n40_des_2
+#-> n40_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n42_des.plt
+#-> n42_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n42_des.tdr
+create_plot -dataset n42_des_2
+select_plots {Plot_n42_des_2}
+#-> Plot_n42_des_2
+#-> Plot_n42_des_2
+#-> n42_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n44_des.plt
+#-> n44_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n44_des.tdr
+create_plot -dataset n44_des_2
+select_plots {Plot_n44_des_2}
+#-> Plot_n44_des_2
+#-> Plot_n44_des_2
+#-> n44_des_2
+load_file /home/student/Documents/ECE4225/EXP6/task1/n46_des.plt
+#-> n46_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n46_des.tdr
+create_plot -dataset n46_des_2
+select_plots {Plot_n46_des_2}
+#-> Plot_n46_des_2
+#-> Plot_n46_des_2
+#-> n46_des_2
+exit 0
+ 

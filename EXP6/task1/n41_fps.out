@@ -1,0 +1,467 @@
+****************************************************************************
+***                          Sentaurus Process                           ***
+***                          Version O-2018.06                           ***
+***                       (1.1029, x86_64, Linux)                        ***
+***                                                                      ***
+***                       Copyright (C) 1993-2002                        ***
+***          The board of regents of the University of Florida           ***
+***                       Copyright (C) 1994-2018                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Thu May  3 06:21:22 PDT 2018 on tcadprod10
+
+      Started at: Sun Nov  1 15:14:25 2020 (EDT)
+       User name: student
+       Host name: acs14007.4225.cse.uconn.edu
+             PID: 6303
+    Architecture: x86_64
+Operating system: Linux rel. 3.10.0-1127.18.2.el7.x86_64 ver. #1 SMP Mon Jul 20 22:32:16 UTC 2020
+
+------------------------------------------------------------------------------
+Checking syntax of n41_fps.cmd:
+
+Syntax check complete.
+------------------------------------------------------------------------------
+
+Starting Tcl interpreter with inputfile: n41_fps.cmd
+            sprocess: Checked Out
+
+Loading models file: /usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/sprocess-28.0.1029/TclLib/SPROCESS.models... done.
+------------------------------------------------------------------- line -----
+line X location= 0.00e+00<um> spacing= 1.00<nm> tag= "SiTop"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 50.00<nm> spacing= 10.00<nm>
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 0.500<um> spacing= 50.00<nm>
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 2.00<um> spacing= 0.200<um>
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 4.00<um> spacing= 0.400<um> tag= "SiBottom"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Y location= -0.500<um> spacing= 50.00<nm> tag= "Left"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Y location= 0.500<um> spacing= 50.00<nm> tag= "Right"
+------------------------------------------------------------------------------
+----------------------------------------------------------------- region -----
+region xlo= "SiTop" xhi= "SiBottom" ylo= "Left" yhi= "Right" Silicon
+------------------------------------------------------------------------------
+------------------------------------------------------------------- init -----
+init concentration= 2.00e+14<cm-3> field= "Boron"
+------------------------------------------------------------------------------
+          sprocess2d: Checked Out
+
+Creating structure...
+Recreating refinements to take into account updated simulation dimension.
+Done recreating refinements.
+
+
+Points: 52
+Nodes: 52
+Edges: 51
+Faces: 0
+Volumes: 0
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Loading Advanced Calibration 2018.06 (1.1)
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+------------------------------------------------------------------- grid -----
+grid set.min.normal.size= 3.00<nm> set.normal.growth.ratio.2d= 1.40
+------------------------------------------------------------------------------
+------------------------------------------------------------------- mask -----
+mask name= "gate_mask" segments= {-0.200<um> 0.200<um>}
+------------------------------------------------------------------------------
+------------------------------------------------------------------ photo -----
+photo mask= "gate_mask" thickness= 1.00<um>
+------------------------------------------------------------------------------
+Increasing dimension 1 -> 2
+Creating structure... 
+Points: 1113
+Nodes: 1155
+Edges: 3232
+Faces: 2080
+Volumes: 0
+
+Copying data...done
+
+Recreating refinements to take into account updated simulation dimension.
+Done recreating refinements.
+
+MGoals time: 0.076514
+
+Remeshing to match geometry after photo command ...
+Generating SnMesh mesh... 
+
+=================================  brep2d quality  =====================================
+minAngle: 90  [near (4 -0.5)] at region=Silicon_1
+nVerts = 261  nTris = 264  nRegs = 6
+bmin: 4 -0.5
+bmax: -1.1 0.5
+min area: 0.00102771  max area: 0.393476  min edge length : 0.00102771
+total area  : 15.8 interface area: 3.6
+total volume: 5.8
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+SnMesh time: 0.152207
+
+========================  tri-grid quality (Gas excluded)  =======================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    5   9   6   4   4   4   4   6   9  33                                
+---------------------------------------------------------------------------------
+minAngle: 1.1775  maxAngle: 90
+nVerts = 1575  nTris = 2960  nMats = 4
+max connectivity (tris per node): 6
+bmin: 4 -0.5
+bmax: -1.1 0.5
+min edgeLength: 0.00102771  [near (0.000513853 0.45)]
+min volume: 2.56926e-05  max volume: 0.0098369  Total volume: 4.6
+bbox  volume: 5.1
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: Photoresist_1.2  Total volume: 0.3
+Initializing sprocess...time: 0.020198
+Interpolating...elapsed time: 0.02
+----------------------------------------------------------------- struct -----
+struct tdr= "n41_wResist"
+------------------------------------------------------------------------------
+Points: 1575
+Nodes: 1735
+Edges: 4686
+Faces: 2960
+Volumes: 0
+
+
+** Warning **
+No coordinate system has been set. Default coordinate system is coord.ucs. Using default value. !
+ ... continuing execution
+
+Writing file n41_wResist_fps.tdr...done
+
+---------------------------------------------------------------- implant -----
+implant energy= 12.00<keV> dose= 1.00e+16<cm-2> tilt= 7.00<degree> rotation= 0.00e+00<degree> Arsenic
+------------------------------------------------------------------------------
+No substrate defined (implant).  Skip updateStrain.
+Species           =  Arsenic
+Dataset           =  Arsenic
+Energy            =  12keV
+Dose (WaferDose)  =  1e+16/cm2
+BeamDose          =  1.0075e+16/cm2
+BeamDose2D        =  1e+16/cm2
+Tilt              =   7deg
+Tilt2D            =  -0deg
+Rotation          =   0deg
+Slice angle       = -90deg
+Temperature       = 300.00K
+LeftBoundary      =  Extend
+RightBoundary     =  Extend
+
+Total implant time:    0.38sec
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Computing finite volumes...
+Finite volumes done
+
+ Dose in:   Silicon_1 Photoresist Photoresist       Total
+              Silicon Photoresist Photoresist
+    Boron  8.0000e+10  0.0000e+00  0.0000e+00  8.0000e+10
+  Arsenic  4.0289e+15  1.3509e+10  1.3509e+10  4.0289e+15
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+No substrate defined (implant).  Skip updateStrain.
+------------------------------------------------------------------ strip -----
+strip Photoresist
+------------------------------------------------------------------------------
+MGoals time: 7.3049e-03
+
+Remeshing to match geometry after strip command ...
+Generating SnMesh mesh... 
+
+=================================  brep2d quality  =====================================
+minAngle: 90  [near (4 -0.5)] at region=Silicon_1
+nVerts = 205  nTris = 206  nRegs = 7
+bmin: 4 -0.5
+bmax: -1.1 0.5
+min area: 0.00102771  max area: 0.393476  min edge length : 0.00102771
+total area  : 13.2 interface area: 1
+total volume: 7.1
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+SnMesh time: 0.151372
+
+========================  tri-grid quality (Gas excluded)  =======================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    3   8   5   4   4   4   4   5   8  26                                
+---------------------------------------------------------------------------------
+minAngle: 1.1775  maxAngle: 90
+nVerts = 1554  nTris = 2920  nMats = 2
+max connectivity (tris per node): 6
+bmin: 4 -0.5
+bmax: -1.1 0.5
+min edgeLength: 0.00102771  [near (0.000513853 0.45)]
+min volume: 2.56926e-05  max volume: 0.0098369  Total volume: 4
+bbox  volume: 5.1
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: Silicon_1  Total volume: 4
+Initializing sprocess...time: 0.017385
+Interpolating...elapsed time: 0.01
+----------------------------------------------------------------- struct -----
+struct tdr= "n41_asImplant"
+------------------------------------------------------------------------------
+Points: 1554
+Nodes: 1596
+Edges: 4513
+Faces: 2920
+Volumes: 0
+
+
+** Warning **
+No coordinate system has been set. Default coordinate system is coord.ucs. Using default value. !
+ ... continuing execution
+
+Writing file n41_asImplant_fps.tdr...done
+
+---------------------------------------------------------------- diffuse -----
+diffuse time= 30.00<min> temperature= 1000.00<C>
+------------------------------------------------------------------------------
+sprocess parallel assembly thread count = 1
+---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---
+Anneal step:	
+	Time        = 30min
+	Temperature = 1000.0C
+	Ramp rate   = 0C/s
+Mechanics:         0s   to    0.0001s   step    :    0.0001s   temp: 1000.0C
+sprocess ILS thread count = 1
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Initializing:  
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Initialization is done.
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Diffusion:         0s   to    0.0001s   step (s):    0.0001s   temp: 1000.0C
+Mechanics:    0.0001s   to 0.0001799s   step    : 7.994e-05s   temp: 1000.0C
+Diffusion:    0.0001s   to 0.0001799s   step (s): 7.994e-05s   temp: 1000.0C
+Mechanics: 0.0001799s   to 0.0002913s   step    : 0.0001113s   temp: 1000.0C
+Diffusion: 0.0001799s   to 0.0002913s   step (s): 0.0001113s   temp: 1000.0C
+Mechanics: 0.0002913s   to 0.0004916s   step    : 0.0002003s   temp: 1000.0C
+Diffusion: 0.0002913s   to 0.0004916s   step (s): 0.0002003s   temp: 1000.0C
+Mechanics: 0.0004916s   to 0.0008923s   step    : 0.0004007s   temp: 1000.0C
+Diffusion: 0.0004916s   to 0.0008923s   step (s): 0.0004007s   temp: 1000.0C
+Mechanics: 0.0008923s   to  0.001597s   step    : 0.0007051s   temp: 1000.0C
+Diffusion: 0.0008923s   to  0.001597s   step (s): 0.0007051s   temp: 1000.0C
+Mechanics:  0.001597s   to  0.002427s   step    : 0.0008298s   temp: 1000.0C
+Diffusion:  0.001597s   to  0.002427s   step (s): 0.0008298s   temp: 1000.0C
+Mechanics:  0.002427s   to  0.003432s   step    :  0.001005s   temp: 1000.0C
+Diffusion:  0.002427s   to  0.003432s   step (s):  0.001005s   temp: 1000.0C
+Mechanics:  0.003432s   to  0.004791s   step    :  0.001359s   temp: 1000.0C
+Diffusion:  0.003432s   to  0.004791s   step (s):  0.001359s   temp: 1000.0C
+Mechanics:  0.004791s   to  0.006581s   step    :  0.001789s   temp: 1000.0C
+Diffusion:  0.004791s   to  0.006581s   step (s):  0.001789s   temp: 1000.0C
+Mechanics:  0.006581s   to  0.008838s   step    :  0.002257s   temp: 1000.0C
+Diffusion:  0.006581s   to  0.008838s   step (s):  0.002257s   temp: 1000.0C
+Mechanics:  0.008838s   to   0.01185s   step    :  0.003008s   temp: 1000.0C
+Diffusion:  0.008838s   to   0.01185s   step (s):  0.003008s   temp: 1000.0C
+Mechanics:   0.01185s   to   0.01601s   step    :   0.00416s   temp: 1000.0C
+Diffusion:   0.01185s   to   0.01601s   step (s):   0.00416s   temp: 1000.0C
+Mechanics:   0.01601s   to    0.0217s   step    :  0.005693s   temp: 1000.0C
+Diffusion:   0.01601s   to    0.0217s   step (s):  0.005693s   temp: 1000.0C
+Mechanics:    0.0217s   to   0.02946s   step    :  0.007761s   temp: 1000.0C
+Diffusion:    0.0217s   to   0.02946s   step (s):  0.007761s   temp: 1000.0C
+Mechanics:   0.02946s   to   0.03975s   step    :   0.01029s   temp: 1000.0C
+Diffusion:   0.02946s   to   0.03975s   step (s):   0.01029s   temp: 1000.0C
+Mechanics:   0.03975s   to   0.05141s   step    :   0.01166s   temp: 1000.0C
+Diffusion:   0.03975s   to   0.05141s   step (s):   0.01166s   temp: 1000.0C
+Mechanics:   0.05141s   to   0.06555s   step    :   0.01414s   temp: 1000.0C
+Diffusion:   0.05141s   to   0.06555s   step (s):   0.01414s   temp: 1000.0C
+Mechanics:   0.06555s   to   0.07887s   step    :   0.01332s   temp: 1000.0C
+Diffusion:   0.06555s   to   0.07887s   step (s):   0.01332s   temp: 1000.0C
+Mechanics:   0.07887s   to    0.1008s   step    :   0.02198s   temp: 1000.0C
+Diffusion:   0.07887s   to    0.1008s   step (s):   0.02198s   temp: 1000.0C
+Mechanics:    0.1008s   to    0.1448s   step    :   0.04396s   temp: 1000.0C
+Diffusion:    0.1008s   to    0.1448s   step (s):   0.04396s   temp: 1000.0C
+Mechanics:    0.1448s   to    0.2327s   step    :   0.08792s   temp: 1000.0C
+Diffusion:    0.1448s   to    0.2327s   step (s):   0.08792s   temp: 1000.0C
+Mechanics:    0.2327s   to    0.3479s   step    :    0.1152s   temp: 1000.0C
+Diffusion:    0.2327s   to    0.3479s   step (s):    0.1152s   temp: 1000.0C
+Mechanics:    0.3479s   to    0.4319s   step    :   0.08398s   temp: 1000.0C
+Diffusion:    0.3479s   to    0.4319s   step (s):   0.08398s   temp: 1000.0C
+Mechanics:    0.4319s   to    0.5254s   step    :   0.09347s   temp: 1000.0C
+Diffusion:    0.4319s   to    0.5254s   step (s):   0.09347s   temp: 1000.0C
+Mechanics:    0.5254s   to    0.6223s   step    :    0.0969s   temp: 1000.0C
+Diffusion:    0.5254s   to    0.6223s   step (s):    0.0969s   temp: 1000.0C
+Mechanics:    0.6223s   to      0.73s   step    :    0.1077s   temp: 1000.0C
+Diffusion:    0.6223s   to      0.73s   step (s):    0.1077s   temp: 1000.0C
+Mechanics:      0.73s   to    0.8452s   step    :    0.1152s   temp: 1000.0C
+Diffusion:      0.73s   to    0.8452s   step (s):    0.1152s   temp: 1000.0C
+Mechanics:    0.8452s   to    0.9853s   step    :    0.1402s   temp: 1000.0C
+Diffusion:    0.8452s   to    0.9853s   step (s):    0.1402s   temp: 1000.0C
+Mechanics:    0.9853s   to     1.188s   step    :    0.2031s   temp: 1000.0C
+Diffusion:    0.9853s   to     1.188s   step (s):    0.2031s   temp: 1000.0C
+Mechanics:     1.188s   to     1.578s   step    :    0.3899s   temp: 1000.0C
+Diffusion:     1.188s   to     1.578s   step (s):    0.3899s   temp: 1000.0C
+Mechanics:     1.578s   to     2.358s   step    :    0.7798s   temp: 1000.0C
+Diffusion:     1.578s   to     2.358s   step (s):    0.7798s   temp: 1000.0C
+Mechanics:     2.358s   to     3.918s   step    :      1.56s   temp: 1000.0C
+Diffusion:     2.358s   to     3.918s   step (s):      1.56s   temp: 1000.0C
+Mechanics:     3.918s   to     7.037s   step    :     3.119s   temp: 1000.0C
+Diffusion:     3.918s   to     7.037s   step (s):     3.119s   temp: 1000.0C
+Mechanics:     7.037s   to     12.97s   step    :     5.935s   temp: 1000.0C
+Diffusion:     7.037s   to     12.97s   step (s):     5.935s   temp: 1000.0C
+Mechanics:     12.97s   to     23.35s   step    :     10.38s   temp: 1000.0C
+Diffusion:     12.97s   to     23.35s   step (s):     10.38s   temp: 1000.0C
+Mechanics:     23.35s   to     39.45s   step    :      16.1s   temp: 1000.0C
+Diffusion:     23.35s   to     39.45s   step (s):      16.1s   temp: 1000.0C
+Mechanics:     39.45s   to     1.038min step    :     22.84s   temp: 1000.0C
+Diffusion:     39.45s   to     1.038min step (s):     22.84s   temp: 1000.0C
+Mechanics:     1.038min to     1.552min step    :     30.81s   temp: 1000.0C
+Diffusion:     1.038min to     1.552min step (s):     30.81s   temp: 1000.0C
+Mechanics:     1.552min to      2.22min step    :     40.11s   temp: 1000.0C
+Diffusion:     1.552min to      2.22min step (s):     40.11s   temp: 1000.0C
+Mechanics:      2.22min to     3.065min step    :     50.69s   temp: 1000.0C
+Diffusion:      2.22min to     3.065min step (s):     50.69s   temp: 1000.0C
+Mechanics:     3.065min to     4.102min step    :     1.038min temp: 1000.0C
+Diffusion:     3.065min to     4.102min step (s):     1.038min temp: 1000.0C
+Mechanics:     4.102min to     5.353min step    :     1.251min temp: 1000.0C
+Diffusion:     4.102min to     5.353min step (s):     1.251min temp: 1000.0C
+Mechanics:     5.353min to     6.851min step    :     1.498min temp: 1000.0C
+Diffusion:     5.353min to     6.851min step (s):     1.498min temp: 1000.0C
+Mechanics:     6.851min to     8.635min step    :     1.784min temp: 1000.0C
+Diffusion:     6.851min to     8.635min step (s):     1.784min temp: 1000.0C
+Mechanics:     8.635min to     10.73min step    :     2.099min temp: 1000.0C
+Diffusion:     8.635min to     10.73min step (s):     2.099min temp: 1000.0C
+Mechanics:     10.73min to     13.19min step    :     2.455min temp: 1000.0C
+Diffusion:     10.73min to     13.19min step (s):     2.455min temp: 1000.0C
+Mechanics:     13.19min to     16.08min step    :     2.889min temp: 1000.0C
+Diffusion:     13.19min to     16.08min step (s):     2.889min temp: 1000.0C
+Mechanics:     16.08min to     19.48min step    :     3.403min temp: 1000.0C
+Diffusion:     16.08min to     19.48min step (s):     3.403min temp: 1000.0C
+Mechanics:     19.48min to     23.49min step    :     4.012min temp: 1000.0C
+Diffusion:     19.48min to     23.49min step (s):     4.012min temp: 1000.0C
+Mechanics:     23.49min to     26.75min step    :     3.253min temp: 1000.0C
+Diffusion:     23.49min to     26.75min step (s):     3.253min temp: 1000.0C
+Mechanics:     26.75min to        30min step    :     3.253min temp: 1000.0C
+Diffusion:     26.75min to        30min step (s):     3.253min temp: 1000.0C
+
+Elapsed time for diffuse 26.6s
+----------------------------------------------------------------- struct -----
+struct tdr= "n41_afterAnneal"
+------------------------------------------------------------------------------
+Points: 1554
+Nodes: 1596
+Edges: 4513
+Faces: 2920
+Volumes: 0
+
+
+** Warning **
+No coordinate system has been set. Default coordinate system is coord.ucs. Using default value. !
+ ... continuing execution
+
+Writing file n41_afterAnneal_fps.tdr...done
+
+------------------------------------------------------------------- grid -----
+grid set.Delaunay.type= "boxmethod"
+------------------------------------------------------------------------------
+---------------------------------------------------------------- contact -----
+contact Silicon name= "top" xlo= 0.00e+00<um> xhi= 0.00e+00<um> ylo= -0.150<um> yhi= 0.150<um> box
+------------------------------------------------------------------------------
+---------------------------------------------------------------- contact -----
+contact Silicon name= "bottom" xlo= 4.00<um> xhi= 4.00<um> ylo= -0.500<um> yhi= 0.500<um> box
+------------------------------------------------------------------------------
+----------------------------------------------------------------- struct -----
+struct tdr= "n41"
+------------------------------------------------------------------------------
+Interpolating...elapsed time: 0.02
+Points: 1554
+Nodes: 1624
+Edges: 4539
+Faces: 2920
+Volumes: 0
+
+
+** Warning **
+No coordinate system has been set. Default coordinate system is coord.ucs. Using default value. !
+ ... continuing execution
+
+Writing file n41_fps.tdr...done
+
+------------------------------------------------------------------------------
+Summary:
+Anneal time stepping:
+  reaction/mechanics steps=52 minimum=1.0000e+38s maximum=1.0000e+38s
+  diffusion steps=52 minimum=7.9943e-05s maximum=2.4071e+02s
+Edge/Face swapping:
+ calls=6 flips=0
+------------------------------------------------------------------------------
+License features used:
+    sprocess
+    sprocess2d
+------------------------------------------------------------------------------
+
+Elapsed Time:	00:00:39
+User Time:	00:00:39
+CPU Time:	00:00:38
+
+Detailed CPU time report:
+
+9.58 sec (27.8%) Solver(PDE). (599 calls).
+4.94 sec (14.4%) Diffusion step time. (52 calls).
+4.08 sec (11.9%) Store nodal values: Serial. (1613 calls).
+3.12 sec (9.1%) Mechanics step (52 calls).
+2.69 sec (7.8%) struct command (4 calls).
+1.83 sec (5.3%) Serial mode assembly. (809 calls).
+1.52 sec (4.4%) implant command (292 calls).
+1.47 sec (4.3%) Other Program Parts (1 calls).
+1.00 sec (2.9%) solution command (11643 calls).
+0.77 sec (2.2%) Mechanics preassembly (52 calls).
+0.59 sec (1.7%) sel command (944 calls).
+0.37 sec (1.1%) Mechanics assembly (serial mode) (52 calls).
+0.33 sec (1.0%) mater command (776 calls).
+0.32 sec (0.9%) term command (1073 calls).
+0.30 sec (0.9%) Total time spent in Symbolic. (2 calls).
+0.30 sec (0.9%) SnMesh meshing (2 calls).
+
+Detailed elapsed time report:
+
+9.60 sec (27.8%) Solver(PDE). (599 calls).
+4.95 sec (14.4%) Diffusion step time. (52 calls).
+4.09 sec (11.9%) Store nodal values: Serial. (1613 calls).
+3.13 sec (9.1%) Mechanics step (52 calls).
+2.69 sec (7.8%) struct command (4 calls).
+1.84 sec (5.3%) Serial mode assembly. (809 calls).
+1.53 sec (4.4%) implant command (292 calls).
+1.48 sec (4.3%) Other Program Parts (1 calls).
+1.01 sec (2.9%) solution command (11643 calls).
+0.77 sec (2.2%) Mechanics preassembly (52 calls).
+0.59 sec (1.7%) sel command (944 calls).
+0.37 sec (1.1%) Mechanics assembly (serial mode) (52 calls).
+0.33 sec (1.0%) mater command (776 calls).
+0.32 sec (0.9%) term command (1073 calls).
+0.30 sec (0.9%) Total time spent in Symbolic. (2 calls).
+0.30 sec (0.9%) SnMesh meshing (2 calls).
+
+Simulation completed with 1 warning.
+================================================
+
+WARNING 1 4 times
+=======================================================
+No coordinate system has been set. Default coordinate system is coord.ucs. Using default value.
+

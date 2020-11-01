@@ -1,0 +1,575 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version O-2018.06                           ***
+***                       (1.1029, x86_64, Linux)                        ***
+***                                                                      ***
+***                Copyright (c) 1994-2018 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'acs14007.4225.cse.uconn.edu' by user 'student'
+Binary '/usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/bin/../lib/gsub0'
+Command line options '-verbose -swb_pid 3325 -q local:default -e {3 + 65 + 24 + 66 + 36 + 67 + 10 + 68 + 28 + 69 + 40 + 70 + 14 + 71 + 32 + 72 + 44 + 73 + 6 + 74 + 26 + 75 + 38 + 76 + 12 + 77 + 30 + 78 + 42 + 79 + 16 + 80 + 34 + 81 + 46 + 82} /home/student/Documents/ECE4225/EXP6/task1'
+Current directory '/home/student/Documents/ECE4225/EXP6'
+Some relevant environment variables:
+	STROOT=/usr/synopsys/sentaurus/O_2018.06
+	STRELEASE=current
+	STROOT_LIB=/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib
+	STDB=/home/student/Documents/ECE4225/EXP6
+	DATEX=/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=:0
+
+Starting swblm daemon...OK
+Loading global tool database '/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/glib2/tooldb.tcl'
+Project '/home/student/Documents/ECE4225/EXP6/task1'
+Loading project tree '/home/student/Documents/ECE4225/EXP6/task1/gtree.dat'
+15:17:47 Nov 01 2020 <task1> submitted to the batch system
+Loading global queue configuration file '/usr/synopsys/sentaurus/O_2018.06/queues/gqueues.dat'...ok
+Loading project tree '/home/student/Documents/ECE4225/EXP6/task1/gtree.dat'
+>>>>> Preprocessing the project to run in normal mode
+Loading jobs and dependence graph '"/home/student/Documents/ECE4225/EXP6/task1/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/student/Documents/ECE4225/EXP6/task1/gtree.dat'
+Loading project variables '/home/student/Documents/ECE4225/EXP6/task1/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/student/Documents/ECE4225/EXP6/task1/sprocess_fps.cmd
+Reading file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 3
+'@tdr@' creates dependences with the node(s) '2'
++++Node successfully preprocessed+++
+The node '3' has dependencies to the node(s) '2'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 6
+'@tdr@' creates dependences with the node(s) '5'
++++Node successfully preprocessed+++
+The node '6' has dependencies to the node(s) '5'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 10
+'@tdr@' creates dependences with the node(s) '9'
++++Node successfully preprocessed+++
+The node '10' has dependencies to the node(s) '9'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 12
+'@tdr@' creates dependences with the node(s) '11'
++++Node successfully preprocessed+++
+The node '12' has dependencies to the node(s) '11'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 14
+'@tdr@' creates dependences with the node(s) '13'
++++Node successfully preprocessed+++
+The node '14' has dependencies to the node(s) '13'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 16
+'@tdr@' creates dependences with the node(s) '15'
++++Node successfully preprocessed+++
+The node '16' has dependencies to the node(s) '15'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 24
+'@tdr@' creates dependences with the node(s) '23'
++++Node successfully preprocessed+++
+The node '24' has dependencies to the node(s) '23'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 26
+'@tdr@' creates dependences with the node(s) '25'
++++Node successfully preprocessed+++
+The node '26' has dependencies to the node(s) '25'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 28
+'@tdr@' creates dependences with the node(s) '27'
++++Node successfully preprocessed+++
+The node '28' has dependencies to the node(s) '27'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 30
+'@tdr@' creates dependences with the node(s) '29'
++++Node successfully preprocessed+++
+The node '30' has dependencies to the node(s) '29'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 32
+'@tdr@' creates dependences with the node(s) '31'
++++Node successfully preprocessed+++
+The node '32' has dependencies to the node(s) '31'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 34
+'@tdr@' creates dependences with the node(s) '33'
++++Node successfully preprocessed+++
+The node '34' has dependencies to the node(s) '33'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 36
+'@tdr@' creates dependences with the node(s) '35'
++++Node successfully preprocessed+++
+The node '36' has dependencies to the node(s) '35'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 38
+'@tdr@' creates dependences with the node(s) '37'
++++Node successfully preprocessed+++
+The node '38' has dependencies to the node(s) '37'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 40
+'@tdr@' creates dependences with the node(s) '39'
++++Node successfully preprocessed+++
+The node '40' has dependencies to the node(s) '39'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 42
+'@tdr@' creates dependences with the node(s) '41'
++++Node successfully preprocessed+++
+The node '42' has dependencies to the node(s) '41'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 44
+'@tdr@' creates dependences with the node(s) '43'
++++Node successfully preprocessed+++
+The node '44' has dependencies to the node(s) '43'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 46
+'@tdr@' creates dependences with the node(s) '45'
++++Node successfully preprocessed+++
+The node '46' has dependencies to the node(s) '45'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 65
+'@tdr@' creates dependences with the node(s) '2'
++++Node successfully preprocessed+++
+The node '65' has dependencies to the node(s) '2'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 66
+'@tdr@' creates dependences with the node(s) '23'
++++Node successfully preprocessed+++
+The node '66' has dependencies to the node(s) '23'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 67
+'@tdr@' creates dependences with the node(s) '35'
++++Node successfully preprocessed+++
+The node '67' has dependencies to the node(s) '35'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 68
+'@tdr@' creates dependences with the node(s) '9'
++++Node successfully preprocessed+++
+The node '68' has dependencies to the node(s) '9'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 69
+'@tdr@' creates dependences with the node(s) '27'
++++Node successfully preprocessed+++
+The node '69' has dependencies to the node(s) '27'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 70
+'@tdr@' creates dependences with the node(s) '39'
++++Node successfully preprocessed+++
+The node '70' has dependencies to the node(s) '39'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 71
+'@tdr@' creates dependences with the node(s) '13'
++++Node successfully preprocessed+++
+The node '71' has dependencies to the node(s) '13'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 72
+'@tdr@' creates dependences with the node(s) '31'
++++Node successfully preprocessed+++
+The node '72' has dependencies to the node(s) '31'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 73
+'@tdr@' creates dependences with the node(s) '43'
++++Node successfully preprocessed+++
+The node '73' has dependencies to the node(s) '43'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 74
+'@tdr@' creates dependences with the node(s) '5'
++++Node successfully preprocessed+++
+The node '74' has dependencies to the node(s) '5'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 75
+'@tdr@' creates dependences with the node(s) '25'
++++Node successfully preprocessed+++
+The node '75' has dependencies to the node(s) '25'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 76
+'@tdr@' creates dependences with the node(s) '37'
++++Node successfully preprocessed+++
+The node '76' has dependencies to the node(s) '37'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 77
+'@tdr@' creates dependences with the node(s) '11'
++++Node successfully preprocessed+++
+The node '77' has dependencies to the node(s) '11'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 78
+'@tdr@' creates dependences with the node(s) '29'
++++Node successfully preprocessed+++
+The node '78' has dependencies to the node(s) '29'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 79
+'@tdr@' creates dependences with the node(s) '41'
++++Node successfully preprocessed+++
+The node '79' has dependencies to the node(s) '41'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 80
+'@tdr@' creates dependences with the node(s) '15'
++++Node successfully preprocessed+++
+The node '80' has dependencies to the node(s) '15'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 81
+'@tdr@' creates dependences with the node(s) '33'
++++Node successfully preprocessed+++
+The node '81' has dependencies to the node(s) '33'
+Preprocessing file /home/student/Documents/ECE4225/EXP6/task1/sdevice_des.cmd fornode 82
+'@tdr@' creates dependences with the node(s) '45'
++++Node successfully preprocessed+++
+The node '82' has dependencies to the node(s) '45'
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/home/student/Documents/ECE4225/EXP6/task1/gexec.cmd"'
+>>>>>>>>>> job '3' status changed from 'none' to 'queued'
+>>>>>>>>>> job '65' status changed from 'none' to 'queued'
+>>>>>>>>>> job '24' status changed from 'none' to 'queued'
+>>>>>>>>>> job '66' status changed from 'none' to 'queued'
+>>>>>>>>>> job '36' status changed from 'none' to 'queued'
+>>>>>>>>>> job '67' status changed from 'none' to 'queued'
+>>>>>>>>>> job '10' status changed from 'none' to 'queued'
+>>>>>>>>>> job '68' status changed from 'none' to 'queued'
+>>>>>>>>>> job '28' status changed from 'none' to 'queued'
+>>>>>>>>>> job '69' status changed from 'none' to 'queued'
+>>>>>>>>>> job '40' status changed from 'none' to 'queued'
+>>>>>>>>>> job '70' status changed from 'none' to 'queued'
+>>>>>>>>>> job '14' status changed from 'none' to 'queued'
+>>>>>>>>>> job '71' status changed from 'none' to 'queued'
+>>>>>>>>>> job '32' status changed from 'none' to 'queued'
+>>>>>>>>>> job '72' status changed from 'none' to 'queued'
+>>>>>>>>>> job '44' status changed from 'none' to 'queued'
+>>>>>>>>>> job '73' status changed from 'none' to 'queued'
+>>>>>>>>>> job '6' status changed from 'none' to 'queued'
+>>>>>>>>>> job '74' status changed from 'none' to 'queued'
+>>>>>>>>>> job '26' status changed from 'none' to 'queued'
+>>>>>>>>>> job '75' status changed from 'none' to 'queued'
+>>>>>>>>>> job '38' status changed from 'none' to 'queued'
+>>>>>>>>>> job '76' status changed from 'none' to 'queued'
+>>>>>>>>>> job '12' status changed from 'none' to 'queued'
+>>>>>>>>>> job '77' status changed from 'none' to 'queued'
+>>>>>>>>>> job '30' status changed from 'none' to 'queued'
+>>>>>>>>>> job '78' status changed from 'none' to 'queued'
+>>>>>>>>>> job '42' status changed from 'none' to 'queued'
+>>>>>>>>>> job '79' status changed from 'none' to 'queued'
+>>>>>>>>>> job '16' status changed from 'none' to 'queued'
+>>>>>>>>>> job '80' status changed from 'none' to 'queued'
+>>>>>>>>>> job '34' status changed from 'none' to 'queued'
+>>>>>>>>>> job '81' status changed from 'none' to 'queued'
+>>>>>>>>>> job '46' status changed from 'none' to 'queued'
+>>>>>>>>>> job '82' status changed from 'none' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 3 65 24 66 36 67 10 68 28 69 40 70 14 71 32 72 44 73 6 74 26 75 38 76 12 77 30 78 42 79 16 80 34 81 46 82
+-----------------------------------------------------------------
+>>>>> cleaning the index file from previous simulations 
+                       /home/student/Documents/ECE4225/EXP6/task1/.gindex
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '3' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n3_des.job
+local% submit job 3 for local execution
+>>>>>>>>>> job '3' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '65' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n65_des.job
+local% submit job 65 for local execution
+>>>>>>>>>> job '65' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '24' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n24_des.job
+local% submit job 24 for local execution
+>>>>>>>>>> job '24' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '66' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n66_des.job
+local% submit job 66 for local execution
+>>>>>>>>>> job '66' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '36' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n36_des.job
+local% submit job 36 for local execution
+>>>>>>>>>> job '36' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '67' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n67_des.job
+local% submit job 67 for local execution
+>>>>>>>>>> job '67' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '10' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n10_des.job
+local% submit job 10 for local execution
+>>>>>>>>>> job '10' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '68' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n68_des.job
+local% submit job 68 for local execution
+>>>>>>>>>> job '68' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '28' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n28_des.job
+local% submit job 28 for local execution
+>>>>>>>>>> job '28' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '69' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n69_des.job
+local% submit job 69 for local execution
+>>>>>>>>>> job '69' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '40' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n40_des.job
+local% submit job 40 for local execution
+>>>>>>>>>> job '40' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '70' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n70_des.job
+local% submit job 70 for local execution
+>>>>>>>>>> job '70' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '14' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n14_des.job
+local% submit job 14 for local execution
+>>>>>>>>>> job '14' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '71' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n71_des.job
+local% submit job 71 for local execution
+>>>>>>>>>> job '71' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '32' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n32_des.job
+local% submit job 32 for local execution
+>>>>>>>>>> job '32' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '72' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n72_des.job
+local% submit job 72 for local execution
+>>>>>>>>>> job '72' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '44' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n44_des.job
+local% submit job 44 for local execution
+>>>>>>>>>> job '44' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '73' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n73_des.job
+local% submit job 73 for local execution
+>>>>>>>>>> job '73' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '6' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n6_des.job
+local% submit job 6 for local execution
+>>>>>>>>>> job '6' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '74' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n74_des.job
+local% submit job 74 for local execution
+>>>>>>>>>> job '74' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '26' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n26_des.job
+local% submit job 26 for local execution
+>>>>>>>>>> job '26' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '75' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n75_des.job
+local% submit job 75 for local execution
+>>>>>>>>>> job '75' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '38' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n38_des.job
+local% submit job 38 for local execution
+>>>>>>>>>> job '38' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '76' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n76_des.job
+local% submit job 76 for local execution
+>>>>>>>>>> job '76' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '12' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n12_des.job
+local% submit job 12 for local execution
+>>>>>>>>>> job '12' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '77' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n77_des.job
+local% submit job 77 for local execution
+>>>>>>>>>> job '77' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '30' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n30_des.job
+local% submit job 30 for local execution
+>>>>>>>>>> job '30' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '78' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n78_des.job
+local% submit job 78 for local execution
+>>>>>>>>>> job '78' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '42' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n42_des.job
+local% submit job 42 for local execution
+>>>>>>>>>> job '42' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '79' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n79_des.job
+local% submit job 79 for local execution
+>>>>>>>>>> job '79' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '16' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n16_des.job
+local% submit job 16 for local execution
+>>>>>>>>>> job '16' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '80' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n80_des.job
+local% submit job 80 for local execution
+>>>>>>>>>> job '80' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '34' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n34_des.job
+local% submit job 34 for local execution
+>>>>>>>>>> job '34' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '81' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n81_des.job
+local% submit job 81 for local execution
+>>>>>>>>>> job '81' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '46' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n46_des.job
+local% submit job 46 for local execution
+>>>>>>>>>> job '46' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '82' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP6/task1/n82_des.job
+local% submit job 82 for local execution
+>>>>>>>>>> job '82' status changed from 'ready' to 'pending'
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 3 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '3' status changed from 'pending' to 'running'
+15:17:48 Nov 01 2020     job 3 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp3_des.cmd"
+>>>>>>>>>> job '3' status changed from 'running' to 'done'
+15:19:13 Nov 01 2020 +++ job 3 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 65 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '65' status changed from 'pending' to 'running'
+15:19:14 Nov 01 2020     job 65 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp65_des.cmd"
+>>>>>>>>>> job '65' status changed from 'running' to 'done'
+15:19:25 Nov 01 2020 +++ job 65 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 24 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '24' status changed from 'pending' to 'running'
+15:19:26 Nov 01 2020     job 24 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp24_des.cmd"
+>>>>>>>>>> job '24' status changed from 'running' to 'done'
+15:20:31 Nov 01 2020 +++ job 24 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 66 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '66' status changed from 'pending' to 'running'
+15:20:32 Nov 01 2020     job 66 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp66_des.cmd"
+>>>>>>>>>> job '66' status changed from 'running' to 'done'
+15:21:17 Nov 01 2020 +++ job 66 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 36 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '36' status changed from 'pending' to 'running'
+15:21:18 Nov 01 2020     job 36 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp36_des.cmd"
+>>>>>>>>>> job '36' status changed from 'running' to 'done'
+15:22:31 Nov 01 2020 +++ job 36 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 67 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '67' status changed from 'pending' to 'running'
+15:22:32 Nov 01 2020     job 67 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp67_des.cmd"
+>>>>>>>>>> job '67' status changed from 'running' to 'done'
+15:23:14 Nov 01 2020 +++ job 67 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 10 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '10' status changed from 'pending' to 'running'
+15:23:15 Nov 01 2020     job 10 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp10_des.cmd"
+>>>>>>>>>> job '10' status changed from 'running' to 'done'
+15:24:42 Nov 01 2020 +++ job 10 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 68 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '68' status changed from 'pending' to 'running'
+15:24:43 Nov 01 2020     job 68 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp68_des.cmd"
+>>>>>>>>>> job '68' status changed from 'running' to 'done'
+15:24:55 Nov 01 2020 +++ job 68 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 28 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '28' status changed from 'pending' to 'running'
+15:24:56 Nov 01 2020     job 28 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp28_des.cmd"
+>>>>>>>>>> job '28' status changed from 'running' to 'done'
+15:26:05 Nov 01 2020 +++ job 28 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 69 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '69' status changed from 'pending' to 'running'
+15:26:06 Nov 01 2020     job 69 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp69_des.cmd"
+>>>>>>>>>> job '69' status changed from 'running' to 'done'
+15:26:50 Nov 01 2020 +++ job 69 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 40 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '40' status changed from 'pending' to 'running'
+15:26:51 Nov 01 2020     job 40 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp40_des.cmd"
+>>>>>>>>>> job '40' status changed from 'running' to 'done'
+15:28:02 Nov 01 2020 +++ job 40 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 70 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '70' status changed from 'pending' to 'running'
+15:28:03 Nov 01 2020     job 70 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp70_des.cmd"
+>>>>>>>>>> job '70' status changed from 'running' to 'done'
+15:28:46 Nov 01 2020 +++ job 70 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 14 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '14' status changed from 'pending' to 'running'
+15:28:47 Nov 01 2020     job 14 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp14_des.cmd"
+>>>>>>>>>> job '14' status changed from 'running' to 'done'
+15:30:20 Nov 01 2020 +++ job 14 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 71 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '71' status changed from 'pending' to 'running'
+15:30:21 Nov 01 2020     job 71 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp71_des.cmd"
+>>>>>>>>>> job '71' status changed from 'running' to 'done'
+15:30:33 Nov 01 2020 +++ job 71 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 32 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '32' status changed from 'pending' to 'running'
+15:30:34 Nov 01 2020     job 32 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp32_des.cmd"
+>>>>>>>>>> job '32' status changed from 'running' to 'done'
+15:31:38 Nov 01 2020 +++ job 32 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 72 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '72' status changed from 'pending' to 'running'
+15:31:39 Nov 01 2020     job 72 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp72_des.cmd"
+>>>>>>>>>> job '72' status changed from 'running' to 'done'
+15:32:16 Nov 01 2020 +++ job 72 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 44 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '44' status changed from 'pending' to 'running'
+15:32:17 Nov 01 2020     job 44 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp44_des.cmd"
+>>>>>>>>>> job '44' status changed from 'running' to 'done'
+15:33:32 Nov 01 2020 +++ job 44 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 73 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '73' status changed from 'pending' to 'running'
+15:33:33 Nov 01 2020     job 73 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp73_des.cmd"
+>>>>>>>>>> job '73' status changed from 'running' to 'done'
+15:34:16 Nov 01 2020 +++ job 73 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 6 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '6' status changed from 'pending' to 'running'
+15:34:17 Nov 01 2020     job 6 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp6_des.cmd"
+>>>>>>>>>> job '6' status changed from 'running' to 'done'
+15:36:00 Nov 01 2020 +++ job 6 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 74 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '74' status changed from 'pending' to 'running'
+15:36:01 Nov 01 2020     job 74 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp74_des.cmd"
+>>>>>>>>>> job '74' status changed from 'running' to 'done'
+15:36:13 Nov 01 2020 +++ job 74 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 26 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '26' status changed from 'pending' to 'running'
+15:36:14 Nov 01 2020     job 26 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp26_des.cmd"
+>>>>>>>>>> job '26' status changed from 'running' to 'done'
+15:37:06 Nov 01 2020 +++ job 26 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 75 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '75' status changed from 'pending' to 'running'
+15:37:07 Nov 01 2020     job 75 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp75_des.cmd"
+>>>>>>>>>> job '75' status changed from 'running' to 'done'
+15:37:44 Nov 01 2020 +++ job 75 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 38 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '38' status changed from 'pending' to 'running'
+15:37:46 Nov 01 2020     job 38 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp38_des.cmd"
+>>>>>>>>>> job '38' status changed from 'running' to 'done'
+15:38:50 Nov 01 2020 +++ job 38 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 76 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '76' status changed from 'pending' to 'running'
+15:38:51 Nov 01 2020     job 76 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp76_des.cmd"
+>>>>>>>>>> job '76' status changed from 'running' to 'done'
+15:39:30 Nov 01 2020 +++ job 76 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 12 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '12' status changed from 'pending' to 'running'
+15:39:31 Nov 01 2020     job 12 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp12_des.cmd"
+>>>>>>>>>> job '12' status changed from 'running' to 'done'
+15:41:16 Nov 01 2020 +++ job 12 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 77 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '77' status changed from 'pending' to 'running'
+15:41:17 Nov 01 2020     job 77 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp77_des.cmd"
+>>>>>>>>>> job '77' status changed from 'running' to 'done'
+15:41:31 Nov 01 2020 +++ job 77 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 30 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '30' status changed from 'pending' to 'running'
+15:41:32 Nov 01 2020     job 30 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp30_des.cmd"
+>>>>>>>>>> job '30' status changed from 'running' to 'done'
+15:42:33 Nov 01 2020 +++ job 30 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 78 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '78' status changed from 'pending' to 'running'
+15:42:34 Nov 01 2020     job 78 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp78_des.cmd"
+>>>>>>>>>> job '78' status changed from 'running' to 'done'
+15:43:15 Nov 01 2020 +++ job 78 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 42 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '42' status changed from 'pending' to 'running'
+15:43:16 Nov 01 2020     job 42 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp42_des.cmd"
+>>>>>>>>>> job '42' status changed from 'running' to 'done'
+15:44:20 Nov 01 2020 +++ job 42 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 79 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '79' status changed from 'pending' to 'running'
+15:44:21 Nov 01 2020     job 79 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp79_des.cmd"
+>>>>>>>>>> job '79' status changed from 'running' to 'done'
+15:45:00 Nov 01 2020 +++ job 79 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 16 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '16' status changed from 'pending' to 'running'
+15:45:01 Nov 01 2020     job 16 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp16_des.cmd"
+>>>>>>>>>> job '16' status changed from 'running' to 'done'
+15:47:21 Nov 01 2020 +++ job 16 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 80 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '80' status changed from 'pending' to 'running'
+15:47:22 Nov 01 2020     job 80 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp80_des.cmd"
+>>>>>>>>>> job '80' status changed from 'running' to 'done'
+15:47:33 Nov 01 2020 +++ job 80 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 34 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '34' status changed from 'pending' to 'running'
+15:47:34 Nov 01 2020     job 34 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp34_des.cmd"
+>>>>>>>>>> job '34' status changed from 'running' to 'done'
+15:48:23 Nov 01 2020 +++ job 34 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 81 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '81' status changed from 'pending' to 'running'
+15:48:24 Nov 01 2020     job 81 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp81_des.cmd"
+>>>>>>>>>> job '81' status changed from 'running' to 'done'
+15:48:59 Nov 01 2020 +++ job 81 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 46 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '46' status changed from 'pending' to 'running'
+15:49:00 Nov 01 2020     job 46 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp46_des.cmd"
+>>>>>>>>>> job '46' status changed from 'running' to 'done'
+15:49:55 Nov 01 2020 +++ job 46 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 82 -swb_pid 3325 -gsub_pid 6791 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45567  "/home/student/Documents/ECE4225/EXP6/task1""
+>>>>>>>>>> job '82' status changed from 'pending' to 'running'
+15:49:56 Nov 01 2020     job 82 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp82_des.cmd"
+>>>>>>>>>> job '82' status changed from 'running' to 'done'
+15:50:36 Nov 01 2020 +++ job 82 <sdevice> done: exit(0)
+
+SCHEDULING REPORT
++++ done     : 3 65 24 66 36 67 10 68 28 69 40 70 14 71 32 72 44 73 6 74 26 75 38 76 12 77 30 78 42 79 16 80 34 81 46 82
+
+15:50:38 Nov 01 2020 <task1> done (1971 sec)
+>>>>>> Writing to status file 1971
+gsub exits with status 0

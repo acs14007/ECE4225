@@ -1,0 +1,98 @@
+# Copyright (C) 1994-2017 Synopsys Inc.
+# swbtree vcurrent, Sun Nov  1 16:47:07 2020
+
+# --- simulation flow
+sprocess sprocess "" {}
+sprocess sub_doping "0.02e15" {0.02e15 0.02e16}
+sprocess energy "10" {10 12 30}
+sprocess dose "1e12" {1e12 1e14 1e16}
+sdevice sdevice "" {}
+sdevice vbias "-1" {-1 1}
+# --- variables
+# --- scenarios and parameter specs
+scenario default sub_doping ""
+scenario default energy ""
+scenario default dose ""
+scenario default vbias ""
+# --- simulation tree
+0 4 0 {} {default} 0
+1 7 4 {0.02e15} {default} 0
+2 17 7 {10} {default} 0
+3 2 17 {1e12} {default} 0
+4 47 2 {} {default} 0
+5 3 47 {-1} {default} 0
+5 65 47 {1} {default} 0
+3 23 17 {1e14} {default} 0
+4 48 23 {} {default} 0
+5 24 48 {-1} {default} 0
+5 66 48 {1} {default} 0
+3 35 17 {1e16} {default} 0
+4 49 35 {} {default} 0
+5 36 49 {-1} {default} 0
+5 67 49 {1} {default} 0
+2 18 7 {12} {default} 0
+3 9 18 {1e12} {default} 0
+4 50 9 {} {default} 0
+5 10 50 {-1} {default} 0
+5 68 50 {1} {default} 0
+3 27 18 {1e14} {default} 0
+4 51 27 {} {default} 0
+5 28 51 {-1} {default} 0
+5 69 51 {1} {default} 0
+3 39 18 {1e16} {default} 0
+4 52 39 {} {default} 0
+5 40 52 {-1} {default} 0
+5 70 52 {1} {default} 0
+2 19 7 {30} {default} 0
+3 13 19 {1e12} {default} 0
+4 53 13 {} {default} 0
+5 14 53 {-1} {default} 0
+5 71 53 {1} {default} 0
+3 31 19 {1e14} {default} 0
+4 54 31 {} {default} 0
+5 32 54 {-1} {default} 0
+5 72 54 {1} {default} 0
+3 43 19 {1e16} {default} 0
+4 55 43 {} {default} 0
+5 44 55 {-1} {default} 0
+5 73 55 {1} {default} 0
+1 8 4 {0.02e16} {default} 0
+2 20 8 {10} {default} 0
+3 5 20 {1e12} {default} 0
+4 56 5 {} {default} 0
+5 6 56 {-1} {default} 0
+5 74 56 {1} {default} 0
+3 25 20 {1e14} {default} 0
+4 57 25 {} {default} 0
+5 26 57 {-1} {default} 0
+5 75 57 {1} {default} 0
+3 37 20 {1e16} {default} 0
+4 58 37 {} {default} 0
+5 38 58 {-1} {default} 0
+5 76 58 {1} {default} 0
+2 21 8 {12} {default} 0
+3 11 21 {1e12} {default} 0
+4 59 11 {} {default} 0
+5 12 59 {-1} {default} 0
+5 77 59 {1} {default} 0
+3 29 21 {1e14} {default} 0
+4 60 29 {} {default} 0
+5 30 60 {-1} {default} 0
+5 78 60 {1} {default} 0
+3 41 21 {1e16} {default} 0
+4 61 41 {} {default} 0
+5 42 61 {-1} {default} 0
+5 79 61 {1} {default} 0
+2 22 8 {30} {default} 0
+3 15 22 {1e12} {default} 0
+4 62 15 {} {default} 0
+5 16 62 {-1} {default} 0
+5 80 62 {1} {default} 0
+3 33 22 {1e14} {default} 0
+4 63 33 {} {default} 0
+5 34 63 {-1} {default} 0
+5 81 63 {1} {default} 0
+3 45 22 {1e16} {default} 0
+4 64 45 {} {default} 0
+5 46 64 {-1} {default} 0
+5 82 64 {1} {default} 0

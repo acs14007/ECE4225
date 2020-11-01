@@ -1,0 +1,459 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 01, 2020. 16:23:14.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/ECE4225/EXP6/task1/n3_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> n3_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n6_des.plt
+#-> n6_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n10_des.plt
+#-> n10_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n12_des.plt
+#-> n12_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n14_des.plt
+#-> n14_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n16_des.plt
+#-> n16_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n24_des.plt
+#-> n24_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n26_des.plt
+#-> n26_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n28_des.plt
+#-> n28_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n30_des.plt
+#-> n30_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n32_des.plt
+#-> n32_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n34_des.plt
+#-> n34_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n36_des.plt
+#-> n36_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n38_des.plt
+#-> n38_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n40_des.plt
+#-> n40_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n42_des.plt
+#-> n42_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n44_des.plt
+#-> n44_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n46_des.plt
+#-> n46_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n65_des.plt
+#-> n65_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n66_des.plt
+#-> n66_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n67_des.plt
+#-> n67_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n68_des.plt
+#-> n68_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n69_des.plt
+#-> n69_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n70_des.plt
+#-> n70_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n71_des.plt
+#-> n71_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n72_des.plt
+#-> n72_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n73_des.plt
+#-> n73_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n74_des.plt
+#-> n74_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n75_des.plt
+#-> n75_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n76_des.plt
+#-> n76_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n77_des.plt
+#-> n77_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n78_des.plt
+#-> n78_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n79_des.plt
+#-> n79_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n80_des.plt
+#-> n80_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n81_des.plt
+#-> n81_des
+load_file /home/student/Documents/ECE4225/EXP6/task1/n82_des.plt
+#-> n82_des
+create_curve -plot Plot_1 -dataset {n3_des} -axisX {bottom OuterVoltage} -axisY {bottom TotalCurrent}
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {n3_des} -axisX {bottom InnerVoltage} -axisY {bottom TotalCurrent}
+#-> Curve_2
+remove_curves -plot Plot_1 {Curve_2 Curve_1}
+#-> Curve_2 Curve_1
+create_curve -plot Plot_1 -dataset {n3_des} -axisX time -axisY {bottom TotalCurrent}
+#-> Curve_1
+remove_curves -plot Plot_1 {Curve_1}
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {n3_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_1
+remove_curves -plot Plot_1 {Curve_1}
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {n3_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {n24_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_2
+create_curve -plot Plot_1 -dataset {n36_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_3
+create_curve -plot Plot_1 -dataset {n10_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_4
+create_curve -plot Plot_1 -dataset {n28_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_5
+create_curve -plot Plot_1 -dataset {n40_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_6
+create_curve -plot Plot_1 -dataset {n14_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_7
+create_curve -plot Plot_1 -dataset {n32_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_8
+create_curve -plot Plot_1 -dataset {n44_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_9
+create_curve -plot Plot_1 -dataset {n6_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_10
+create_curve -plot Plot_1 -dataset {n26_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_11
+create_curve -plot Plot_1 -dataset {n38_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_12
+create_curve -plot Plot_1 -dataset {n12_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_13
+create_curve -plot Plot_1 -dataset {n30_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_14
+create_curve -plot Plot_1 -dataset {n42_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_15
+create_curve -plot Plot_1 -dataset {n16_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_16
+create_curve -plot Plot_1 -dataset {n34_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_17
+create_curve -plot Plot_1 -dataset {n46_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_18
+move_plot -plot Plot_1 -position {0 0}
+#-> 0
+set_legend_prop -plot Plot_1 -position {0.66366 0.79542}
+#-> 0
+set_legend_prop -plot Plot_1 -position {20 20}
+#!-> Error: set_legend_prop: Validation failed for parameter 'position' of scope 'set_legend_prop' during constraint_check: value must be in the range [0,1], but value = 20.
+move_plot -plot Plot_1 -position {0 0}
+#-> 0
+set_plot_prop -plot {Plot_1} -hide_legend
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -type log
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -type linear
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+set_plot_prop -plot {Plot_1} -title Plot_1
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.36064
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.8
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+set_plot_prop -plot {Plot_1} -title "Forward Bias Current vs. Voltage"
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -title "Current (-A)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title "Voltage (V)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title "Voltage (-V)"
+#-> 0
+set_plot_prop -plot {Plot_1} -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+export_view /home/student/Documents/ECE4225/EXP6/task1/forward.png -plots {Plot_1} -format png -resolution 1600x1600
+#-> 0
+set_plot_prop -plot {Plot_1} -title_font_family arial -title_font_size 40 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -title_font_family arial -title_font_size 40 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title_font_family arial -title_font_size 40 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title_font_family arial -title_font_size 40 -title_font_color #000000 -title_font_att normal
+#-> 0
+export_view /home/student/Documents/ECE4225/EXP6/task1/forward.png -plots {Plot_1} -format png -resolution 1600x1600 -overwrite
+#-> 0
+remove_curves -plot Plot_1 {Curve_1 Curve_2 Curve_3 Curve_4 Curve_5 Curve_6 Curve_7 Curve_8 Curve_9 Curve_10 Curve_11 Curve_12 Curve_13 Curve_14 Curve_15 Curve_16 Curve_17 Curve_18}
+#-> Curve_1 Curve_2 Curve_3 Curve_4 Curve_5 Curve_6 Curve_7 Curve_8 Curve_9 Curve_10 Curve_11 Curve_12 Curve_13 Curve_14 Curve_15 Curve_16 Curve_17 Curve_18
+create_curve -plot Plot_1 -dataset {n65_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {n66_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_2
+create_curve -plot Plot_1 -dataset {n67_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_3
+create_curve -plot Plot_1 -dataset {n68_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_4
+create_curve -plot Plot_1 -dataset {n69_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_5
+create_curve -plot Plot_1 -dataset {n70_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_6
+create_curve -plot Plot_1 -dataset {n71_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_7
+create_curve -plot Plot_1 -dataset {n72_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_8
+create_curve -plot Plot_1 -dataset {n73_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_9
+create_curve -plot Plot_1 -dataset {n74_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_10
+create_curve -plot Plot_1 -dataset {n75_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_11
+create_curve -plot Plot_1 -dataset {n76_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_12
+create_curve -plot Plot_1 -dataset {n77_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_13
+create_curve -plot Plot_1 -dataset {n78_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_14
+create_curve -plot Plot_1 -dataset {n79_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_15
+create_curve -plot Plot_1 -dataset {n80_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_16
+create_curve -plot Plot_1 -dataset {n81_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_17
+create_curve -plot Plot_1 -dataset {n82_des} -axisX {top OuterVoltage} -axisY {top TotalCurrent}
+#-> Curve_18
+set_plot_prop -plot {Plot_1} -title "Reverse Bias Current vs. Voltage"
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+export_view /home/student/Documents/ECE4225/EXP6/task1/reverse.png -plots {Plot_1} -format png -resolution 1600x1600
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 0.9
+move_plot -plot Plot_1 -position {0 0}
+#-> 0
+move_plot -plot Plot_1 -position {0.313882 -2.10926e-15}
+#-> 0
+move_plot -plot Plot_1 -position {0.0535026 -3.79667e-14}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+move_plot -plot Plot_1 -position {0.00658444 6.68923e-15}
+#-> 0
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 0.9
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+move_plot -plot Plot_1 -position {0.00136743 3.16543e-15}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+move_plot -plot Plot_1 -position {0.000826009 -1.72693e-16}
+#-> 0
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+zoom_plot -plot Plot_1 -factor 1.1
+exit 0
+ 
