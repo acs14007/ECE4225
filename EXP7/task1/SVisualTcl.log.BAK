@@ -1,0 +1,23 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 06, 2020. 19:50:10.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/ECE4225/EXP7/task1/n2_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> n2_des
+create_curve -plot Plot_1 -dataset {n2_des} -axisX {anode OuterVoltage} -axisY {anode TotalCurrent}
+#-> Curve_1
+exit 0
+ 

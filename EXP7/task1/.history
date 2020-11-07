@@ -1,0 +1,114 @@
+15:54:45 Nov 06 2020 <task1> submitted to the batch system
+15:54:45 Nov 06 2020 <task1> failed: nok
+15:55:08 Nov 06 2020 <task1> submitted to the batch system
+15:55:08 Nov 06 2020 <task1> failed: nok
+15:56:07 Nov 06 2020 <task1> submitted to the batch system
+15:56:08 Nov 06 2020 <task1> failed: nok
+16:00:16 Nov 06 2020 <task1> submitted to the batch system
+16:00:16 Nov 06 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+16:00:24 Nov 06 2020 --- job 1 <sprocess> exited abnormally: exit()
+16:00:26 Nov 06 2020 <task1> failed
+16:01:08 Nov 06 2020 <task1> submitted to the batch system
+16:01:09 Nov 06 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+16:02:31 Nov 06 2020 +++ job 1 <sprocess> done: exit(0)
+16:02:33 Nov 06 2020 <task1> done (85 sec)
+16:05:27 Nov 06 2020 <task1> submitted to the batch system
+16:05:28 Nov 06 2020     job 2 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp2_des.cmd"
+16:05:31 Nov 06 2020 --- job 2 <sdevice> exited abnormally: exit()
+16:05:32 Nov 06 2020     job 6 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp6_des.cmd"
+16:05:35 Nov 06 2020 --- job 6 <sdevice> exited abnormally: exit()
+16:05:36 Nov 06 2020     job 7 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp7_des.cmd"
+16:05:39 Nov 06 2020 --- job 7 <sdevice> exited abnormally: exit()
+16:05:41 Nov 06 2020 <task1> failed
+16:06:53 Nov 06 2020 <task1> submitted to the batch system
+16:06:53 Nov 06 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+16:08:18 Nov 06 2020 +++ job 1 <sprocess> done: exit(0)
+16:08:20 Nov 06 2020 <task1> done (87 sec)
+16:08:35 Nov 06 2020 <task1> submitted to the batch system
+16:08:36 Nov 06 2020     job 2 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp2_des.cmd"
+16:08:39 Nov 06 2020 --- job 2 <sdevice> exited abnormally: exit()
+16:08:41 Nov 06 2020 <task1> failed
+16:11:42 Nov 06 2020 <task1> submitted to the batch system
+16:11:42 Nov 06 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+16:13:02 Nov 06 2020 +++ job 1 <sprocess> done: exit(0)
+16:13:06 Nov 06 2020 <task1> done (84 sec)
+16:13:11 Nov 06 2020 <task1> submitted to the batch system
+16:13:11 Nov 06 2020     job 6 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp6_des.cmd"
+16:13:14 Nov 06 2020 --- job 6 <sdevice> exited abnormally: exit()
+16:13:16 Nov 06 2020 <task1> failed
+16:14:24 Nov 06 2020 <task1> submitted to the batch system
+16:14:25 Nov 06 2020     job 6 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp6_des.cmd"
+16:14:28 Nov 06 2020 --- job 6 <sdevice> exited abnormally: exit()
+16:14:30 Nov 06 2020 <task1> failed
+16:23:07 Nov 06 2020 <task1> submitted to the batch system
+16:23:08 Nov 06 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+16:24:31 Nov 06 2020 +++ job 1 <sprocess> done: exit(0)
+16:24:33 Nov 06 2020 <task1> done (86 sec)
+16:24:39 Nov 06 2020 <task1> submitted to the batch system
+16:24:39 Nov 06 2020     job 2 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp2_des.cmd"
+16:24:42 Nov 06 2020 --- job 2 <sdevice> exited abnormally: exit()
+16:24:43 Nov 06 2020     job 6 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp6_des.cmd"
+16:24:45 Nov 06 2020 --- job 6 <sdevice> exited abnormally: exit()
+16:24:46 Nov 06 2020     job 7 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp7_des.cmd"
+16:24:48 Nov 06 2020 --- job 7 <sdevice> exited abnormally: exit()
+16:24:50 Nov 06 2020 <task1> failed
+16:25:42 Nov 06 2020 <task1> submitted to the batch system
+16:25:42 Nov 06 2020     job 2 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp2_des.cmd"
+16:25:45 Nov 06 2020 --- job 2 <sdevice> exited abnormally: exit()
+16:25:48 Nov 06 2020 <task1> failed
+16:29:01 Nov 06 2020 <task1> submitted to the batch system
+16:29:02 Nov 06 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+16:30:24 Nov 06 2020 +++ job 1 <sprocess> done: exit(0)
+16:30:27 Nov 06 2020 <task1> done (86 sec)
+16:30:35 Nov 06 2020 <task1> submitted to the batch system
+16:30:36 Nov 06 2020     job 2 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp2_des.cmd"
+16:30:39 Nov 06 2020 --- job 2 <sdevice> exited abnormally: exit()
+16:30:41 Nov 06 2020 <task1> failed
+16:31:16 Nov 06 2020 <task1> submitted to the batch system
+16:31:17 Nov 06 2020     job 2 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp2_des.cmd"
+16:31:20 Nov 06 2020 --- job 2 <sdevice> exited abnormally: exit()
+16:31:22 Nov 06 2020 <task1> failed
+16:32:35 Nov 06 2020 <task1> submitted to the batch system
+16:32:36 Nov 06 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+16:34:03 Nov 06 2020 +++ job 1 <sprocess> done: exit(0)
+16:34:06 Nov 06 2020 <task1> done (91 sec)
+16:35:36 Nov 06 2020 <task1> submitted to the batch system
+16:35:37 Nov 06 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+16:37:04 Nov 06 2020 +++ job 1 <sprocess> done: exit(0)
+16:37:05 Nov 06 2020     job 2 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp2_des.cmd"
+16:37:08 Nov 06 2020 --- job 2 <sdevice> exited abnormally: exit()
+16:37:09 Nov 06 2020     job 6 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp6_des.cmd"
+16:37:12 Nov 06 2020 --- job 6 <sdevice> exited abnormally: exit()
+16:37:13 Nov 06 2020     job 7 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp7_des.cmd"
+16:37:16 Nov 06 2020 --- job 7 <sdevice> exited abnormally: exit()
+16:37:19 Nov 06 2020 <task1> failed
+16:40:34 Nov 06 2020 <task1> submitted to the batch system
+16:40:35 Nov 06 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+16:42:02 Nov 06 2020 +++ job 1 <sprocess> done: exit(0)
+16:42:04 Nov 06 2020     job 2 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp2_des.cmd"
+16:42:07 Nov 06 2020 --- job 2 <sdevice> exited abnormally: exit()
+16:42:08 Nov 06 2020     job 6 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp6_des.cmd"
+16:42:11 Nov 06 2020 --- job 6 <sdevice> exited abnormally: exit()
+16:42:12 Nov 06 2020     job 7 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp7_des.cmd"
+16:42:15 Nov 06 2020 --- job 7 <sdevice> exited abnormally: exit()
+16:42:17 Nov 06 2020 <task1> failed
+16:44:20 Nov 06 2020 <task1> submitted to the batch system
+16:44:21 Nov 06 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+16:45:46 Nov 06 2020 +++ job 1 <sprocess> done: exit(0)
+16:45:48 Nov 06 2020     job 2 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp2_des.cmd"
+16:45:51 Nov 06 2020 --- job 2 <sdevice> exited abnormally: exit()
+16:45:52 Nov 06 2020     job 6 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp6_des.cmd"
+16:45:55 Nov 06 2020 --- job 6 <sdevice> exited abnormally: exit()
+16:45:56 Nov 06 2020     job 7 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp7_des.cmd"
+16:45:59 Nov 06 2020 --- job 7 <sdevice> exited abnormally: exit()
+16:46:01 Nov 06 2020 <task1> failed
+16:48:33 Nov 06 2020 <task1> submitted to the batch system
+16:48:34 Nov 06 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+16:49:59 Nov 06 2020 +++ job 1 <sprocess> done: exit(0)
+16:50:01 Nov 06 2020     job 2 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp2_des.cmd"
+17:03:20 Nov 06 2020 +++ job 2 <sdevice> done: exit(0)
+17:03:21 Nov 06 2020     job 6 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp6_des.cmd"
+17:08:01 Nov 06 2020 --- job 6 <sdevice> exited abnormally: exit()
+17:08:02 Nov 06 2020     job 7 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp7_des.cmd"
+17:29:23 Nov 06 2020 +++ job 7 <sdevice> done: exit(0)
+17:29:25 Nov 06 2020 <task1> failed

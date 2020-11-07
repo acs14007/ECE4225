@@ -1,0 +1,67 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 06, 2020. 22:48:02.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/ECE4225/EXP7/task1/IaVa_n2_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> IaVa_n2_des
+load_file /home/student/Documents/ECE4225/EXP7/task1/IaVa_n6_des.plt
+#-> IaVa_n6_des
+load_file /home/student/Documents/ECE4225/EXP7/task1/IaVa_n7_des.plt
+#-> IaVa_n7_des
+create_curve -plot Plot_1 -dataset {IaVa_n2_des} -axisX {anode OuterVoltage} -axisY {anode TotalCurrent}
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {IaVa_n7_des} -axisX {anode OuterVoltage} -axisY {anode TotalCurrent}
+#-> Curve_2
+create_curve -plot Plot_1 -dataset {IaVa_n6_des} -axisX {anode OuterVoltage} -axisY {anode TotalCurrent}
+#-> Curve_3
+set_curve_prop -plot Plot_1 {Curve_1} -label "Anode Total Current(IaVa_n2_des)"
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_1} -label "Anode Total Current(-8V)"
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -label "Anode Total Current(0V)"
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_3} -label "Anode Total Current(+8V)"
+#-> 0
+set_plot_prop -plot {Plot_1} -title "Voltage vs. Current"
+#-> 0
+set_plot_prop -plot {Plot_1} -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title X
+#-> 0
+set_plot_prop -plot {Plot_1} -title "Anode Voltage vs. Current"
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title "Anode Voltage"
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -title "Anode Current"
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_1} -line_width 2
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_1} -line_width 3
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -line_width 2
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -line_width 3
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_3} -line_width 2
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_3} -line_width 3
+#-> 0
+export_view /home/student/Documents/ECE4225/EXP7/voltagevsCurrent.png -plots {Plot_1} -format png
+#-> 0

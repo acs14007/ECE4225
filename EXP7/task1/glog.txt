@@ -1,0 +1,146 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version O-2018.06                           ***
+***                       (1.1029, x86_64, Linux)                        ***
+***                                                                      ***
+***                Copyright (c) 1994-2018 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'acs14007.4225.cse.uconn.edu' by user 'student'
+Binary '/usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/bin/../lib/gsub0'
+Command line options '-verbose -swb_pid 28149 -q local:default -e 1 /home/student/Documents/ECE4225/EXP7/task1'
+Current directory '/home/student/Documents/ECE4225/EXP7'
+Some relevant environment variables:
+	STROOT=/usr/synopsys/sentaurus/O_2018.06
+	STRELEASE=current
+	STROOT_LIB=/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib
+	STDB=/home/student/Documents/ECE4225/EXP7
+	DATEX=/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=:0
+
+Starting swblm daemon...OK
+Loading global tool database '/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/glib2/tooldb.tcl'
+Project '/home/student/Documents/ECE4225/EXP7/task1'
+Loading project tree '/home/student/Documents/ECE4225/EXP7/task1/gtree.dat'
+16:48:33 Nov 06 2020 <task1> submitted to the batch system
+Loading global queue configuration file '/usr/synopsys/sentaurus/O_2018.06/queues/gqueues.dat'...ok
+Loading project tree '/home/student/Documents/ECE4225/EXP7/task1/gtree.dat'
+>>>>> Preprocessing the project to run in normal mode
+Loading jobs and dependence graph '"/home/student/Documents/ECE4225/EXP7/task1/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/student/Documents/ECE4225/EXP7/task1/gtree.dat'
+Loading project variables '/home/student/Documents/ECE4225/EXP7/task1/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/student/Documents/ECE4225/EXP7/task1/sprocess_fps.cmd
+Reading file /home/student/Documents/ECE4225/EXP7/task1/sdevice_des.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /home/student/Documents/ECE4225/EXP7/task1/sprocess_fps.cmd fornode 1
++++Node successfully preprocessed+++
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/home/student/Documents/ECE4225/EXP7/task1/gexec.cmd"'
+>>>>>>>>>> job '1' status changed from 'done' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 1
+-----------------------------------------------------------------
+>>>>> cleaning the index file from previous simulations 
+                       /home/student/Documents/ECE4225/EXP7/task1/.gindex
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '1' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP7/task1/n1_fps.job
+local% submit job 1 for local execution
+>>>>>>>>>> job '1' status changed from 'ready' to 'pending'
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 1 -swb_pid 28149 -gsub_pid 3148 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45293  "/home/student/Documents/ECE4225/EXP7/task1""
+>>>>>>>>>> job '1' status changed from 'pending' to 'running'
+16:48:34 Nov 06 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+Loading project tree '/home/student/Documents/ECE4225/EXP7/task1/gtree.dat'
+Loading jobs and dependence graph '"/home/student/Documents/ECE4225/EXP7/task1/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/student/Documents/ECE4225/EXP7/task1/gtree.dat'
+Loading project variables '/home/student/Documents/ECE4225/EXP7/task1/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/student/Documents/ECE4225/EXP7/task1/sprocess_fps.cmd
+Reading file /home/student/Documents/ECE4225/EXP7/task1/sdevice_des.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /home/student/Documents/ECE4225/EXP7/task1/sdevice_des.cmd fornode 2
+'@tdr@' creates dependences with the node(s) '1'
++++Node successfully preprocessed+++
+The node '2' has dependencies to the node(s) '1'
+Preprocessing file /home/student/Documents/ECE4225/EXP7/task1/sdevice_des.cmd fornode 6
+'@tdr@' creates dependences with the node(s) '1'
++++Node successfully preprocessed+++
+The node '6' has dependencies to the node(s) '1'
+Preprocessing file /home/student/Documents/ECE4225/EXP7/task1/sdevice_des.cmd fornode 7
+'@tdr@' creates dependences with the node(s) '1'
++++Node successfully preprocessed+++
+The node '7' has dependencies to the node(s) '1'
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/home/student/Documents/ECE4225/EXP7/task1/gexec.cmd"'
+>>>>>>>>>> job '2' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '6' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '7' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '1' status changed from 'running' to 'done'
+16:49:59 Nov 06 2020 +++ job 1 <sprocess> done: exit(0)
+>>>>>>>>>> job '2' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP7/task1/n2_des.job
+local% submit job 2 for local execution
+>>>>>>>>>> job '2' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '6' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP7/task1/n6_des.job
+local% submit job 6 for local execution
+>>>>>>>>>> job '6' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '7' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP7/task1/n7_des.job
+local% submit job 7 for local execution
+>>>>>>>>>> job '7' status changed from 'ready' to 'pending'
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 2 -swb_pid 28149 -gsub_pid 3148 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45293  "/home/student/Documents/ECE4225/EXP7/task1""
+>>>>>>>>>> job '2' status changed from 'pending' to 'running'
+16:50:01 Nov 06 2020     job 2 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp2_des.cmd"
+>>>>>>>>>> job '2' status changed from 'running' to 'done'
+17:03:20 Nov 06 2020 +++ job 2 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 6 -swb_pid 28149 -gsub_pid 3148 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45293  "/home/student/Documents/ECE4225/EXP7/task1""
+>>>>>>>>>> job '6' status changed from 'pending' to 'running'
+17:03:21 Nov 06 2020     job 6 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp6_des.cmd"
+>>>>>>>>>> job '6' status changed from 'running' to 'failed'
+17:08:01 Nov 06 2020 --- job 6 <sdevice> exited abnormally: exit()
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 7 -swb_pid 28149 -gsub_pid 3148 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 45293  "/home/student/Documents/ECE4225/EXP7/task1""
+>>>>>>>>>> job '7' status changed from 'pending' to 'running'
+17:08:02 Nov 06 2020     job 7 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp7_des.cmd"
+>>>>>>>>>> job '7' status changed from 'running' to 'done'
+17:29:23 Nov 06 2020 +++ job 7 <sdevice> done: exit(0)
+
+SCHEDULING REPORT
++++ done     : 1 2 7
+--- failed   : 6
+
+17:29:25 Nov 06 2020 <task1> failed
+>>>>>> Writing to status file 2452

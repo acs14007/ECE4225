@@ -1,0 +1,22 @@
+# Copyright (C) 1994-2017 Synopsys Inc.
+# swbtree vcurrent, Fri Nov  6 16:05:25 2020
+
+# --- simulation flow
+sprocess sprocess "" {}
+sprocess energy "10" {10}
+sprocess dose "1e12" {1e12}
+sdevice sdevice "" {}
+sdevice Vg "-8" {-8 0 8}
+# --- variables
+# --- scenarios and parameter specs
+scenario default energy ""
+scenario default dose ""
+scenario default Vg ""
+# --- simulation tree
+0 3 0 {} {default} 0
+1 4 3 {10} {default} 0
+2 1 4 {1e12} {default} 0
+3 5 1 {} {default} 0
+4 2 5 {-8} {default} 0
+4 6 5 {0} {default} 0
+4 7 5 {8} {default} 0

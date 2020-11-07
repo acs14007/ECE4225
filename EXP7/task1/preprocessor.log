@@ -1,0 +1,84 @@
+
+****************************************************************************
+***                       Sentaurus Workbench spp                        ***
+***                          Version O-2018.06                           ***
+***                       (1.1029, x86_64, Linux)                        ***
+***                                                                      ***
+***                Copyright (c) 1994-2018 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+spp is running on host 'acs14007.4225.cse.uconn.edu' by user 'student'
+Binary: '/usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/bin/../lib/spp0'
+Command line options: '-verbose -i -e sprocess /home/student/Documents/ECE4225/EXP7/task1'
+Some relevant environment variables:
+	STROOT=/usr/synopsys/sentaurus/O_2018.06
+	STRELEASE=current
+	STROOT_LIB=/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib
+	STDB=/home/student/Documents/ECE4225/EXP7
+	DATEX=/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=:0
+
+Preprocessing project '/home/student/Documents/ECE4225/EXP7/task1'
+Loading global tool database '/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/glib2/tooldb.tcl'
+spp will run in Global-per-node mode
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/student/Documents/ECE4225/EXP7/task1/gtree.dat'
+Loading project variables '/home/student/Documents/ECE4225/EXP7/task1/gvars.dat'
+--Get files to preprocess...
+  -->/home/student/Documents/ECE4225/EXP7/task1/sprocess_fps.cmd
+  -->/home/student/Documents/ECE4225/EXP7/task1/sdevice_des.cmd
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/student/Documents/ECE4225/EXP7/task1/sprocess_fps.cmd
+Reading file /home/student/Documents/ECE4225/EXP7/task1/sdevice_des.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /home/student/Documents/ECE4225/EXP7/task1/sprocess_fps.cmd fornode 1
+  -Parameter substitution: '@energy@' has been replaced by '10'
+
+  -Parameter substitution: '@dose@' has been replaced by '1e12'
+
+  -Parameter substitution: '@node@' has been replaced by '1'
+
+  -Parameter substitution: '@node@' has been replaced by '1'
+
++++Preprocessed file written to /home/student/Documents/ECE4225/EXP7/task1/pp1_fps.cmd
+  -Parameter substitution: '@commands@' has been replaced by 'pp1_fps.cmd'
+
+  -Parameter substitution: '@node@' has been replaced by '1'
+
+  -Parameter substitution: '@pwd@' has been replaced by '/home/student/Documents/ECE4225/EXP7/task1'
+
+  -Parameter substitution: '@node@' has been replaced by '1'
+
+cmd_line:-u -b n1_fps.cmd
+  -Parameter substitution: '@stdout@' has been replaced by 'n1_fps.out'
+
+  -Parameter substitution: '@node@' has been replaced by '1'
+
+  -Parameter substitution: '@node@' has been replaced by '1'
+
+  -Parameter substitution: '@node@' has been replaced by '1'
+
+  -Parameter substitution: '@node@' has been replaced by '1'
+
+  -Parameter substitution: '@node@' has been replaced by '1'
+
+post_tcl_cmd:  extract_vars "$wdir" n1_fps.out 1; catch {os_cp "$wdir/n1_mdr.cmd" "$wdir/n1_msh.cmd"}; catch {os_cp "$wdir/n1_mdr.bnd" "$wdir/n1_msh.bnd"} 
+Writing 'gexec.cmd'
+saving variables
+PREPROCESSING FINISHED, Fri Nov  6 16:48:17 2020
+STATUS: Ok
+Processing time = 0 s
+
