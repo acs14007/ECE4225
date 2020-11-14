@@ -1,0 +1,107 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 13, 2020. 22:44:12.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/ECE4225/EXP8/exp8/IaVa_n29_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> IaVa_n29_des
+load_file /home/student/Documents/ECE4225/EXP8/exp8/IaVa_n53_des.plt
+#-> IaVa_n53_des
+load_file /home/student/Documents/ECE4225/EXP8/exp8/IaVa_n65_des.plt
+#-> IaVa_n65_des
+load_file /home/student/Documents/ECE4225/EXP8/exp8/IaVa_n77_des.plt
+#-> IaVa_n77_des
+load_file /home/student/Documents/ECE4225/EXP8/exp8/n29_des.plt
+#-> n29_des
+load_file /home/student/Documents/ECE4225/EXP8/exp8/n29_des.tdr
+create_plot -dataset n29_des_2
+select_plots {Plot_n29_des_2}
+#-> Plot_n29_des_2
+#-> Plot_n29_des_2
+#-> n29_des_2
+load_file /home/student/Documents/ECE4225/EXP8/exp8/n53_des.plt
+#-> n53_des
+load_file /home/student/Documents/ECE4225/EXP8/exp8/n53_des.tdr
+create_plot -dataset n53_des_2
+select_plots {Plot_n53_des_2}
+#-> Plot_n53_des_2
+#-> Plot_n53_des_2
+#-> n53_des_2
+load_file /home/student/Documents/ECE4225/EXP8/exp8/n65_des.plt
+#-> n65_des
+load_file /home/student/Documents/ECE4225/EXP8/exp8/n65_des.tdr
+create_plot -dataset n65_des_2
+select_plots {Plot_n65_des_2}
+#-> Plot_n65_des_2
+#-> Plot_n65_des_2
+#-> n65_des_2
+load_file /home/student/Documents/ECE4225/EXP8/exp8/n77_des.plt
+#-> n77_des
+load_file /home/student/Documents/ECE4225/EXP8/exp8/n77_des.tdr
+create_plot -dataset n77_des_2
+select_plots {Plot_n77_des_2}
+#-> Plot_n77_des_2
+#-> Plot_n77_des_2
+#-> n77_des_2
+select_plots {Plot_1}
+#-> Plot_1
+windows_style -style max
+#-> 0
+create_curve -plot Plot_1 -dataset {IaVa_n29_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {IaVa_n53_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_2
+create_curve -plot Plot_1 -dataset {IaVa_n65_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_3
+create_curve -plot Plot_1 -dataset {IaVa_n77_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_4
+set_axis_prop -plot Plot_1 -axis x -title "Distance (um)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title "Gate Voltage (V)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -title "Current (A)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title "Drain Voltage (V)"
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_4} -label "Vg = "
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_4} -label "Vg = 3V"
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_4} -line_width 2
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_3} -line_width 2
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_3} -label "Vg = 2V"
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -line_width 2
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_2} -label "Vg = 1V"
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_1} -label "Vg = 0V"
+#-> 0
+set_curve_prop -plot Plot_1 {Curve_1} -line_width 2
+#-> 0
+set_plot_prop -plot {Plot_1} -title "Current vs. Voltage for the MOSFET with highest "ON" current"
+#-> 0
+set_plot_prop -plot {Plot_1} -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+export_view /home/student/Documents/ECE4225/EXP8/exp8/partb.png -plots {Plot_1} -format png
+#-> 0
+exit 0
+ 

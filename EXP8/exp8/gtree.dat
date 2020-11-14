@@ -1,0 +1,92 @@
+# Copyright (C) 1994-2017 Synopsys Inc.
+# swbtree vcurrent, Fri Nov 13 22:34:00 2020
+
+# --- simulation flow
+sprocess sprocess "" {}
+sprocess dose "1e12" {1e12 1e13 1e14 1e15}
+sprocess energy "5" {5 10 15}
+sdevice sdevice "" {}
+sdevice Vg "0" {0 1 2 3}
+# --- variables
+# --- scenarios and parameter specs
+scenario default dose ""
+scenario default energy ""
+scenario default Vg ""
+# --- simulation tree
+0 3 0 {} {default} 0
+1 10 3 {1e12} {default} 0
+2 1 10 {5} {default} 0
+3 30 1 {} {default} 0
+4 2 30 {0} {default} 0
+4 42 30 {1} {default} 0
+4 54 30 {2} {default} 0
+4 66 30 {3} {default} 0
+2 14 10 {10} {default} 0
+3 31 14 {} {default} 0
+4 15 31 {0} {default} 0
+4 43 31 {1} {default} 0
+4 55 31 {2} {default} 0
+4 67 31 {3} {default} 0
+2 22 10 {15} {default} 0
+3 32 22 {} {default} 0
+4 23 32 {0} {default} 0
+4 44 32 {1} {default} 0
+4 56 32 {2} {default} 0
+4 68 32 {3} {default} 0
+1 11 3 {1e13} {default} 0
+2 4 11 {5} {default} 0
+3 33 4 {} {default} 0
+4 5 33 {0} {default} 0
+4 45 33 {1} {default} 0
+4 57 33 {2} {default} 0
+4 69 33 {3} {default} 0
+2 16 11 {10} {default} 0
+3 34 16 {} {default} 0
+4 17 34 {0} {default} 0
+4 46 34 {1} {default} 0
+4 58 34 {2} {default} 0
+4 70 34 {3} {default} 0
+2 24 11 {15} {default} 0
+3 35 24 {} {default} 0
+4 25 35 {0} {default} 0
+4 47 35 {1} {default} 0
+4 59 35 {2} {default} 0
+4 71 35 {3} {default} 0
+1 12 3 {1e14} {default} 0
+2 6 12 {5} {default} 0
+3 36 6 {} {default} 0
+4 7 36 {0} {default} 0
+4 48 36 {1} {default} 0
+4 60 36 {2} {default} 0
+4 72 36 {3} {default} 0
+2 18 12 {10} {default} 0
+3 37 18 {} {default} 0
+4 19 37 {0} {default} 0
+4 49 37 {1} {default} 0
+4 61 37 {2} {default} 0
+4 73 37 {3} {default} 0
+2 26 12 {15} {default} 0
+3 38 26 {} {default} 0
+4 27 38 {0} {default} 0
+4 50 38 {1} {default} 0
+4 62 38 {2} {default} 0
+4 74 38 {3} {default} 0
+1 13 3 {1e15} {default} 0
+2 8 13 {5} {default} 0
+3 39 8 {} {default} 0
+4 9 39 {0} {default} 0
+4 51 39 {1} {default} 0
+4 63 39 {2} {default} 0
+4 75 39 {3} {default} 0
+2 20 13 {10} {default} 0
+3 40 20 {} {default} 0
+4 21 40 {0} {default} 0
+4 52 40 {1} {default} 0
+4 64 40 {2} {default} 0
+4 76 40 {3} {default} 0
+2 28 13 {15} {default} 0
+3 41 28 {} {default} 0
+4 29 41 {0} {default} 0
+4 53 41 {1} {default} 0
+4 65 41 {2} {default} 0
+4 77 41 {3} {default} 0

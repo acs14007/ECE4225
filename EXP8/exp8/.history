@@ -1,0 +1,124 @@
+16:48:47 Nov 13 2020 <exp8> submitted to the batch system
+16:48:47 Nov 13 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+16:48:53 Nov 13 2020 --- job 1 <sprocess> exited abnormally: exit()
+16:48:55 Nov 13 2020 <exp8> failed
+16:50:41 Nov 13 2020 <exp8> submitted to the batch system
+16:50:41 Nov 13 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+16:50:47 Nov 13 2020 --- job 1 <sprocess> exited abnormally: exit()
+16:50:49 Nov 13 2020 <exp8> failed
+16:51:30 Nov 13 2020 <exp8> submitted to the batch system
+16:51:31 Nov 13 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+16:53:04 Nov 13 2020 +++ job 1 <sprocess> done: exit(0)
+16:53:06 Nov 13 2020 <exp8> done (96 sec)
+16:54:44 Nov 13 2020 <exp8> submitted to the batch system
+16:54:44 Nov 13 2020     job 14 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n14_fps.cmd"
+16:56:24 Nov 13 2020 +++ job 14 <sprocess> done: exit(0)
+16:56:25 Nov 13 2020     job 22 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n22_fps.cmd"
+16:57:58 Nov 13 2020 +++ job 22 <sprocess> done: exit(0)
+16:57:59 Nov 13 2020     job 4 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n4_fps.cmd"
+16:59:35 Nov 13 2020 +++ job 4 <sprocess> done: exit(0)
+16:59:36 Nov 13 2020     job 16 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n16_fps.cmd"
+17:01:16 Nov 13 2020 +++ job 16 <sprocess> done: exit(0)
+17:01:17 Nov 13 2020     job 24 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n24_fps.cmd"
+17:02:56 Nov 13 2020 +++ job 24 <sprocess> done: exit(0)
+17:02:57 Nov 13 2020     job 6 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n6_fps.cmd"
+17:04:42 Nov 13 2020 +++ job 6 <sprocess> done: exit(0)
+17:04:43 Nov 13 2020     job 18 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n18_fps.cmd"
+17:06:28 Nov 13 2020 +++ job 18 <sprocess> done: exit(0)
+17:06:30 Nov 13 2020     job 26 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n26_fps.cmd"
+17:08:14 Nov 13 2020 +++ job 26 <sprocess> done: exit(0)
+17:08:15 Nov 13 2020     job 8 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n8_fps.cmd"
+17:10:07 Nov 13 2020 +++ job 8 <sprocess> done: exit(0)
+17:10:08 Nov 13 2020     job 20 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n20_fps.cmd"
+17:12:00 Nov 13 2020 +++ job 20 <sprocess> done: exit(0)
+17:12:01 Nov 13 2020     job 28 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n28_fps.cmd"
+17:13:54 Nov 13 2020 +++ job 28 <sprocess> done: exit(0)
+17:13:57 Nov 13 2020 <exp8> done (1153 sec)
+17:33:14 Nov 13 2020 <exp8> submitted to the batch system
+17:33:15 Nov 13 2020     job 2 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp2_des.cmd"
+17:33:18 Nov 13 2020 --- job 2 <sdevice> exited abnormally: exit()
+17:33:20 Nov 13 2020 <exp8> failed
+17:35:31 Nov 13 2020 <exp8> submitted to the batch system
+17:35:32 Nov 13 2020     job 1 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n1_fps.cmd"
+17:37:03 Nov 13 2020 +++ job 1 <sprocess> done: exit(0)
+17:37:06 Nov 13 2020 <exp8> done (95 sec)
+17:37:19 Nov 13 2020 <exp8> submitted to the batch system
+17:37:19 Nov 13 2020     job 2 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp2_des.cmd"
+17:37:51 Nov 13 2020 +++ job 2 <sdevice> done: exit(0)
+17:37:54 Nov 13 2020 <exp8> done (35 sec)
+17:38:06 Nov 13 2020 <exp8> submitted to the batch system
+17:38:07 Nov 13 2020     job 14 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n14_fps.cmd"
+17:39:40 Nov 13 2020 +++ job 14 <sprocess> done: exit(0)
+17:39:41 Nov 13 2020     job 22 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n22_fps.cmd"
+17:41:14 Nov 13 2020 +++ job 22 <sprocess> done: exit(0)
+17:41:15 Nov 13 2020     job 4 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n4_fps.cmd"
+17:42:48 Nov 13 2020 +++ job 4 <sprocess> done: exit(0)
+17:42:49 Nov 13 2020     job 16 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n16_fps.cmd"
+17:44:25 Nov 13 2020 +++ job 16 <sprocess> done: exit(0)
+17:44:26 Nov 13 2020     job 24 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n24_fps.cmd"
+17:46:01 Nov 13 2020 +++ job 24 <sprocess> done: exit(0)
+17:46:02 Nov 13 2020     job 6 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n6_fps.cmd"
+17:47:43 Nov 13 2020 +++ job 6 <sprocess> done: exit(0)
+17:47:45 Nov 13 2020     job 18 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n18_fps.cmd"
+17:49:31 Nov 13 2020 +++ job 18 <sprocess> done: exit(0)
+17:49:32 Nov 13 2020     job 26 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n26_fps.cmd"
+17:51:15 Nov 13 2020 +++ job 26 <sprocess> done: exit(0)
+17:51:16 Nov 13 2020     job 8 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n8_fps.cmd"
+17:53:07 Nov 13 2020 +++ job 8 <sprocess> done: exit(0)
+17:53:08 Nov 13 2020     job 20 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n20_fps.cmd"
+17:54:55 Nov 13 2020 +++ job 20 <sprocess> done: exit(0)
+17:54:56 Nov 13 2020     job 28 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n28_fps.cmd"
+17:56:43 Nov 13 2020 +++ job 28 <sprocess> done: exit(0)
+17:56:44 Nov 13 2020     job 42 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp42_des.cmd"
+17:57:36 Nov 13 2020 +++ job 42 <sdevice> done: exit(0)
+17:57:37 Nov 13 2020     job 15 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp15_des.cmd"
+17:58:09 Nov 13 2020 +++ job 15 <sdevice> done: exit(0)
+17:58:10 Nov 13 2020     job 43 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp43_des.cmd"
+17:59:03 Nov 13 2020 +++ job 43 <sdevice> done: exit(0)
+17:59:04 Nov 13 2020     job 23 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp23_des.cmd"
+17:59:34 Nov 13 2020 +++ job 23 <sdevice> done: exit(0)
+17:59:35 Nov 13 2020     job 44 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp44_des.cmd"
+18:00:29 Nov 13 2020 +++ job 44 <sdevice> done: exit(0)
+18:00:30 Nov 13 2020     job 5 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp5_des.cmd"
+18:00:59 Nov 13 2020 +++ job 5 <sdevice> done: exit(0)
+18:01:00 Nov 13 2020     job 45 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp45_des.cmd"
+18:01:52 Nov 13 2020 +++ job 45 <sdevice> done: exit(0)
+18:01:53 Nov 13 2020     job 17 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp17_des.cmd"
+18:02:22 Nov 13 2020 +++ job 17 <sdevice> done: exit(0)
+18:02:23 Nov 13 2020     job 46 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp46_des.cmd"
+18:03:19 Nov 13 2020 +++ job 46 <sdevice> done: exit(0)
+18:03:20 Nov 13 2020     job 25 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp25_des.cmd"
+18:03:50 Nov 13 2020 +++ job 25 <sdevice> done: exit(0)
+18:03:51 Nov 13 2020     job 47 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp47_des.cmd"
+18:04:43 Nov 13 2020 +++ job 47 <sdevice> done: exit(0)
+18:04:44 Nov 13 2020     job 7 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp7_des.cmd"
+18:05:13 Nov 13 2020 +++ job 7 <sdevice> done: exit(0)
+18:05:14 Nov 13 2020     job 48 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp48_des.cmd"
+18:06:06 Nov 13 2020 +++ job 48 <sdevice> done: exit(0)
+18:06:07 Nov 13 2020     job 19 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp19_des.cmd"
+18:06:36 Nov 13 2020 +++ job 19 <sdevice> done: exit(0)
+18:06:37 Nov 13 2020     job 49 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp49_des.cmd"
+18:07:31 Nov 13 2020 +++ job 49 <sdevice> done: exit(0)
+18:07:32 Nov 13 2020     job 27 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp27_des.cmd"
+18:08:00 Nov 13 2020 +++ job 27 <sdevice> done: exit(0)
+18:08:01 Nov 13 2020     job 50 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp50_des.cmd"
+18:08:54 Nov 13 2020 +++ job 50 <sdevice> done: exit(0)
+18:08:56 Nov 13 2020     job 9 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp9_des.cmd"
+18:09:25 Nov 13 2020 +++ job 9 <sdevice> done: exit(0)
+18:09:26 Nov 13 2020     job 51 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp51_des.cmd"
+18:10:19 Nov 13 2020 +++ job 51 <sdevice> done: exit(0)
+18:10:20 Nov 13 2020     job 21 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp21_des.cmd"
+18:10:50 Nov 13 2020 +++ job 21 <sdevice> done: exit(0)
+18:10:51 Nov 13 2020     job 52 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp52_des.cmd"
+18:11:43 Nov 13 2020 +++ job 52 <sdevice> done: exit(0)
+18:11:44 Nov 13 2020     job 29 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp29_des.cmd"
+18:12:12 Nov 13 2020 +++ job 29 <sdevice> done: exit(0)
+18:12:13 Nov 13 2020     job 53 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp53_des.cmd"
+18:13:07 Nov 13 2020 +++ job 53 <sdevice> done: exit(0)
+18:13:09 Nov 13 2020 <exp8> done (2103 sec)
+22:34:02 Nov 13 2020 <exp8> submitted to the batch system
+22:34:02 Nov 13 2020     job 65 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp65_des.cmd"
+22:34:59 Nov 13 2020 +++ job 65 <sdevice> done: exit(0)
+22:35:00 Nov 13 2020     job 77 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp77_des.cmd"
+22:36:08 Nov 13 2020 +++ job 77 <sdevice> done: exit(0)
+22:36:10 Nov 13 2020 <exp8> done (128 sec)

@@ -1,0 +1,46 @@
+# project name
+name exp8
+# execution graph
+job 65 -d "28"  -post { extract_vars "$wdir" n65_des.out 65 }  -o n65_des "sdevice pp65_des.cmd"
+job 77 -d "28"  -post { extract_vars "$wdir" n77_des.out 77 }  -o n77_des "sdevice pp77_des.cmd"
+job 5 -d "4"  -post { extract_vars "$wdir" n5_des.out 5 }  -o n5_des "sdevice pp5_des.cmd"
+job 7 -d "6"  -post { extract_vars "$wdir" n7_des.out 7 }  -o n7_des "sdevice pp7_des.cmd"
+job 9 -d "8"  -post { extract_vars "$wdir" n9_des.out 9 }  -o n9_des "sdevice pp9_des.cmd"
+job 15 -d "14"  -post { extract_vars "$wdir" n15_des.out 15 }  -o n15_des "sdevice pp15_des.cmd"
+job 17 -d "16"  -post { extract_vars "$wdir" n17_des.out 17 }  -o n17_des "sdevice pp17_des.cmd"
+job 19 -d "18"  -post { extract_vars "$wdir" n19_des.out 19 }  -o n19_des "sdevice pp19_des.cmd"
+job 21 -d "20"  -post { extract_vars "$wdir" n21_des.out 21 }  -o n21_des "sdevice pp21_des.cmd"
+job 23 -d "22"  -post { extract_vars "$wdir" n23_des.out 23 }  -o n23_des "sdevice pp23_des.cmd"
+job 25 -d "24"  -post { extract_vars "$wdir" n25_des.out 25 }  -o n25_des "sdevice pp25_des.cmd"
+job 27 -d "26"  -post { extract_vars "$wdir" n27_des.out 27 }  -o n27_des "sdevice pp27_des.cmd"
+job 29 -d "28"  -post { extract_vars "$wdir" n29_des.out 29 }  -o n29_des "sdevice pp29_des.cmd"
+job 42 -d "1"  -post { extract_vars "$wdir" n42_des.out 42 }  -o n42_des "sdevice pp42_des.cmd"
+job 43 -d "14"  -post { extract_vars "$wdir" n43_des.out 43 }  -o n43_des "sdevice pp43_des.cmd"
+job 44 -d "22"  -post { extract_vars "$wdir" n44_des.out 44 }  -o n44_des "sdevice pp44_des.cmd"
+job 45 -d "4"  -post { extract_vars "$wdir" n45_des.out 45 }  -o n45_des "sdevice pp45_des.cmd"
+job 46 -d "16"  -post { extract_vars "$wdir" n46_des.out 46 }  -o n46_des "sdevice pp46_des.cmd"
+job 47 -d "24"  -post { extract_vars "$wdir" n47_des.out 47 }  -o n47_des "sdevice pp47_des.cmd"
+job 48 -d "6"  -post { extract_vars "$wdir" n48_des.out 48 }  -o n48_des "sdevice pp48_des.cmd"
+job 49 -d "18"  -post { extract_vars "$wdir" n49_des.out 49 }  -o n49_des "sdevice pp49_des.cmd"
+job 50 -d "26"  -post { extract_vars "$wdir" n50_des.out 50 }  -o n50_des "sdevice pp50_des.cmd"
+job 51 -d "8"  -post { extract_vars "$wdir" n51_des.out 51 }  -o n51_des "sdevice pp51_des.cmd"
+job 52 -d "20"  -post { extract_vars "$wdir" n52_des.out 52 }  -o n52_des "sdevice pp52_des.cmd"
+job 53 -d "28"  -post { extract_vars "$wdir" n53_des.out 53 }  -o n53_des "sdevice pp53_des.cmd"
+job 4   -post {  extract_vars "$wdir" n4_fps.out 4; catch {os_cp "$wdir/n4_mdr.cmd" "$wdir/n4_msh.cmd"}; catch {os_cp "$wdir/n4_mdr.bnd" "$wdir/n4_msh.bnd"} }  -o n4_fps "sprocess -u -b n4_fps.cmd"
+job 6   -post {  extract_vars "$wdir" n6_fps.out 6; catch {os_cp "$wdir/n6_mdr.cmd" "$wdir/n6_msh.cmd"}; catch {os_cp "$wdir/n6_mdr.bnd" "$wdir/n6_msh.bnd"} }  -o n6_fps "sprocess -u -b n6_fps.cmd"
+job 8   -post {  extract_vars "$wdir" n8_fps.out 8; catch {os_cp "$wdir/n8_mdr.cmd" "$wdir/n8_msh.cmd"}; catch {os_cp "$wdir/n8_mdr.bnd" "$wdir/n8_msh.bnd"} }  -o n8_fps "sprocess -u -b n8_fps.cmd"
+job 14   -post {  extract_vars "$wdir" n14_fps.out 14; catch {os_cp "$wdir/n14_mdr.cmd" "$wdir/n14_msh.cmd"}; catch {os_cp "$wdir/n14_mdr.bnd" "$wdir/n14_msh.bnd"} }  -o n14_fps "sprocess -u -b n14_fps.cmd"
+job 16   -post {  extract_vars "$wdir" n16_fps.out 16; catch {os_cp "$wdir/n16_mdr.cmd" "$wdir/n16_msh.cmd"}; catch {os_cp "$wdir/n16_mdr.bnd" "$wdir/n16_msh.bnd"} }  -o n16_fps "sprocess -u -b n16_fps.cmd"
+job 18   -post {  extract_vars "$wdir" n18_fps.out 18; catch {os_cp "$wdir/n18_mdr.cmd" "$wdir/n18_msh.cmd"}; catch {os_cp "$wdir/n18_mdr.bnd" "$wdir/n18_msh.bnd"} }  -o n18_fps "sprocess -u -b n18_fps.cmd"
+job 20   -post {  extract_vars "$wdir" n20_fps.out 20; catch {os_cp "$wdir/n20_mdr.cmd" "$wdir/n20_msh.cmd"}; catch {os_cp "$wdir/n20_mdr.bnd" "$wdir/n20_msh.bnd"} }  -o n20_fps "sprocess -u -b n20_fps.cmd"
+job 22   -post {  extract_vars "$wdir" n22_fps.out 22; catch {os_cp "$wdir/n22_mdr.cmd" "$wdir/n22_msh.cmd"}; catch {os_cp "$wdir/n22_mdr.bnd" "$wdir/n22_msh.bnd"} }  -o n22_fps "sprocess -u -b n22_fps.cmd"
+job 24   -post {  extract_vars "$wdir" n24_fps.out 24; catch {os_cp "$wdir/n24_mdr.cmd" "$wdir/n24_msh.cmd"}; catch {os_cp "$wdir/n24_mdr.bnd" "$wdir/n24_msh.bnd"} }  -o n24_fps "sprocess -u -b n24_fps.cmd"
+job 26   -post {  extract_vars "$wdir" n26_fps.out 26; catch {os_cp "$wdir/n26_mdr.cmd" "$wdir/n26_msh.cmd"}; catch {os_cp "$wdir/n26_mdr.bnd" "$wdir/n26_msh.bnd"} }  -o n26_fps "sprocess -u -b n26_fps.cmd"
+job 28   -post {  extract_vars "$wdir" n28_fps.out 28; catch {os_cp "$wdir/n28_mdr.cmd" "$wdir/n28_msh.cmd"}; catch {os_cp "$wdir/n28_mdr.bnd" "$wdir/n28_msh.bnd"} }  -o n28_fps "sprocess -u -b n28_fps.cmd"
+job 2 -d "1"  -post { extract_vars "$wdir" n2_des.out 2 }  -o n2_des "sdevice pp2_des.cmd"
+job 1   -post {  extract_vars "$wdir" n1_fps.out 1; catch {os_cp "$wdir/n1_mdr.cmd" "$wdir/n1_msh.cmd"}; catch {os_cp "$wdir/n1_mdr.bnd" "$wdir/n1_msh.bnd"} }  -o n1_fps "sprocess -u -b n1_fps.cmd"
+check sprocess_fps.cmd 1605306923
+check sdevice_des.cmd 1605302210
+check global_tooldb 1526577858
+check gtree.dat 1605324840
+# included files

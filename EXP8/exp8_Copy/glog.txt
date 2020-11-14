@@ -1,0 +1,113 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version O-2018.06                           ***
+***                       (1.1029, x86_64, Linux)                        ***
+***                                                                      ***
+***                Copyright (c) 1994-2018 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'acs14007.4225.cse.uconn.edu' by user 'student'
+Binary '/usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/bin/../lib/gsub0'
+Command line options '-verbose -swb_pid 28757 -q local:default -e {89 + 101 + 113} /home/student/Documents/ECE4225/EXP8/exp8_Copy'
+Current directory '/home/student/Documents/ECE4225/EXP8'
+Some relevant environment variables:
+	STROOT=/usr/synopsys/sentaurus/O_2018.06
+	STRELEASE=current
+	STROOT_LIB=/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib
+	STDB=/home/student/Documents/ECE4225/EXP8
+	DATEX=/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=:0
+
+Starting swblm daemon...OK
+Loading global tool database '/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/glib2/tooldb.tcl'
+Project '/home/student/Documents/ECE4225/EXP8/exp8_Copy'
+Loading project tree '/home/student/Documents/ECE4225/EXP8/exp8_Copy/gtree.dat'
+22:54:11 Nov 13 2020 <exp8_Copy> submitted to the batch system
+Loading global queue configuration file '/usr/synopsys/sentaurus/O_2018.06/queues/gqueues.dat'...ok
+Loading project tree '/home/student/Documents/ECE4225/EXP8/exp8_Copy/gtree.dat'
+>>>>> Preprocessing the project to run in normal mode
+Loading jobs and dependence graph '"/home/student/Documents/ECE4225/EXP8/exp8_Copy/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/student/Documents/ECE4225/EXP8/exp8_Copy/gtree.dat'
+Loading project variables '/home/student/Documents/ECE4225/EXP8/exp8_Copy/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/student/Documents/ECE4225/EXP8/exp8_Copy/sprocess_fps.cmd
+Reading file /home/student/Documents/ECE4225/EXP8/exp8_Copy/sdevice_des.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /home/student/Documents/ECE4225/EXP8/exp8_Copy/sdevice_des.cmd fornode 89
+'@tdr@' creates dependences with the node(s) '28'
++++Node successfully preprocessed+++
+The node '89' has dependencies to the node(s) '28'
+Preprocessing file /home/student/Documents/ECE4225/EXP8/exp8_Copy/sdevice_des.cmd fornode 101
+'@tdr@' creates dependences with the node(s) '28'
++++Node successfully preprocessed+++
+The node '101' has dependencies to the node(s) '28'
+Preprocessing file /home/student/Documents/ECE4225/EXP8/exp8_Copy/sdevice_des.cmd fornode 113
+'@tdr@' creates dependences with the node(s) '28'
++++Node successfully preprocessed+++
+The node '113' has dependencies to the node(s) '28'
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/home/student/Documents/ECE4225/EXP8/exp8_Copy/gexec.cmd"'
+>>>>>>>>>> job '89' status changed from 'none' to 'queued'
+>>>>>>>>>> job '101' status changed from 'none' to 'queued'
+>>>>>>>>>> job '113' status changed from 'none' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 89 101 113
+-----------------------------------------------------------------
+>>>>> cleaning the index file from previous simulations 
+                       /home/student/Documents/ECE4225/EXP8/exp8_Copy/.gindex
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '89' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP8/exp8_Copy/n89_des.job
+local% submit job 89 for local execution
+>>>>>>>>>> job '89' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '101' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP8/exp8_Copy/n101_des.job
+local% submit job 101 for local execution
+>>>>>>>>>> job '101' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '113' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP8/exp8_Copy/n113_des.job
+local% submit job 113 for local execution
+>>>>>>>>>> job '113' status changed from 'ready' to 'pending'
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 89 -swb_pid 28757 -gsub_pid 14705 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 33501  "/home/student/Documents/ECE4225/EXP8/exp8_Copy""
+>>>>>>>>>> job '89' status changed from 'pending' to 'running'
+22:54:12 Nov 13 2020     job 89 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp89_des.cmd"
+>>>>>>>>>> job '89' status changed from 'running' to 'done'
+22:54:52 Nov 13 2020 +++ job 89 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 101 -swb_pid 28757 -gsub_pid 14705 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 33501  "/home/student/Documents/ECE4225/EXP8/exp8_Copy""
+>>>>>>>>>> job '101' status changed from 'pending' to 'running'
+22:54:53 Nov 13 2020     job 101 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp101_des.cmd"
+>>>>>>>>>> job '101' status changed from 'running' to 'done'
+22:55:42 Nov 13 2020 +++ job 101 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 113 -swb_pid 28757 -gsub_pid 14705 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 33501  "/home/student/Documents/ECE4225/EXP8/exp8_Copy""
+>>>>>>>>>> job '113' status changed from 'pending' to 'running'
+22:55:43 Nov 13 2020     job 113 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp113_des.cmd"
+>>>>>>>>>> job '113' status changed from 'running' to 'done'
+22:56:33 Nov 13 2020 +++ job 113 <sdevice> done: exit(0)
+
+SCHEDULING REPORT
++++ done     : 89 101 113
+
+22:56:35 Nov 13 2020 <exp8_Copy> done (144 sec)
+>>>>>> Writing to status file 144
+gsub exits with status 0

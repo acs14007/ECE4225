@@ -1,0 +1,99 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version O-2018.06                           ***
+***                       (1.1029, x86_64, Linux)                        ***
+***                                                                      ***
+***                Copyright (c) 1994-2018 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'acs14007.4225.cse.uconn.edu' by user 'student'
+Binary '/usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/bin/../lib/gsub0'
+Command line options '-verbose -swb_pid 28757 -q local:default -e {65 + 77} /home/student/Documents/ECE4225/EXP8/exp8'
+Current directory '/home/student/Documents/ECE4225/EXP8'
+Some relevant environment variables:
+	STROOT=/usr/synopsys/sentaurus/O_2018.06
+	STRELEASE=current
+	STROOT_LIB=/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib
+	STDB=/home/student/Documents/ECE4225/EXP8
+	DATEX=/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/datexcodes.txt
+	DISPLAY=:0
+
+Starting swblm daemon...OK
+Loading global tool database '/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/glib2/tooldb.tcl'
+Project '/home/student/Documents/ECE4225/EXP8/exp8'
+Loading project tree '/home/student/Documents/ECE4225/EXP8/exp8/gtree.dat'
+22:34:02 Nov 13 2020 <exp8> submitted to the batch system
+Loading global queue configuration file '/usr/synopsys/sentaurus/O_2018.06/queues/gqueues.dat'...ok
+Loading project tree '/home/student/Documents/ECE4225/EXP8/exp8/gtree.dat'
+>>>>> Preprocessing the project to run in normal mode
+Loading jobs and dependence graph '"/home/student/Documents/ECE4225/EXP8/exp8/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/student/Documents/ECE4225/EXP8/exp8/gtree.dat'
+Loading project variables '/home/student/Documents/ECE4225/EXP8/exp8/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/student/Documents/ECE4225/EXP8/exp8/sprocess_fps.cmd
+Reading file /home/student/Documents/ECE4225/EXP8/exp8/sdevice_des.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /home/student/Documents/ECE4225/EXP8/exp8/sdevice_des.cmd fornode 65
+'@tdr@' creates dependences with the node(s) '28'
++++Node successfully preprocessed+++
+The node '65' has dependencies to the node(s) '28'
+Preprocessing file /home/student/Documents/ECE4225/EXP8/exp8/sdevice_des.cmd fornode 77
+'@tdr@' creates dependences with the node(s) '28'
++++Node successfully preprocessed+++
+The node '77' has dependencies to the node(s) '28'
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/home/student/Documents/ECE4225/EXP8/exp8/gexec.cmd"'
+>>>>>>>>>> job '65' status changed from 'none' to 'queued'
+>>>>>>>>>> job '77' status changed from 'none' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 65 77
+-----------------------------------------------------------------
+>>>>> cleaning the index file from previous simulations 
+                       /home/student/Documents/ECE4225/EXP8/exp8/.gindex
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '65' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP8/exp8/n65_des.job
+local% submit job 65 for local execution
+>>>>>>>>>> job '65' status changed from 'ready' to 'pending'
+>>>>>>>>>> job '77' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/student/Documents/ECE4225/EXP8/exp8/n77_des.job
+local% submit job 77 for local execution
+>>>>>>>>>> job '77' status changed from 'ready' to 'pending'
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 65 -swb_pid 28757 -gsub_pid 13672 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 40230  "/home/student/Documents/ECE4225/EXP8/exp8""
+>>>>>>>>>> job '65' status changed from 'pending' to 'running'
+22:34:02 Nov 13 2020     job 65 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp65_des.cmd"
+>>>>>>>>>> job '65' status changed from 'running' to 'done'
+22:34:59 Nov 13 2020 +++ job 65 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 77 -swb_pid 28757 -gsub_pid 13672 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 40230  "/home/student/Documents/ECE4225/EXP8/exp8""
+>>>>>>>>>> job '77' status changed from 'pending' to 'running'
+22:35:00 Nov 13 2020     job 77 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp77_des.cmd"
+>>>>>>>>>> job '77' status changed from 'running' to 'done'
+22:36:08 Nov 13 2020 +++ job 77 <sdevice> done: exit(0)
+
+SCHEDULING REPORT
++++ done     : 65 77
+
+22:36:10 Nov 13 2020 <exp8> done (128 sec)
+>>>>>> Writing to status file 128
+gsub exits with status 0
