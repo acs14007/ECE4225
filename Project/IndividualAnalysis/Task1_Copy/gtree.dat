@@ -1,0 +1,226 @@
+# Copyright (C) 1994-2017 Synopsys Inc.
+# swbtree vcurrent, Tue Nov 17 09:49:04 2020
+
+# --- simulation flow
+sprocess sprocess "" {}
+sprocess Lg "0.36" {0.36}
+sprocess body_doping "1e18" {1e18}
+sprocess GOxTime "20" {20}
+sprocess LDD_dose "1e13" {1e13}
+sprocess LDD_energy "20" {20}
+sprocess halo_dose "1e12" {1e12 1e13 1e14 1e15 1e16 1e17 1e18 1e19 1e20 1e21 1e22 1e2 1e3 1e4 1e5 1e6 1e7 1e8 1e9 1e10 1e11}
+sprocess halo_energy "30" {30}
+sprocess source_dose "1e16" {1e16}
+sprocess source_energy "10" {10}
+sdevice sdevice "" {}
+sdevice barrier "0" {0}
+sdevice Vg "0" {0 1 3}
+# --- variables
+# --- scenarios and parameter specs
+scenario default Lg ""
+scenario default body_doping ""
+scenario default GOxTime ""
+scenario default LDD_dose ""
+scenario default LDD_energy ""
+scenario default halo_dose ""
+scenario default halo_energy ""
+scenario default source_dose ""
+scenario default source_energy ""
+scenario default barrier ""
+scenario default Vg ""
+# --- simulation tree
+0 3 0 {} {default} 0
+1 4 3 {0.36} {default} 0
+2 5 4 {1e18} {default} 0
+3 6 5 {20} {default} 0
+4 7 6 {1e13} {default} 0
+5 8 7 {20} {default} 0
+6 9 8 {1e12} {default} 0
+7 10 9 {30} {default} 0
+8 11 10 {1e16} {default} 0
+9 1 11 {10} {default} 0
+10 12 1 {} {default} 0
+11 13 12 {0} {default} 0
+12 2 13 {0} {default} 0
+12 14 13 {1} {default} 0
+12 15 13 {3} {default} 0
+6 16 8 {1e13} {default} 0
+7 17 16 {30} {default} 0
+8 18 17 {1e16} {default} 0
+9 19 18 {10} {default} 0
+10 20 19 {} {default} 0
+11 21 20 {0} {default} 0
+12 22 21 {0} {default} 0
+12 23 21 {1} {default} 0
+12 24 21 {3} {default} 0
+6 25 8 {1e14} {default} 0
+7 26 25 {30} {default} 0
+8 27 26 {1e16} {default} 0
+9 28 27 {10} {default} 0
+10 29 28 {} {default} 0
+11 30 29 {0} {default} 0
+12 31 30 {0} {default} 0
+12 32 30 {1} {default} 0
+12 33 30 {3} {default} 0
+6 34 8 {1e15} {default} 0
+7 35 34 {30} {default} 0
+8 36 35 {1e16} {default} 0
+9 37 36 {10} {default} 0
+10 38 37 {} {default} 0
+11 39 38 {0} {default} 0
+12 40 39 {0} {default} 0
+12 41 39 {1} {default} 0
+12 42 39 {3} {default} 0
+6 43 8 {1e16} {default} 0
+7 44 43 {30} {default} 0
+8 45 44 {1e16} {default} 0
+9 46 45 {10} {default} 0
+10 47 46 {} {default} 0
+11 48 47 {0} {default} 0
+12 49 48 {0} {default} 0
+12 50 48 {1} {default} 0
+12 51 48 {3} {default} 0
+6 52 8 {1e17} {default} 0
+7 53 52 {30} {default} 0
+8 54 53 {1e16} {default} 0
+9 55 54 {10} {default} 0
+10 56 55 {} {default} 0
+11 57 56 {0} {default} 0
+12 58 57 {0} {default} 0
+12 59 57 {1} {default} 0
+12 60 57 {3} {default} 0
+6 61 8 {1e18} {default} 0
+7 62 61 {30} {default} 0
+8 63 62 {1e16} {default} 0
+9 64 63 {10} {default} 0
+10 65 64 {} {default} 0
+11 66 65 {0} {default} 0
+12 67 66 {0} {default} 0
+12 68 66 {1} {default} 0
+12 69 66 {3} {default} 0
+6 70 8 {1e19} {default} 0
+7 71 70 {30} {default} 0
+8 72 71 {1e16} {default} 0
+9 73 72 {10} {default} 0
+10 74 73 {} {default} 0
+11 75 74 {0} {default} 0
+12 76 75 {0} {default} 0
+12 77 75 {1} {default} 0
+12 78 75 {3} {default} 0
+6 79 8 {1e20} {default} 0
+7 80 79 {30} {default} 0
+8 81 80 {1e16} {default} 0
+9 82 81 {10} {default} 0
+10 83 82 {} {default} 0
+11 84 83 {0} {default} 0
+12 85 84 {0} {default} 0
+12 86 84 {1} {default} 0
+12 87 84 {3} {default} 0
+6 88 8 {1e21} {default} 0
+7 89 88 {30} {default} 0
+8 90 89 {1e16} {default} 0
+9 91 90 {10} {default} 0
+10 92 91 {} {default} 0
+11 93 92 {0} {default} 0
+12 94 93 {0} {default} 0
+12 95 93 {1} {default} 0
+12 96 93 {3} {default} 0
+6 97 8 {1e22} {default} 0
+7 98 97 {30} {default} 0
+8 99 98 {1e16} {default} 0
+9 100 99 {10} {default} 0
+10 101 100 {} {default} 0
+11 102 101 {0} {default} 0
+12 103 102 {0} {default} 0
+12 104 102 {1} {default} 0
+12 105 102 {3} {default} 0
+6 106 8 {1e2} {default} 0
+7 107 106 {30} {default} 0
+8 108 107 {1e16} {default} 0
+9 109 108 {10} {default} 0
+10 110 109 {} {default} 0
+11 111 110 {0} {default} 0
+12 112 111 {0} {default} 0
+12 113 111 {1} {default} 0
+12 114 111 {3} {default} 0
+6 115 8 {1e3} {default} 0
+7 116 115 {30} {default} 0
+8 117 116 {1e16} {default} 0
+9 118 117 {10} {default} 0
+10 119 118 {} {default} 0
+11 120 119 {0} {default} 0
+12 121 120 {0} {default} 0
+12 122 120 {1} {default} 0
+12 123 120 {3} {default} 0
+6 124 8 {1e4} {default} 0
+7 125 124 {30} {default} 0
+8 126 125 {1e16} {default} 0
+9 127 126 {10} {default} 0
+10 128 127 {} {default} 0
+11 129 128 {0} {default} 0
+12 130 129 {0} {default} 0
+12 131 129 {1} {default} 0
+12 132 129 {3} {default} 0
+6 133 8 {1e5} {default} 0
+7 134 133 {30} {default} 0
+8 135 134 {1e16} {default} 0
+9 136 135 {10} {default} 0
+10 137 136 {} {default} 0
+11 138 137 {0} {default} 0
+12 139 138 {0} {default} 0
+12 140 138 {1} {default} 0
+12 141 138 {3} {default} 0
+6 142 8 {1e6} {default} 0
+7 143 142 {30} {default} 0
+8 144 143 {1e16} {default} 0
+9 145 144 {10} {default} 0
+10 146 145 {} {default} 0
+11 147 146 {0} {default} 0
+12 148 147 {0} {default} 0
+12 149 147 {1} {default} 0
+12 150 147 {3} {default} 0
+6 151 8 {1e7} {default} 0
+7 152 151 {30} {default} 0
+8 153 152 {1e16} {default} 0
+9 154 153 {10} {default} 0
+10 155 154 {} {default} 0
+11 156 155 {0} {default} 0
+12 157 156 {0} {default} 0
+12 158 156 {1} {default} 0
+12 159 156 {3} {default} 0
+6 160 8 {1e8} {default} 0
+7 161 160 {30} {default} 0
+8 162 161 {1e16} {default} 0
+9 163 162 {10} {default} 0
+10 164 163 {} {default} 0
+11 165 164 {0} {default} 0
+12 166 165 {0} {default} 0
+12 167 165 {1} {default} 0
+12 168 165 {3} {default} 0
+6 169 8 {1e9} {default} 0
+7 170 169 {30} {default} 0
+8 171 170 {1e16} {default} 0
+9 172 171 {10} {default} 0
+10 173 172 {} {default} 0
+11 174 173 {0} {default} 0
+12 175 174 {0} {default} 0
+12 176 174 {1} {default} 0
+12 177 174 {3} {default} 0
+6 178 8 {1e10} {default} 0
+7 179 178 {30} {default} 0
+8 180 179 {1e16} {default} 0
+9 181 180 {10} {default} 0
+10 182 181 {} {default} 0
+11 183 182 {0} {default} 0
+12 184 183 {0} {default} 0
+12 185 183 {1} {default} 0
+12 186 183 {3} {default} 0
+6 187 8 {1e11} {default} 0
+7 188 187 {30} {default} 0
+8 189 188 {1e16} {default} 0
+9 190 189 {10} {default} 0
+10 191 190 {} {default} 0
+11 192 191 {0} {default} 0
+12 193 192 {0} {default} 0
+12 194 192 {1} {default} 0
+12 195 192 {3} {default} 0

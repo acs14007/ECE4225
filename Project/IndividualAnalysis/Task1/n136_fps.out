@@ -1,0 +1,1180 @@
+****************************************************************************
+***                          Sentaurus Process                           ***
+***                          Version O-2018.06                           ***
+***                       (1.1029, x86_64, Linux)                        ***
+***                                                                      ***
+***                       Copyright (C) 1993-2002                        ***
+***          The board of regents of the University of Florida           ***
+***                       Copyright (C) 1994-2018                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Thu May  3 06:21:22 PDT 2018 on tcadprod10
+
+      Started at: Tue Nov 17 09:17:29 2020 (EDT)
+       User name: student
+       Host name: acs14007.4225.cse.uconn.edu
+             PID: 13734
+    Architecture: x86_64
+Operating system: Linux rel. 3.10.0-1127.18.2.el7.x86_64 ver. #1 SMP Mon Jul 20 22:32:16 UTC 2020
+
+------------------------------------------------------------------------------
+Checking syntax of n136_fps.cmd:
+
+Syntax check complete.
+------------------------------------------------------------------------------
+
+Starting Tcl interpreter with inputfile: n136_fps.cmd
+            sprocess: Checked Out
+
+Loading models file: /usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/sprocess-28.0.1029/TclLib/SPROCESS.models... done.
+------------------------------------------------------------------- math -----
+math coord.ucs
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 0.00e+00<um> spacing= 1.00<nm> tag= "SiTop"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 50.00<nm> spacing= 10.00<nm>
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 0.500<um> spacing= 50.00<nm>
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 2.00<um> spacing= 0.200<um> tag= "SiBottom"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Y location= 0.00e+00<um> spacing= 0.0120<um> tag= "Mid"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Y location= 0.0600<um> spacing= 0.00600<um>
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Y location= 0.240<um> spacing= 0.120<um> tag= "Right"
+------------------------------------------------------------------------------
+----------------------------------------------------------------- region -----
+region xlo= "SiTop" xhi= "SiBottom" ylo= "Mid" yhi= "Right" Silicon
+------------------------------------------------------------------------------
+------------------------------------------------------------------- init -----
+init concentration= 1.00e+18<cm-3> field= "Boron" slice.angle= 180.00<degree> !DelayFullD
+------------------------------------------------------------------------------
+          sprocess2d: Checked Out
+
+Creating structure...
+Recreating refinements to take into account updated simulation dimension.
+Done recreating refinements.
+
+
+Points: 675
+Nodes: 675
+Edges: 1906
+Faces: 1232
+Volumes: 0
+
+----------------------------------------------------------------- pdbSet -----
+pdbSet Silicon Dopant DiffModel ChargedFermi
+------------------------------------------------------------------------------
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Loading Advanced Calibration 2018.06 (1.1)
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+------------------------------------------------------------------- grid -----
+grid set.min.normal.size= 1.00<nm> set.normal.growth.ratio.2d= 1.50
+------------------------------------------------------------------------------
+----------------------------------------------------------------- mgoals -----
+mgoals accuracy= 1.00e-05<um>
+------------------------------------------------------------------------------
+----------------------------------------------------------------- pdbSet -----
+pdbSet Oxide Grid perp.add.dist 1e-7
+------------------------------------------------------------------------------
+----------------------------------------------------------------- pdbSet -----
+pdbSet Grid NativeLayerThickness 1e-7
+------------------------------------------------------------------------------
+
+Gas not found in structure, adding.
+Generating SnMesh mesh... 
+
+=================================  brep2d quality  =====================================
+minAngle: 90  [near (2 0)] at region=Silicon_1
+nVerts = 157  nTris = 158  nRegs = 2
+bmin: 2 0
+bmax: -0.1 0.24
+min area: 0.000513853  max area: 0.1957  min edge length : 0.000513853
+total area  : 4.92 interface area: 0.24
+total volume: 0.744
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+SnMesh time: 0.072937
+
+========================  tri-grid quality (Gas excluded)  =======================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    5   8   5   4   4   4   4   5   8  31                                
+---------------------------------------------------------------------------------
+minAngle: 0.470022  maxAngle: 90
+nVerts = 885  nTris = 1624  nMats = 2
+max connectivity (tris per node): 6
+bmin: 2 0
+bmax: -0.1 0.24
+min edgeLength: 0.000513853  [near (0.00077078 0.24)]
+min volume: 1.50874e-06  max volume: 0.00612907  Total volume: 0.48
+bbox  volume: 0.504
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: Silicon_1  Total volume: 0.48
+Initializing sprocess...time: 9.0540e-03
+Interpolating...elapsed time: 0.01
+---------------------------------------------------------------- diffuse -----
+diffuse time= 20.00<min> temperature= 950.00<C> O2
+------------------------------------------------------------------------------
+sprocess parallel assembly thread count = 1
+Interpolating...elapsed time: 0.01
+---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---
+Anneal step:	
+	Time        = 20min
+	Temperature = 950.0C
+	Ramp rate   = 0C/s
+Reaction :         0s   to    0.0001s   step    :    0.0001s   temp: 950.0C
+sprocess ILS thread count = 1
+Mechanics:         0s   to    0.0001s   step    :    0.0001s   temp: 950.0C
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Initializing:  
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Initialization is done.
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Diffusion:         0s   to    0.0001s   step (s):    0.0001s   temp: 950.0C
+Reaction :    0.0001s   to 0.0001687s   step    : 6.873e-05s   temp: 950.0C
+Mechanics:    0.0001s   to 0.0001687s   step    : 6.873e-05s   temp: 950.0C
+Diffusion:    0.0001s   to 0.0001687s   step (s): 6.873e-05s   temp: 950.0C
+Reaction : 0.0001687s   to 0.0002542s   step    : 8.548e-05s   temp: 950.0C
+Mechanics: 0.0001687s   to 0.0002542s   step    : 8.548e-05s   temp: 950.0C
+Diffusion: 0.0001687s   to 0.0002542s   step (s): 8.548e-05s   temp: 950.0C
+Reaction : 0.0002542s   to 0.0003926s   step    : 0.0001384s   temp: 950.0C
+Mechanics: 0.0002542s   to 0.0003926s   step    : 0.0001384s   temp: 950.0C
+Diffusion: 0.0002542s   to 0.0003926s   step (s): 0.0001384s   temp: 950.0C
+Reaction : 0.0003926s   to 0.0006694s   step    : 0.0002768s   temp: 950.0C
+Mechanics: 0.0003926s   to 0.0006694s   step    : 0.0002768s   temp: 950.0C
+Diffusion: 0.0003926s   to 0.0006694s   step (s): 0.0002768s   temp: 950.0C
+Reaction : 0.0006694s   to  0.001223s   step    : 0.0005536s   temp: 950.0C
+Mechanics: 0.0006694s   to  0.001223s   step    : 0.0005536s   temp: 950.0C
+Diffusion: 0.0006694s   to  0.001223s   step (s): 0.0005536s   temp: 950.0C
+Reaction :  0.001223s   to   0.00233s   step    :  0.001107s   temp: 950.0C
+Mechanics:  0.001223s   to   0.00233s   step    :  0.001107s   temp: 950.0C
+Diffusion:  0.001223s   to   0.00233s   step (s):  0.001107s   temp: 950.0C
+Reaction :   0.00233s   to  0.004545s   step    :  0.002214s   temp: 950.0C
+Mechanics:   0.00233s   to  0.004545s   step    :  0.002214s   temp: 950.0C
+Diffusion:   0.00233s   to  0.004545s   step (s):  0.002214s   temp: 950.0C
+Reaction :  0.004545s   to  0.008973s   step    :  0.004429s   temp: 950.0C
+Mechanics:  0.004545s   to  0.008973s   step    :  0.004429s   temp: 950.0C
+Diffusion:  0.004545s   to  0.008973s   step (s):  0.004429s   temp: 950.0C
+Reaction :  0.008973s   to   0.01783s   step    :  0.008858s   temp: 950.0C
+Mechanics:  0.008973s   to   0.01783s   step    :  0.008858s   temp: 950.0C
+Diffusion:  0.008973s   to   0.01783s   step (s):  0.008858s   temp: 950.0C
+Reaction :   0.01783s   to   0.03555s   step    :   0.01772s   temp: 950.0C
+Mechanics:   0.01783s   to   0.03555s   step    :   0.01772s   temp: 950.0C
+Diffusion:   0.01783s   to   0.03555s   step (s):   0.01772s   temp: 950.0C
+Reaction :   0.03555s   to   0.07098s   step    :   0.03543s   temp: 950.0C
+Mechanics:   0.03555s   to   0.07098s   step    :   0.03543s   temp: 950.0C
+Diffusion:   0.03555s   to   0.07098s   step (s):   0.03543s   temp: 950.0C
+Reaction :   0.07098s   to    0.1418s   step    :   0.07086s   temp: 950.0C
+Mechanics:   0.07098s   to    0.1418s   step    :   0.07086s   temp: 950.0C
+Diffusion:   0.07098s   to    0.1418s   step (s):   0.07086s   temp: 950.0C
+Reaction :    0.1418s   to    0.2782s   step    :    0.1364s   temp: 950.0C
+Mechanics:    0.1418s   to    0.2782s   step    :    0.1364s   temp: 950.0C
+Diffusion:    0.1418s   to    0.2782s   step (s):    0.1364s   temp: 950.0C
+Reaction :    0.2782s   to    0.5097s   step    :    0.2314s   temp: 950.0C
+Mechanics:    0.2782s   to    0.5097s   step    :    0.2314s   temp: 950.0C
+Diffusion:    0.2782s   to    0.5097s   step (s):    0.2314s   temp: 950.0C
+Reaction :    0.5097s   to    0.8684s   step    :    0.3587s   temp: 950.0C
+Mechanics:    0.5097s   to    0.8684s   step    :    0.3587s   temp: 950.0C
+Diffusion:    0.5097s   to    0.8684s   step (s):    0.3587s   temp: 950.0C
+Reaction :    0.8684s   to      1.41s   step    :    0.5414s   temp: 950.0C
+Mechanics:    0.8684s   to      1.41s   step    :    0.5414s   temp: 950.0C
+Diffusion:    0.8684s   to      1.41s   step (s):    0.5414s   temp: 950.0C
+Reaction :      1.41s   to     2.133s   step    :    0.7228s   temp: 950.0C
+Mechanics:      1.41s   to     2.133s   step    :    0.7228s   temp: 950.0C
+Diffusion:      1.41s   to     2.133s   step (s):    0.7228s   temp: 950.0C
+Reaction :     2.133s   to     3.505s   step    :     1.372s   temp: 950.0C
+Mechanics:     2.133s   to     3.505s   step    :     1.372s   temp: 950.0C
+Diffusion:     2.133s   to     3.505s   step (s):     1.372s   temp: 950.0C
+Reaction :     3.505s   to     6.249s   step    :     2.744s   temp: 950.0C
+Mechanics:     3.505s   to     6.249s   step    :     2.744s   temp: 950.0C
+Diffusion:     3.505s   to     6.249s   step (s):     2.744s   temp: 950.0C
+Reaction :     6.249s   to     11.74s   step    :     5.488s   temp: 950.0C
+Mechanics:     6.249s   to     11.74s   step    :     5.488s   temp: 950.0C
+Interpolating...elapsed time: 0.02
+Diffusion:     6.249s   to     11.74s   step (s):     5.488s   temp: 950.0C
+Reaction :     11.74s   to     22.03s   step    :      10.3s   temp: 950.0C
+Mechanics:     11.74s   to     22.03s   step    :      10.3s   temp: 950.0C
+Diffusion:     11.74s   to     22.03s   step (s):      10.3s   temp: 950.0C
+Reaction :     22.03s   to      40.4s   step    :     18.36s   temp: 950.0C
+Mechanics:     22.03s   to      40.4s   step    :     18.36s   temp: 950.0C
+Diffusion:     22.03s   to      40.4s   step (s):     18.36s   temp: 950.0C
+Reaction :      40.4s   to     1.151min step    :     28.68s   temp: 950.0C
+Mechanics:      40.4s   to     1.151min step    :     28.68s   temp: 950.0C
+Interpolating...elapsed time: 0.01
+Diffusion:      40.4s   to     1.151min step (s):     28.68s   temp: 950.0C
+Reaction :     1.151min to     1.806min step    :     39.26s   temp: 950.0C
+Mechanics:     1.151min to     1.806min step    :     39.26s   temp: 950.0C
+Interpolating...elapsed time: 0.01
+Diffusion:     1.151min to     1.806min step (s):     39.26s   temp: 950.0C
+Reaction :     1.806min to     2.616min step    :     48.63s   temp: 950.0C
+Mechanics:     1.806min to     2.616min step    :     48.63s   temp: 950.0C
+Interpolating...elapsed time: 0.02
+Diffusion:     1.806min to     2.616min step (s):     48.63s   temp: 950.0C
+Reaction :     2.616min to     3.544min step    :     55.64s   temp: 950.0C
+Mechanics:     2.616min to     3.544min step    :     55.64s   temp: 950.0C
+Interpolating...elapsed time: 0.01
+Diffusion:     2.616min to     3.544min step (s):     55.64s   temp: 950.0C
+Reaction :     3.544min to     4.554min step    :     1.011min temp: 950.0C
+Mechanics:     3.544min to     4.554min step    :     1.011min temp: 950.0C
+Interpolating...elapsed time: 0.02
+Diffusion:     3.544min to     4.554min step (s):     1.011min temp: 950.0C
+Reaction :     4.554min to     5.656min step    :     1.102min temp: 950.0C
+Mechanics:     4.554min to     5.656min step    :     1.102min temp: 950.0C
+Interpolating...elapsed time: 0.01
+Diffusion:     4.554min to     5.656min step (s):     1.102min temp: 950.0C
+Reaction :     5.656min to     6.853min step    :     1.197min temp: 950.0C
+Mechanics:     5.656min to     6.853min step    :     1.197min temp: 950.0C
+Interpolating...elapsed time: 0.01
+Diffusion:     5.656min to     6.853min step (s):     1.197min temp: 950.0C
+Reaction :     6.853min to     8.149min step    :     1.296min temp: 950.0C
+Mechanics:     6.853min to     8.149min step    :     1.296min temp: 950.0C
+Interpolating...elapsed time: 0.02
+Diffusion:     6.853min to     8.149min step (s):     1.296min temp: 950.0C
+Reaction :     8.149min to     9.546min step    :     1.397min temp: 950.0C
+Mechanics:     8.149min to     9.546min step    :     1.397min temp: 950.0C
+Interpolating...elapsed time: 0.02
+Diffusion:     8.149min to     9.546min step (s):     1.397min temp: 950.0C
+Reaction :     9.546min to     11.05min step    :     1.501min temp: 950.0C
+Mechanics:     9.546min to     11.05min step    :     1.501min temp: 950.0C
+Interpolating...elapsed time: 0.02
+Diffusion:     9.546min to     11.05min step (s):     1.501min temp: 950.0C
+Reaction :     11.05min to     12.65min step    :     1.606min temp: 950.0C
+Mechanics:     11.05min to     12.65min step    :     1.606min temp: 950.0C
+Interpolating...elapsed time: 0.02
+Diffusion:     11.05min to     12.65min step (s):     1.606min temp: 950.0C
+Reaction :     12.65min to     14.36min step    :     1.711min temp: 950.0C
+Mechanics:     12.65min to     14.36min step    :     1.711min temp: 950.0C
+Interpolating...elapsed time: 0.02
+Diffusion:     12.65min to     14.36min step (s):     1.711min temp: 950.0C
+Reaction :     14.36min to     16.18min step    :     1.817min temp: 950.0C
+Mechanics:     14.36min to     16.18min step    :     1.817min temp: 950.0C
+Diffusion:     14.36min to     16.18min step (s):     1.817min temp: 950.0C
+Reaction :     16.18min to     18.09min step    :      1.91min temp: 950.0C
+Mechanics:     16.18min to     18.09min step    :      1.91min temp: 950.0C
+Interpolating...elapsed time: 0.02
+Diffusion:     16.18min to     18.09min step (s):      1.91min temp: 950.0C
+Reaction :     18.09min to        20min step    :      1.91min temp: 950.0C
+Mechanics:     18.09min to        20min step    :      1.91min temp: 950.0C
+Interpolating...elapsed time: 0.02
+Diffusion:     18.09min to        20min step (s):      1.91min temp: 950.0C
+
+Elapsed time for diffuse 24.62s
+----------------------------------------------------------------- layers -----
+layers Oxide Y= 0.00e+00<um>
+------------------------------------------------------------------------------
+{         Top                Bottom             Integral             Material }
+{ -8.984466815789e-03 6.273509641001e-03 0.000000000000e+00 Oxide }
+DOE: tox 0.0153
+----------------------------------------------------------------- struct -----
+struct tdr= "n136_MOS1"
+------------------------------------------------------------------------------
+Points: 797
+Nodes: 857
+Edges: 2323
+Faces: 1471
+Volumes: 0
+
+Writing file n136_MOS1_fps.tdr...done
+
+---------------------------------------------------------------- deposit -----
+deposit type= "anisotropic" thickness= 0.100<um> material= {PolySilicon}
+------------------------------------------------------------------------------
+
+MGoals time: 0.037863
+
+Updating sprocess mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+
+=================================  brep2d quality  =====================================
+minAngle: 90  [near (2 0)] at region=Silicon_1
+nVerts = 273  nTris = 276  nRegs = 6
+bmin: 2 0
+bmax: -2.00898 0.24
+min area: 9.90797e-05  max area: 0.502246  min edge length : 9.90797e-05
+total area  : 9.21797 interface area: 0.72
+total volume: 1.1894
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+SnMesh time: 0.202872
+
+========================  tri-grid quality (Gas excluded)  =======================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    6   9   4   3   3   3   3   4   9  32                                
+---------------------------------------------------------------------------------
+minAngle: 0.0906303  maxAngle: 90
+nVerts = 1560  nTris = 2884  nMats = 4
+max connectivity (tris per node): 6
+bmin: 2 0
+bmax: -2.00898 0.24
+min edgeLength: 9.90797e-05  [near (-0.108935 0.24)]
+min volume: 2.9091e-07  max volume: 0.00612907  Total volume: 0.506156
+bbox  volume: 0.962156
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: Oxide_1  Total volume: 0.00366191
+Initializing sprocess...time: 0.048035
+Interpolating...elapsed time: 0.05
+Mechanics:         0s   to         1s   step    :         1s   temp: 26.9C->26.9C
+
+------------------------------------------------------------------- mask -----
+mask name= "gate_mask" left= -0.0600<um> right= 0.0600<um>
+------------------------------------------------------------------------------
+------------------------------------------------------------------- etch -----
+etch mask= "gate_mask" type= "anisotropic" thickness= 0.150<um> material= {PolySilicon}
+------------------------------------------------------------------------------
+MGoals time: 0.0928059
+
+Updating sprocess mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+
+=================================  brep2d quality  =====================================
+minAngle: 90  [near (0.00627351 0.24)] at region=Oxide_1
+nVerts = 274  nTris = 277  nRegs = 7
+bmin: 2 0
+bmax: -2.00898 0.24
+min area: 9.90797e-05  max area: 0.502246  min edge length : 9.90797e-05
+total area  : 9.13797 interface area: 0.64
+total volume: 0.966783
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+SnMesh time: 0.199053
+
+========================  tri-grid quality (Gas excluded)  =======================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    4   7   4   4   3   3   4   4   7  27  .   .   .                     
+---------------------------------------------------------------------------------
+minAngle: 0.0937505  maxAngle: 122.847
+nVerts = 1801  nTris = 3388  nMats = 4
+max connectivity (tris per node): 8
+bmin: 2 0
+bmax: -2.00898 0.24
+min edgeLength: 9.90797e-05  [near (-0.108935 0.0570489)]
+min volume: 3.6549e-08  max volume: 0.00612907  Total volume: 0.488156
+bbox  volume: 0.962156
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: Oxide_1  Total volume: 0.00366191
+Initializing sprocess...time: 0.067783
+Interpolating...elapsed time: 0.05
+Mechanics:         0s   to         1s   step    :         1s   temp: 26.9C->26.9C
+
+------------------------------------------------------------------- etch -----
+etch type= "anisotropic" thickness= 0.0600<um> material= {Oxide}
+------------------------------------------------------------------------------
+MGoals time: 0.111444
+
+Updating sprocess mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+
+=================================  brep2d quality  =====================================
+minAngle: 90  [near (2 0.24)] at region=Silicon_1
+nVerts = 268  nTris = 271  nRegs = 8
+bmin: 2 0
+bmax: -2.00898 0.24
+min area: 9.90797e-05  max area: 0.502246  min edge length : 9.90797e-05
+total area  : 8.97323 interface area: 0.475258
+total volume: 1.31457
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+SnMesh time: 0.2048
+
+========================  tri-grid quality (Gas excluded)  =======================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    3   7   4   4   3   3   4   4   7  24  .   .   .                     
+---------------------------------------------------------------------------------
+minAngle: 0.0937505  maxAngle: 117.118
+nVerts = 1798  nTris = 3393  nMats = 4
+max connectivity (tris per node): 8
+bmin: 2 0
+bmax: -2.00898 0.24
+min edgeLength: 9.90797e-05  [near (-0.108935 0.0570489)]
+min volume: 3.6549e-08  max volume: 0.00612907  Total volume: 0.48541
+bbox  volume: 0.962156
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: Oxide_1  Total volume: 0.000915479
+Initializing sprocess...time: 0.051137
+Interpolating...elapsed time: 0.07
+Mechanics:         0s   to         1s   step    :         1s   temp: 26.9C->26.9C
+
+----------------------------------------------------------------- struct -----
+struct tdr= "n136_MOS2"
+------------------------------------------------------------------------------
+Points: 1798
+Nodes: 1958
+Edges: 5342
+Faces: 3393
+Volumes: 0
+
+Writing file n136_MOS2_fps.tdr...done
+
+---------------------------------------------------------------- implant -----
+implant energy= 20.00<keV> dose= 1.00e+13<cm-2> tilt= 0.00e+00<degree> rotation= 0.00e+00<degree> Arsenic
+------------------------------------------------------------------------------
+No substrate defined (implant).  Skip updateStrain.
+Species           =  Arsenic
+Dataset           =  Arsenic
+Energy            =  20keV
+Dose (WaferDose)  =  1e+13/cm2
+BeamDose          =  1e+13/cm2
+BeamDose2D        =  1e+13/cm2
+Tilt              =   0deg
+Tilt2D            =   0deg
+Rotation          =   0deg
+Slice angle       = 180deg
+Temperature       = 300.00K
+LeftBoundary      =  Extend
+RightBoundary     =  Extend
+
+Total implant time:    0.41sec
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Computing finite volumes...
+Finite volumes done
+
+ Dose in:   Silicon_1     Oxide_1 PolySilicon Oxide_1+Sil       Total
+              Silicon       Oxide PolySilicon Oxide_Silic
+    Boron  1.9563e+14  9.6587e+11  0.0000e+00  1.2294e+11  1.9672e+14
+  Arsenic  7.5328e+12  1.9863e+08  2.4499e+12  0.0000e+00  9.9828e+12
+      Int  5.7446e+08  9.8837e+04  0.0000e+00  2.5000e+04  5.7458e+08
+      Vac  7.1328e+09  1.3351e+08  0.0000e+00  2.5000e+04  7.2663e+09
+ ICluster  3.4275e+08  0.0000e+00  0.0000e+00  2.5000e+04  3.4277e+08
+       O2  1.9937e-04  1.8220e+10  0.0000e+00  2.5000e-01  1.8220e+10
+       B4  7.3295e+04  3.8145e+00  0.0000e+00  2.5000e+04  9.8299e+04
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+No substrate defined (implant).  Skip updateStrain.
+---------------------------------------------------------------- diffuse -----
+diffuse time= 0.100<s> temperature= 1050.00<C>
+------------------------------------------------------------------------------
+---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---
+Anneal step:	
+	Time        = 0.1s
+	Temperature = 1050.0C
+	Ramp rate   = 0C/s
+Mechanics:         0s   to    0.0001s   step    :    0.0001s   temp: 1050.0C
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Initializing:  
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Initialization is done.
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Diffusion:         0s   to    0.0001s   step (s):    0.0001s   temp: 1050.0C
+Mechanics:    0.0001s   to 0.0001839s   step    : 8.393e-05s   temp: 1050.0C
+Diffusion:    0.0001s   to 0.0001839s   step (s): 8.393e-05s   temp: 1050.0C
+Mechanics: 0.0001839s   to 0.0003106s   step    : 0.0001267s   temp: 1050.0C
+Diffusion: 0.0001839s   to 0.0003106s   step (s): 0.0001267s   temp: 1050.0C
+Mechanics: 0.0003106s   to 0.0005597s   step    :  0.000249s   temp: 1050.0C
+Diffusion: 0.0003106s   to 0.0005597s   step (s):  0.000249s   temp: 1050.0C
+Mechanics: 0.0005597s   to  0.001058s   step    : 0.0004981s   temp: 1050.0C
+Diffusion: 0.0005597s   to  0.001058s   step (s): 0.0004981s   temp: 1050.0C
+Mechanics:  0.001058s   to  0.001993s   step    : 0.0009351s   temp: 1050.0C
+Diffusion:  0.001058s   to  0.001993s   step (s): 0.0009351s   temp: 1050.0C
+Mechanics:  0.001993s   to  0.003003s   step    :   0.00101s   temp: 1050.0C
+Diffusion:  0.001993s   to  0.003003s   step (s):   0.00101s   temp: 1050.0C
+Mechanics:  0.003003s   to  0.004292s   step    :  0.001288s   temp: 1050.0C
+Diffusion:  0.003003s   to  0.004292s   step (s):  0.001288s   temp: 1050.0C
+Mechanics:  0.004292s   to  0.006073s   step    :  0.001781s   temp: 1050.0C
+Diffusion:  0.004292s   to  0.006073s   step (s):  0.001781s   temp: 1050.0C
+Mechanics:  0.006073s   to  0.008156s   step    :  0.002083s   temp: 1050.0C
+Diffusion:  0.006073s   to  0.008156s   step (s):  0.002083s   temp: 1050.0C
+Mechanics:  0.008156s   to   0.01021s   step    :  0.002057s   temp: 1050.0C
+Diffusion:  0.008156s   to   0.01021s   step (s):  0.002057s   temp: 1050.0C
+Mechanics:   0.01021s   to   0.01241s   step    :  0.002202s   temp: 1050.0C
+Diffusion:   0.01021s   to   0.01241s   step (s):  0.002202s   temp: 1050.0C
+Mechanics:   0.01241s   to   0.01487s   step    :  0.002458s   temp: 1050.0C
+Diffusion:   0.01241s   to   0.01487s   step (s):  0.002458s   temp: 1050.0C
+Mechanics:   0.01487s   to   0.01796s   step    :  0.003088s   temp: 1050.0C
+Diffusion:   0.01487s   to   0.01796s   step (s):  0.003088s   temp: 1050.0C
+Mechanics:   0.01796s   to   0.02304s   step    :  0.005082s   temp: 1050.0C
+Diffusion:   0.01796s   to   0.02304s   step (s):  0.005082s   temp: 1050.0C
+Mechanics:   0.02304s   to    0.0332s   step    :   0.01016s   temp: 1050.0C
+Diffusion:   0.02304s   to    0.0332s   step (s):   0.01016s   temp: 1050.0C
+Mechanics:    0.0332s   to   0.05181s   step    :    0.0186s   temp: 1050.0C
+Diffusion:    0.0332s   to   0.05181s   step (s):    0.0186s   temp: 1050.0C
+Mechanics:   0.05181s   to   0.07402s   step    :   0.02221s   temp: 1050.0C
+Diffusion:   0.05181s   to   0.07402s   step (s):   0.02221s   temp: 1050.0C
+Mechanics:   0.07402s   to   0.08701s   step    :   0.01299s   temp: 1050.0C
+Diffusion:   0.07402s   to   0.08701s   step (s):   0.01299s   temp: 1050.0C
+Mechanics:   0.08701s   to       0.1s   step    :   0.01299s   temp: 1050.0C
+Diffusion:   0.08701s   to       0.1s   step (s):   0.01299s   temp: 1050.0C
+
+Elapsed time for diffuse 16.34s
+----------------------------------------------------------------- struct -----
+struct tdr= "n136_MOS3"
+------------------------------------------------------------------------------
+Points: 1798
+Nodes: 1958
+Edges: 5342
+Faces: 3393
+Volumes: 0
+
+Writing file n136_MOS3_fps.tdr...done
+
+---------------------------------------------------------------- implant -----
+implant energy= 30.00<keV> dose= 1.00e+12<cm-2> tilt= 30.00<degree> rotation= 0.00e+00<degree> Boron
+------------------------------------------------------------------------------
+No substrate defined (implant).  Skip updateStrain.
+Species           =  Boron
+Dataset           =  Boron
+Energy            =  30keV
+Dose (WaferDose)  =  1e+12/cm2
+BeamDose          =  1.1547e+12/cm2
+BeamDose2D        =  1.1547e+12/cm2
+Tilt              =  30deg
+Tilt2D            =  30deg
+Rotation          =   0deg
+Slice angle       = 180deg
+Temperature       = 300.00K
+LeftBoundary      =  Extend
+RightBoundary     =  Extend
+
+Total implant time:    0.55sec
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Computing finite volumes...
+Finite volumes done
+
+ Dose in:   Silicon_1     Oxide_1 PolySilicon Oxide_1+Sil       Total
+              Silicon       Oxide PolySilicon Oxide_Silic
+    Boron  1.9611e+14  9.9481e+11  1.2698e+11  1.2506e+11  1.9736e+14
+  Arsenic  7.5328e+12  1.9421e+08  2.4499e+12  5.9852e+06  9.9828e+12
+      Int  2.2125e+09  9.8837e+04  0.0000e+00  2.5000e+04  2.2126e+09
+      Vac  6.9438e+10  1.3351e+08  0.0000e+00  2.5000e+04  6.9572e+10
+ ICluster  1.1508e+10  0.0000e+00  0.0000e+00  2.5000e+04  1.1509e+10
+       B4  7.7922e+03  3.8145e+00  2.5000e+01  2.5000e+04  2.0585e+05
+      As3  4.7185e+02  3.8145e+00  2.5000e+01  2.5000e+04  1.9852e+05
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+No substrate defined (implant).  Skip updateStrain.
+---------------------------------------------------------------- implant -----
+implant energy= 30.00<keV> dose= 1.00e+12<cm-2> tilt= 30.00<degree> rotation= 90.00<degree> Boron
+------------------------------------------------------------------------------
+No substrate defined (implant).  Skip updateStrain.
+Species           =  Boron
+Dataset           =  Boron
+Energy            =  30keV
+Dose (WaferDose)  =  1e+12/cm2
+BeamDose          =  1.1547e+12/cm2
+BeamDose2D        =  1e+12/cm2
+Tilt              =  30deg
+Tilt2D            =   0deg
+Rotation          =  90deg
+Slice angle       = 180deg
+Temperature       = 300.00K
+LeftBoundary      =  Extend
+RightBoundary     =  Extend
+
+Total implant time:    0.56sec
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Computing finite volumes...
+Finite volumes done
+
+ Dose in:   Silicon_1     Oxide_1 PolySilicon Oxide_1+Sil       Total
+              Silicon       Oxide PolySilicon Oxide_Silic
+    Boron  1.9693e+14  1.0270e+12  2.4127e+11  1.2506e+11  1.9832e+14
+  Arsenic  7.5328e+12  1.9421e+08  2.4499e+12  5.9852e+06  9.9828e+12
+      Int  2.2125e+09  9.8837e+04  0.0000e+00  2.5000e+04  2.2126e+09
+      Vac  6.9438e+10  1.3351e+08  0.0000e+00  2.5000e+04  6.9572e+10
+ ICluster  1.1508e+10  0.0000e+00  0.0000e+00  2.5000e+04  1.1509e+10
+       B4  7.7922e+03  3.8145e+00  2.5000e+01  2.5000e+04  2.0585e+05
+      As3  4.7185e+02  3.8145e+00  2.5000e+01  2.5000e+04  1.9852e+05
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+No substrate defined (implant).  Skip updateStrain.
+---------------------------------------------------------------- implant -----
+implant energy= 30.00<keV> dose= 1.00e+12<cm-2> tilt= 30.00<degree> rotation= 180.00<degree> Boron
+------------------------------------------------------------------------------
+No substrate defined (implant).  Skip updateStrain.
+Species           =  Boron
+Dataset           =  Boron
+Energy            =  30keV
+Dose (WaferDose)  =  1e+12/cm2
+BeamDose          =  1.1547e+12/cm2
+BeamDose2D        =  1.1547e+12/cm2
+Tilt              =  30deg
+Tilt2D            = -30deg
+Rotation          = 180deg
+Slice angle       = 180deg
+Temperature       = 300.00K
+LeftBoundary      =  Extend
+RightBoundary     =  Extend
+
+Total implant time:     0.6sec
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Computing finite volumes...
+Finite volumes done
+
+ Dose in:   Silicon_1     Oxide_1 PolySilicon Oxide_1+Sil       Total
+              Silicon       Oxide PolySilicon Oxide_Silic
+    Boron  1.9799e+14  1.0480e+12  3.2081e+11  1.2506e+11  1.9948e+14
+  Arsenic  7.5328e+12  1.9421e+08  2.4499e+12  5.9852e+06  9.9828e+12
+      Int  2.2125e+09  9.8837e+04  0.0000e+00  2.5000e+04  2.2126e+09
+      Vac  6.9438e+10  1.3351e+08  0.0000e+00  2.5000e+04  6.9572e+10
+ ICluster  1.1508e+10  0.0000e+00  0.0000e+00  2.5000e+04  1.1509e+10
+       B4  7.7922e+03  3.8145e+00  2.5000e+01  2.5000e+04  2.0585e+05
+      As3  4.7185e+02  3.8145e+00  2.5000e+01  2.5000e+04  1.9852e+05
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+No substrate defined (implant).  Skip updateStrain.
+---------------------------------------------------------------- implant -----
+implant energy= 30.00<keV> dose= 1.00e+12<cm-2> tilt= 30.00<degree> rotation= 270.00<degree> Boron
+------------------------------------------------------------------------------
+No substrate defined (implant).  Skip updateStrain.
+Species           =  Boron
+Dataset           =  Boron
+Energy            =  30keV
+Dose (WaferDose)  =  1e+12/cm2
+BeamDose          =  1.1547e+12/cm2
+BeamDose2D        =  1e+12/cm2
+Tilt              =  30deg
+Tilt2D            =  -0deg
+Rotation          = 270deg
+Slice angle       = 180deg
+Temperature       = 300.00K
+LeftBoundary      =  Extend
+RightBoundary     =  Extend
+
+Total implant time:    0.54sec
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Computing finite volumes...
+Finite volumes done
+
+ Dose in:   Silicon_1     Oxide_1 PolySilicon Oxide_1+Sil       Total
+              Silicon       Oxide PolySilicon Oxide_Silic
+    Boron  1.9881e+14  1.0802e+12  4.3508e+11  1.2506e+11  2.0045e+14
+  Arsenic  7.5328e+12  1.9421e+08  2.4499e+12  5.9852e+06  9.9828e+12
+      Int  2.2125e+09  9.8837e+04  0.0000e+00  2.5000e+04  2.2126e+09
+      Vac  6.9438e+10  1.3351e+08  0.0000e+00  2.5000e+04  6.9572e+10
+ ICluster  1.1508e+10  0.0000e+00  0.0000e+00  2.5000e+04  1.1509e+10
+       B4  7.7922e+03  3.8145e+00  2.5000e+01  2.5000e+04  2.0585e+05
+      As3  4.7185e+02  3.8145e+00  2.5000e+01  2.5000e+04  1.9852e+05
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+No substrate defined (implant).  Skip updateStrain.
+---------------------------------------------------------------- diffuse -----
+diffuse time= 5.00<s> temperature= 1050.00<C>
+------------------------------------------------------------------------------
+---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---
+Anneal step:	
+	Time        = 5s
+	Temperature = 1050.0C
+	Ramp rate   = 0C/s
+Mechanics:         0s   to    0.0001s   step    :    0.0001s   temp: 1050.0C
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Initializing:  
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Initialization is done.
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Diffusion:         0s   to    0.0001s   step (s):    0.0001s   temp: 1050.0C
+Mechanics:    0.0001s   to 0.0001918s   step    :  9.18e-05s   temp: 1050.0C
+Diffusion:    0.0001s   to 0.0001918s   step (s):  9.18e-05s   temp: 1050.0C
+Mechanics: 0.0001918s   to 0.0003309s   step    : 0.0001391s   temp: 1050.0C
+Diffusion: 0.0001918s   to 0.0003309s   step (s): 0.0001391s   temp: 1050.0C
+Mechanics: 0.0003309s   to 0.0006012s   step    : 0.0002703s   temp: 1050.0C
+Diffusion: 0.0003309s   to 0.0006012s   step (s): 0.0002703s   temp: 1050.0C
+Mechanics: 0.0006012s   to  0.001142s   step    : 0.0005406s   temp: 1050.0C
+Diffusion: 0.0006012s   to  0.001142s   step (s): 0.0005406s   temp: 1050.0C
+Mechanics:  0.001142s   to  0.002223s   step    :  0.001081s   temp: 1050.0C
+Diffusion:  0.001142s   to  0.002223s   step (s):  0.001081s   temp: 1050.0C
+Mechanics:  0.002223s   to  0.004386s   step    :  0.002163s   temp: 1050.0C
+Diffusion:  0.002223s   to  0.004386s   step (s):  0.002163s   temp: 1050.0C
+Mechanics:  0.004386s   to  0.007111s   step    :  0.002725s   temp: 1050.0C
+Diffusion:  0.004386s   to  0.007111s   step (s):  0.002725s   temp: 1050.0C
+Mechanics:  0.007111s   to   0.01093s   step    :  0.003814s   temp: 1050.0C
+Diffusion:  0.007111s   to   0.01093s   step (s):  0.003814s   temp: 1050.0C
+Mechanics:   0.01093s   to   0.01699s   step    :  0.006066s   temp: 1050.0C
+Diffusion:   0.01093s   to   0.01699s   step (s):  0.006066s   temp: 1050.0C
+Mechanics:   0.01699s   to   0.02717s   step    :   0.01018s   temp: 1050.0C
+Diffusion:   0.01699s   to   0.02717s   step (s):   0.01018s   temp: 1050.0C
+Mechanics:   0.02717s   to   0.04427s   step    :    0.0171s   temp: 1050.0C
+Diffusion:   0.02717s   to   0.04427s   step (s):    0.0171s   temp: 1050.0C
+Mechanics:   0.04427s   to   0.06601s   step    :   0.02174s   temp: 1050.0C
+Diffusion:   0.04427s   to   0.06601s   step (s):   0.02174s   temp: 1050.0C
+Mechanics:   0.06601s   to   0.08726s   step    :   0.02125s   temp: 1050.0C
+Diffusion:   0.06601s   to   0.08726s   step (s):   0.02125s   temp: 1050.0C
+Mechanics:   0.08726s   to    0.1089s   step    :   0.02166s   temp: 1050.0C
+Diffusion:   0.08726s   to    0.1089s   step (s):   0.02166s   temp: 1050.0C
+Mechanics:    0.1089s   to     0.131s   step    :   0.02208s   temp: 1050.0C
+Diffusion:    0.1089s   to     0.131s   step (s):   0.02208s   temp: 1050.0C
+Mechanics:     0.131s   to    0.1547s   step    :   0.02371s   temp: 1050.0C
+Diffusion:     0.131s   to    0.1547s   step (s):   0.02371s   temp: 1050.0C
+Mechanics:    0.1547s   to    0.1844s   step    :   0.02964s   temp: 1050.0C
+Diffusion:    0.1547s   to    0.1844s   step (s):   0.02964s   temp: 1050.0C
+Mechanics:    0.1844s   to     0.233s   step    :   0.04868s   temp: 1050.0C
+Diffusion:    0.1844s   to     0.233s   step (s):   0.04868s   temp: 1050.0C
+Mechanics:     0.233s   to    0.3304s   step    :   0.09736s   temp: 1050.0C
+Diffusion:     0.233s   to    0.3304s   step (s):   0.09736s   temp: 1050.0C
+Mechanics:    0.3304s   to    0.5251s   step    :    0.1947s   temp: 1050.0C
+Diffusion:    0.3304s   to    0.5251s   step (s):    0.1947s   temp: 1050.0C
+Mechanics:    0.5251s   to    0.8602s   step    :     0.335s   temp: 1050.0C
+Diffusion:    0.5251s   to    0.8602s   step (s):     0.335s   temp: 1050.0C
+Mechanics:    0.8602s   to     1.286s   step    :    0.4256s   temp: 1050.0C
+Diffusion:    0.8602s   to     1.286s   step (s):    0.4256s   temp: 1050.0C
+Mechanics:     1.286s   to     2.127s   step    :    0.8414s   temp: 1050.0C
+Diffusion:     1.286s   to     2.127s   step (s):    0.8414s   temp: 1050.0C
+Mechanics:     2.127s   to     3.564s   step    :     1.436s   temp: 1050.0C
+Diffusion:     2.127s   to     3.564s   step (s):     1.436s   temp: 1050.0C
+Mechanics:     3.564s   to         5s   step    :     1.436s   temp: 1050.0C
+Diffusion:     3.564s   to         5s   step (s):     1.436s   temp: 1050.0C
+
+Elapsed time for diffuse 19.13s
+----------------------------------------------------------------- struct -----
+struct tdr= "n136_MOS4"
+------------------------------------------------------------------------------
+Points: 1798
+Nodes: 1958
+Edges: 5342
+Faces: 3393
+Volumes: 0
+
+Writing file n136_MOS4_fps.tdr...done
+
+---------------------------------------------------------------- deposit -----
+deposit Nitride thickness= 0.0360<um> isotropic
+------------------------------------------------------------------------------
+MGoals time: 0.145547
+
+Updating sprocess mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+
+=================================  brep2d quality  =====================================
+minAngle: 89.9992  [near (-0.108984 0)] at region=Nitride_1
+nVerts = 356  nTris = 360  nRegs = 10
+bmin: 2 0
+bmax: -2.00898 0.24
+min area: 9.07861e-05  max area: 0.502246  min edge length : 9.07861e-05
+total area  : 9.31303 interface area: 0.815064
+total volume: 1.07405
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+SnMesh time: 0.204318
+
+========================  tri-grid quality (Gas excluded)  =======================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    4   9   6   6   5   5   6   6   9  31  .   .   .   .   .   .         
+---------------------------------------------------------------------------------
+minAngle: 0.0937505  maxAngle: 153.409
+nVerts = 1893  nTris = 3581  nMats = 5
+max connectivity (tris per node): 19
+bmin: 2 0
+bmax: -2.00898 0.24
+min edgeLength: 9.07861e-05  [near (-0.125521 0.0919769)]
+min volume: 3.68319e-08  max volume: 0.00612907  Total volume: 0.497921
+bbox  volume: 0.962156
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: Oxide_1  Total volume: 0.000915482
+Initializing sprocess...time: 0.106903
+Interpolating...elapsed time: 0.16
+Mechanics:         0s   to         1s   step    :         1s   temp: 26.9C->26.9C
+------------------------------------------------------------------- etch -----
+etch Nitride anisotropic thickness= 0.0420<um>
+------------------------------------------------------------------------------
+MGoals time: 0.18289
+
+Updating sprocess mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+
+=================================  brep2d quality  =====================================
+minAngle: 89.3066  [near (-0.102985 0.0600002)] at region=Nitride_1
+nVerts = 361  nTris = 365  nRegs = 11
+bmin: 2 0
+bmax: -2.00898 0.24
+min area: 8.98916e-05  max area: 0.502246  min edge length : 8.98916e-05
+total area  : 9.10303 interface area: 0.605065
+total volume: 1.03814
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+SnMesh time: 0.227203
+
+========================  tri-grid quality (Gas excluded)  =======================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    3   8   5   4   4   4   5   5   8  27  .   .   .   .   .   .       . 
+---------------------------------------------------------------------------------
+minAngle: 0.0937505  maxAngle: 167.045
+nVerts = 1906  nTris = 3609  nMats = 5
+max connectivity (tris per node): 22
+bmin: 2 0
+bmax: -2.00898 0.24
+min edgeLength: 5.215e-05  [near (-0.102045 0.0680504)]
+min volume: 5.48707e-09  max volume: 0.00612907  Total volume: 0.489065
+bbox  volume: 0.962156
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: Oxide_1  Total volume: 0.000915482
+Initializing sprocess...time: 0.079643
+Interpolating...elapsed time: 0.13
+Mechanics:         0s   to         1s   step    :         1s   temp: 26.9C->26.9C
+
+----------------------------------------------------------------- struct -----
+struct tdr= "n136_MOS5"
+------------------------------------------------------------------------------
+Points: 1906
+Nodes: 2258
+Edges: 5854
+Faces: 3609
+Volumes: 0
+
+Writing file n136_MOS5_fps.tdr...done
+
+---------------------------------------------------------------- implant -----
+implant energy= 10.00<keV> dose= 1.00e+16<cm-2> tilt= 7.00<degree> rotation= -90.00<degree> Arsenic
+------------------------------------------------------------------------------
+No substrate defined (implant).  Skip updateStrain.
+Species           =  Arsenic
+Dataset           =  Arsenic
+Energy            =  10keV
+Dose (WaferDose)  =  1e+16/cm2
+BeamDose          =  1.0075e+16/cm2
+BeamDose2D        =  1e+16/cm2
+Tilt              =   7deg
+Tilt2D            =  -0deg
+Rotation          = 270deg
+Slice angle       = 180deg
+Temperature       = 300.00K
+LeftBoundary      =  Extend
+RightBoundary     =  Extend
+
+Total implant time:    0.38sec
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Computing finite volumes...
+Finite volumes done
+
+ Dose in:   Silicon_1     Oxide_1 PolySilicon   Nitride_1 Oxide_1+Sil       Total
+              Silicon       Oxide PolySilicon     Nitride Oxide_Silic
+    Boron  1.9878e+14  1.0702e+12  4.3493e+11  0.0000e+00  1.5895e+11  2.0045e+14
+  Arsenic  5.9925e+15  1.9843e+08  2.5671e+15  1.4127e+15  2.6238e+08  9.9723e+15
+      Int  4.3120e+08  9.8838e+04  0.0000e+00  0.0000e+00  2.5000e+04  4.3132e+08
+      Vac  3.6975e+11  1.3351e+08  0.0000e+00  0.0000e+00  2.5000e+04  3.6988e+11
+ ICluster  4.0783e+07  0.0000e+00  0.0000e+00  0.0000e+00  2.5000e+04  4.0833e+07
+       B4  9.5767e+01  3.8145e+00  2.5000e+01  0.0000e+00  2.5000e+04  5.0125e+04
+      As3  4.4723e+02  3.8145e+00  2.5000e+01  0.0000e+00  2.5000e+04  5.0476e+04
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+No substrate defined (implant).  Skip updateStrain.
+---------------------------------------------------------------- diffuse -----
+diffuse time= 10.00<s> temperature= 1050.00<C>
+------------------------------------------------------------------------------
+---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---
+Anneal step:	
+	Time        = 10s
+	Temperature = 1050.0C
+	Ramp rate   = 0C/s
+Mechanics:         0s   to    0.0001s   step    :    0.0001s   temp: 1050.0C
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Initializing:  
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Initialization is done.
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --
+Diffusion:         0s   to    0.0001s   step (s):    0.0001s   temp: 1050.0C
+Mechanics:    0.0001s   to 0.0001738s   step    : 7.384e-05s   temp: 1050.0C
+Diffusion:    0.0001s   to 0.0001738s   step (s): 7.384e-05s   temp: 1050.0C
+Mechanics: 0.0001738s   to 0.0002762s   step    : 0.0001023s   temp: 1050.0C
+Diffusion: 0.0001738s   to 0.0002762s   step (s): 0.0001023s   temp: 1050.0C
+Mechanics: 0.0002762s   to 0.0004504s   step    : 0.0001743s   temp: 1050.0C
+Diffusion: 0.0002762s   to 0.0004504s   step (s): 0.0001743s   temp: 1050.0C
+Mechanics: 0.0004504s   to 0.0006799s   step    : 0.0002295s   temp: 1050.0C
+Diffusion: 0.0004504s   to 0.0006799s   step (s): 0.0002295s   temp: 1050.0C
+Mechanics: 0.0006799s   to 0.0009521s   step    : 0.0002721s   temp: 1050.0C
+Diffusion: 0.0006799s   to 0.0009521s   step (s): 0.0002721s   temp: 1050.0C
+Mechanics: 0.0009521s   to  0.001287s   step    :  0.000335s   temp: 1050.0C
+Diffusion: 0.0009521s   to  0.001287s   step (s):  0.000335s   temp: 1050.0C
+Mechanics:  0.001287s   to  0.001736s   step    : 0.0004488s   temp: 1050.0C
+Diffusion:  0.001287s   to  0.001736s   step (s): 0.0004488s   temp: 1050.0C
+Mechanics:  0.001736s   to  0.002357s   step    : 0.0006211s   temp: 1050.0C
+Diffusion:  0.001736s   to  0.002357s   step (s): 0.0006211s   temp: 1050.0C
+Mechanics:  0.002357s   to  0.003212s   step    : 0.0008551s   temp: 1050.0C
+Diffusion:  0.002357s   to  0.003212s   step (s): 0.0008551s   temp: 1050.0C
+Mechanics:  0.003212s   to  0.004399s   step    :  0.001187s   temp: 1050.0C
+Diffusion:  0.003212s   to  0.004399s   step (s):  0.001187s   temp: 1050.0C
+Mechanics:  0.004399s   to  0.006026s   step    :  0.001627s   temp: 1050.0C
+Diffusion:  0.004399s   to  0.006026s   step (s):  0.001627s   temp: 1050.0C
+Mechanics:  0.006026s   to  0.007999s   step    :  0.001972s   temp: 1050.0C
+Diffusion:  0.006026s   to  0.007999s   step (s):  0.001972s   temp: 1050.0C
+Mechanics:  0.007999s   to   0.01008s   step    :  0.002083s   temp: 1050.0C
+Diffusion:  0.007999s   to   0.01008s   step (s):  0.002083s   temp: 1050.0C
+Mechanics:   0.01008s   to    0.0133s   step    :  0.003218s   temp: 1050.0C
+Diffusion:   0.01008s   to    0.0133s   step (s):  0.003218s   temp: 1050.0C
+Mechanics:    0.0133s   to   0.01807s   step    :   0.00477s   temp: 1050.0C
+Diffusion:    0.0133s   to   0.01807s   step (s):   0.00477s   temp: 1050.0C
+Mechanics:   0.01807s   to   0.02644s   step    :  0.008369s   temp: 1050.0C
+Diffusion:   0.01807s   to   0.02644s   step (s):  0.008369s   temp: 1050.0C
+Mechanics:   0.02644s   to   0.03984s   step    :    0.0134s   temp: 1050.0C
+Diffusion:   0.02644s   to   0.03984s   step (s):    0.0134s   temp: 1050.0C
+Mechanics:   0.03984s   to   0.06487s   step    :   0.02503s   temp: 1050.0C
+Diffusion:   0.03984s   to   0.06487s   step (s):   0.02503s   temp: 1050.0C
+Mechanics:   0.06487s   to   0.09441s   step    :   0.02954s   temp: 1050.0C
+Diffusion:   0.06487s   to   0.09441s   step (s):   0.02954s   temp: 1050.0C
+Mechanics:   0.09441s   to     0.116s   step    :    0.0216s   temp: 1050.0C
+Diffusion:   0.09441s   to     0.116s   step (s):    0.0216s   temp: 1050.0C
+Mechanics:     0.116s   to    0.1418s   step    :   0.02577s   temp: 1050.0C
+Diffusion:     0.116s   to    0.1418s   step (s):   0.02577s   temp: 1050.0C
+Mechanics:    0.1418s   to     0.169s   step    :   0.02722s   temp: 1050.0C
+Diffusion:    0.1418s   to     0.169s   step (s):   0.02722s   temp: 1050.0C
+Mechanics:     0.169s   to    0.1988s   step    :   0.02986s   temp: 1050.0C
+Diffusion:     0.169s   to    0.1988s   step (s):   0.02986s   temp: 1050.0C
+Mechanics:    0.1988s   to    0.2304s   step    :   0.03159s   temp: 1050.0C
+Diffusion:    0.1988s   to    0.2304s   step (s):   0.03159s   temp: 1050.0C
+Mechanics:    0.2304s   to    0.2663s   step    :   0.03587s   temp: 1050.0C
+Diffusion:    0.2304s   to    0.2663s   step (s):   0.03587s   temp: 1050.0C
+Mechanics:    0.2663s   to    0.3252s   step    :   0.05886s   temp: 1050.0C
+Diffusion:    0.2663s   to    0.3252s   step (s):   0.05886s   temp: 1050.0C
+Mechanics:    0.3252s   to    0.4429s   step    :    0.1177s   temp: 1050.0C
+Diffusion:    0.3252s   to    0.4429s   step (s):    0.1177s   temp: 1050.0C
+Mechanics:    0.4429s   to    0.6783s   step    :    0.2354s   temp: 1050.0C
+Diffusion:    0.4429s   to    0.6783s   step (s):    0.2354s   temp: 1050.0C
+Mechanics:    0.6783s   to      1.05s   step    :    0.3715s   temp: 1050.0C
+Diffusion:    0.6783s   to      1.05s   step (s):    0.3715s   temp: 1050.0C
+Mechanics:      1.05s   to     1.559s   step    :    0.5091s   temp: 1050.0C
+Diffusion:      1.05s   to     1.559s   step (s):    0.5091s   temp: 1050.0C
+Mechanics:     1.559s   to     2.461s   step    :    0.9022s   temp: 1050.0C
+Diffusion:     1.559s   to     2.461s   step (s):    0.9022s   temp: 1050.0C
+Mechanics:     2.461s   to     3.767s   step    :     1.306s   temp: 1050.0C
+Diffusion:     2.461s   to     3.767s   step (s):     1.306s   temp: 1050.0C
+Mechanics:     3.767s   to     5.409s   step    :     1.641s   temp: 1050.0C
+Diffusion:     3.767s   to     5.409s   step (s):     1.641s   temp: 1050.0C
+Mechanics:     5.409s   to      7.36s   step    :     1.952s   temp: 1050.0C
+Diffusion:     5.409s   to      7.36s   step (s):     1.952s   temp: 1050.0C
+Mechanics:      7.36s   to      8.68s   step    :      1.32s   temp: 1050.0C
+Diffusion:      7.36s   to      8.68s   step (s):      1.32s   temp: 1050.0C
+Mechanics:      8.68s   to        10s   step    :      1.32s   temp: 1050.0C
+Diffusion:      8.68s   to        10s   step (s):      1.32s   temp: 1050.0C
+
+Elapsed time for diffuse 31.47s
+----------------------------------------------------------------- struct -----
+struct tdr= "n136_MOS6"
+------------------------------------------------------------------------------
+Points: 1906
+Nodes: 2258
+Edges: 5854
+Faces: 3609
+Volumes: 0
+
+Writing file n136_MOS6_fps.tdr...done
+
+---------------------------------------------------------------- deposit -----
+deposit type= "anisotropic" thickness= 0.0500<um> material= {Aluminum}
+------------------------------------------------------------------------------
+MGoals time: 0.241149
+
+Updating sprocess mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+
+=================================  brep2d quality  =====================================
+minAngle: 88.8337  [near (-0.0682965 0.0959737)] at region=Gas_1
+nVerts = 449  nTris = 455  nRegs = 16
+bmin: 2 0
+bmax: -2.00898 0.24
+min area: 2.66962e-05  max area: 0.502246  min edge length : 2.66962e-05
+total area  : 9.4183 interface area: 0.920327
+total volume: 1.1142
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+SnMesh time: 0.232351
+
+========================  tri-grid quality (Gas excluded)  =======================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    4   9   5   6   5   5   6   6   9  30  .   .   .   .   .   .   .   . 
+---------------------------------------------------------------------------------
+minAngle: 0.0937505  maxAngle: 167.045
+nVerts = 2010  nTris = 3815  nMats = 7
+max connectivity (tris per node): 23
+bmin: 2 0
+bmax: -2.00898 0.24
+min edgeLength: 2.66962e-05  [near (-0.0682965 0.095987)]
+min volume: 5.48707e-09  max volume: 0.00612907  Total volume: 0.501065
+bbox  volume: 0.962156
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: Oxide_1  Total volume: 0.000915482
+Initializing sprocess...time: 0.113226
+Interpolating...elapsed time: 0.27
+Mechanics:         0s   to         1s   step    :         1s   temp: 26.9C->26.9C
+------------------------------------------------------------------- mask -----
+mask name= "contacts_mask" left= 0.144<um>
+------------------------------------------------------------------------------
+------------------------------------------------------------------- etch -----
+etch mask= "contacts_mask" type= "anisotropic" thickness= 0.100<um> material= {Aluminum}
+------------------------------------------------------------------------------
+MGoals time: 0.391204
+
+Updating sprocess mesh before Etch/Depo relax.
+Generating SnMesh mesh... 
+
+=================================  brep2d quality  =====================================
+minAngle: 89.3066  [near (-0.102985 0.0600002)] at region=Nitride_1
+nVerts = 376  nTris = 381  nRegs = 18
+bmin: 2 0
+bmax: -2.00898 0.24
+min area: 8.98916e-05  max area: 0.502246  min edge length : 8.98916e-05
+total area  : 9.24903 interface area: 0.751065
+total volume: 0.953494
+Conformal? true
+Are all boundaries on bbox? true
+==================================================================================
+SnMesh time: 0.234486
+
+========================  tri-grid quality (Gas excluded)  =======================
+    0  10  20  30  40  50  60  70  80  90 100 110 120 130 140 150 160 170 180
+ %    3   8   5   4   4   4   4   5   8  28  .   .   .   .   .   .       . 
+---------------------------------------------------------------------------------
+minAngle: 0.0937505  maxAngle: 167.045
+nVerts = 1936  nTris = 3668  nMats = 6
+max connectivity (tris per node): 22
+bmin: 2 0
+bmax: -2.00898 0.24
+min edgeLength: 5.215e-05  [near (-0.102045 0.0680504)]
+min volume: 5.48707e-09  max volume: 0.00612907  Total volume: 0.493865
+bbox  volume: 0.962156
+Are all boundaries on bbox? true
+=================================================================================
+
+Smallest region: Oxide_1  Total volume: 0.000915482
+Initializing sprocess...time: 0.096062
+Interpolating...elapsed time: 0.27
+Mechanics:         0s   to         1s   step    :         1s   temp: 26.9C->26.9C
+
+-------------------------------------------------------------- transform -----
+transform left reflect
+------------------------------------------------------------------------------
+Time for adding meshes: 0.04
+Time for copying data: 0.02
+Time for merging regions: 0.04
+---------------------------------------------------------------- contact -----
+contact name= "substrate" bottom
+------------------------------------------------------------------------------
+---------------------------------------------------------------- contact -----
+contact name= "source" X= -0.0100<um> Y= -0.180<um> point replace
+------------------------------------------------------------------------------
+---------------------------------------------------------------- contact -----
+contact name= "drain" X= -0.0100<um> Y= 0.180<um> point replace
+------------------------------------------------------------------------------
+---------------------------------------------------------------- contact -----
+contact name= "gate" X= -0.0500<um> Y= 0.00e+00<um> point
+------------------------------------------------------------------------------
+
+Turning off restart capability for n136_fps.tdr (requires gas and interfaces)
+----------------------------------------------------------------- struct -----
+struct tdr= "n136" !Gas !interfaces
+------------------------------------------------------------------------------
+Interpolating...elapsed time: 0.23
+Points: 3768
+Nodes: 4622
+Edges: 11929
+Faces: 7336
+Volumes: 0
+
+Writing file n136_fps.tdr... Point contact source is in region Aluminum_1.1
+ Point contact drain is in region Aluminum_1.2
+ Point contact gate is in region PolySilicon_1
+done
+
+------------------------------------------------------------------------------
+Summary:
+Anneal time stepping:
+  reaction/mechanics steps=121 minimum=38.95s maximum=1.0000e+38s
+  diffusion steps=121 minimum=6.8734e-05s maximum=1.1459e+02s
+Edge/Face swapping:
+ calls=9 flips=0
+------------------------------------------------------------------------------
+License features used:
+    sprocess
+    sprocess2d
+------------------------------------------------------------------------------
+
+Elapsed Time:	00:02:08
+User Time:	00:02:05
+CPU Time:	00:02:03
+
+Detailed CPU time report:
+
+26.47 sec (21.9%) Diffusion step time. (121 calls).
+14.01 sec (11.6%) solution command (141697 calls).
+12.18 sec (10.1%) Mechanics step (121 calls).
+10.91 sec (9.0%) Solver(PDE). (1323 calls).
+8.11 sec (6.7%) implant command (297 calls).
+7.12 sec (5.9%) term command (24401 calls).
+5.88 sec (4.9%) struct command (7 calls).
+5.82 sec (4.8%) Store nodal values: Serial. (11237 calls).
+4.77 sec (3.9%) Mechanics preassembly (128 calls).
+4.01 sec (3.3%) Serial mode assembly. (1951 calls).
+3.47 sec (2.9%) sel command (4098 calls).
+2.11 sec (1.7%) Total time spent in Symbolic. (9 calls).
+1.55 sec (1.3%) SnMesh meshing (8 calls).
+1.47 sec (1.2%) Other Program Parts (1 calls).
+1.19 sec (1.0%) mater command (8951 calls).
+1.18 sec (1.0%) mgoals (7 calls).
+1.13 sec (0.9%) Reaction step time. (121 calls).
+1.03 sec (0.9%) Arr command (27153 calls).
+0.99 sec (0.8%) Mechanics assembly (serial mode) (128 calls).
+0.92 sec (0.8%) FieldServer copy (28 calls).
+0.82 sec (0.7%) Solver(Mechanics) (128 calls).
+0.78 sec (0.6%) Interface interpolation (42 calls).
+0.75 sec (0.6%) Bulk Interpolation (25 calls).
+0.69 sec (0.6%) etch command (4 calls).
+0.64 sec (0.5%) diffuse command (4 calls).
+
+Detailed elapsed time report:
+
+27.17 sec (21.9%) Diffusion step time. (121 calls).
+14.43 sec (11.6%) solution command (141697 calls).
+12.41 sec (10.0%) Mechanics step (121 calls).
+11.26 sec (9.1%) Solver(PDE). (1323 calls).
+8.26 sec (6.7%) implant command (297 calls).
+7.30 sec (5.9%) term command (24401 calls).
+6.03 sec (4.9%) struct command (7 calls).
+5.92 sec (4.8%) Store nodal values: Serial. (11237 calls).
+4.96 sec (4.0%) Mechanics preassembly (128 calls).
+4.07 sec (3.3%) Serial mode assembly. (1951 calls).
+3.55 sec (2.9%) sel command (4098 calls).
+2.16 sec (1.7%) Total time spent in Symbolic. (9 calls).
+1.56 sec (1.3%) SnMesh meshing (8 calls).
+1.50 sec (1.2%) Other Program Parts (1 calls).
+1.23 sec (1.0%) mater command (8951 calls).
+1.20 sec (1.0%) mgoals (7 calls).
+1.17 sec (0.9%) Reaction step time. (121 calls).
+1.08 sec (0.9%) Arr command (27153 calls).
+0.99 sec (0.8%) Mechanics assembly (serial mode) (128 calls).
+0.92 sec (0.7%) FieldServer copy (28 calls).
+0.85 sec (0.7%) Solver(Mechanics) (128 calls).
+0.83 sec (0.7%) Interface interpolation (42 calls).
+0.75 sec (0.6%) Bulk Interpolation (25 calls).
+0.73 sec (0.6%) etch command (4 calls).
+0.69 sec (0.6%) diffuse command (4 calls).

@@ -1,0 +1,2148 @@
+****************************************************************************
+***                           Sentaurus Device                           ***
+***                          Version O-2018.06                           ***
+***                       (1.1029, x86_64, Linux)                        ***
+***                                                                      ***
+***                       Copyright (C) 1994-2018                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+	Running on machine with the following configuration:
+	Host Name: acs14007.4225.cse.uconn.edu
+	Operating System: Linux rel. 3.10.0-1127.18.2.el7.x86_64 ver. #1 SMP Mon Jul 20 22:32:16 UTC 2020
+	Machine Type: x86_64
+	Process ID: 22164
+	Number of processors: 2
+	Domain Name: (none)
+	Date: Tue Nov 17 09:46:02 2020  (EDT)
+
+Parsing "/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/Molefraction.txt"
+Tue Nov 17 09:46:02 2020: checked out 1 sdevice license(s)
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/bs_psource.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_vsource.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_SRL1.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_isource.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_pGC.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_vsource2.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_sRL.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_isource2.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/scm/ferroelectric.ccf
+Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/scm/MOS_harness.ccf
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/scm/MOS_harness.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/scm/ferroelectric.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_isource2.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_sRL.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_vsource2.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_pGC.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_isource.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_SRL1.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_vsource.so.linux64
+Loading shared object file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/bs_psource.so.linux64
+
+Input source: pp70_des.cmd
+
+===============================
+
+Output file: n70_des.log
+
+
+GlobalParameter {
+}
+no ACExtract file
+
+PMIPath file: /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029 /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice
+
+CMIPath file: /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029 /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/scm
+
+SPICEPath file: /usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/sdevice-28.0.1029/spice
+
+no DevicePath file
+
+no CIRCUITSAVENAME file
+
+no CIRCUITLOADNAME file
+
+Numerical parameters:
+  Absolute error : 
+    Poisson : 1.0000e-03
+    eqPoisson : 1.0000e-03
+    Electron : 1.0000e-05
+    Hole : 1.0000e-05
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1.0000e-05
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e-05
+    QW-eScattering-Equation : 1.0000e-05
+    QW-hScattering-Equation : 1.0000e-05
+    Optical Problem : 1.0000e-03
+    Wavelength : 1.0000e-03
+    Bandstructure : 1.0000e-03
+    EmissionTable : 1.0000e-03
+    DephasingRates : 1.0000e-03
+    Photon Recycling : 1.0000e-03
+    Electron-Temperature : 1.0000e-04
+    Hole-Temperature : 1.0000e-04
+    Lattice-Hole-Electron-Temperature : 1.0000e-03
+    Circuit : 1.0000e-03
+    TCircuit : 1.0000e-03
+    Contact : 1.0000e-03
+    TContact : 1.0000e-03
+    Continuation : 1.0000e-03
+    eLaplace : 1.0000e-03
+    hLaplace : 1.0000e-03
+    tLaplace : 1.0000e-03
+    MonteCarlo : 1.0000e-03
+    MCPoissonPDE : 1.0000e-03
+    eQuantumPotential : 1.0000e-03
+    hQuantumPotential : 1.0000e-03
+    quasi-fermi-potential : 1.0000e-03
+    ConductiveInsulator : 1.0000e-03
+    ContactAndConductiveInsulator : 1.0000e-03
+    SingletExciton : 1.0000e-05
+    FEPolarization : 1.0000e-05
+    eHopping : 1.0000e-03
+    hHopping : 1.0000e-03
+    HydrogenAtom : 1.0000e-03
+    HydrogenMolecule : 1.0000e-03
+    HydrogenIon : 1.0000e-03
+    HydrogenSiliconBondOccupation : 1.0000e-03
+    TrapPDE : 1.0000e-03
+    eSHEDistribution : 1.0000e-03
+    hSHEDistribution : 1.0000e-03
+    Landau-Lifshitz-Gilbert[theta] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[phi] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[x] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[y] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[z] : 1.0000e-03
+    Mechanics : 1.0000e-03
+    ExternalTransportSolver : 1.0000e-03
+    ReactionDiffusionPDE : 1.0000e-03
+  RelErrControl (Reference error): 
+    Poisson : 0.025852
+    eqPoisson : 1
+    Electron : 1.0000e+10
+    Hole : 1.0000e+10
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e+10
+    QW-eScattering-Equation : 1.0000e+10
+    QW-hScattering-Equation : 1.0000e+10
+    Optical Problem : 1
+    Wavelength : 1
+    Bandstructure : 1
+    EmissionTable : 1
+    DephasingRates : 1
+    Photon Recycling : 1
+    Electron-Temperature : 3.0000e+02
+    Hole-Temperature : 3.0000e+02
+    Lattice-Hole-Electron-Temperature : 3.0000e+02
+    Circuit : 1
+    TCircuit : 1
+    Contact : 0.025852
+    TContact : 1
+    Continuation : 1
+    eLaplace : 1
+    hLaplace : 1
+    tLaplace : 1
+    MonteCarlo : 1
+    MCPoissonPDE : 1
+    eQuantumPotential : 0.025852
+    hQuantumPotential : 0.025852
+    quasi-fermi-potential : 0.025852
+    ConductiveInsulator : 1
+    ContactAndConductiveInsulator : 1
+    SingletExciton : 1.0000e+10
+    FEPolarization : 0.025852
+    eHopping : 0.025852
+    hHopping : 0.025852
+    HydrogenAtom : 1.0000e+10
+    HydrogenMolecule : 1.0000e+10
+    HydrogenIon : 1.0000e+10
+    HydrogenSiliconBondOccupation : 1
+    TrapPDE : 1.0000e-05
+    eSHEDistribution : 0.025852
+    hSHEDistribution : 0.025852
+    Landau-Lifshitz-Gilbert[theta] : 1
+    Landau-Lifshitz-Gilbert[phi] : 1
+    Landau-Lifshitz-Gilbert[x] : 1
+    Landau-Lifshitz-Gilbert[y] : 1
+    Landau-Lifshitz-Gilbert[z] : 1
+    Mechanics : 1
+    ExternalTransportSolver : 1
+    ReactionDiffusionPDE : 1
+  Relative error : 5 digits
+  Without checked transient error
+  Max. #iterations : 20
+  LineSearchDamping=1
+  #undamped iterations : 1000
+  No incomplete Newton
+  transient method : TR-BDF
+  Linear solver : blocked decomposition
+  Linear solver for AC analysis : blocked decomposition
+  Linear solver for SHEDistribution Model : Super
+  use linear extrapolation in transient/quasistationary computations
+  use complex supernodal in ac-analysis (if possible)
+  do not use smoothed PDE's in transient/quasistationary computations
+  use automatic coupling of contact/circuit stuff
+  Spice temperature: 3.0015e+02
+  Spice nominal temperature of parameter measurements: 3.0015e+02
+  Spice minimum conductance gmin: 1.0000e-12
+  Terminate simulation immediately if a solve command fails.
+  Use 64 bit (double) normal precision floating point arithmetic.
+  Mininum |rhs| : 1.0000e-05
+  Maximum |rhs| : 1.0000e+15
+  Maximum |rhs| factor : 1.0000e+10
+  Maximum |rhs| factor1 : 1.0000e+10
+  Lattice Temperature Range : (50,5.0000e+03)
+  Carrier Temperature Range : (10,8.0000e+04)
+  Simplified first order SHE of BTE will be solved
+  SHERefinementCutoff : 20
+  No user dependencies.
+  Number of assembly threads: 1 (default)
+  Number of solver threads: 1 (OMP_NUM_THREADS)
+  Thread stacksize: 1000000 bytes (default)
+  Go serial if not enough parallel licenses are available.
+
+Default device parameters:
+  Electrodes:
+    "source" : 0.0000e+00 V (EqOhmic), area factor : 1
+    "drain" : 0.0000e+00 V (EqOhmic), area factor : 1
+    "gate" : 0.0000e+00 V (Ohmic), area factor : 1
+    "substrate" : 0.0000e+00 V (EqOhmic), area factor : 1
+  RayTrace Boundaries:
+  Files:
+    no Boundary file
+    Grid file: n66_fps.tdr
+    no Doping file
+    no MobilityDoping file
+    no Load file
+    no Save file
+    Plot file: n70_des.tdr
+    no DevFieldsName file
+    AutoNewtonPlot file: n70_des_%d_des.tdr
+    no Path file
+    no Lifetime file
+    no Temperature file
+    Current file: n70_des.plt
+    no PMIUserFields file
+    no Extraction file
+    no ModelParameters file
+    ParameterPath directories: 
+    no Piezo file
+    no mcDOS file
+    no ModeGain file
+    no Optical emission table for stimulated emission file
+    no Optical emission table for spontaneous emission file
+    no Optical emission table for photon phase change coefficient file
+    no EmissionTable file
+    no DephasingRates file
+    no ASESpectrum file
+    no OpticalFarField file
+    no OpticalIntensityPattern file
+    no SaveOpticalIntensityPattern file
+    no OpticalXYAnglePattern file
+    no SaveOpticalXYAnglePattern file
+    no IlluminationSpectrum file
+    no SpectralPlot file
+    no OpticalSolverInput file
+    no OpticalGenerationInput file
+    no OpticalGenerationOutuput file
+    no OptGenTransientScaling file
+    no MonteCarloInput file
+    no MonteCarloOutput file
+    no ACPlot file
+-----------------------------------------------
+  Numerical parameters:
+    With avalanche derivatives
+    Using old wavelength search algorithm
+    Do not reinitialize quasi Fermi potentials in quasi-stationary simulations
+    Ignore ionization integral constraints
+    Without diagonal preconditioning
+    With Scharfetter-Gummel Discretization
+    Relative error : 5 digits
+    Delta for numerical tunnelling derivatives : 1.0000e-03
+    Do not compute breakdown paths and ionization integrals
+    QuasiFermiPotential is used for Contact Equation
+    With usage of best vertex in element (maximum element-vertex volume angle) for impact ionization models
+-----------------------------------------------
+-----------------------------------------------
+  Physical models:
+    Without incomplete ionization
+    Use Si parameters
+    TATNonlocalPathNC = 0.0000e+00
+    Without SRH-Recombination
+    Without CDL-Recombination
+    With optical generation computation 
+    Without Band-to-Band-Tunneling
+    Without Auger-Recombination
+    Without Radiative Recombination
+    Without Surface-Recombination
+    Without Trap-Assisted-Auger-Recombination
+    PMI recombination models: none
+    Without thermal resistance interfaces
+    Without distributed resistance interfaces for electrons
+    Without distributed resistance interfaces for holes
+    Without Piezo
+    Without Anisotropic Material Properties
+    Without Avalanche-Generation 
+    Without Alpha Particle
+    Without Heavy Ion
+    Without polarization
+    Volume charge density: 0.0000e+00 cm^-3
+    Device Temperature = 3.0000e+02 K
+    Electron Quasi Fermi Potential: 0.0000e+00 V
+    Hole Quasi Fermi Potential: 0.0000e+00 V
+    Without MagneticField
+    With SingletExciton Barrier Type
+    Intrinsic density models:
+      default bandgap model
+      Bandgap narrowing model: OldSlotboom with bandgap narrowing (no Fermi)
+    default affinity model
+    default effective mass model
+    Electron mobility:
+      no Doping dependence (using constant mobility)
+      no Carrier-Carrier scattering
+      no E_normal dependence
+      Without ThinLayer mobility model
+      no high-field saturation
+      Einstein relation for diffusivity-mobility ratio.
+    Hole mobility:
+      no Doping dependence (using constant mobility)
+      no Carrier-Carrier scattering
+      no E_normal dependence
+      Without ThinLayer mobility model
+      no high-field saturation
+      Einstein relation for diffusivity-mobility ratio.
+    Energy relaxation time model: according to formula in parameter file
+    Schottky resistance model: default bult-in model
+    Lattice thermal conductivity model: according to formula in parameter file
+    Metal Resistivity model: according to formula in parameter file
+    Thermo Electric Power model: extraploted Si data
+    Metal Thermo Electric Power model: MetalThermoElectricPower model not defined
+    Lattice heat capacity model: temperature dependent
+    no piezoelectric polarization model
+    Without default parameters from file (use built-in default parameters)
+-----------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - 
+  The following Physical models were changed
+              for Material = 'Silicon'
+    With SRH-Recombination
+      Without field dependent lifetimes
+      With doping dependent lifetimes
+      Without temperature dependent lifetimes
+    Without thermal resistance interfaces
+    Without distributed resistance interfaces for electrons
+    Without distributed resistance interfaces for holes
+    Electron mobility:
+      Philips unified mobility
+      E_normal dependence:
+        Lombardi
+      High-field mobility: Caughey-Thomas saturation model, using gradient quasi-Fermi potential.
+    Hole mobility:
+      Philips unified mobility
+      E_normal dependence:
+        Lombardi
+      High-field mobility: Caughey-Thomas saturation model, using gradient quasi-Fermi potential.
+- - - - - - - - - - - - - - - - - - - - - - - -
+  Process information for extraction purposes:
+    none
+  Plot variables:
+    eDensity
+    hDensity
+    eCurrentDensity
+    hCurrentDensity
+    ElectrostaticPotential
+    SpaceCharge
+    ElectricField
+    eMobility
+    hMobility
+    eVelocity
+    hVelocity
+    DopingConcentration
+    DonorConcentration
+    AcceptorConcentration
+    ConductionBandEnergy
+    ValenceBandEnergy
+    eQuasiFermiPotential
+    hQuasiFermiPotential
+
+------------------------------------------------
+  NoisePlot variables:
+    none
+  Plot groups:
+    none
+
+------------------------------------------------
+  CurrentPlot variables:
+    none
+Devices:
+Systems:
+Solve :
+ Poisson
+Coupled ( Digits : 5, Max. #iterations : 20, 
+    Solver : blocked decomposition,
+    #undamped iterations : 1000 
+    )
+    { Poisson Electron Hole } 
+Quasistationary ( Digits : 5, Max. #iterations : 20, 
+      Initial step in t : 0.1, 
+      Minimum step in t : 1.0000e-05, Maximum step in t : 0.1, 
+      Increment : 1.5, Decrement : 2, 
+      Goal values :
+        Contact gate : 1V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 20, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+        )
+        { Poisson Electron Hole } 
+  }
+Quasistationary ( Digits : 5, Max. #iterations : 20, 
+      Initial step in t : 0.01, 
+      Minimum step in t : 1.0000e-05, Maximum step in t : 0.025, 
+      Increment : 1.5, Decrement : 2, 
+      DoZero      Goal values :
+        Contact drain : 3V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 20, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+        )
+        { Poisson Electron Hole } 
+  }
+
+===============================
+
+Reading grid 'n66_fps.tdr' ... 
+  coordinate system: UCS, 3d_sprocess (x is device down direction)
+  use coordinate system as is (no transformation)
+  TDR format
+  Number of grid points is 2638.
+done.
+
+Adding interfaces and contacts .... done.
+
+Computing edges ...
+  Number of edges: 7719
+done.
+Computing boxes ...
+
+  CVPL_AverageBoxMethod = TRUE 
+   
+  Boxmethod Parallel Computing: nbThreads = 1 
+
+  Computing Delaunay coefficients ...   done.
+  Delaunay coefficients time: (wallclock = 0.0000e+00 s, tcpu = 0.0000e+00 s)
+
+  Parallel Computing Voronoi faces, coefficients, and measures ... 
+  CVPL_Algorithm = TRUE 
+
+    Computing Obtuse Elements ... 
+     Obtuse Elements time:  tcpu = 0.0000e+00 s
+      New Parameters time: (wallclock = 0.0000e+00 s, tcpu = 0.0000e+00 s)
+
+Info for all regions (NumberOfRegions = 4):
+        ElementWithMinVolume(  1171) Vertex0(  626)( 6.273511e-03,-1.509175e-01) Volume = 4.701920e-08 um3 (1.95e-08 from TotalVolume)
+          ElementWithMinEdge(   965) Vertex0(  512)( 6.376001e-03,-2.396947e-01) Length = 1.024900e-04 um
+              MaxFlatElement(  4524) Vertex0( 2390)(-4.828787e-02, 2.187781e-01)  Angle = 3.244016e+01 degrees
+         ElementWithMinAngle(  2658) Vertex0(  543)( 6.273511e-03, 4.434066e-01)  Angle = 3.749994e-02 degrees
+   ElementWithMaxQualityEdge(  1025) Vertex0(  543)( 6.376001e-03,-4.434066e-01)    R/L = 7.639451e+02 
+ ElementWithMaxQualityHeight(  1025) Vertex0(  543)( 6.376001e-03,-4.434066e-01)    R/H = 7.639453e+02 
+
+Info for semiconductor regions (NumberOfRegions = 1):
+        ElementWithMinVolume(  1171) Vertex0(  626)( 6.273511e-03,-1.509175e-01) Volume = 4.701920e-08 um3 (1.95e-08 from TotalVolume)
+          ElementWithMinEdge(   965) Vertex0(  512)( 6.376001e-03,-2.396947e-01) Length = 1.024900e-04 um
+              MaxFlatElement(  2344) Vertex0( 1704)( 1.914071e-02, 2.420294e-01)  Angle = 5.069424e+01 degrees
+         ElementWithMinAngle(  2658) Vertex0(  543)( 6.273511e-03, 4.434066e-01)  Angle = 3.749994e-02 degrees
+   ElementWithMaxQualityEdge(  1025) Vertex0(  543)( 6.376001e-03,-4.434066e-01)    R/L = 7.639451e+02 
+ ElementWithMaxQualityHeight(  1025) Vertex0(  543)( 6.376001e-03,-4.434066e-01)    R/H = 7.639453e+02 
+
+   NumberOfEdges              =   7719 
+   NumberOfGeometricalEdges   =   7631 
+   NumberOfDoubleEdges        =      0 
+   MaxNumberOfEdgesPerVertex  =      9; vertex(1283) = (-6.278076e-02, -1.864619e-01) [um]
+   MaxNumberOfElementsPerEdge =      2; edge(0) = (0, 3) 
+                                        vertex(0) = ( 1.628395e+00,  0.000000e+00) [um]
+                                        vertex(3) = ( 1.470283e+00, -2.951073e-02) [um]
+
+                        NumberOfVertices =   2726 
+                        NumberOfElements =   4994 
+                       NumberOfTriangles =   4994  (100.00 %)
+                      NumberOfRectangles =      0  ( 0.00 %)
+                  NumberOfObtuseElements =    112  ( 2.24 %)
+             NumberOfNonDelaunayElements =      0  ( 0.00 %)
+
+  VertexWithMaxMeasure(  801)( 1.804300e+00,-4.434066e-01)
+  MaxVertMeasure(2.435293e-02)/VertVolume(1.377278e-02) = 1.77e+00
+
+
+/-------- Region non-Delaunay elements ---------------------------------------------------------------------
+ Region          Volume      BoxMethodVolume  DeltaVolume  Elements  non-Delaunay      non-DelaunayVolume 
+  name            [um2]          [um2]           [%]                   Elements              [um2]   [%]   
+ -----------------------------------------------------------------------------------------------------------
+ Silicon_1    2.3924718e+00  2.3924718e+00     4.2e-13      3248       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ Oxide_1      4.5773935e-03  4.5773935e-03     8.5e-14       684       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ Nitride_1.1  6.3586692e-03  6.3586692e-03     3.1e-13       531       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ Nitride_1.2  6.3586692e-03  6.3586692e-03     2.7e-13       531       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ ...........................................................................................................
+ Total        2.4097665e+00  2.4097665e+00     2.2e-12      4994       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+\-----------------------------------------------------------------------------------------------------------
+    done.
+  done.
+  (times: wallclock = 0.01 s, tcpu = 0.01 s)
+done.
+Reading doping 'n66_fps.tdr' (TDR format) ...
+done.
+done.
+
+
+=======
+Region: "Nitride_1.1"
+  (material is "Nitride")
+=======
+  Using default lattice crystal coordinate system:
+    effective LatticeParameters:
+      X = (1, 0.0000e+00, 0.0000e+00)
+      Y = (0.0000e+00, 1, 0.0000e+00)
+      Z = (0.0000e+00, 0.0000e+00, 1)
+  Constants are not modified and equal to default ones
+
+=======
+Region: "Nitride_1.2"
+  (material is "Nitride")
+=======
+  Using default lattice crystal coordinate system:
+    effective LatticeParameters:
+      X = (1, 0.0000e+00, 0.0000e+00)
+      Y = (0.0000e+00, 1, 0.0000e+00)
+      Z = (0.0000e+00, 0.0000e+00, 1)
+  Constants are not modified and equal to default ones
+
+=======
+Region: "Oxide_1"
+  (material is "Oxide")
+=======
+  Using default lattice crystal coordinate system:
+    effective LatticeParameters:
+      X = (1, 0.0000e+00, 0.0000e+00)
+      Y = (0.0000e+00, 1, 0.0000e+00)
+      Z = (0.0000e+00, 0.0000e+00, 1)
+  Constants are not modified and equal to default ones
+
+=======
+Region: "Silicon_1"
+  (material is "Silicon")
+=======
+  Using lattice crystal coordinate system from TDR file:
+    slice.angle                   : 1.8000e+02 [deg]
+    wafer.orient, vertical.orient : (0, 0, 1)
+    flat.orient, horizontal.orient: [1, 1, 0]
+    miscut.tilt                   : 0.0000e+00 [deg]
+    miscut.toward                 : [1, 1, 0]
+    lattice.system                : cubic
+    polytype                      : Zincblende
+    lattice.const                 : 5.4310e-08 [cm]
+    lattice.const.b               : 5.4310e-08 [cm]
+    lattice.const.c               : 5.4310e-08 [cm]
+    unit cell angles: alpha = 90, beta = 90, gamma = 90 [deg]
+    effective LatticeParameters:
+      X = (0.0000e+00, 0.0000e+00, -1.0000e+00)
+      Y = (0.707107, 0.707107, 0.0000e+00)
+      Z = (0.707107, -7.0711e-01, 0.0000e+00)
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Oxide_1/Nitride_1.1"
+  (material interface is "Oxide/Nitride")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Silicon_1/Nitride_1.1"
+  (material interface is "Silicon/Nitride")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Oxide_1/Nitride_1.2"
+  (material interface is "Oxide/Nitride")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Silicon_1/Nitride_1.2"
+  (material interface is "Silicon/Nitride")
+================
+  Constants are not modified and equal to default ones
+
+================
+RegionInterface: "Silicon_1/Oxide_1"
+  (material interface is "Silicon/Oxide")
+================
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "drain"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "gate"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "source"
+==========
+  Constants are not modified and equal to default ones
+
+==========
+Electrode: "substrate"
+==========
+  Constants are not modified and equal to default ones
+
+
+Acceptor and donor concentrations (AcceptorConcentration, DonorConcentration):
+    computed based on the following species from the doping file:
+        ArsenicActiveConcentration (donor)
+        BoronActiveConcentration (acceptor)
+Net doping concentration (DopingConcentration):
+    obtained from doping file
+Total doping concentration (TotalConcentration):
+    recomputed from acceptor and donor concentrations
+
+
+
+With Constant Reference Potential:
+  Parameters of Reference Semiconductor:
+    The Electron Affinity: 4.07274
+    The Band Gap: 1.10821
+    The Electron DOS: 2.8583e+19
+    The Hole DOS: 3.1046e+19
+  The Constant Reference Potential: 4.62578
+
+Computing equilibrium solution ...
+Computing poisson-equation 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.17e+02                                                      0.00
+    1      9.68e+01   1.00e+00   6.34e+00   1.09e+05    0         1      0.01
+    2      2.09e+01   1.00e+00   1.76e+00   6.02e+04    0         1      0.01
+    3      1.53e+00   1.00e+00   2.68e-01   5.78e+03    0         1      0.02
+    4      1.04e-01   1.00e+00   2.19e-02   5.30e+02    0         1      0.02
+    5      4.43e-04   1.00e+00   7.01e-04   1.47e+01    0         1      0.03
+    6      7.02e-09   1.00e+00   1.98e-06   2.83e-02    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.8267E-02 ).
+
+Accumulated times:
+Rhs time:        0.00 s
+Jacobian time:   0.00 s
+Solve time:      0.03 s
+Total time:      0.03 s
+
+
+===============================
+Starting solve of next problem:
+ Poisson
+===============================
+
+Computing poisson-equation 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.17e+02                                                      0.00
+    1      9.68e+01   1.00e+00   6.34e+00   1.09e+05    0         1      0.01
+    2      2.09e+01   1.00e+00   1.76e+00   6.02e+04    0         1      0.01
+    3      1.53e+00   1.00e+00   2.68e-01   5.78e+03    0         1      0.02
+    4      1.04e-01   1.00e+00   2.19e-02   5.30e+02    0         1      0.02
+    5      4.43e-04   1.00e+00   7.01e-04   1.47e+01    0         1      0.03
+    6      7.02e-09   1.00e+00   1.98e-06   2.83e-02    0         1      0.03
+Finished, because...
+Error smaller than 1 ( 2.8267E-02 ).
+
+Accumulated times:
+Rhs time:        0.00 s
+Jacobian time:   0.00 s
+Solve time:      0.03 s
+Total time:      0.03 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        0.000E+00       2.539E-23         1.144E-23        3.683E-23
+ gate         0.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00       3.068E-23         1.193E-23        4.261E-23
+ substrate    0.000E+00      -5.608E-23        -2.337E-23       -7.944E-23
+
+
+===============================
+Starting solve of next problem:
+Coupled ( Digits : 5, Max. #iterations : 20, 
+    Solver : blocked decomposition,
+    #undamped iterations : 1000 
+    )
+    { Poisson Electron Hole } 
+===============================
+
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.92e-03                                                      0.04
+    1      2.69e-02   1.00e+00   3.07e-11   1.79e-06    0         1      0.14
+Finished, because...
+Error smaller than 1 ( 1.7881E-06 ).
+
+Accumulated times:
+Rhs time:        0.09 s
+Jacobian time:   0.01 s
+Solve time:      0.04 s
+Total time:      0.14 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        0.000E+00       3.867E-23         8.238E-26        3.875E-23
+ gate         0.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00       7.786E-23         1.742E-25        7.803E-23
+ substrate    0.000E+00      -1.165E-22        -2.566E-25       -1.168E-22
+
+
+===============================
+Starting solve of next problem:
+Quasistationary ( Digits : 5, Max. #iterations : 20, 
+      Initial step in t : 0.1, 
+      Minimum step in t : 1.0000e-05, Maximum step in t : 0.1, 
+      Increment : 1.5, Decrement : 2, 
+      Goal values :
+        Contact gate : 1V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 20, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+        )
+        { Poisson Electron Hole } 
+  }
+===============================
+
+Computing step from t=0.0000e+00 to t=0.1 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.40e+02                                                      0.05
+    1      7.18e+07   1.00e+00   1.18e+00   1.05e+06    0         1      0.15
+    2      7.31e+04   1.00e+00   5.11e-01   1.31e+04    0         1      0.24
+    3      1.79e+01   1.00e+00   3.38e-03   1.71e+02    0         1      0.33
+    4      2.69e-02   1.00e+00   5.48e-06   2.73e-01    0         1      0.43
+Finished, because...
+Error smaller than 1 ( 2.7325E-01 ).
+
+Accumulated times:
+Rhs time:        0.28 s
+Jacobian time:   0.03 s
+Solve time:      0.12 s
+Total time:      0.43 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        0.000E+00       5.973E-23        -3.109E-25        5.942E-23
+ gate         1.000E-01       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -8.459E-24        -5.895E-25       -9.049E-24
+ substrate    0.000E+00      -5.128E-23         9.003E-25       -5.037E-23
+
+Computing step from t=0.1 to t=0.2 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.34e-02                                                      0.05
+    1      3.37e+05   1.00e+00   2.07e-02   1.21e+03    0         1      0.15
+    2      2.31e+02   1.00e+00   6.22e-04   3.09e+01    0         1      0.24
+    3      2.69e-02   1.00e+00   2.64e-07   1.28e-02    0         1      0.33
+Finished, because...
+Error smaller than 1 ( 1.2843E-02 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.02 s
+Solve time:      0.09 s
+Total time:      0.33 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        0.000E+00      -1.178E-22         1.338E-24       -1.164E-22
+ gate         2.000E-01       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -5.337E-23         1.147E-24       -5.222E-23
+ substrate    0.000E+00       1.712E-22        -2.485E-24        1.687E-22
+
+Computing step from t=0.2 to t=0.3 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.61e-02                                                      0.05
+    1      2.81e+05   1.00e+00   2.05e-02   1.20e+03    0         1      0.15
+    2      2.64e+02   1.00e+00   6.00e-04   3.01e+01    0         1      0.25
+    3      2.69e-02   1.00e+00   2.32e-07   1.04e-02    0         1      0.34
+Finished, because...
+Error smaller than 1 ( 1.0422E-02 ).
+
+Accumulated times:
+Rhs time:        0.23 s
+Jacobian time:   0.02 s
+Solve time:      0.09 s
+Total time:      0.34 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        0.000E+00      -6.617E-23         4.109E-25       -6.576E-23
+ gate         3.000E-01       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -3.512E-23         3.542E-25       -3.477E-23
+ substrate    0.000E+00       1.013E-22        -7.651E-25        1.005E-22
+
+Computing step from t=0.3 to t=0.4 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.03e-01                                                      0.06
+    1      3.27e+05   1.00e+00   2.00e-02   1.17e+03    0         1      0.15
+    2      1.73e+02   1.00e+00   5.64e-04   2.85e+01    0         1      0.23
+    3      2.69e-02   1.00e+00   2.01e-07   8.67e-03    0         1      0.32
+Finished, because...
+Error smaller than 1 ( 8.6669E-03 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.02 s
+Solve time:      0.10 s
+Total time:      0.32 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        0.000E+00      -4.163E-22         1.134E-25       -4.162E-22
+ gate         4.000E-01       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -6.311E-22         1.967E-25       -6.309E-22
+ substrate    0.000E+00       1.047E-21        -3.101E-25        1.047E-21
+
+Computing step from t=0.4 to t=0.5 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.07e-01                                                      0.05
+    1      3.24e+05   1.00e+00   1.92e-02   1.13e+03    0         1      0.13
+    2      1.53e+02   1.00e+00   5.19e-04   2.65e+01    0         1      0.22
+    3      2.69e-02   1.00e+00   1.88e-07   7.19e-03    0         1      0.31
+Finished, because...
+Error smaller than 1 ( 7.1880E-03 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.02 s
+Solve time:      0.09 s
+Total time:      0.31 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        0.000E+00      -1.192E-21         6.359E-26       -1.192E-21
+ gate         5.000E-01       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.180E-21         4.617E-26       -1.180E-21
+ substrate    0.000E+00       2.372E-21        -1.098E-25        2.372E-21
+
+Computing step from t=0.5 to t=0.6 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.17e-01                                                      0.05
+    1      3.06e+05   1.00e+00   1.81e-02   1.06e+03    0         1      0.14
+    2      1.64e+02   1.00e+00   4.67e-04   2.39e+01    0         1      0.22
+    3      2.69e-02   1.00e+00   1.64e-07   5.52e-03    0         1      0.31
+Finished, because...
+Error smaller than 1 ( 5.5230E-03 ).
+
+Accumulated times:
+Rhs time:        0.21 s
+Jacobian time:   0.01 s
+Solve time:      0.09 s
+Total time:      0.31 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        0.000E+00      -2.747E-21         5.161E-27       -2.747E-21
+ gate         6.000E-01       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.910E-21         2.367E-26       -1.910E-21
+ substrate    0.000E+00       4.657E-21        -2.883E-26        4.657E-21
+
+Computing step from t=0.6 to t=0.7 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.37e-01                                                      0.05
+    1      3.04e+05   1.00e+00   1.70e-02   9.98e+02    0         1      0.14
+    2      1.27e+02   1.00e+00   4.15e-04   2.10e+01    0         1      0.23
+    3      2.69e-02   1.00e+00   1.35e-07   4.15e-03    0         1      0.32
+Finished, because...
+Error smaller than 1 ( 4.1492E-03 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.03 s
+Solve time:      0.09 s
+Total time:      0.32 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        0.000E+00      -9.417E-21         3.768E-27       -9.417E-21
+ gate         7.000E-01       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.152E-20         4.399E-27       -1.152E-20
+ substrate    0.000E+00       2.094E-20        -8.167E-27        2.094E-20
+
+Computing step from t=0.7 to t=0.8 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.47e-01                                                      0.05
+    1      3.82e+05   1.00e+00   1.60e-02   9.30e+02    0         1      0.13
+    2      1.72e+02   1.00e+00   3.66e-04   1.83e+01    0         1      0.21
+    3      2.69e-02   1.00e+00   1.13e-07   3.25e-03    0         1      0.30
+Finished, because...
+Error smaller than 1 ( 3.2507E-03 ).
+
+Accumulated times:
+Rhs time:        0.19 s
+Jacobian time:   0.02 s
+Solve time:      0.09 s
+Total time:      0.30 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        0.000E+00      -3.085E-20         7.163E-27       -3.085E-20
+ gate         8.000E-01       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -3.366E-20        -1.391E-27       -3.366E-20
+ substrate    0.000E+00       6.450E-20        -5.772E-27        6.450E-20
+
+Computing step from t=0.8 to t=0.9 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.44e-01                                                      0.06
+    1      4.71e+05   1.00e+00   1.53e-02   8.97e+02    0         1      0.15
+    2      1.85e+02   1.00e+00   3.26e-04   1.61e+01    0         1      0.24
+    3      2.69e-02   1.00e+00   1.03e-07   2.81e-03    0         1      0.33
+Finished, because...
+Error smaller than 1 ( 2.8091E-03 ).
+
+Accumulated times:
+Rhs time:        0.23 s
+Jacobian time:   0.01 s
+Solve time:      0.09 s
+Total time:      0.33 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        0.000E+00      -4.401E-20        -8.548E-28       -4.401E-20
+ gate         9.000E-01       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -6.877E-20         5.513E-27       -6.877E-20
+ substrate    0.000E+00       1.128E-19        -4.659E-27        1.128E-19
+
+Computing step from t=0.9 to t=1 (Stepsize: 0.1) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.28e-01                                                      0.06
+    1      4.95e+05   1.00e+00   1.61e-02   9.19e+02    0         1      0.15
+    2      2.73e+02   1.00e+00   3.22e-04   1.59e+01    0         1      0.24
+    3      2.69e-02   1.00e+00   1.24e-07   5.77e-03    0         1      0.33
+Finished, because...
+Error smaller than 1 ( 5.7657E-03 ).
+
+Accumulated times:
+Rhs time:        0.22 s
+Jacobian time:   0.02 s
+Solve time:      0.09 s
+Total time:      0.33 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        0.000E+00       6.304E-19         1.264E-27        6.304E-19
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00       6.464E-19        -7.521E-28        6.464E-19
+ substrate    0.000E+00      -1.277E-18        -5.118E-28       -1.277E-18
+
+
+Finished, because of...
+Curve trace finished.
+
+
+===============================
+Starting solve of next problem:
+Quasistationary ( Digits : 5, Max. #iterations : 20, 
+      Initial step in t : 0.01, 
+      Minimum step in t : 1.0000e-05, Maximum step in t : 0.025, 
+      Increment : 1.5, Decrement : 2, 
+      DoZero      Goal values :
+        Contact drain : 3V
+    )
+  {
+    Coupled ( Digits : 5, Max. #iterations : 20, 
+        Solver : blocked decomposition,
+        #undamped iterations : 1000 
+        )
+        { Poisson Electron Hole } 
+  }
+===============================
+
+Computing solution for t=0 :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.69e-02                                                      0.00
+    1      2.69e-02   1.00e+00   4.63e-15   1.62e-10    0         1      0.10
+Finished, because...
+Error smaller than 1 ( 1.6192E-10 ).
+
+Accumulated times:
+Rhs time:        0.05 s
+Jacobian time:   0.01 s
+Solve time:      0.04 s
+Total time:      0.10 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        0.000E+00       1.723E-20        -9.892E-29        1.723E-20
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00       1.252E-20        -1.988E-28        1.252E-20
+ substrate    0.000E+00      -2.975E-20         2.977E-28       -2.975E-20
+
+Computing step from t=0.0000e+00 to t=0.01 (Stepsize: 0.01) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.41e+12                                                      0.04
+    1      6.30e+12   1.00e+00   1.76e+00   1.36e+06    0         1      0.13
+    2      2.21e+12   1.00e+00   1.35e+00   1.27e+04    0         1      0.22
+    3      2.42e+12   1.00e+00   4.65e-01   3.60e+03    0         1      0.31
+    4      4.36e+10   1.00e+00   3.49e-01   8.59e+02    0         1      0.40
+    5      2.25e+08   1.00e+00   2.02e-02   1.46e+01    0         1      0.50
+    6      2.76e+03   1.00e+00   1.61e-02   6.89e-02    0         1      0.59
+Finished, because...
+Error smaller than 1 ( 6.8853E-02 ).
+
+Accumulated times:
+Rhs time:        0.36 s
+Jacobian time:   0.03 s
+Solve time:      0.18 s
+Total time:      0.59 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        3.000E-02       1.951E-17         2.082E-20        1.953E-17
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -8.322E-17         6.085E-28       -8.322E-17
+ substrate    0.000E+00       9.230E-17        -2.861E-17        6.369E-17
+
+Computing step from t=0.01 to t=0.0233333 (Stepsize: 0.0133333) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.44e+03                                                      0.05
+    1      2.42e+04   1.00e+00   1.71e-01   2.08e+02    0         1      0.14
+    2      4.07e+00   1.00e+00   3.28e-01   1.88e+00    0         1      0.23
+    3      4.02e-02   1.00e+00   2.59e-01   5.59e-04    0         1      0.31
+Finished, because...
+Error smaller than 1 ( 5.5855E-04 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.01 s
+Solve time:      0.10 s
+Total time:      0.31 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        7.000E-02       1.636E-16         2.779E-20        1.636E-16
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.086E-16         1.199E-27       -1.086E-16
+ substrate    0.000E+00      -3.231E-20        -5.502E-17       -5.506E-17
+
+Computing step from t=0.0233333 to t=0.0424444 (Stepsize: 0.0191111) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.95e+03                                                      0.05
+    1      9.74e+04   1.00e+00   2.29e-01   3.12e+02    0         1      0.14
+    2      2.00e+01   1.00e+00   2.29e-01   3.94e+00    0         1      0.23
+    3      3.56e-02   1.00e+00   1.71e-01   4.35e-03    0         1      0.32
+Finished, because...
+Error smaller than 1 ( 4.3476E-03 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.02 s
+Solve time:      0.10 s
+Total time:      0.32 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        1.273E-01       1.998E-16         2.663E-20        1.998E-16
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.119E-16         8.928E-28       -1.119E-16
+ substrate    0.000E+00      -9.326E-21        -8.792E-17       -8.793E-17
+
+Computing step from t=0.0424444 to t=0.0674444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.41e-01                                                      0.06
+    1      2.89e+05   1.00e+00   2.30e-01   4.17e+02    0         1      0.15
+    2      1.58e+02   1.00e+00   1.72e-01   5.82e+00    0         1      0.24
+    3      3.35e-02   1.00e+00   1.64e-01   9.65e-02    0         1      0.34
+Finished, because...
+Error smaller than 1 ( 9.6541E-02 ).
+
+Accumulated times:
+Rhs time:        0.22 s
+Jacobian time:   0.03 s
+Solve time:      0.09 s
+Total time:      0.34 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.023E-01       2.488E-16         2.051E-20        2.488E-16
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.125E-16         1.152E-28       -1.125E-16
+ substrate    0.000E+00      -2.700E-20        -1.363E-16       -1.363E-16
+
+Computing step from t=0.0674444 to t=0.0924444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.04e-01                                                      0.05
+    1      3.55e+05   1.00e+00   2.60e-01   4.15e+02    0         1      0.14
+    2      7.36e+01   1.00e+00   6.46e-01   6.08e+00    0         1      0.23
+    3      7.72e-02   1.00e+00   2.21e-01   5.62e-01    0         1      0.32
+Finished, because...
+Error smaller than 1 ( 5.6189E-01 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.02 s
+Solve time:      0.10 s
+Total time:      0.32 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.773E-01       3.135E-16         3.761E-19        3.139E-16
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.132E-16         1.230E-27       -1.132E-16
+ substrate    0.000E+00      -1.529E-20        -2.007E-16       -2.008E-16
+
+Computing step from t=0.0924444 to t=0.117444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.90e-01                                                      0.05
+    1      2.92e+05   1.00e+00   4.52e-01   4.20e+02    0         1      0.14
+    2      6.64e+01   1.00e+00   8.22e-01   6.72e+00    0         1      0.23
+    3      7.85e-02   1.00e+00   1.36e-01   1.58e-01    0         1      0.32
+Finished, because...
+Error smaller than 1 ( 1.5796E-01 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.03 s
+Solve time:      0.09 s
+Total time:      0.32 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        3.523E-01       4.060E-16         7.304E-20        4.061E-16
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.136E-16         7.670E-28       -1.136E-16
+ substrate    0.000E+00      -4.351E-20        -2.924E-16       -2.925E-16
+
+Computing step from t=0.117444 to t=0.142444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.09e+00                                                      0.05
+    1      3.34e+05   1.00e+00   3.19e-01   4.41e+02    0         1      0.14
+    2      4.97e+01   1.00e+00   2.21e-01   7.36e+00    0         1      0.23
+    3      5.75e-02   1.00e+00   4.62e-02   1.36e-01    0         1      0.32
+Finished, because...
+Error smaller than 1 ( 1.3553E-01 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.02 s
+Solve time:      0.10 s
+Total time:      0.32 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        4.273E-01       5.313E-16         4.004E-20        5.313E-16
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.142E-16        -8.471E-28       -1.142E-16
+ substrate    0.000E+00      -8.644E-21        -4.171E-16       -4.171E-16
+
+Computing step from t=0.142444 to t=0.167444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.19e+00                                                      0.05
+    1      4.83e+05   1.00e+00   2.62e-01   4.54e+02    0         1      0.14
+    2      2.56e+01   1.00e+00   1.76e-01   8.58e+00    0         1      0.23
+    3      5.75e-02   1.00e+00   4.28e-02   1.08e+00    0         1      0.32
+    4      5.75e-02   1.00e+00   7.71e-03   1.71e-01    0         1      0.41
+Finished, because...
+Error smaller than 1 ( 1.7060E-01 ).
+
+Accumulated times:
+Rhs time:        0.25 s
+Jacobian time:   0.04 s
+Solve time:      0.12 s
+Total time:      0.41 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        5.023E-01       6.849E-16         3.125E-20        6.849E-16
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.147E-16         1.229E-27       -1.147E-16
+ substrate    0.000E+00      -5.283E-20        -5.702E-16       -5.703E-16
+
+Computing step from t=0.167444 to t=0.192444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.29e+00                                                      0.05
+    1      6.80e+05   1.00e+00   2.07e-01   4.48e+02    0         1      0.14
+    2      2.70e+01   1.00e+00   1.50e-01   9.08e+00    0         1      0.24
+    3      7.72e-02   1.00e+00   2.94e-02   9.56e-01    0         1      0.33
+Finished, because...
+Error smaller than 1 ( 9.5555E-01 ).
+
+Accumulated times:
+Rhs time:        0.22 s
+Jacobian time:   0.02 s
+Solve time:      0.09 s
+Total time:      0.33 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        5.773E-01       8.602E-16         3.135E-20        8.603E-16
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.152E-16         3.040E-28       -1.152E-16
+ substrate    0.000E+00      -7.247E-20        -7.450E-16       -7.451E-16
+
+Computing step from t=0.192444 to t=0.217444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.37e+00                                                      0.06
+    1      8.79e+05   1.00e+00   7.91e-02   4.13e+02    0         1      0.16
+    2      2.31e+02   1.00e+00   3.18e-02   8.36e+00    0         1      0.26
+    3      3.90e-02   1.00e+00   3.24e-03   8.06e-02    0         1      0.36
+Finished, because...
+Error smaller than 1 ( 8.0587E-02 ).
+
+Accumulated times:
+Rhs time:        0.24 s
+Jacobian time:   0.02 s
+Solve time:      0.10 s
+Total time:      0.37 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        6.523E-01       1.022E-15         3.126E-20        1.022E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.157E-16         5.133E-29       -1.157E-16
+ substrate    0.000E+00      -5.461E-20        -9.066E-16       -9.066E-16
+
+Computing step from t=0.217444 to t=0.242444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.38e+00                                                      0.06
+    1      9.40e+05   1.00e+00   3.90e-02   3.80e+02    0         1      0.15
+    2      4.23e+02   1.00e+00   2.11e-02   9.96e+00    0         1      0.24
+    3      5.75e-02   1.00e+00   3.46e-03   7.31e-02    0         1      0.33
+Finished, because...
+Error smaller than 1 ( 7.3064E-02 ).
+
+Accumulated times:
+Rhs time:        0.22 s
+Jacobian time:   0.02 s
+Solve time:      0.09 s
+Total time:      0.33 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        7.273E-01       1.123E-15         3.126E-20        1.123E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.162E-16         6.730E-28       -1.162E-16
+ substrate    0.000E+00      -3.343E-20        -1.007E-15       -1.007E-15
+
+Computing step from t=0.242444 to t=0.267444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.26e+00                                                      0.05
+    1      7.08e+05   1.00e+00   6.20e-02   3.63e+02    0         1      0.15
+    2      3.70e+02   1.00e+00   2.25e-02   1.29e+01    0         1      0.24
+    3      3.90e-02   1.00e+00   2.41e-03   6.17e-02    0         1      0.33
+Finished, because...
+Error smaller than 1 ( 6.1701E-02 ).
+
+Accumulated times:
+Rhs time:        0.21 s
+Jacobian time:   0.02 s
+Solve time:      0.10 s
+Total time:      0.33 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        8.023E-01       1.171E-15         3.127E-20        1.171E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.166E-16        -4.673E-29       -1.166E-16
+ substrate    0.000E+00      -5.491E-20        -1.054E-15       -1.054E-15
+
+Computing step from t=0.267444 to t=0.292444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.95e-01                                                      0.05
+    1      3.19e+05   1.00e+00   5.26e-02   3.16e+02    0         1      0.13
+    2      1.11e+02   1.00e+00   2.09e-02   1.15e+01    0         1      0.22
+    3      5.75e-02   1.00e+00   4.39e-03   1.30e-01    0         1      0.31
+Finished, because...
+Error smaller than 1 ( 1.2956E-01 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.02 s
+Solve time:      0.09 s
+Total time:      0.31 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        8.773E-01       1.196E-15         3.127E-20        1.197E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.171E-16         2.680E-28       -1.171E-16
+ substrate    0.000E+00      -7.976E-20        -1.079E-15       -1.079E-15
+
+Computing step from t=0.292444 to t=0.317444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.47e-01                                                      0.05
+    1      8.38e+04   1.00e+00   4.76e-02   2.37e+02    0         1      0.14
+    2      1.37e+01   1.00e+00   1.31e-02   6.46e+00    0         1      0.23
+    3      7.72e-02   1.00e+00   3.77e-03   1.22e-01    0         1      0.32
+Finished, because...
+Error smaller than 1 ( 1.2206E-01 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.03 s
+Solve time:      0.09 s
+Total time:      0.32 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        9.523E-01       1.215E-15         3.128E-20        1.215E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.175E-16        -1.136E-27       -1.175E-16
+ substrate    0.000E+00      -6.904E-20        -1.097E-15       -1.097E-15
+
+Computing step from t=0.317444 to t=0.342444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      3.52e-01                                                      0.05
+    1      5.96e+04   1.00e+00   3.61e-02   1.68e+02    0         1      0.13
+    2      2.52e+00   1.00e+00   1.50e-02   2.65e+00    0         1      0.22
+    3      7.57e-02   1.00e+00   1.39e-03   2.87e-02    0         1      0.30
+Finished, because...
+Error smaller than 1 ( 2.8741E-02 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.03 s
+Solve time:      0.07 s
+Total time:      0.30 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        1.027E+00       1.229E-15         3.128E-20        1.229E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.180E-16        -1.952E-27       -1.180E-16
+ substrate    0.000E+00      -3.632E-20        -1.111E-15       -1.111E-15
+
+Computing step from t=0.342444 to t=0.367444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.42e-01                                                      0.05
+    1      7.79e+04   1.00e+00   3.65e-02   1.38e+02    0         1      0.14
+    2      4.61e+00   1.00e+00   6.52e-03   1.20e+00    0         1      0.23
+    3      1.70e-01   1.00e+00   2.45e-04   7.29e-03    0         1      0.32
+Finished, because...
+Error smaller than 1 ( 7.2927E-03 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.03 s
+Solve time:      0.09 s
+Total time:      0.32 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        1.102E+00       1.239E-15         3.129E-20        1.239E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.185E-16         3.457E-27       -1.185E-16
+ substrate    0.000E+00      -4.258E-20        -1.121E-15       -1.121E-15
+
+Computing step from t=0.367444 to t=0.392444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.53e-01                                                      0.05
+    1      9.59e+04   1.00e+00   2.92e-02   1.33e+02    0         1      0.14
+    2      9.19e+00   1.00e+00   1.06e-02   1.11e+00    0         1      0.23
+    3      1.41e-01   1.00e+00   1.01e-03   1.04e-02    0         1      0.32
+Finished, because...
+Error smaller than 1 ( 1.0386E-02 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.03 s
+Solve time:      0.09 s
+Total time:      0.32 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        1.177E+00       1.247E-15         3.129E-20        1.247E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.189E-16        -1.136E-27       -1.189E-16
+ substrate    0.000E+00      -5.618E-20        -1.128E-15       -1.128E-15
+
+Computing step from t=0.392444 to t=0.417444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.40e-01                                                      0.05
+    1      1.11e+05   1.00e+00   4.33e-02   1.40e+02    0         1      0.15
+    2      1.65e+01   1.00e+00   7.45e-03   1.52e+00    0         1      0.24
+    3      1.70e-01   1.00e+00   1.64e-04   3.36e-03    0         1      0.33
+Finished, because...
+Error smaller than 1 ( 3.3564E-03 ).
+
+Accumulated times:
+Rhs time:        0.22 s
+Jacobian time:   0.01 s
+Solve time:      0.10 s
+Total time:      0.33 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        1.252E+00       1.252E-15         3.130E-20        1.252E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.194E-16         4.753E-28       -1.194E-16
+ substrate    0.000E+00      -4.520E-20        -1.133E-15       -1.133E-15
+
+Computing step from t=0.417444 to t=0.442444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.51e-01                                                      0.05
+    1      1.12e+05   1.00e+00   2.10e-02   1.50e+02    0         1      0.14
+    2      2.29e+01   1.00e+00   2.30e-03   2.18e+00    0         1      0.27
+    3      1.41e-01   1.00e+00   1.78e-04   1.86e-03    0         1      0.36
+Finished, because...
+Error smaller than 1 ( 1.8619E-03 ).
+
+Accumulated times:
+Rhs time:        0.23 s
+Jacobian time:   0.03 s
+Solve time:      0.10 s
+Total time:      0.36 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        1.327E+00       1.258E-15         3.130E-20        1.258E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.198E-16         1.240E-27       -1.198E-16
+ substrate    0.000E+00      -7.518E-20        -1.138E-15       -1.138E-15
+
+Computing step from t=0.442444 to t=0.467444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.40e-01                                                      0.05
+    1      1.07e+05   1.00e+00   3.84e-02   1.56e+02    0         1      0.15
+    2      2.00e+01   1.00e+00   8.87e-03   2.84e+00    0         1      0.24
+    3      1.70e-01   1.00e+00   4.30e-04   2.97e-03    0         1      0.33
+Finished, because...
+Error smaller than 1 ( 2.9737E-03 ).
+
+Accumulated times:
+Rhs time:        0.21 s
+Jacobian time:   0.03 s
+Solve time:      0.09 s
+Total time:      0.33 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        1.402E+00       1.267E-15         3.131E-20        1.267E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.202E-16        -5.975E-28       -1.202E-16
+ substrate    0.000E+00      -7.600E-20        -1.147E-15       -1.147E-15
+
+Computing step from t=0.467444 to t=0.492444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.51e-01                                                      0.05
+    1      1.04e+05   1.00e+00   2.74e-02   1.56e+02    0         1      0.13
+    2      1.27e+01   1.00e+00   2.65e-03   3.02e+00    0         1      0.22
+    3      1.41e-01   1.00e+00   1.84e-05   7.18e-04    0         1      0.31
+Finished, because...
+Error smaller than 1 ( 7.1822E-04 ).
+
+Accumulated times:
+Rhs time:        0.19 s
+Jacobian time:   0.02 s
+Solve time:      0.10 s
+Total time:      0.31 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        1.477E+00       1.281E-15         3.131E-20        1.281E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.207E-16         1.642E-27       -1.207E-16
+ substrate    0.000E+00      -4.073E-20        -1.161E-15       -1.161E-15
+
+Computing step from t=0.492444 to t=0.517444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.43e-01                                                      0.05
+    1      1.06e+05   1.00e+00   1.40e-02   1.49e+02    0         1      0.13
+    2      1.32e+01   1.00e+00   2.91e-04   2.61e+00    0         1      0.21
+    3      1.41e-01   1.00e+00   4.46e-07   2.70e-04    0         1      0.30
+Finished, because...
+Error smaller than 1 ( 2.7006E-04 ).
+
+Accumulated times:
+Rhs time:        0.19 s
+Jacobian time:   0.02 s
+Solve time:      0.09 s
+Total time:      0.30 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        1.552E+00       1.302E-15         3.132E-20        1.302E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.211E-16         7.487E-28       -1.211E-16
+ substrate    0.000E+00      -6.858E-20        -1.181E-15       -1.181E-15
+
+Computing step from t=0.517444 to t=0.542444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.13e-01                                                      0.05
+    1      8.99e+04   1.00e+00   1.38e-02   1.31e+02    0         1      0.14
+    2      1.15e+01   1.00e+00   1.30e-03   2.08e+00    0         1      0.22
+    3      1.41e-01   1.00e+00   2.19e-05   2.13e-04    0         1      0.31
+Finished, because...
+Error smaller than 1 ( 2.1321E-04 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.02 s
+Solve time:      0.09 s
+Total time:      0.31 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        1.627E+00       1.326E-15         3.132E-20        1.326E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.215E-16         1.733E-29       -1.215E-16
+ substrate    0.000E+00      -4.713E-20        -1.204E-15       -1.204E-15
+
+Computing step from t=0.542444 to t=0.567444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.41e-01                                                      0.05
+    1      5.90e+04   1.00e+00   2.43e-02   1.15e+02    0         1      0.14
+    2      7.19e+00   1.00e+00   2.34e-03   1.72e+00    0         1      0.22
+    3      1.70e-01   1.00e+00   2.06e-05   1.70e-04    0         1      0.31
+Finished, because...
+Error smaller than 1 ( 1.7030E-04 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.02 s
+Solve time:      0.09 s
+Total time:      0.31 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        1.702E+00       1.355E-15         3.133E-20        1.355E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.219E-16         1.735E-27       -1.219E-16
+ substrate    0.000E+00      -6.299E-20        -1.233E-15       -1.233E-15
+
+Computing step from t=0.567444 to t=0.592444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.72e-01                                                      0.05
+    1      3.60e+04   1.00e+00   1.98e-02   1.01e+02    0         1      0.14
+    2      9.81e+00   1.00e+00   9.36e-04   1.29e+00    0         1      0.23
+    3      1.70e-01   1.00e+00   3.15e-06   1.15e-04    0         1      0.32
+Finished, because...
+Error smaller than 1 ( 1.1548E-04 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.03 s
+Solve time:      0.09 s
+Total time:      0.32 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        1.777E+00       1.397E-15         3.133E-20        1.397E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.224E-16         1.689E-27       -1.224E-16
+ substrate    0.000E+00      -6.183E-20        -1.274E-15       -1.274E-15
+
+Computing step from t=0.592444 to t=0.617444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.06e-01                                                      0.05
+    1      4.70e+04   1.00e+00   1.32e-02   9.03e+01    0         1      0.15
+    2      4.80e+00   1.00e+00   2.97e-04   8.16e-01    0         1      0.24
+Finished, because...
+Error smaller than 1 ( 8.1578E-01 ).
+
+Accumulated times:
+Rhs time:        0.15 s
+Jacobian time:   0.01 s
+Solve time:      0.07 s
+Total time:      0.24 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        1.852E+00       1.463E-15         3.133E-20        1.463E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.228E-16        -9.063E-28       -1.228E-16
+ substrate    0.000E+00      -3.639E-20        -1.340E-15       -1.340E-15
+
+Computing step from t=0.617444 to t=0.642444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.07e+00                                                      0.05
+    1      6.22e+04   1.00e+00   1.00e-02   8.67e+01    0         1      0.14
+    2      7.88e-01   1.00e+00   1.29e-04   4.73e-01    0         1      0.22
+Finished, because...
+Error smaller than 1 ( 4.7290E-01 ).
+
+Accumulated times:
+Rhs time:        0.16 s
+Jacobian time:   0.00 s
+Solve time:      0.06 s
+Total time:      0.22 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        1.927E+00       1.551E-15         3.134E-20        1.551E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.232E-16         7.111E-28       -1.232E-16
+ substrate    0.000E+00      -2.046E-20        -1.428E-15       -1.428E-15
+
+Computing step from t=0.642444 to t=0.667444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.06e+00                                                      0.04
+    1      8.35e+04   1.00e+00   9.82e-03   8.43e+01    0         1      0.12
+    2      1.70e-01   1.00e+00   1.44e-04   2.99e-01    0         1      0.22
+Finished, because...
+Error smaller than 1 ( 2.9931E-01 ).
+
+Accumulated times:
+Rhs time:        0.14 s
+Jacobian time:   0.02 s
+Solve time:      0.06 s
+Total time:      0.22 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.002E+00       1.639E-15         3.134E-20        1.639E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.236E-16        -1.705E-27       -1.236E-16
+ substrate    0.000E+00      -8.957E-20        -1.515E-15       -1.515E-15
+
+Computing step from t=0.667444 to t=0.692444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.37e-01                                                      0.06
+    1      1.13e+05   1.00e+00   1.01e-02   8.85e+01    0         1      0.15
+    2      3.81e-01   1.00e+00   1.79e-04   2.83e-01    0         1      0.24
+Finished, because...
+Error smaller than 1 ( 2.8337E-01 ).
+
+Accumulated times:
+Rhs time:        0.16 s
+Jacobian time:   0.01 s
+Solve time:      0.07 s
+Total time:      0.24 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.077E+00       1.704E-15         3.134E-20        1.704E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.240E-16        -6.368E-28       -1.240E-16
+ substrate    0.000E+00      -3.519E-20        -1.580E-15       -1.580E-15
+
+Computing step from t=0.692444 to t=0.717444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.89e-01                                                      0.04
+    1      1.54e+05   1.00e+00   9.11e-03   9.86e+01    0         1      0.14
+    2      1.30e+00   1.00e+00   1.13e-04   3.88e-01    0         1      0.23
+Finished, because...
+Error smaller than 1 ( 3.8840E-01 ).
+
+Accumulated times:
+Rhs time:        0.16 s
+Jacobian time:   0.00 s
+Solve time:      0.06 s
+Total time:      0.23 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.152E+00       1.746E-15         3.135E-20        1.747E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.244E-16        -2.930E-28       -1.244E-16
+ substrate    0.000E+00      -4.809E-20        -1.622E-15       -1.622E-15
+
+Computing step from t=0.717444 to t=0.742444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      1.98e+00                                                      0.05
+    1      2.09e+05   1.00e+00   7.10e-03   1.15e+02    0         1      0.14
+    2      4.15e+00   1.00e+00   5.41e-05   6.36e-01    0         1      0.23
+Finished, because...
+Error smaller than 1 ( 6.3579E-01 ).
+
+Accumulated times:
+Rhs time:        0.15 s
+Jacobian time:   0.02 s
+Solve time:      0.06 s
+Total time:      0.23 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.227E+00       1.771E-15         3.136E-20        1.772E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.248E-16         1.898E-28       -1.248E-16
+ substrate    0.000E+00      -6.563E-20        -1.647E-15       -1.647E-15
+
+Computing step from t=0.742444 to t=0.767444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      6.11e+00                                                      0.05
+    1      2.76e+05   1.00e+00   6.02e-03   1.38e+02    0         1      0.14
+    2      1.22e+01   1.00e+00   6.50e-05   1.14e+00    0         1      0.23
+    3      1.70e-01   1.00e+00   3.92e-08   5.43e-05    0         1      0.32
+Finished, because...
+Error smaller than 1 ( 5.4254E-05 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.03 s
+Solve time:      0.09 s
+Total time:      0.32 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.302E+00       1.786E-15         3.136E-20        1.786E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.252E-16        -5.732E-28       -1.252E-16
+ substrate    0.000E+00      -3.788E-20        -1.661E-15       -1.661E-15
+
+Computing step from t=0.767444 to t=0.792444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      2.82e+00                                                      0.05
+    1      3.43e+05   1.00e+00   6.32e-03   1.68e+02    0         1      0.14
+    2      3.06e+01   1.00e+00   8.72e-05   2.09e+00    0         1      0.23
+    3      1.70e-01   1.00e+00   4.71e-08   1.88e-04    0         1      0.32
+Finished, because...
+Error smaller than 1 ( 1.8798E-04 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.03 s
+Solve time:      0.09 s
+Total time:      0.32 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.377E+00       1.795E-15         3.136E-20        1.795E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.256E-16         3.298E-27       -1.256E-16
+ substrate    0.000E+00      -4.587E-20        -1.669E-15       -1.669E-15
+
+Computing step from t=0.792444 to t=0.817444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.49e-01                                                      0.05
+    1      3.76e+05   1.00e+00   7.42e-03   2.01e+02    0         1      0.15
+    2      5.77e+01   1.00e+00   1.17e-04   3.59e+00    0         1      0.24
+    3      1.70e-01   1.00e+00   4.68e-08   5.32e-04    0         1      0.33
+Finished, because...
+Error smaller than 1 ( 5.3222E-04 ).
+
+Accumulated times:
+Rhs time:        0.21 s
+Jacobian time:   0.01 s
+Solve time:      0.10 s
+Total time:      0.33 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.452E+00       1.801E-15         3.137E-20        1.801E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.260E-16         1.295E-27       -1.260E-16
+ substrate    0.000E+00      -6.661E-20        -1.675E-15       -1.675E-15
+
+Computing step from t=0.817444 to t=0.842444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.11e-01                                                      0.05
+    1      3.33e+05   1.00e+00   7.76e-03   2.26e+02    0         1      0.14
+    2      6.74e+01   1.00e+00   1.16e-04   5.27e+00    0         1      0.23
+    3      1.70e-01   1.00e+00   2.98e-08   1.01e-03    0         1      0.33
+Finished, because...
+Error smaller than 1 ( 1.0066E-03 ).
+
+Accumulated times:
+Rhs time:        0.21 s
+Jacobian time:   0.03 s
+Solve time:      0.09 s
+Total time:      0.33 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.527E+00       1.808E-15         3.137E-20        1.808E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.265E-16        -1.037E-27       -1.265E-16
+ substrate    0.000E+00      -1.800E-20        -1.682E-15       -1.682E-15
+
+Computing step from t=0.842444 to t=0.867444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      7.06e-01                                                      0.06
+    1      2.14e+05   1.00e+00   7.20e-03   2.29e+02    0         1      0.15
+    2      3.95e+01   1.00e+00   1.12e-04   5.97e+00    0         1      0.24
+    3      1.70e-01   1.00e+00   3.32e-08   1.04e-03    0         1      0.33
+Finished, because...
+Error smaller than 1 ( 1.0428E-03 ).
+
+Accumulated times:
+Rhs time:        0.21 s
+Jacobian time:   0.02 s
+Solve time:      0.10 s
+Total time:      0.33 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.602E+00       1.817E-15         3.137E-20        1.817E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.268E-16         1.619E-27       -1.268E-16
+ substrate    0.000E+00      -7.403E-20        -1.690E-15       -1.690E-15
+
+Computing step from t=0.867444 to t=0.892444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.57e-01                                                      0.05
+    1      1.06e+05   1.00e+00   7.08e-03   2.05e+02    0         1      0.13
+    2      1.34e+01   1.00e+00   1.12e-04   4.90e+00    0         1      0.22
+    3      1.70e-01   1.00e+00   3.77e-08   5.48e-04    0         1      0.31
+Finished, because...
+Error smaller than 1 ( 5.4754E-04 ).
+
+Accumulated times:
+Rhs time:        0.20 s
+Jacobian time:   0.01 s
+Solve time:      0.10 s
+Total time:      0.31 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.677E+00       1.828E-15         3.138E-20        1.828E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.272E-16         1.005E-27       -1.272E-16
+ substrate    0.000E+00      -5.406E-20        -1.700E-15       -1.701E-15
+
+Computing step from t=0.892444 to t=0.917444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.33e-01                                                      0.04
+    1      6.04e+04   1.00e+00   6.98e-03   1.61e+02    0         1      0.13
+    2      5.63e+00   1.00e+00   1.11e-04   3.04e+00    0         1      0.22
+    3      1.70e-01   1.00e+00   4.77e-08   1.97e-04    0         1      0.31
+Finished, because...
+Error smaller than 1 ( 1.9651E-04 ).
+
+Accumulated times:
+Rhs time:        0.19 s
+Jacobian time:   0.02 s
+Solve time:      0.09 s
+Total time:      0.31 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.752E+00       1.839E-15         3.138E-20        1.839E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.276E-16        -1.900E-27       -1.276E-16
+ substrate    0.000E+00      -5.680E-20        -1.711E-15       -1.711E-15
+
+Computing step from t=0.917444 to t=0.942444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      4.29e-01                                                      0.05
+    1      5.51e+04   1.00e+00   8.76e-03   1.21e+02    0         1      0.15
+    2      1.24e+00   1.00e+00   2.13e-04   1.61e+00    0         1      0.24
+    3      1.92e-01   1.00e+00   1.50e-07   6.11e-05    0         1      0.34
+Finished, because...
+Error smaller than 1 ( 6.1081E-05 ).
+
+Accumulated times:
+Rhs time:        0.22 s
+Jacobian time:   0.02 s
+Solve time:      0.10 s
+Total time:      0.34 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.827E+00       1.848E-15         3.138E-20        1.848E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.280E-16         9.535E-28       -1.280E-16
+ substrate    0.000E+00      -6.375E-20        -1.720E-15       -1.720E-15
+
+Computing step from t=0.942444 to t=0.967444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      9.55e-01                                                      0.06
+    1      5.39e+04   1.00e+00   1.25e-02   9.43e+01    0         1      0.15
+    2      5.41e-01   1.00e+00   4.30e-04   8.21e-01    0         1      0.24
+Finished, because...
+Error smaller than 1 ( 8.2107E-01 ).
+
+Accumulated times:
+Rhs time:        0.16 s
+Jacobian time:   0.01 s
+Solve time:      0.07 s
+Total time:      0.24 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.902E+00       1.857E-15         3.135E-20        1.857E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.284E-16        -5.104E-28       -1.284E-16
+ substrate    0.000E+00      -4.362E-20        -1.728E-15       -1.728E-15
+
+Computing step from t=0.967444 to t=0.992444 (Stepsize: 0.025) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      8.82e-01                                                      0.05
+    1      4.96e+04   1.00e+00   1.07e-02   8.10e+01    0         1      0.14
+    2      5.21e-01   1.00e+00   2.28e-04   5.04e-01    0         1      0.23
+Finished, because...
+Error smaller than 1 ( 5.0418E-01 ).
+
+Accumulated times:
+Rhs time:        0.16 s
+Jacobian time:   0.01 s
+Solve time:      0.06 s
+Total time:      0.23 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        2.977E+00       1.866E-15         3.137E-20        1.866E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.288E-16         7.863E-29       -1.288E-16
+ substrate    0.000E+00      -3.773E-20        -1.737E-15       -1.737E-15
+
+Computing step from t=0.992444 to t=1 (Stepsize: 7.5556e-03) :
+Computing Coupled( 1 poisson-equation(s) , 1 electron-equation(s) , 
+                   1 hole-equation(s) ) 
+using Bank/Rose nonlinear solver.
+
+Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
+------------------------------------------------------------------------------
+    0      5.27e-01                                                      0.05
+    1      1.87e+03   1.00e+00   1.52e-03   1.48e+01    0         1      0.15
+    2      4.99e-01   1.00e+00   5.30e-06   1.62e-02    0         1      0.24
+Finished, because...
+Error smaller than 1 ( 1.6151E-02 ).
+
+Accumulated times:
+Rhs time:        0.15 s
+Jacobian time:   0.02 s
+Solve time:      0.07 s
+Total time:      0.24 s
+
+contact        voltage     electron current    hole current  conduction current
+ drain        3.000E+00       1.869E-15         3.139E-20        1.869E-15
+ gate         1.000E+00       0.000E+00         0.000E+00        0.000E+00
+ source       0.000E+00      -1.289E-16        -1.926E-28       -1.289E-16
+ substrate    0.000E+00      -3.397E-20        -1.740E-15       -1.740E-15
+
+
+Finished, because of...
+Curve trace finished.
+
+Writing plot 'n70_des.tdr' (TDR format) ... done.
+
+Tue Nov 17 09:46:21 2020: checked in 1 sdevice license(s)
+
+******************************************************************************
+Sentaurus Device process size: 563 megabytes
+Sentaurus Device simulation times:
+  wallclock: 18.73 s
+  total cpu: 18.09 s
+Sentaurus Device simulation finished (Date: Tue Nov 17 09:46:21 2020  (EDT)).
+********************************* Good Bye ! *********************************

@@ -1,0 +1,337 @@
+###########################################
+# Sentaurus Visual O-2018.06.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 17, 2020. 10:46:32.
+# Version: 28.0.1030 (1.1030)
+# Mode: Interactive (GUI).
+# Mesa: enabled.
+# Hostname: acs14007.4225.cse.uconn.edu.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 3.10.0-1127.18.2.el7.x86_64.
+###########################################
+
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n15_des.plt
+create_plot -1d
+select_plots {Plot_1}
+#-> Plot_1
+#-> Plot_1
+#-> IdVd_n15_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n29_des.plt
+#-> IdVd_n29_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n43_des.plt
+#-> IdVd_n43_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n57_des.plt
+#-> IdVd_n57_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n71_des.plt
+#-> IdVd_n71_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n85_des.plt
+#-> IdVd_n85_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n99_des.plt
+#-> IdVd_n99_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n113_des.plt
+#-> IdVd_n113_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n127_des.plt
+#-> IdVd_n127_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n141_des.plt
+#-> IdVd_n141_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n155_des.plt
+#-> IdVd_n155_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n169_des.plt
+#-> IdVd_n169_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n183_des.plt
+#-> IdVd_n183_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n197_des.plt
+#-> IdVd_n197_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n211_des.plt
+#-> IdVd_n211_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n225_des.plt
+#-> IdVd_n225_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n239_des.plt
+#-> IdVd_n239_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n253_des.plt
+#-> IdVd_n253_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/IdVd_n267_des.plt
+#-> IdVd_n267_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n15_des.plt
+#-> n15_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n15_des.tdr
+create_plot -dataset n15_des_2
+select_plots {Plot_n15_des_2}
+#-> Plot_n15_des_2
+#-> Plot_n15_des_2
+#-> n15_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n29_des.plt
+#-> n29_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n29_des.tdr
+create_plot -dataset n29_des_2
+select_plots {Plot_n29_des_2}
+#-> Plot_n29_des_2
+#-> Plot_n29_des_2
+#-> n29_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n43_des.plt
+#-> n43_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n43_des.tdr
+create_plot -dataset n43_des_2
+select_plots {Plot_n43_des_2}
+#-> Plot_n43_des_2
+#-> Plot_n43_des_2
+#-> n43_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n57_des.plt
+#-> n57_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n57_des.tdr
+create_plot -dataset n57_des_2
+select_plots {Plot_n57_des_2}
+#-> Plot_n57_des_2
+#-> Plot_n57_des_2
+#-> n57_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n71_des.plt
+#-> n71_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n71_des.tdr
+create_plot -dataset n71_des_2
+select_plots {Plot_n71_des_2}
+#-> Plot_n71_des_2
+#-> Plot_n71_des_2
+#-> n71_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n85_des.plt
+#-> n85_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n85_des.tdr
+create_plot -dataset n85_des_2
+select_plots {Plot_n85_des_2}
+#-> Plot_n85_des_2
+#-> Plot_n85_des_2
+#-> n85_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n99_des.plt
+#-> n99_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n99_des.tdr
+create_plot -dataset n99_des_2
+select_plots {Plot_n99_des_2}
+#-> Plot_n99_des_2
+#-> Plot_n99_des_2
+#-> n99_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n113_des.plt
+#-> n113_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n113_des.tdr
+create_plot -dataset n113_des_2
+select_plots {Plot_n113_des_2}
+#-> Plot_n113_des_2
+#-> Plot_n113_des_2
+#-> n113_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n127_des.plt
+#-> n127_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n127_des.tdr
+create_plot -dataset n127_des_2
+select_plots {Plot_n127_des_2}
+#-> Plot_n127_des_2
+#-> Plot_n127_des_2
+#-> n127_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n141_des.plt
+#-> n141_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n141_des.tdr
+create_plot -dataset n141_des_2
+select_plots {Plot_n141_des_2}
+#-> Plot_n141_des_2
+#-> Plot_n141_des_2
+#-> n141_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n155_des.plt
+#-> n155_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n155_des.tdr
+create_plot -dataset n155_des_2
+select_plots {Plot_n155_des_2}
+#-> Plot_n155_des_2
+#-> Plot_n155_des_2
+#-> n155_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n169_des.plt
+#-> n169_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n169_des.tdr
+create_plot -dataset n169_des_2
+select_plots {Plot_n169_des_2}
+#-> Plot_n169_des_2
+#-> Plot_n169_des_2
+#-> n169_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n183_des.plt
+#-> n183_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n183_des.tdr
+create_plot -dataset n183_des_2
+select_plots {Plot_n183_des_2}
+#-> Plot_n183_des_2
+#-> Plot_n183_des_2
+#-> n183_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n197_des.plt
+#-> n197_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n197_des.tdr
+create_plot -dataset n197_des_2
+select_plots {Plot_n197_des_2}
+#-> Plot_n197_des_2
+#-> Plot_n197_des_2
+#-> n197_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n211_des.plt
+#-> n211_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n211_des.tdr
+create_plot -dataset n211_des_2
+select_plots {Plot_n211_des_2}
+#-> Plot_n211_des_2
+#-> Plot_n211_des_2
+#-> n211_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n225_des.plt
+#-> n225_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n225_des.tdr
+create_plot -dataset n225_des_2
+select_plots {Plot_n225_des_2}
+#-> Plot_n225_des_2
+#-> Plot_n225_des_2
+#-> n225_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n239_des.plt
+#-> n239_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n239_des.tdr
+create_plot -dataset n239_des_2
+select_plots {Plot_n239_des_2}
+#-> Plot_n239_des_2
+#-> Plot_n239_des_2
+#-> n239_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n253_des.plt
+#-> n253_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n253_des.tdr
+create_plot -dataset n253_des_2
+select_plots {Plot_n253_des_2}
+#-> Plot_n253_des_2
+#-> Plot_n253_des_2
+#-> n253_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n267_des.plt
+#-> n267_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/n267_des.tdr
+create_plot -dataset n267_des_2
+select_plots {Plot_n267_des_2}
+#-> Plot_n267_des_2
+#-> Plot_n267_des_2
+#-> n267_des_2
+select_plots {Plot_1}
+#-> Plot_1
+windows_style -style max
+#-> 0
+create_curve -plot Plot_1 -dataset {IdVd_n15_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_1
+create_curve -plot Plot_1 -dataset {IdVd_n29_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_2
+set_plot_prop -plot {Plot_1} -hide
+select_plots {Plot_n267_des_2}
+#-> Plot_n267_des_2
+#-> 0
+set_plot_prop -plot {Plot_1} -show
+#-> 0
+set_plot_prop -plot {Plot_n267_des_2} -hide
+select_plots {Plot_n253_des_2}
+#-> Plot_n253_des_2
+#-> 0
+set_plot_prop -plot {Plot_n253_des_2} -hide
+select_plots {Plot_n239_des_2}
+#-> Plot_n239_des_2
+#-> 0
+select_plots {Plot_n225_des_2}
+#-> Plot_n225_des_2
+set_plot_prop -plot {Plot_n15_des_2} -hide
+#-> 0
+set_plot_prop -plot {Plot_n29_des_2} -hide
+#-> 0
+select_plots {Plot_n211_des_2}
+#-> Plot_n211_des_2
+select_plots {Plot_n197_des_2}
+#-> Plot_n197_des_2
+select_plots {Plot_n183_des_2}
+#-> Plot_n183_des_2
+select_plots {Plot_n169_des_2}
+#-> Plot_n169_des_2
+select_plots {Plot_n155_des_2}
+#-> Plot_n155_des_2
+select_plots {Plot_n141_des_2}
+#-> Plot_n141_des_2
+select_plots {Plot_n127_des_2}
+#-> Plot_n127_des_2
+set_plot_prop -plot {Plot_n127_des_2} -hide
+select_plots {Plot_n113_des_2}
+#-> Plot_n113_des_2
+#-> 0
+set_plot_prop -plot {Plot_n113_des_2} -hide
+select_plots {Plot_n99_des_2}
+#-> Plot_n99_des_2
+#-> 0
+set_plot_prop -plot {Plot_n99_des_2} -hide
+select_plots {Plot_n85_des_2}
+#-> Plot_n85_des_2
+#-> 0
+set_plot_prop -plot {Plot_n85_des_2} -hide
+select_plots {Plot_n71_des_2}
+#-> Plot_n71_des_2
+#-> 0
+set_plot_prop -plot {Plot_n71_des_2} -hide
+select_plots {Plot_n57_des_2}
+#-> Plot_n57_des_2
+#-> 0
+set_plot_prop -plot {Plot_n57_des_2} -hide
+select_plots {Plot_n43_des_2}
+#-> Plot_n43_des_2
+#-> 0
+set_plot_prop -plot {Plot_n43_des_2} -hide
+select_plots {Plot_1}
+#-> Plot_1
+#-> 0
+create_curve -plot Plot_1 -dataset {IdVd_n43_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_3
+create_curve -plot Plot_1 -dataset {IdVd_n57_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_4
+create_curve -plot Plot_1 -dataset {IdVd_n71_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_5
+create_curve -plot Plot_1 -dataset {IdVd_n85_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_6
+create_curve -plot Plot_1 -dataset {IdVd_n99_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_7
+create_curve -plot Plot_1 -dataset {IdVd_n113_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_8
+create_curve -plot Plot_1 -dataset {IdVd_n127_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_9
+create_curve -plot Plot_1 -dataset {IdVd_n141_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_10
+create_curve -plot Plot_1 -dataset {IdVd_n155_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_11
+create_curve -plot Plot_1 -dataset {IdVd_n169_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_12
+create_curve -plot Plot_1 -dataset {IdVd_n183_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_13
+create_curve -plot Plot_1 -dataset {IdVd_n197_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_14
+create_curve -plot Plot_1 -dataset {IdVd_n211_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_15
+create_curve -plot Plot_1 -dataset {IdVd_n255_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#!-> Error: Curve couldn't be created.
+create_curve -plot Plot_1 -dataset {IdVd_n225_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_16
+create_curve -plot Plot_1 -dataset {IdVd_n239_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_17
+create_curve -plot Plot_1 -dataset {IdVd_n253_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_18
+create_curve -plot Plot_1 -dataset {IdVd_n267_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
+#-> Curve_19
+set_axis_prop -plot Plot_1 -axis y -type log
+#-> 0
+set_plot_prop -plot {Plot_1} -title "Lg Drain Current vs. Voltage for the "ON" case"
+#-> 0
+set_plot_prop -plot {Plot_1} -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title "Distance (um)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_legend_prop -plot Plot_1 -position {0.776539 0.704622}
+#-> 0
+set_legend_prop -plot Plot_1 -position {0.775478 0.702368}
+#-> 0
+set_axis_prop -plot Plot_1 -axis x -title "Drain Voltage (V)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -title "Drain Current (A)"
+#-> 0
+set_axis_prop -plot Plot_1 -axis y -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+export_view /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1/LgOn.png -plots {Plot_1} -format png -resolution 1250x750
+#-> 0
+exit 0
+ 
