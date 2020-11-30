@@ -168,3 +168,27 @@
 10:36:44 Nov 17 2020     job 195 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp195_des.cmd"
 10:37:15 Nov 17 2020 +++ job 195 <sdevice> done: exit(0)
 10:37:17 Nov 17 2020 <Task1_Copy> done (1333 sec)
+15:32:08 Nov 30 2020 <Task1_Copy> submitted to the batch system
+15:32:09 Nov 30 2020     job 230 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp230_des.cmd"
+15:32:13 Nov 30 2020 --- job 230 <sdevice> exited abnormally: exit()
+15:32:14 Nov 30 2020     job 232 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp232_des.cmd"
+15:32:17 Nov 30 2020 --- job 232 <sdevice> exited abnormally: exit()
+15:32:18 Nov 30 2020     job 244 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp244_des.cmd"
+15:32:21 Nov 30 2020 --- job 244 <sdevice> exited abnormally: exit()
+15:32:22 Nov 30 2020     job 246 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp246_des.cmd"
+15:32:25 Nov 30 2020 --- job 246 <sdevice> exited abnormally: exit()
+15:32:27 Nov 30 2020 <Task1_Copy> failed
+15:32:36 Nov 30 2020 <Task1_Copy> submitted to the batch system
+15:32:37 Nov 30 2020     job 227 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n227_fps.cmd"
+15:35:39 Nov 30 2020 +++ job 227 <sprocess> done: exit(0)
+15:35:40 Nov 30 2020     job 241 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n241_fps.cmd"
+15:37:43 Nov 30 2020 +++ job 241 <sprocess> done: exit(0)
+15:37:44 Nov 30 2020     job 230 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp230_des.cmd"
+15:38:01 Nov 30 2020 +++ job 230 <sdevice> done: exit(0)
+15:38:02 Nov 30 2020     job 232 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp232_des.cmd"
+15:38:23 Nov 30 2020 +++ job 232 <sdevice> done: exit(0)
+15:38:24 Nov 30 2020     job 244 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp244_des.cmd"
+15:38:40 Nov 30 2020 +++ job 244 <sdevice> done: exit(0)
+15:38:41 Nov 30 2020     job 246 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp246_des.cmd"
+15:39:02 Nov 30 2020 +++ job 246 <sdevice> done: exit(0)
+15:39:06 Nov 30 2020 <Task1_Copy> done (390 sec)
