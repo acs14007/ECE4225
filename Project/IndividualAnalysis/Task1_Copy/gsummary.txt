@@ -3,22 +3,22 @@ Project Summary for /home/student/Documents/ECE4225/Project/IndividualAnalysis/T
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Project Details :
 		current status		: running
-		was last modified	: 11/30/2020 15:33:04
+		was last modified	: 11/30/2020 16:49:29
 		was modified by		: student
 		was run on host		: acs14007.4225.cse.uconn.edu
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Total Number of Nodes			: 22
+Total Number of Nodes			: 15
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
  
-		Active Nodes		: 8
-		Virtual Nodes		: 14
+		Active Nodes		: 4
+		Virtual Nodes		: 11
  
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
 Nodes by status				: 
-		none			: 2
-		done			: 6
+		none			: 1
+		done			: 3
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -30,13 +30,13 @@ Hosts and Execution Information
  
  
 Host "acs14007.4225.cse.uconn.edu" 
-		Number of nodes		: 6
-		Host Time		: 375 sec
+		Number of nodes		: 3
+		Host Time		: 152 sec
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-		Total RunTime		: 375 sec
+		Total RunTime		: 152 sec
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Project Summary generated on		: 11/30/2020 15:39:06
+Project Summary generated on		: 11/30/2020 16:51:59
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

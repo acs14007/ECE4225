@@ -192,3 +192,56 @@
 15:38:41 Nov 30 2020     job 246 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp246_des.cmd"
 15:39:02 Nov 30 2020 +++ job 246 <sdevice> done: exit(0)
 15:39:06 Nov 30 2020 <Task1_Copy> done (390 sec)
+15:59:33 Nov 30 2020 <Task1_Copy> submitted to the batch system
+15:59:33 Nov 30 2020     job 227 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n227_fps.cmd"
+16:01:58 Nov 30 2020 +++ job 227 <sprocess> done: exit(0)
+16:02:00 Nov 30 2020 <Task1_Copy> done (147 sec)
+16:09:53 Nov 30 2020 <Task1_Copy> submitted to the batch system
+16:09:53 Nov 30 2020     job 227 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n227_fps.cmd"
+16:12:26 Nov 30 2020 +++ job 227 <sprocess> done: exit(0)
+16:12:27 Nov 30 2020     job 230 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp230_des.cmd"
+16:12:41 Nov 30 2020 +++ job 230 <sdevice> done: exit(0)
+16:12:42 Nov 30 2020     job 232 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp232_des.cmd"
+16:12:57 Nov 30 2020 +++ job 232 <sdevice> done: exit(0)
+16:13:01 Nov 30 2020 <Task1_Copy> done (188 sec)
+16:18:29 Nov 30 2020 <Task1_Copy> submitted to the batch system
+16:18:30 Nov 30 2020     job 227 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n227_fps.cmd"
+16:20:49 Nov 30 2020 +++ job 227 <sprocess> done: exit(0)
+16:20:50 Nov 30 2020     job 230 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp230_des.cmd"
+16:21:05 Nov 30 2020 +++ job 230 <sdevice> done: exit(0)
+16:21:06 Nov 30 2020     job 232 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp232_des.cmd"
+16:21:23 Nov 30 2020 +++ job 232 <sdevice> done: exit(0)
+16:21:25 Nov 30 2020 <Task1_Copy> done (176 sec)
+16:29:45 Nov 30 2020 <Task1_Copy> submitted to the batch system
+16:29:45 Nov 30 2020     job 227 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n227_fps.cmd"
+16:31:46 Nov 30 2020 +++ job 227 <sprocess> done: exit(0)
+16:31:47 Nov 30 2020     job 238 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n238_fps.cmd"
+16:34:05 Nov 30 2020 +++ job 238 <sprocess> done: exit(0)
+16:34:06 Nov 30 2020     job 230 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp230_des.cmd"
+16:34:20 Nov 30 2020 +++ job 230 <sdevice> done: exit(0)
+16:34:21 Nov 30 2020     job 232 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp232_des.cmd"
+16:34:40 Nov 30 2020 +++ job 232 <sdevice> done: exit(0)
+16:34:41 Nov 30 2020     job 241 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp241_des.cmd"
+16:34:55 Nov 30 2020 +++ job 241 <sdevice> done: exit(0)
+16:34:56 Nov 30 2020     job 243 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp243_des.cmd"
+16:35:12 Nov 30 2020 +++ job 243 <sdevice> done: exit(0)
+16:35:14 Nov 30 2020 <Task1_Copy> done (329 sec)
+16:39:48 Nov 30 2020 <Task1_Copy> submitted to the batch system
+16:39:49 Nov 30 2020     job 227 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n227_fps.cmd"
+16:40:14 Nov 30 2020 <Task1_Copy> done (26 sec)
+16:40:17 Nov 30 2020 <Task1_Copy> submitted to the batch system
+16:40:18 Nov 30 2020     job 227 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n227_fps.cmd"
+16:42:17 Nov 30 2020 +++ job 227 <sprocess> done: exit(0)
+16:42:18 Nov 30 2020     job 230 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp230_des.cmd"
+16:42:32 Nov 30 2020 +++ job 230 <sdevice> done: exit(0)
+16:42:33 Nov 30 2020     job 232 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp232_des.cmd"
+16:42:51 Nov 30 2020 +++ job 232 <sdevice> done: exit(0)
+16:42:54 Nov 30 2020 <Task1_Copy> done (157 sec)
+16:49:20 Nov 30 2020 <Task1_Copy> submitted to the batch system
+16:49:21 Nov 30 2020     job 227 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n227_fps.cmd"
+16:51:21 Nov 30 2020 +++ job 227 <sprocess> done: exit(0)
+16:51:22 Nov 30 2020     job 230 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp230_des.cmd"
+16:51:37 Nov 30 2020 +++ job 230 <sdevice> done: exit(0)
+16:51:38 Nov 30 2020     job 232 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp232_des.cmd"
+16:51:57 Nov 30 2020 +++ job 232 <sdevice> done: exit(0)
+16:51:59 Nov 30 2020 <Task1_Copy> done (159 sec)

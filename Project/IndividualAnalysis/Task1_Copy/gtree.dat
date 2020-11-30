@@ -1,16 +1,16 @@
 # Copyright (C) 1994-2017 Synopsys Inc.
-# swbtree vcurrent, Mon Nov 30 15:40:51 2020
+# swbtree vcurrent, Mon Nov 30 16:56:57 2020
 
 # --- simulation flow
 sprocess sprocess "" {}
-sprocess Lg "0.36" {0.36}
+sprocess Lg "0.36" {0.11 0. 0.12}
 sprocess body_doping "1e18" {1e18}
-sprocess GOxTime "20" {10}
+sprocess GOxTime "20" {2.5}
 sprocess LDD_dose "1e13" {1e15}
 sprocess LDD_energy "20" {20}
-sprocess halo_dose "1e12" {1e13}
+sprocess halo_dose "1e12" {1e13 1e10}
 sprocess halo_energy "30" {30}
-sprocess source_dose "1e16 1e20" {1e20 1e16}
+sprocess source_dose "1e16 1e20" {1e16}
 sprocess source_energy "10" {10}
 sdevice sdevice "" {}
 sdevice barrier "0" {0}
@@ -30,24 +30,17 @@ scenario default barrier ""
 scenario default Vg ""
 # --- simulation tree
 0 3 0 {} {default} 0
-1 4 3 {0.36} {default} 0
+1 4 3 {0.11} {default} 0
 2 5 4 {1e18} {default} 0
-3 6 5 {10} {default} 0
+3 6 5 {2.5} {default} 0
 4 7 6 {1e15} {default} 0
 5 8 7 {20} {default} 0
 6 196 8 {1e13} {default} 0
 7 197 196 {30} {default} 0
-8 226 197 {1e20} {default} 0
+8 226 197 {1e16} {default} 0
 9 227 226 {10} {default} 0
 10 228 227 {} {default} 0
 11 229 228 {0} {default} 0
 12 230 229 {0} {default} 0
 12 231 229 {1} {default} 0
 12 232 229 {3} {default} 0
-8 240 197 {1e16} {default} 0
-9 241 240 {10} {default} 0
-10 242 241 {} {default} 0
-11 243 242 {0} {default} 0
-12 244 243 {0} {default} 0
-12 245 243 {1} {default} 0
-12 246 243 {3} {default} 0

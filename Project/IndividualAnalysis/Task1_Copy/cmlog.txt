@@ -1,4 +1,4 @@
-DATE: 11/17/20 - 11/17/20 cmlog.txt
+DATE: 11/30/20 - 11/30/20 cmlog.txt
 
 This localhost (server) information:
 	Name:    acs14007.4225.cse.uconn.edu

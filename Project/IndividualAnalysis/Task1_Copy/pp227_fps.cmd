@@ -7,9 +7,9 @@ line x location= 0.0      spacing= 1.0<nm>  tag=SiTop
 line x location= 50.0<nm> spacing=10.0<nm>                    
 line x location= 0.5<um>  spacing=50.0<nm>                      
 line x location= 2.0<um>  spacing= 0.2<um>  tag=SiBottom                        
-line y location= 0.0      spacing= 0.1*0.36  tag= Mid
-line y location= 0.5*0.36 spacing= 0.05*0.36
-line y location= 2*0.36   spacing= 0.36      tag= Right 
+line y location= 0.0      spacing= 0.1*0.11  tag= Mid
+line y location= 0.5*0.11 spacing= 0.05*0.11
+line y location= 2*0.11   spacing= 0.11      tag= Right 
 
 
 
@@ -30,7 +30,7 @@ pdbSet Grid NativeLayerThickness 1e-7
 
 
 
-diffuse temperature=950<C> time=10 O2
+diffuse temperature=950<C> time=2.5 O2
 
 
 
@@ -44,7 +44,7 @@ deposit material= {PolySilicon} type=anisotropic thickness= 0.1
 
 
 
-mask name=gate_mask left=-0.36/2 right= 0.36/2
+mask name=gate_mask left=-0.11/2 right= 0.11/2
 etch material= {PolySilicon} type=anisotropic thickness= 0.15 mask=gate_mask
 etch material= {Oxide}       type=anisotropic thickness= 0.06
 struct tdr=n227_MOS2 ; # Saving after gate patterning
@@ -69,13 +69,13 @@ struct tdr=n227_MOS4 ; # Saving after HALO Implant
 
 
 
-deposit nitride isotropic thickness= 0.3*0.36
-etch  nitride anisotropic thickness= 0.35*0.36
+deposit nitride isotropic thickness= 0.3*0.11
+etch  nitride anisotropic thickness= 0.35*0.11
 struct tdr=n227_MOS5 ; # Saving after spacer formation
 
 
 
-implant Arsenic dose=1e20 energy=10 \
+implant Arsenic dose=1e16 energy=10 \
         tilt=7<degree> rotation=-90<degree>  
 
 
@@ -86,7 +86,7 @@ struct tdr=n227_MOS6 ; # Saving after souce/drain implantation
 
 
 deposit material= {Aluminum} type=anisotropic thickness= 0.05
-mask name= contacts_mask left=0.36*1.2
+mask name= contacts_mask left=0.11*1.2
 etch material= {Aluminum} type=anisotropic thickness= 0.1 mask=contacts_mask
 
 
@@ -94,8 +94,8 @@ etch material= {Aluminum} type=anisotropic thickness= 0.1 mask=contacts_mask
 transform reflect left 
 
 contact name=substrate bottom
-contact name=source point y=-0.36*1.5 x=-0.010 replace
-contact name=drain  point y=0.36*1.5  x=-0.010 replace
+contact name=source point y=-0.11*1.5 x=-0.010 replace
+contact name=drain  point y=0.11*1.5  x=-0.010 replace
 contact name=gate   point y=0         x=-0.050 
 
 

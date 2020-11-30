@@ -28,7 +28,7 @@ Starting swblm daemon...OK
 Loading global tool database '/usr/synopsys/sentaurus/O_2018.06/tcad/current/lib/glib2/tooldb.tcl'
 Project '/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy'
 Loading project tree '/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gtree.dat'
-15:32:36 Nov 30 2020 <Task1_Copy> submitted to the batch system
+16:49:20 Nov 30 2020 <Task1_Copy> submitted to the batch system
 Loading global queue configuration file '/usr/synopsys/sentaurus/O_2018.06/queues/gqueues.dat'...ok
 Loading project tree '/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gtree.dat'
 >>>>> Preprocessing the project to run in normal mode
@@ -54,7 +54,7 @@ Preprocessing file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Ta
 Writing 'gexec.cmd'
 saving variables
 Loading jobs and dependence graph '"/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gexec.cmd"'
->>>>>>>>>> job '227' status changed from 'none' to 'queued'
+>>>>>>>>>> job '227' status changed from 'done' to 'queued'
 -----------------------------------------------------------------
 queue "local:default" - 227
 -----------------------------------------------------------------
@@ -69,37 +69,9 @@ local% initialize 'local' scheduler data
 >>>>>>>>>> os_rm /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n227_fps.job
 local% submit job 227 for local execution
 >>>>>>>>>> job '227' status changed from 'ready' to 'pending'
-local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 227 -swb_pid 7308 -gsub_pid 23298 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 35143  "/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy""
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 227 -swb_pid 7308 -gsub_pid 29471 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 40369  "/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy""
 >>>>>>>>>> job '227' status changed from 'pending' to 'running'
-15:32:37 Nov 30 2020     job 227 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n227_fps.cmd"
-Loading project tree '/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gtree.dat'
-Loading jobs and dependence graph '"/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gexec.cmd"'
-INITIALIZING PREPROCESSOR:
-Loading project tree '/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gtree.dat'
-Loading project variables '/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gvars.dat'
---Get files to preprocess...
---Create file handlers...
---Read the toolflow...
---Analyze tool-file dependencies...
---Read all nodes to preprocess...
---Group nodes into experiments...
---Get all variables...
---Get all parameters...
-PREPROCESSOR SUCCESSFULLY INITIALIZED.
-PREPROCESSING STEP 1:
-Reading file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/sprocess_fps.cmd
-Reading file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/sdevice_des.cmd
-PREPROCESSING STEP 2:
-Preprocessing file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/sprocess_fps.cmd fornode 241
-+++Node successfully preprocessed+++
-Writing 'gexec.cmd'
-saving variables
-Loading jobs and dependence graph '"/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gexec.cmd"'
->>>>>>>>>> job '241' status changed from 'none' to 'queued'
->>>>>>>>>> job '241' status changed from 'queued' to 'ready'
->>>>>>>>>> os_rm /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n241_fps.job
-local% submit job 241 for local execution
->>>>>>>>>> job '241' status changed from 'ready' to 'pending'
+16:49:21 Nov 30 2020     job 227 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n227_fps.cmd"
 Loading project tree '/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gtree.dat'
 Loading jobs and dependence graph '"/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gexec.cmd"'
 INITIALIZING PREPROCESSOR:
@@ -129,41 +101,10 @@ The node '232' has dependencies to the node(s) '227'
 Writing 'gexec.cmd'
 saving variables
 Loading jobs and dependence graph '"/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gexec.cmd"'
->>>>>>>>>> job '230' status changed from 'failed' to 'queued'
->>>>>>>>>> job '232' status changed from 'failed' to 'queued'
-Loading project tree '/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gtree.dat'
-Loading jobs and dependence graph '"/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gexec.cmd"'
-INITIALIZING PREPROCESSOR:
-Loading project tree '/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gtree.dat'
-Loading project variables '/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gvars.dat'
---Get files to preprocess...
---Create file handlers...
---Read the toolflow...
---Analyze tool-file dependencies...
---Read all nodes to preprocess...
---Group nodes into experiments...
---Get all variables...
---Get all parameters...
-PREPROCESSOR SUCCESSFULLY INITIALIZED.
-PREPROCESSING STEP 1:
-Reading file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/sprocess_fps.cmd
-Reading file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/sdevice_des.cmd
-PREPROCESSING STEP 2:
-Preprocessing file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/sdevice_des.cmd fornode 244
-'@tdr@' creates dependences with the node(s) '241'
-+++Node successfully preprocessed+++
-The node '244' has dependencies to the node(s) '241'
-Preprocessing file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/sdevice_des.cmd fornode 246
-'@tdr@' creates dependences with the node(s) '241'
-+++Node successfully preprocessed+++
-The node '246' has dependencies to the node(s) '241'
-Writing 'gexec.cmd'
-saving variables
-Loading jobs and dependence graph '"/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/gexec.cmd"'
->>>>>>>>>> job '244' status changed from 'failed' to 'queued'
->>>>>>>>>> job '246' status changed from 'failed' to 'queued'
+>>>>>>>>>> job '230' status changed from 'done' to 'queued'
+>>>>>>>>>> job '232' status changed from 'done' to 'queued'
 >>>>>>>>>> job '227' status changed from 'running' to 'done'
-15:35:39 Nov 30 2020 +++ job 227 <sprocess> done: exit(0)
+16:51:21 Nov 30 2020 +++ job 227 <sprocess> done: exit(0)
 >>>>>>>>>> job '230' status changed from 'queued' to 'ready'
 >>>>>>>>>> os_rm /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n230_des.job
 local% submit job 230 for local execution
@@ -172,43 +113,20 @@ local% submit job 230 for local execution
 >>>>>>>>>> os_rm /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n232_des.job
 local% submit job 232 for local execution
 >>>>>>>>>> job '232' status changed from 'ready' to 'pending'
-local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 241 -swb_pid 7308 -gsub_pid 23298 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 35143  "/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy""
->>>>>>>>>> job '241' status changed from 'pending' to 'running'
-15:35:40 Nov 30 2020     job 241 <sprocess> started on host 'acs14007.4225.cse.uconn.edu': "sprocess -u -b n241_fps.cmd"
->>>>>>>>>> job '241' status changed from 'running' to 'done'
-15:37:43 Nov 30 2020 +++ job 241 <sprocess> done: exit(0)
->>>>>>>>>> job '244' status changed from 'queued' to 'ready'
->>>>>>>>>> os_rm /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n244_des.job
-local% submit job 244 for local execution
->>>>>>>>>> job '244' status changed from 'ready' to 'pending'
->>>>>>>>>> job '246' status changed from 'queued' to 'ready'
->>>>>>>>>> os_rm /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n246_des.job
-local% submit job 246 for local execution
->>>>>>>>>> job '246' status changed from 'ready' to 'pending'
-local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 230 -swb_pid 7308 -gsub_pid 23298 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 35143  "/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy""
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 230 -swb_pid 7308 -gsub_pid 29471 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 40369  "/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy""
 >>>>>>>>>> job '230' status changed from 'pending' to 'running'
-15:37:44 Nov 30 2020     job 230 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp230_des.cmd"
+16:51:22 Nov 30 2020     job 230 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp230_des.cmd"
 >>>>>>>>>> job '230' status changed from 'running' to 'done'
-15:38:01 Nov 30 2020 +++ job 230 <sdevice> done: exit(0)
-local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 232 -swb_pid 7308 -gsub_pid 23298 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 35143  "/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy""
+16:51:37 Nov 30 2020 +++ job 230 <sdevice> done: exit(0)
+local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 232 -swb_pid 7308 -gsub_pid 29471 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 40369  "/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy""
 >>>>>>>>>> job '232' status changed from 'pending' to 'running'
-15:38:02 Nov 30 2020     job 232 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp232_des.cmd"
+16:51:38 Nov 30 2020     job 232 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp232_des.cmd"
 >>>>>>>>>> job '232' status changed from 'running' to 'done'
-15:38:23 Nov 30 2020 +++ job 232 <sdevice> done: exit(0)
-local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 244 -swb_pid 7308 -gsub_pid 23298 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 35143  "/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy""
->>>>>>>>>> job '244' status changed from 'pending' to 'running'
-15:38:24 Nov 30 2020     job 244 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp244_des.cmd"
->>>>>>>>>> job '244' status changed from 'running' to 'done'
-15:38:40 Nov 30 2020 +++ job 244 <sdevice> done: exit(0)
-local% exec "/usr/synopsys/sentaurus/O_2018.06/bin/gjob -verbose -nice 19   -job 246 -swb_pid 7308 -gsub_pid 23298 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 35143  "/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy""
->>>>>>>>>> job '246' status changed from 'pending' to 'running'
-15:38:41 Nov 30 2020     job 246 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp246_des.cmd"
->>>>>>>>>> job '246' status changed from 'running' to 'done'
-15:39:02 Nov 30 2020 +++ job 246 <sdevice> done: exit(0)
+16:51:57 Nov 30 2020 +++ job 232 <sdevice> done: exit(0)
 
 SCHEDULING REPORT
-+++ done     : 227 241 230 232 244 246
++++ done     : 227 230 232
 
-15:39:06 Nov 30 2020 <Task1_Copy> done (390 sec)
->>>>>> Writing to status file 390
+16:51:59 Nov 30 2020 <Task1_Copy> done (159 sec)
+>>>>>> Writing to status file 159
 gsub exits with status 0
