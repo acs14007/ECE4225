@@ -14,7 +14,7 @@
 
 gjob is running on host 'acs14007.4225.cse.uconn.edu' by user 'student'
 Binary '/usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/bin/../lib/gjob0'
-Command line options '-verbose -nice 19 -job 232 -swb_pid 7308 -gsub_pid 29471 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 40369 /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy'
+Command line options '-verbose -nice 19 -job 232 -swb_pid 7308 -gsub_pid 31351 -gsub_host acs14007.4225.cse.uconn.edu -gsub_port 39801 /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy'
 Current directory '/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy'
 Some relevant environment variables:
 	STROOT=/usr/synopsys/sentaurus/O_2018.06
@@ -47,11 +47,11 @@ Preprocessing file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Ta
 +++Preprocessing results written to /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/pp232_des.cmd
 The node '232' has dependencies to the node(s) '227'
 Start Simulation section
-16:51:38 Nov 30 2020     job 232 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp232_des.cmd"
-16:51:56 Nov 30 2020 +++ job 232 <sdevice> done: exit(0)
+17:45:09 Nov 30 2020     job 232 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp232_des.cmd"
+17:45:27 Nov 30 2020 +++ job 232 <sdevice> done: exit(0)
 End Simulation section
 Start Epilogue section
-16:51:56 Nov 30 2020 *** job 232 pre/post execution: eval " gjob::find_extracted_vars "/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy" n232_des.out 232 "
+17:45:27 Nov 30 2020 *** job 232 pre/post execution: eval " gjob::find_extracted_vars "/home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy" n232_des.out 232 "
 End Epilogue section
 Job succeeded
 gjob exits with status 0

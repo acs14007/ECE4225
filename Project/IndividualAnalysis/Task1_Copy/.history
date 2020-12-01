@@ -245,3 +245,25 @@
 16:51:38 Nov 30 2020     job 232 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp232_des.cmd"
 16:51:57 Nov 30 2020 +++ job 232 <sdevice> done: exit(0)
 16:51:59 Nov 30 2020 <Task1_Copy> done (159 sec)
+17:44:48 Nov 30 2020 <Task1_Copy> submitted to the batch system
+17:44:49 Nov 30 2020     job 231 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp231_des.cmd"
+17:45:08 Nov 30 2020 +++ job 231 <sdevice> done: exit(0)
+17:45:09 Nov 30 2020     job 232 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp232_des.cmd"
+17:45:28 Nov 30 2020 +++ job 232 <sdevice> done: exit(0)
+17:45:29 Nov 30 2020     job 233 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp233_des.cmd"
+17:45:49 Nov 30 2020 +++ job 233 <sdevice> done: exit(0)
+17:45:50 Nov 30 2020     job 234 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp234_des.cmd"
+17:46:09 Nov 30 2020 +++ job 234 <sdevice> done: exit(0)
+17:46:10 Nov 30 2020     job 235 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp235_des.cmd"
+17:46:32 Nov 30 2020 +++ job 235 <sdevice> done: exit(0)
+17:46:33 Nov 30 2020     job 236 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp236_des.cmd"
+17:46:51 Nov 30 2020 +++ job 236 <sdevice> done: exit(0)
+17:46:52 Nov 30 2020     job 237 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp237_des.cmd"
+17:47:10 Nov 30 2020 +++ job 237 <sdevice> done: exit(0)
+17:47:11 Nov 30 2020     job 238 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp238_des.cmd"
+17:47:29 Nov 30 2020 +++ job 238 <sdevice> done: exit(0)
+17:47:30 Nov 30 2020     job 239 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp239_des.cmd"
+17:47:48 Nov 30 2020 +++ job 239 <sdevice> done: exit(0)
+17:47:49 Nov 30 2020     job 240 <sdevice> started on host 'acs14007.4225.cse.uconn.edu': "sdevice pp240_des.cmd"
+17:48:07 Nov 30 2020 +++ job 240 <sdevice> done: exit(0)
+17:48:10 Nov 30 2020 <Task1_Copy> done (202 sec)

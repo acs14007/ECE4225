@@ -1,5 +1,5 @@
 # Copyright (C) 1994-2017 Synopsys Inc.
-# swbtree vcurrent, Mon Nov 30 16:56:57 2020
+# swbtree vcurrent, Mon Nov 30 17:44:46 2020
 
 # --- simulation flow
 sprocess sprocess "" {}
@@ -14,7 +14,7 @@ sprocess source_dose "1e16 1e20" {1e16}
 sprocess source_energy "10" {10}
 sdevice sdevice "" {}
 sdevice barrier "0" {0}
-sdevice Vg "0" {0 1 3}
+sdevice Vg "0" {0 1 3 2 4 5 6 7 8 9 10}
 # --- variables
 # --- scenarios and parameter specs
 scenario default Lg ""
@@ -44,3 +44,11 @@ scenario default Vg ""
 12 230 229 {0} {default} 0
 12 231 229 {1} {default} 0
 12 232 229 {3} {default} 0
+12 233 229 {2} {default} 0
+12 234 229 {4} {default} 0
+12 235 229 {5} {default} 0
+12 236 229 {6} {default} 0
+12 237 229 {7} {default} 0
+12 238 229 {8} {default} 0
+12 239 229 {9} {default} 0
+12 240 229 {10} {default} 0

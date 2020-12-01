@@ -2,7 +2,7 @@
 # Sentaurus Visual O-2018.06.
 # Tcl log file.
 #------------------------------------------
-# Date: Nov 30, 2020. 16:54:16.
+# Date: Nov 30, 2020. 17:58:32.
 # Version: 28.0.1030 (1.1030)
 # Mode: Interactive (GUI).
 # Mesa: enabled.
@@ -17,8 +17,26 @@ select_plots {Plot_1}
 #-> Plot_1
 #-> Plot_1
 #-> IdVd_n230_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n231_des.plt
+#-> IdVd_n231_des
 load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n232_des.plt
 #-> IdVd_n232_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n233_des.plt
+#-> IdVd_n233_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n234_des.plt
+#-> IdVd_n234_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n235_des.plt
+#-> IdVd_n235_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n236_des.plt
+#-> IdVd_n236_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n237_des.plt
+#-> IdVd_n237_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n238_des.plt
+#-> IdVd_n238_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n239_des.plt
+#-> IdVd_n239_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n240_des.plt
+#-> IdVd_n240_des
 load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n230_des.plt
 #-> n230_des
 load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n230_des.tdr
@@ -27,6 +45,14 @@ select_plots {Plot_n230_des_2}
 #-> Plot_n230_des_2
 #-> Plot_n230_des_2
 #-> n230_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n231_des.plt
+#-> n231_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n231_des.tdr
+create_plot -dataset n231_des_2
+select_plots {Plot_n231_des_2}
+#-> Plot_n231_des_2
+#-> Plot_n231_des_2
+#-> n231_des_2
 load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n232_des.plt
 #-> n232_des
 load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n232_des.tdr
@@ -35,13 +61,69 @@ select_plots {Plot_n232_des_2}
 #-> Plot_n232_des_2
 #-> Plot_n232_des_2
 #-> n232_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n233_des.plt
+#-> n233_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n233_des.tdr
+create_plot -dataset n233_des_2
+select_plots {Plot_n233_des_2}
+#-> Plot_n233_des_2
+#-> Plot_n233_des_2
+#-> n233_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n234_des.plt
+#-> n234_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n234_des.tdr
+create_plot -dataset n234_des_2
+select_plots {Plot_n234_des_2}
+#-> Plot_n234_des_2
+#-> Plot_n234_des_2
+#-> n234_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n235_des.plt
+#-> n235_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n235_des.tdr
+create_plot -dataset n235_des_2
+select_plots {Plot_n235_des_2}
+#-> Plot_n235_des_2
+#-> Plot_n235_des_2
+#-> n235_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n236_des.plt
+#-> n236_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n236_des.tdr
+create_plot -dataset n236_des_2
+select_plots {Plot_n236_des_2}
+#-> Plot_n236_des_2
+#-> Plot_n236_des_2
+#-> n236_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n237_des.plt
+#-> n237_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n237_des.tdr
+create_plot -dataset n237_des_2
+select_plots {Plot_n237_des_2}
+#-> Plot_n237_des_2
+#-> Plot_n237_des_2
+#-> n237_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n238_des.plt
+#-> n238_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n238_des.tdr
+create_plot -dataset n238_des_2
+select_plots {Plot_n238_des_2}
+#-> Plot_n238_des_2
+#-> Plot_n238_des_2
+#-> n238_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n239_des.plt
+#-> n239_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n239_des.tdr
+create_plot -dataset n239_des_2
+select_plots {Plot_n239_des_2}
+#-> Plot_n239_des_2
+#-> Plot_n239_des_2
+#-> n239_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n240_des.plt
+#-> n240_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n240_des.tdr
+create_plot -dataset n240_des_2
+select_plots {Plot_n240_des_2}
+#-> Plot_n240_des_2
+#-> Plot_n240_des_2
+#-> n240_des_2
 select_plots {Plot_1}
 #-> Plot_1
-create_curve -plot Plot_1 -dataset {IdVd_n230_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
-#-> Curve_1
-create_curve -plot Plot_1 -dataset {IdVd_n232_des} -axisX {drain OuterVoltage} -axisY2 {drain TotalCurrent}
-#-> Curve_2
-windows_style -style max
-#-> 0
-exit 0
- 

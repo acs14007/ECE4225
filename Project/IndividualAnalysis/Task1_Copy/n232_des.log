@@ -16,12 +16,12 @@
 	Host Name: acs14007.4225.cse.uconn.edu
 	Operating System: Linux rel. 3.10.0-1127.18.2.el7.x86_64 ver. #1 SMP Mon Jul 20 22:32:16 UTC 2020
 	Machine Type: x86_64
-	Process ID: 29972
+	Process ID: 31510
 	Number of processors: 2
 	Domain Name: (none)
-	Date: Mon Nov 30 16:51:40 2020  (EDT)
+	Date: Mon Nov 30 17:45:10 2020  (EDT)
 
-Mon Nov 30 16:51:40 2020: checked out 1 sdevice license(s)
+Mon Nov 30 17:45:11 2020: checked out 1 sdevice license(s)
 Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/bs_psource.ccf
 Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_hb_vsource.ccf
 Parsing circuit file /usr/synopsys/sentaurus/O_2018.06/tcad/current/linux64/lib/sdevice-28.0.1029/sd_SRL1.ccf
@@ -496,7 +496,7 @@ Info for semiconductor regions (NumberOfRegions = 1):
 \-----------------------------------------------------------------------------------------------------------
     done.
   done.
-  (times: wallclock = 0.01 s, tcpu = 0.01 s)
+  (times: wallclock = 0.0000e+00 s, tcpu = 0.01 s)
 done.
 Reading doping 'n227_fps.tdr' (TDR format) ...
 done.
@@ -635,20 +635,20 @@ using Bank/Rose nonlinear solver.
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      3.17e+02                                                      0.00
-    1      7.21e+01   1.00e+00   4.97e+00   4.30e+04    0         1      0.01
+    1      7.21e+01   1.00e+00   4.97e+00   4.30e+04    0         1      0.00
     2      6.27e+00   1.00e+00   1.32e+00   2.65e+04    0         1      0.01
-    3      8.88e-01   1.00e+00   2.96e-01   5.62e+03    0         1      0.02
-    4      5.16e-02   1.00e+00   3.63e-02   4.73e+02    0         1      0.02
+    3      8.88e-01   1.00e+00   2.96e-01   5.62e+03    0         1      0.01
+    4      5.16e-02   1.00e+00   3.63e-02   4.73e+02    0         1      0.01
     5      1.60e-04   1.00e+00   1.72e-03   1.99e+01    0         1      0.02
-    6      2.92e-09   1.00e+00   5.91e-06   6.61e-02    0         1      0.03
+    6      2.92e-09   1.00e+00   5.91e-06   6.61e-02    0         1      0.02
 Finished, because...
 Error smaller than 1 ( 6.6149E-02 ).
 
 Accumulated times:
-Rhs time:        0.02 s
+Rhs time:        0.01 s
 Jacobian time:   0.00 s
 Solve time:      0.01 s
-Total time:      0.03 s
+Total time:      0.02 s
 
 
 ===============================
@@ -662,10 +662,10 @@ using Bank/Rose nonlinear solver.
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      3.17e+02                                                      0.00
-    1      7.21e+01   1.00e+00   4.97e+00   4.30e+04    0         1      0.01
+    1      7.21e+01   1.00e+00   4.97e+00   4.30e+04    0         1      0.00
     2      6.27e+00   1.00e+00   1.32e+00   2.65e+04    0         1      0.01
     3      8.88e-01   1.00e+00   2.96e-01   5.62e+03    0         1      0.01
-    4      5.16e-02   1.00e+00   3.63e-02   4.73e+02    0         1      0.02
+    4      5.16e-02   1.00e+00   3.63e-02   4.73e+02    0         1      0.01
     5      1.60e-04   1.00e+00   1.72e-03   1.99e+01    0         1      0.02
     6      2.92e-09   1.00e+00   5.91e-06   6.61e-02    0         1      0.02
 Finished, because...
@@ -673,8 +673,8 @@ Error smaller than 1 ( 6.6149E-02 ).
 
 Accumulated times:
 Rhs time:        0.00 s
-Jacobian time:   0.01 s
-Solve time:      0.01 s
+Jacobian time:   0.00 s
+Solve time:      0.02 s
 Total time:      0.02 s
 
 contact        voltage     electron current    hole current  conduction current
@@ -745,18 +745,18 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
     0      1.70e+02                                                      0.04
     1      3.64e+09   1.00e+00   3.21e+00   3.18e+06    0         1      0.11
     2      7.83e+07   1.00e+00   3.15e-01   1.07e+04    0         1      0.18
-    3      1.01e+06   1.00e+00   6.21e-02   1.44e+03    0         1      0.26
-    4      9.38e+02   1.00e+00   9.64e-03   1.26e+02    0         1      0.33
-    5      8.65e-03   1.00e+00   3.80e-04   1.29e+00    0         1      0.39
-    6      4.83e-03   1.00e+00   1.08e-06   5.17e-04    0         1      0.46
+    3      1.01e+06   1.00e+00   6.21e-02   1.44e+03    0         1      0.24
+    4      9.38e+02   1.00e+00   9.64e-03   1.26e+02    0         1      0.31
+    5      8.65e-03   1.00e+00   3.80e-04   1.29e+00    0         1      0.38
+    6      4.83e-03   1.00e+00   1.08e-06   5.17e-04    0         1      0.44
 Finished, because...
 Error smaller than 1 ( 5.1658E-04 ).
 
 Accumulated times:
-Rhs time:        0.28 s
-Jacobian time:   0.04 s
-Solve time:      0.14 s
-Total time:      0.46 s
+Rhs time:        0.27 s
+Jacobian time:   0.03 s
+Solve time:      0.13 s
+Total time:      0.44 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        0.000E+00       5.465E-21         5.303E-28        5.465E-21
@@ -773,18 +773,18 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      2.34e+00                                                      0.04
     1      4.83e+08   1.00e+00   2.10e-01   4.01e+05    0         1      0.11
-    2      4.37e+06   1.00e+00   1.29e-01   4.29e+03    0         1      0.18
-    3      1.90e+04   1.00e+00   4.60e-03   2.34e+02    0         1      0.25
-    4      2.68e-01   1.00e+00   2.06e-05   1.46e+00    0         1      0.31
-    5      4.83e-03   1.00e+00   1.76e-09   2.55e-05    0         1      0.38
+    2      4.37e+06   1.00e+00   1.29e-01   4.29e+03    0         1      0.17
+    3      1.90e+04   1.00e+00   4.60e-03   2.34e+02    0         1      0.24
+    4      2.68e-01   1.00e+00   2.06e-05   1.46e+00    0         1      0.30
+    5      4.83e-03   1.00e+00   1.76e-09   2.55e-05    0         1      0.36
 Finished, because...
 Error smaller than 1 ( 2.5471E-05 ).
 
 Accumulated times:
 Rhs time:        0.23 s
-Jacobian time:   0.01 s
-Solve time:      0.14 s
-Total time:      0.38 s
+Jacobian time:   0.03 s
+Solve time:      0.10 s
+Total time:      0.37 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        0.000E+00      -4.238E-19         9.208E-29       -4.238E-19
@@ -799,7 +799,7 @@ using Bank/Rose nonlinear solver.
 
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
-    0      9.33e+00                                                      0.03
+    0      9.33e+00                                                      0.04
     1      3.68e+09   1.00e+00   1.43e-01   1.52e+05    0         1      0.10
     2      9.40e+09   1.00e+00   1.99e-01   2.16e+06    0         1      0.17
     3      1.24e+09   1.00e+00   4.05e-01   1.79e+06    0         1      0.24
@@ -810,8 +810,8 @@ Finished, because...
 Error smaller than 1 ( 9.0895E-04 ).
 
 Accumulated times:
-Rhs time:        0.27 s
-Jacobian time:   0.06 s
+Rhs time:        0.28 s
+Jacobian time:   0.05 s
 Solve time:      0.12 s
 Total time:      0.45 s
 
@@ -833,18 +833,18 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
     2      5.18e+09   1.00e+00   5.24e-02   1.62e+03    0         1      0.18
     3      6.35e+09   1.00e+00   6.43e-02   6.03e+03    0         1      0.25
     4      1.61e+10   1.00e+00   1.57e-01   7.45e+04    0         1      0.32
-    5      1.62e+10   1.00e+00   1.44e-01   8.67e+05    0         1      0.39
-    6      7.75e+09   1.00e+00   5.48e-01   2.73e+03    0         1      0.46
-    7      1.11e+06   1.00e+00   5.40e-01   6.14e+01    0         1      0.53
-    8      1.23e+01   1.00e+00   8.16e-05   2.86e-01    0         1      0.60
+    5      1.62e+10   1.00e+00   1.44e-01   8.67e+05    0         1      0.38
+    6      7.75e+09   1.00e+00   5.48e-01   2.73e+03    0         1      0.45
+    7      1.11e+06   1.00e+00   5.40e-01   6.14e+01    0         1      0.52
+    8      1.23e+01   1.00e+00   8.16e-05   2.86e-01    0         1      0.59
 Finished, because...
 Error smaller than 1 ( 2.8632E-01 ).
 
 Accumulated times:
-Rhs time:        0.36 s
-Jacobian time:   0.06 s
-Solve time:      0.18 s
-Total time:      0.60 s
+Rhs time:        0.35 s
+Jacobian time:   0.07 s
+Solve time:      0.17 s
+Total time:      0.59 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        0.000E+00      -1.698E-14         2.867E-26       -1.698E-14
@@ -860,25 +860,25 @@ using Bank/Rose nonlinear solver.
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      1.72e+02                                                      0.04
-    1      8.26e+09   1.00e+00   2.04e-01   1.26e+05    0         1      0.12
-    2      7.12e+10   1.00e+00   4.00e+00   3.71e+06    0         1      0.19
+    1      8.26e+09   1.00e+00   2.04e-01   1.26e+05    0         1      0.11
+    2      7.12e+10   1.00e+00   4.00e+00   3.71e+06    0         1      0.18
     3      2.21e+10   1.00e+00   3.07e+00   7.08e+10    0         1      0.26
-    4      1.68e+10   1.00e+00   2.25e+00   7.33e+10    0         1      0.34
-    5      9.18e+09   1.00e+00   5.26e+00   4.13e+08    0         1      0.41
-    6      6.64e+09   1.00e+00   1.81e+00   1.34e+07    0         1      0.49
-    7      2.26e+09   1.00e+00   6.27e-01   1.24e+06    0         1      0.56
-    8      2.60e+08   1.00e+00   1.82e+00   1.95e+04    0         1      0.63
-    9      2.31e+06   1.00e+00   1.98e+00   1.08e+03    0         1      0.70
-   10      8.08e+02   1.00e+00   1.43e+00   9.89e+00    0         1      0.76
-   11      4.83e-03   1.00e+00   9.04e-03   3.00e-03    0         1      0.83
+    4      1.68e+10   1.00e+00   2.25e+00   7.33e+10    0         1      0.33
+    5      9.18e+09   1.00e+00   5.26e+00   4.13e+08    0         1      0.40
+    6      6.64e+09   1.00e+00   1.81e+00   1.34e+07    0         1      0.47
+    7      2.26e+09   1.00e+00   6.27e-01   1.24e+06    0         1      0.55
+    8      2.60e+08   1.00e+00   1.82e+00   1.95e+04    0         1      0.62
+    9      2.31e+06   1.00e+00   1.98e+00   1.08e+03    0         1      0.68
+   10      8.08e+02   1.00e+00   1.43e+00   9.89e+00    0         1      0.75
+   11      4.83e-03   1.00e+00   9.04e-03   3.00e-03    0         1      0.82
 Finished, because...
 Error smaller than 1 ( 3.0039E-03 ).
 
 Accumulated times:
 Rhs time:        0.49 s
-Jacobian time:   0.05 s
-Solve time:      0.28 s
-Total time:      0.83 s
+Jacobian time:   0.08 s
+Solve time:      0.24 s
+Total time:      0.82 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        0.000E+00       1.273E-18        -2.329E-25        1.273E-18
@@ -894,11 +894,11 @@ using Bank/Rose nonlinear solver.
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      1.63e+02                                                      0.04
-    1      1.59e+10   1.00e+00   2.13e-01   2.35e+05    0         1      0.11
-    2      1.89e+10   1.00e+00   7.70e-01   1.10e+06    0         1      0.18
+    1      1.59e+10   1.00e+00   2.13e-01   2.35e+05    0         1      0.10
+    2      1.89e+10   1.00e+00   7.70e-01   1.10e+06    0         1      0.17
     3      9.78e+09   1.00e+00   6.15e-01   1.39e+06    0         1      0.25
-    4      1.35e+09   1.00e+00   5.03e-01   9.47e+04    0         1      0.33
-    5      8.35e+07   1.00e+00   1.95e-01   2.76e+03    0         1      0.40
+    4      1.35e+09   1.00e+00   5.03e-01   9.47e+04    0         1      0.32
+    5      8.35e+07   1.00e+00   1.95e-01   2.76e+03    0         1      0.39
     6      1.08e+06   1.00e+00   9.75e-02   6.64e+01    0         1      0.46
     7      1.15e+01   1.00e+00   1.46e-01   8.50e-01    0         1      0.53
 Finished, because...
@@ -906,8 +906,8 @@ Error smaller than 1 ( 8.5008E-01 ).
 
 Accumulated times:
 Rhs time:        0.32 s
-Jacobian time:   0.03 s
-Solve time:      0.17 s
+Jacobian time:   0.02 s
+Solve time:      0.19 s
 Total time:      0.53 s
 
 contact        voltage     electron current    hole current  conduction current
@@ -926,19 +926,19 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
     0      1.55e+02                                                      0.04
     1      1.54e+10   1.00e+00   7.53e-02   8.91e+03    0         1      0.11
     2      4.14e+09   1.00e+00   3.98e-02   9.64e+02    0         1      0.18
-    3      1.39e+09   1.00e+00   7.25e-03   2.87e+02    0         1      0.24
-    4      6.09e+08   1.00e+00   1.89e-03   1.36e+02    0         1      0.31
-    5      8.13e+07   1.00e+00   4.27e-04   3.65e+01    0         1      0.38
-    6      9.42e+05   1.00e+00   4.82e-05   4.12e+00    0         1      0.45
-    7      7.75e+01   1.00e+00   5.54e-07   4.72e-02    0         1      0.52
+    3      1.39e+09   1.00e+00   7.25e-03   2.87e+02    0         1      0.25
+    4      6.09e+08   1.00e+00   1.89e-03   1.36e+02    0         1      0.32
+    5      8.13e+07   1.00e+00   4.27e-04   3.65e+01    0         1      0.39
+    6      9.42e+05   1.00e+00   4.82e-05   4.12e+00    0         1      0.46
+    7      7.75e+01   1.00e+00   5.54e-07   4.72e-02    0         1      0.54
 Finished, because...
 Error smaller than 1 ( 4.7243E-02 ).
 
 Accumulated times:
-Rhs time:        0.31 s
-Jacobian time:   0.02 s
-Solve time:      0.18 s
-Total time:      0.52 s
+Rhs time:        0.32 s
+Jacobian time:   0.07 s
+Solve time:      0.14 s
+Total time:      0.54 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        0.000E+00       1.309E-18         3.561E-28        1.309E-18
@@ -957,15 +957,15 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
     1      5.08e+09   1.00e+00   2.63e-02   1.77e+03    0         1      0.11
     2      1.38e+08   1.00e+00   3.76e-03   8.34e+01    0         1      0.18
     3      1.09e+05   1.00e+00   4.19e-05   1.07e+00    0         1      0.25
-    4      4.83e-03   1.00e+00   2.70e-08   1.16e-03    0         1      0.31
+    4      4.83e-03   1.00e+00   2.70e-08   1.16e-03    0         1      0.32
 Finished, because...
 Error smaller than 1 ( 1.1594E-03 ).
 
 Accumulated times:
-Rhs time:        0.19 s
-Jacobian time:   0.02 s
-Solve time:      0.10 s
-Total time:      0.31 s
+Rhs time:        0.20 s
+Jacobian time:   0.01 s
+Solve time:      0.11 s
+Total time:      0.32 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        0.000E+00       4.052E-18        -5.420E-28        4.052E-18
@@ -989,8 +989,8 @@ Error smaller than 1 ( 6.1898E-02 ).
 
 Accumulated times:
 Rhs time:        0.16 s
-Jacobian time:   0.00 s
-Solve time:      0.09 s
+Jacobian time:   0.03 s
+Solve time:      0.06 s
 Total time:      0.25 s
 
 contact        voltage     electron current    hole current  conduction current
@@ -1008,16 +1008,16 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      2.92e+03                                                      0.04
     1      1.08e+09   1.00e+00   7.71e-03   4.37e+02    0         1      0.11
-    2      4.19e+06   1.00e+00   2.80e-04   6.36e+00    0         1      0.19
-    3      3.69e+01   1.00e+00   2.35e-07   9.40e-03    0         1      0.26
+    2      4.19e+06   1.00e+00   2.80e-04   6.36e+00    0         1      0.18
+    3      3.69e+01   1.00e+00   2.35e-07   9.40e-03    0         1      0.25
 Finished, because...
 Error smaller than 1 ( 9.3973E-03 ).
 
 Accumulated times:
 Rhs time:        0.16 s
-Jacobian time:   0.01 s
+Jacobian time:   0.00 s
 Solve time:      0.09 s
-Total time:      0.26 s
+Total time:      0.25 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        0.000E+00       1.565E-16        -2.672E-28        1.565E-16
@@ -1056,15 +1056,15 @@ using Bank/Rose nonlinear solver.
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      3.69e+01                                                      0.00
-    1      5.88e-03   1.00e+00   8.71e-13   6.60e-08    0         1      0.07
+    1      5.88e-03   1.00e+00   8.71e-13   6.60e-08    0         1      0.08
 Finished, because...
 Error smaller than 1 ( 6.5991E-08 ).
 
 Accumulated times:
 Rhs time:        0.04 s
-Jacobian time:   0.00 s
+Jacobian time:   0.01 s
 Solve time:      0.03 s
-Total time:      0.07 s
+Total time:      0.08 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        0.000E+00       6.994E-18         2.220E-28        6.994E-18
@@ -1081,19 +1081,19 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      1.28e+12                                                      0.04
     1      1.41e+12   1.00e+00   1.82e+00   4.27e+05    0         1      0.11
-    2      2.01e+11   1.00e+00   1.39e+00   7.24e+03    0         1      0.19
+    2      2.01e+11   1.00e+00   1.39e+00   7.24e+03    0         1      0.18
     3      2.49e+10   1.00e+00   1.96e-01   1.36e+03    0         1      0.26
     4      2.07e+08   1.00e+00   4.40e-02   7.80e+01    0         1      0.33
     5      7.74e+03   1.00e+00   2.73e-03   1.33e+00    0         1      0.41
-    6      6.04e-03   1.00e+00   1.00e-04   3.25e-03    0         1      0.48
+    6      6.04e-03   1.00e+00   1.00e-04   3.25e-03    0         1      0.49
 Finished, because...
 Error smaller than 1 ( 3.2452E-03 ).
 
 Accumulated times:
 Rhs time:        0.30 s
 Jacobian time:   0.03 s
-Solve time:      0.15 s
-Total time:      0.48 s
+Solve time:      0.16 s
+Total time:      0.49 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        3.000E-02       1.290E-04         9.720E-21        1.290E-04
@@ -1108,17 +1108,17 @@ using Bank/Rose nonlinear solver.
 
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
-    0      1.39e+07                                                      0.04
+    0      1.39e+07                                                      0.05
     1      2.92e+05   1.00e+00   1.29e-01   1.24e+02    0         1      0.12
-    2      5.98e+00   1.00e+00   1.48e-03   7.91e-01    0         1      0.20
+    2      5.98e+00   1.00e+00   1.48e-03   7.91e-01    0         1      0.19
 Finished, because...
 Error smaller than 1 ( 7.9111E-01 ).
 
 Accumulated times:
 Rhs time:        0.13 s
-Jacobian time:   0.02 s
+Jacobian time:   0.01 s
 Solve time:      0.05 s
-Total time:      0.20 s
+Total time:      0.19 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        7.000E-02       2.746E-04         1.287E-20        2.746E-04
@@ -1133,18 +1133,18 @@ using Bank/Rose nonlinear solver.
 
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
-    0      2.66e+07                                                      0.05
-    1      1.11e+06   1.00e+00   1.96e-01   2.44e+02    0         1      0.13
-    2      6.76e+01   1.00e+00   8.48e-03   3.19e+00    0         1      0.20
-    3      6.26e-03   1.00e+00   9.38e-05   4.09e-04    0         1      0.28
+    0      2.66e+07                                                      0.04
+    1      1.11e+06   1.00e+00   1.96e-01   2.44e+02    0         1      0.11
+    2      6.76e+01   1.00e+00   8.48e-03   3.19e+00    0         1      0.19
+    3      6.26e-03   1.00e+00   9.38e-05   4.09e-04    0         1      0.26
 Finished, because...
 Error smaller than 1 ( 4.0885E-04 ).
 
 Accumulated times:
-Rhs time:        0.18 s
-Jacobian time:   0.01 s
+Rhs time:        0.16 s
+Jacobian time:   0.02 s
 Solve time:      0.08 s
-Total time:      0.28 s
+Total time:      0.26 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        1.287E-01       4.406E-04         1.337E-20        4.406E-04
@@ -1160,16 +1160,16 @@ using Bank/Rose nonlinear solver.
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      3.94e+07                                                      0.04
-    1      2.67e+06   1.00e+00   1.75e-01   3.86e+02    0         1      0.12
-    2      5.62e+02   1.00e+00   1.71e-02   8.20e+00    0         1      0.19
+    1      2.67e+06   1.00e+00   1.75e-01   3.86e+02    0         1      0.11
+    2      5.62e+02   1.00e+00   1.71e-02   8.20e+00    0         1      0.18
     3      1.05e-02   1.00e+00   1.84e-04   1.53e-02    0         1      0.26
 Finished, because...
 Error smaller than 1 ( 1.5283E-02 ).
 
 Accumulated times:
 Rhs time:        0.17 s
-Jacobian time:   0.02 s
-Solve time:      0.07 s
+Jacobian time:   0.03 s
+Solve time:      0.06 s
 Total time:      0.26 s
 
 contact        voltage     electron current    hole current  conduction current
@@ -1187,16 +1187,16 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      3.87e+07                                                      0.04
     1      2.63e+06   1.00e+00   1.12e-01   4.18e+02    0         1      0.12
-    2      5.81e+02   1.00e+00   2.76e-02   9.41e+00    0         1      0.19
-    3      1.26e-02   1.00e+00   1.27e-03   1.00e-02    0         1      0.26
+    2      5.81e+02   1.00e+00   2.76e-02   9.41e+00    0         1      0.18
+    3      1.26e-02   1.00e+00   1.27e-03   1.00e-02    0         1      0.25
 Finished, because...
 Error smaller than 1 ( 1.0026E-02 ).
 
 Accumulated times:
 Rhs time:        0.17 s
 Jacobian time:   0.02 s
-Solve time:      0.07 s
-Total time:      0.26 s
+Solve time:      0.06 s
+Total time:      0.25 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        2.787E-01       6.892E-04         1.347E-20        6.892E-04
@@ -1237,18 +1237,18 @@ using Bank/Rose nonlinear solver.
 
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
-    0      3.02e+07                                                      0.05
-    1      2.85e+06   1.00e+00   8.79e-02   3.99e+02    0         1      0.13
-    2      1.21e+03   1.00e+00   1.39e-02   1.43e+01    0         1      0.21
-    3      1.95e-02   1.00e+00   2.57e-04   2.57e-02    0         1      0.29
+    0      3.02e+07                                                      0.04
+    1      2.85e+06   1.00e+00   8.79e-02   3.99e+02    0         1      0.12
+    2      1.21e+03   1.00e+00   1.39e-02   1.43e+01    0         1      0.19
+    3      1.95e-02   1.00e+00   2.57e-04   2.57e-02    0         1      0.26
 Finished, because...
 Error smaller than 1 ( 2.5715E-02 ).
 
 Accumulated times:
-Rhs time:        0.18 s
-Jacobian time:   0.03 s
+Rhs time:        0.17 s
+Jacobian time:   0.01 s
 Solve time:      0.08 s
-Total time:      0.29 s
+Total time:      0.26 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        4.287E-01       8.020E-04         1.360E-20        8.020E-04
@@ -1265,15 +1265,15 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      3.56e+07                                                      0.04
     1      4.17e+06   1.00e+00   5.13e-02   3.80e+02    0         1      0.11
-    2      8.97e+02   1.00e+00   3.52e-03   1.53e+01    0         1      0.18
+    2      8.97e+02   1.00e+00   3.52e-03   1.53e+01    0         1      0.19
     3      6.69e-03   1.00e+00   1.26e-05   1.36e-02    0         1      0.26
 Finished, because...
 Error smaller than 1 ( 1.3568E-02 ).
 
 Accumulated times:
-Rhs time:        0.17 s
-Jacobian time:   0.03 s
-Solve time:      0.06 s
+Rhs time:        0.18 s
+Jacobian time:   0.01 s
+Solve time:      0.07 s
 Total time:      0.26 s
 
 contact        voltage     electron current    hole current  conduction current
@@ -1298,7 +1298,7 @@ Error smaller than 1 ( 3.5003E-02 ).
 
 Accumulated times:
 Rhs time:        0.17 s
-Jacobian time:   0.02 s
+Jacobian time:   0.01 s
 Solve time:      0.07 s
 Total time:      0.26 s
 
@@ -1318,15 +1318,15 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
     0      3.62e+07                                                      0.04
     1      2.79e+06   1.00e+00   2.57e-02   4.72e+02    0         1      0.11
     2      6.13e+03   1.00e+00   9.03e-04   3.83e+01    0         1      0.18
-    3      2.31e-01   1.00e+00   3.55e-06   1.09e-01    0         1      0.26
+    3      2.31e-01   1.00e+00   3.55e-06   1.09e-01    0         1      0.25
 Finished, because...
 Error smaller than 1 ( 1.0867E-01 ).
 
 Accumulated times:
-Rhs time:        0.17 s
-Jacobian time:   0.03 s
-Solve time:      0.06 s
-Total time:      0.26 s
+Rhs time:        0.16 s
+Jacobian time:   0.02 s
+Solve time:      0.07 s
+Total time:      0.25 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        6.537E-01       8.793E-04         1.369E-20        8.793E-04
@@ -1342,17 +1342,17 @@ using Bank/Rose nonlinear solver.
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      3.97e+07                                                      0.04
-    1      4.33e+06   1.00e+00   2.75e-02   5.92e+02    0         1      0.12
-    2      1.49e+04   1.00e+00   1.35e-03   5.60e+01    0         1      0.20
-    3      3.28e-01   1.00e+00   7.87e-06   1.36e-01    0         1      0.27
+    1      4.33e+06   1.00e+00   2.75e-02   5.92e+02    0         1      0.11
+    2      1.49e+04   1.00e+00   1.35e-03   5.60e+01    0         1      0.18
+    3      3.28e-01   1.00e+00   7.87e-06   1.36e-01    0         1      0.25
 Finished, because...
 Error smaller than 1 ( 1.3647E-01 ).
 
 Accumulated times:
-Rhs time:        0.18 s
+Rhs time:        0.16 s
 Jacobian time:   0.03 s
 Solve time:      0.06 s
-Total time:      0.27 s
+Total time:      0.25 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        7.287E-01       8.959E-04         1.371E-20        8.959E-04
@@ -1368,17 +1368,17 @@ using Bank/Rose nonlinear solver.
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      3.56e+07                                                      0.04
-    1      3.03e+06   1.00e+00   3.58e-02   6.26e+02    0         1      0.11
-    2      1.56e+04   1.00e+00   1.72e-03   4.60e+01    0         1      0.19
-    3      1.71e+00   1.00e+00   9.00e-06   4.62e-02    0         1      0.26
+    1      3.03e+06   1.00e+00   3.58e-02   6.26e+02    0         1      0.10
+    2      1.56e+04   1.00e+00   1.72e-03   4.60e+01    0         1      0.17
+    3      1.71e+00   1.00e+00   9.00e-06   4.62e-02    0         1      0.24
 Finished, because...
 Error smaller than 1 ( 4.6178E-02 ).
 
 Accumulated times:
-Rhs time:        0.17 s
+Rhs time:        0.15 s
 Jacobian time:   0.02 s
-Solve time:      0.07 s
-Total time:      0.26 s
+Solve time:      0.06 s
+Total time:      0.24 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        8.037E-01       9.104E-04         1.372E-20        9.104E-04
@@ -1395,16 +1395,16 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      2.39e+07                                                      0.04
     1      1.23e+06   1.00e+00   2.71e-02   5.86e+02    0         1      0.11
-    2      5.18e+03   1.00e+00   9.22e-04   3.16e+01    0         1      0.18
-    3      4.65e-02   1.00e+00   1.76e-06   2.52e-02    0         1      0.25
+    2      5.18e+03   1.00e+00   9.22e-04   3.16e+01    0         1      0.17
+    3      4.65e-02   1.00e+00   1.76e-06   2.52e-02    0         1      0.24
 Finished, because...
 Error smaller than 1 ( 2.5205E-02 ).
 
 Accumulated times:
 Rhs time:        0.16 s
-Jacobian time:   0.02 s
-Solve time:      0.06 s
-Total time:      0.25 s
+Jacobian time:   0.01 s
+Solve time:      0.07 s
+Total time:      0.24 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        8.787E-01       9.237E-04         1.373E-20        9.237E-04
@@ -1427,8 +1427,8 @@ Finished, because...
 Error smaller than 1 ( 2.0667E-02 ).
 
 Accumulated times:
-Rhs time:        0.16 s
-Jacobian time:   0.01 s
+Rhs time:        0.17 s
+Jacobian time:   0.00 s
 Solve time:      0.08 s
 Total time:      0.25 s
 
@@ -1454,8 +1454,8 @@ Error smaller than 1 ( 6.7279E-03 ).
 
 Accumulated times:
 Rhs time:        0.16 s
-Jacobian time:   0.03 s
-Solve time:      0.06 s
+Jacobian time:   0.02 s
+Solve time:      0.07 s
 Total time:      0.25 s
 
 contact        voltage     electron current    hole current  conduction current
@@ -1480,8 +1480,8 @@ Error smaller than 1 ( 9.0411E-04 ).
 
 Accumulated times:
 Rhs time:        0.16 s
-Jacobian time:   0.00 s
-Solve time:      0.09 s
+Jacobian time:   0.01 s
+Solve time:      0.08 s
 Total time:      0.25 s
 
 contact        voltage     electron current    hole current  conduction current
@@ -1506,7 +1506,7 @@ Error smaller than 1 ( 1.2668E-03 ).
 
 Accumulated times:
 Rhs time:        0.16 s
-Jacobian time:   0.03 s
+Jacobian time:   0.02 s
 Solve time:      0.06 s
 Total time:      0.25 s
 
@@ -1526,15 +1526,15 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
     0      3.61e+07                                                      0.04
     1      2.09e+06   1.00e+00   1.51e-02   1.99e+02    0         1      0.11
     2      1.28e+03   1.00e+00   2.48e-04   3.52e+00    0         1      0.18
-    3      1.70e-02   1.00e+00   9.12e-08   1.45e-03    0         1      0.25
+    3      1.70e-02   1.00e+00   9.12e-08   1.45e-03    0         1      0.26
 Finished, because...
 Error smaller than 1 ( 1.4464E-03 ).
 
 Accumulated times:
 Rhs time:        0.16 s
-Jacobian time:   0.01 s
-Solve time:      0.08 s
-Total time:      0.25 s
+Jacobian time:   0.03 s
+Solve time:      0.07 s
+Total time:      0.26 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        1.254E+00       9.815E-04         1.378E-20        9.815E-04
@@ -1550,15 +1550,15 @@ using Bank/Rose nonlinear solver.
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      3.48e+07                                                      0.04
-    1      1.88e+06   1.00e+00   1.47e-02   1.96e+02    0         1      0.11
+    1      1.88e+06   1.00e+00   1.47e-02   1.96e+02    0         1      0.12
     2      8.97e+02   1.00e+00   2.46e-04   3.34e+00    0         1      0.19
     3      2.79e-02   1.00e+00   2.22e-07   9.29e-04    0         1      0.27
 Finished, because...
 Error smaller than 1 ( 9.2948E-04 ).
 
 Accumulated times:
-Rhs time:        0.17 s
-Jacobian time:   0.03 s
+Rhs time:        0.18 s
+Jacobian time:   0.02 s
 Solve time:      0.07 s
 Total time:      0.27 s
 
@@ -1576,17 +1576,17 @@ using Bank/Rose nonlinear solver.
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      2.84e+07                                                      0.04
-    1      1.47e+06   1.00e+00   1.35e-02   1.93e+02    0         1      0.11
-    2      2.29e+02   1.00e+00   1.84e-04   2.59e+00    0         1      0.18
-    3      2.07e-02   1.00e+00   9.33e-08   3.07e-04    0         1      0.25
+    1      1.47e+06   1.00e+00   1.35e-02   1.93e+02    0         1      0.12
+    2      2.29e+02   1.00e+00   1.84e-04   2.59e+00    0         1      0.19
+    3      2.07e-02   1.00e+00   9.33e-08   3.07e-04    0         1      0.26
 Finished, because...
 Error smaller than 1 ( 3.0681E-04 ).
 
 Accumulated times:
-Rhs time:        0.16 s
-Jacobian time:   0.03 s
-Solve time:      0.06 s
-Total time:      0.25 s
+Rhs time:        0.17 s
+Jacobian time:   0.02 s
+Solve time:      0.07 s
+Total time:      0.26 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        1.404E+00       1.002E-03         1.380E-20        1.002E-03
@@ -1629,16 +1629,16 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      1.86e+07                                                      0.04
     1      1.24e+06   1.00e+00   1.24e-02   1.76e+02    0         1      0.11
-    2      5.09e+01   1.00e+00   3.56e-04   1.69e+00    0         1      0.18
-    3      4.48e-02   1.00e+00   4.69e-07   1.71e-04    0         1      0.25
+    2      5.09e+01   1.00e+00   3.56e-04   1.69e+00    0         1      0.19
+    3      4.48e-02   1.00e+00   4.69e-07   1.71e-04    0         1      0.26
 Finished, because...
 Error smaller than 1 ( 1.7083E-04 ).
 
 Accumulated times:
-Rhs time:        0.16 s
-Jacobian time:   0.03 s
-Solve time:      0.06 s
-Total time:      0.25 s
+Rhs time:        0.17 s
+Jacobian time:   0.01 s
+Solve time:      0.08 s
+Total time:      0.26 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        1.554E+00       1.021E-03         1.381E-20        1.021E-03
@@ -1654,17 +1654,17 @@ using Bank/Rose nonlinear solver.
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      1.61e+07                                                      0.04
-    1      1.14e+06   1.00e+00   1.17e-02   1.68e+02    0         1      0.11
-    2      2.16e+01   1.00e+00   3.72e-04   1.63e+00    0         1      0.18
-    3      2.56e-02   1.00e+00   6.59e-07   2.02e-04    0         1      0.25
+    1      1.14e+06   1.00e+00   1.17e-02   1.68e+02    0         1      0.12
+    2      2.16e+01   1.00e+00   3.72e-04   1.63e+00    0         1      0.19
+    3      2.56e-02   1.00e+00   6.59e-07   2.02e-04    0         1      0.26
 Finished, because...
 Error smaller than 1 ( 2.0164E-04 ).
 
 Accumulated times:
-Rhs time:        0.16 s
-Jacobian time:   0.00 s
-Solve time:      0.09 s
-Total time:      0.25 s
+Rhs time:        0.17 s
+Jacobian time:   0.02 s
+Solve time:      0.07 s
+Total time:      0.26 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        1.629E+00       1.031E-03         1.382E-20        1.031E-03
@@ -1679,18 +1679,18 @@ using Bank/Rose nonlinear solver.
 
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
-    0      2.31e+07                                                      0.05
+    0      2.31e+07                                                      0.04
     1      1.06e+06   1.00e+00   1.23e-02   1.71e+02    0         1      0.12
-    2      1.88e+01   1.00e+00   3.17e-04   1.46e+00    0         1      0.20
-    3      2.70e-02   1.00e+00   3.33e-07   1.06e-04    0         1      0.28
+    2      1.88e+01   1.00e+00   3.17e-04   1.46e+00    0         1      0.19
+    3      2.70e-02   1.00e+00   3.33e-07   1.06e-04    0         1      0.27
 Finished, because...
 Error smaller than 1 ( 1.0602E-04 ).
 
 Accumulated times:
-Rhs time:        0.19 s
-Jacobian time:   0.01 s
+Rhs time:        0.17 s
+Jacobian time:   0.02 s
 Solve time:      0.08 s
-Total time:      0.28 s
+Total time:      0.27 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        1.704E+00       1.040E-03         1.383E-20        1.040E-03
@@ -1705,17 +1705,17 @@ using Bank/Rose nonlinear solver.
 
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
-    0      2.52e+07                                                      0.05
+    0      2.52e+07                                                      0.04
     1      9.88e+05   1.00e+00   1.12e-02   1.72e+02    0         1      0.12
-    2      1.76e+01   1.00e+00   1.44e-04   1.21e+00    0         1      0.20
+    2      1.76e+01   1.00e+00   1.44e-04   1.21e+00    0         1      0.19
     3      2.43e-02   1.00e+00   5.14e-08   9.10e-05    0         1      0.27
 Finished, because...
 Error smaller than 1 ( 9.1039E-05 ).
 
 Accumulated times:
 Rhs time:        0.18 s
-Jacobian time:   0.01 s
-Solve time:      0.08 s
+Jacobian time:   0.02 s
+Solve time:      0.07 s
 Total time:      0.27 s
 
 contact        voltage     electron current    hole current  conduction current
@@ -1739,8 +1739,8 @@ Error smaller than 1 ( 9.6026E-01 ).
 
 Accumulated times:
 Rhs time:        0.12 s
-Jacobian time:   0.01 s
-Solve time:      0.05 s
+Jacobian time:   0.02 s
+Solve time:      0.04 s
 Total time:      0.18 s
 
 contact        voltage     electron current    hole current  conduction current
@@ -1758,15 +1758,15 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      1.72e+07                                                      0.04
     1      8.28e+05   1.00e+00   1.23e-02   1.59e+02    0         1      0.11
-    2      1.42e+01   1.00e+00   1.65e-04   7.94e-01    0         1      0.19
+    2      1.42e+01   1.00e+00   1.65e-04   7.94e-01    0         1      0.18
 Finished, because...
 Error smaller than 1 ( 7.9362E-01 ).
 
 Accumulated times:
-Rhs time:        0.13 s
+Rhs time:        0.12 s
 Jacobian time:   0.02 s
 Solve time:      0.04 s
-Total time:      0.19 s
+Total time:      0.18 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        1.929E+00       1.067E-03         1.384E-20        1.067E-03
@@ -1788,7 +1788,7 @@ Finished, because...
 Error smaller than 1 ( 7.2468E-01 ).
 
 Accumulated times:
-Rhs time:        0.13 s
+Rhs time:        0.12 s
 Jacobian time:   0.02 s
 Solve time:      0.04 s
 Total time:      0.19 s
@@ -1831,17 +1831,17 @@ using Bank/Rose nonlinear solver.
 
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
-    0      1.48e+07                                                      0.05
-    1      6.55e+05   1.00e+00   6.60e-03   1.50e+02    0         1      0.12
-    2      1.14e+01   1.00e+00   8.97e-05   7.52e-01    0         1      0.19
+    0      1.48e+07                                                      0.04
+    1      6.55e+05   1.00e+00   6.60e-03   1.50e+02    0         1      0.11
+    2      1.14e+01   1.00e+00   8.97e-05   7.52e-01    0         1      0.18
 Finished, because...
 Error smaller than 1 ( 7.5239E-01 ).
 
 Accumulated times:
-Rhs time:        0.13 s
-Jacobian time:   0.00 s
-Solve time:      0.06 s
-Total time:      0.19 s
+Rhs time:        0.12 s
+Jacobian time:   0.01 s
+Solve time:      0.05 s
+Total time:      0.18 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        2.154E+00       1.093E-03         1.388E-20        1.093E-03
@@ -1864,8 +1864,8 @@ Error smaller than 1 ( 7.8274E-01 ).
 
 Accumulated times:
 Rhs time:        0.12 s
-Jacobian time:   0.01 s
-Solve time:      0.05 s
+Jacobian time:   0.00 s
+Solve time:      0.06 s
 Total time:      0.18 s
 
 contact        voltage     electron current    hole current  conduction current
@@ -1881,17 +1881,17 @@ using Bank/Rose nonlinear solver.
 
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
-    0      1.99e+07                                                      0.04
-    1      6.01e+05   1.00e+00   7.71e-03   1.54e+02    0         1      0.11
-    2      1.26e+01   1.00e+00   2.09e-04   8.09e-01    0         1      0.18
+    0      1.99e+07                                                      0.05
+    1      6.01e+05   1.00e+00   7.71e-03   1.54e+02    0         1      0.12
+    2      1.26e+01   1.00e+00   2.09e-04   8.09e-01    0         1      0.19
 Finished, because...
 Error smaller than 1 ( 8.0868E-01 ).
 
 Accumulated times:
-Rhs time:        0.12 s
-Jacobian time:   0.02 s
-Solve time:      0.04 s
-Total time:      0.18 s
+Rhs time:        0.13 s
+Jacobian time:   0.00 s
+Solve time:      0.06 s
+Total time:      0.19 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        2.304E+00       1.109E-03         1.389E-20        1.109E-03
@@ -1908,7 +1908,7 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      2.00e+07                                                      0.04
     1      5.69e+05   1.00e+00   7.35e-03   1.58e+02    0         1      0.11
-    2      1.13e+01   1.00e+00   1.41e-04   8.35e-01    0         1      0.19
+    2      1.13e+01   1.00e+00   1.41e-04   8.35e-01    0         1      0.18
 Finished, because...
 Error smaller than 1 ( 8.3480E-01 ).
 
@@ -1916,7 +1916,7 @@ Accumulated times:
 Rhs time:        0.12 s
 Jacobian time:   0.02 s
 Solve time:      0.04 s
-Total time:      0.19 s
+Total time:      0.18 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        2.379E+00       1.117E-03         1.389E-20        1.117E-03
@@ -1931,17 +1931,17 @@ using Bank/Rose nonlinear solver.
 
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
-    0      1.80e+07                                                      0.05
-    1      5.28e+05   1.00e+00   7.13e-03   1.57e+02    0         1      0.12
-    2      1.67e+01   1.00e+00   1.62e-04   8.71e-01    0         1      0.19
+    0      1.80e+07                                                      0.04
+    1      5.28e+05   1.00e+00   7.13e-03   1.57e+02    0         1      0.11
+    2      1.67e+01   1.00e+00   1.62e-04   8.71e-01    0         1      0.18
 Finished, because...
 Error smaller than 1 ( 8.7145E-01 ).
 
 Accumulated times:
-Rhs time:        0.13 s
-Jacobian time:   0.00 s
-Solve time:      0.06 s
-Total time:      0.19 s
+Rhs time:        0.12 s
+Jacobian time:   0.02 s
+Solve time:      0.04 s
+Total time:      0.18 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        2.454E+00       1.125E-03         1.388E-20        1.125E-03
@@ -1956,17 +1956,17 @@ using Bank/Rose nonlinear solver.
 
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
-    0      1.61e+07                                                      0.05
-    1      4.91e+05   1.00e+00   7.54e-03   1.54e+02    0         1      0.12
-    2      2.33e+01   1.00e+00   9.82e-05   9.17e-01    0         1      0.20
+    0      1.61e+07                                                      0.04
+    1      4.91e+05   1.00e+00   7.54e-03   1.54e+02    0         1      0.11
+    2      2.33e+01   1.00e+00   9.82e-05   9.17e-01    0         1      0.19
 Finished, because...
 Error smaller than 1 ( 9.1745E-01 ).
 
 Accumulated times:
-Rhs time:        0.14 s
-Jacobian time:   0.00 s
-Solve time:      0.06 s
-Total time:      0.20 s
+Rhs time:        0.13 s
+Jacobian time:   0.02 s
+Solve time:      0.04 s
+Total time:      0.19 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        2.529E+00       1.133E-03         1.390E-20        1.133E-03
@@ -1981,17 +1981,17 @@ using Bank/Rose nonlinear solver.
 
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
-    0      1.34e+07                                                      0.05
-    1      4.26e+05   1.00e+00   7.37e-03   1.47e+02    0         1      0.12
-    2      3.17e+01   1.00e+00   9.00e-05   9.98e-01    0         1      0.19
+    0      1.34e+07                                                      0.04
+    1      4.26e+05   1.00e+00   7.37e-03   1.47e+02    0         1      0.11
+    2      3.17e+01   1.00e+00   9.00e-05   9.98e-01    0         1      0.18
 Finished, because...
 Error smaller than 1 ( 9.9792E-01 ).
 
 Accumulated times:
-Rhs time:        0.14 s
-Jacobian time:   0.00 s
-Solve time:      0.05 s
-Total time:      0.19 s
+Rhs time:        0.12 s
+Jacobian time:   0.02 s
+Solve time:      0.04 s
+Total time:      0.18 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        2.604E+00       1.141E-03         1.392E-20        1.141E-03
@@ -2015,8 +2015,8 @@ Error smaller than 1 ( 2.1987E-04 ).
 
 Accumulated times:
 Rhs time:        0.16 s
-Jacobian time:   0.01 s
-Solve time:      0.08 s
+Jacobian time:   0.03 s
+Solve time:      0.06 s
 Total time:      0.25 s
 
 contact        voltage     electron current    hole current  conduction current
@@ -2034,16 +2034,16 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      1.09e+07                                                      0.04
     1      3.80e+05   1.00e+00   1.18e-02   1.33e+02    0         1      0.11
-    2      3.77e+01   1.00e+00   2.21e-04   1.49e+00    0         1      0.18
-    3      2.86e-02   1.00e+00   1.11e-07   3.36e-04    0         1      0.25
+    2      3.77e+01   1.00e+00   2.21e-04   1.49e+00    0         1      0.19
+    3      2.86e-02   1.00e+00   1.11e-07   3.36e-04    0         1      0.26
 Finished, because...
 Error smaller than 1 ( 3.3583E-04 ).
 
 Accumulated times:
-Rhs time:        0.16 s
-Jacobian time:   0.03 s
-Solve time:      0.06 s
-Total time:      0.25 s
+Rhs time:        0.17 s
+Jacobian time:   0.02 s
+Solve time:      0.07 s
+Total time:      0.26 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        2.754E+00       1.156E-03         1.393E-20        1.156E-03
@@ -2060,8 +2060,8 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      1.40e+07                                                      0.04
     1      3.39e+05   1.00e+00   1.06e-02   1.24e+02    0         1      0.11
-    2      2.55e+01   1.00e+00   1.59e-04   1.79e+00    0         1      0.18
-    3      4.76e-02   1.00e+00   5.44e-08   3.89e-04    0         1      0.25
+    2      2.55e+01   1.00e+00   1.59e-04   1.79e+00    0         1      0.19
+    3      4.76e-02   1.00e+00   5.44e-08   3.89e-04    0         1      0.26
 Finished, because...
 Error smaller than 1 ( 3.8913E-04 ).
 
@@ -2085,14 +2085,14 @@ using Bank/Rose nonlinear solver.
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      1.59e+07                                                      0.04
-    1      3.11e+05   1.00e+00   7.61e-03   1.20e+02    0         1      0.12
+    1      3.11e+05   1.00e+00   7.61e-03   1.20e+02    0         1      0.11
     2      1.90e+01   1.00e+00   8.91e-05   1.88e+00    0         1      0.19
     3      5.39e-02   1.00e+00   4.28e-08   2.94e-04    0         1      0.26
 Finished, because...
 Error smaller than 1 ( 2.9393E-04 ).
 
 Accumulated times:
-Rhs time:        0.17 s
+Rhs time:        0.16 s
 Jacobian time:   0.02 s
 Solve time:      0.07 s
 Total time:      0.26 s
@@ -2113,15 +2113,15 @@ Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
     0      1.57e+07                                                      0.04
     1      3.21e+05   1.00e+00   7.03e-03   1.33e+02    0         1      0.11
     2      2.12e+01   1.00e+00   1.47e-04   1.91e+00    0         1      0.18
-    3      4.42e-02   1.00e+00   1.45e-07   1.61e-04    0         1      0.24
+    3      4.42e-02   1.00e+00   1.45e-07   1.61e-04    0         1      0.25
 Finished, because...
 Error smaller than 1 ( 1.6143E-04 ).
 
 Accumulated times:
 Rhs time:        0.16 s
-Jacobian time:   0.00 s
+Jacobian time:   0.02 s
 Solve time:      0.07 s
-Total time:      0.24 s
+Total time:      0.25 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        2.979E+00       1.178E-03         1.395E-20        1.178E-03
@@ -2137,16 +2137,16 @@ using Bank/Rose nonlinear solver.
 Iteration   |Rhs|      factor     |step|     error   #inner  #iterative  time
 ------------------------------------------------------------------------------
     0      2.71e+06                                                      0.04
-    1      1.22e+04   1.00e+00   1.41e-03   2.89e+01    0         1      0.11
-    2      5.28e-02   1.00e+00   5.52e-06   6.69e-02    0         1      0.18
+    1      1.22e+04   1.00e+00   1.41e-03   2.89e+01    0         1      0.12
+    2      5.28e-02   1.00e+00   5.52e-06   6.69e-02    0         1      0.19
 Finished, because...
 Error smaller than 1 ( 6.6932E-02 ).
 
 Accumulated times:
 Rhs time:        0.12 s
-Jacobian time:   0.02 s
-Solve time:      0.04 s
-Total time:      0.18 s
+Jacobian time:   0.01 s
+Solve time:      0.05 s
+Total time:      0.19 s
 
 contact        voltage     electron current    hole current  conduction current
  drain        3.000E+00       1.180E-03         1.395E-20        1.180E-03
@@ -2160,12 +2160,12 @@ Curve trace finished.
 
 Writing plot 'n232_des.tdr' (TDR format) ... done.
 
-Mon Nov 30 16:51:56 2020: checked in 1 sdevice license(s)
+Mon Nov 30 17:45:27 2020: checked in 1 sdevice license(s)
 
 ******************************************************************************
 Sentaurus Device process size: 555 megabytes
 Sentaurus Device simulation times:
-  wallclock: 16.46 s
-  total cpu: 16.29 s
-Sentaurus Device simulation finished (Date: Mon Nov 30 16:51:56 2020  (EDT)).
+  wallclock: 16.55 s
+  total cpu: 16.04 s
+Sentaurus Device simulation finished (Date: Mon Nov 30 17:45:27 2020  (EDT)).
 ********************************* Good Bye ! *********************************

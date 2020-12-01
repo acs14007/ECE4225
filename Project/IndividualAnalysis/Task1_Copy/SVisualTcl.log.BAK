@@ -2,7 +2,7 @@
 # Sentaurus Visual O-2018.06.
 # Tcl log file.
 #------------------------------------------
-# Date: Nov 30, 2020. 16:43:06.
+# Date: Nov 30, 2020. 17:39:54.
 # Version: 28.0.1030 (1.1030)
 # Mode: Interactive (GUI).
 # Mesa: enabled.
@@ -11,22 +11,12 @@
 # Kernel: 3.10.0-1127.18.2.el7.x86_64.
 ###########################################
 
-load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n230_des.plt
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n232_des.plt
 create_plot -1d
 select_plots {Plot_1}
 #-> Plot_1
 #-> Plot_1
-#-> IdVd_n230_des
-load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n232_des.plt
 #-> IdVd_n232_des
-load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n230_des.plt
-#-> n230_des
-load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n230_des.tdr
-create_plot -dataset n230_des_2
-select_plots {Plot_n230_des_2}
-#-> Plot_n230_des_2
-#-> Plot_n230_des_2
-#-> n230_des_2
 load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n232_des.plt
 #-> n232_des
 load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n232_des.tdr
@@ -35,56 +25,82 @@ select_plots {Plot_n232_des_2}
 #-> Plot_n232_des_2
 #-> Plot_n232_des_2
 #-> n232_des_2
-select_plots {Plot_1}
-#-> Plot_1
 windows_style -style max
 #-> 0
-create_curve -plot Plot_1 -dataset {IdVd_n230_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
-#-> Curve_1
-create_curve -plot Plot_1 -dataset {IdVd_n232_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
-#-> Curve_2
-set_plot_prop -plot {Plot_1} -hide
-select_plots {Plot_n232_des_2}
-#-> Plot_n232_des_2
+create_cutline -plot Plot_n232_des_2 -type x -at 0.00390706
+#-> C1(n232_des_2)
+create_plot -dataset C1(n232_des_2) -1d
+select_plots {Plot_C1(n232_des_2)}
+#-> Plot_C1(n232_des_2)
+#-> Plot_C1(n232_des_2)
+set_axis_prop -plot Plot_C1(n232_des_2) -axis y -type log
 #-> 0
-set_plot_prop -plot {Plot_n230_des_2} -hide
+create_curve -plot Plot_C1(n232_des_2) -dataset {C1(n232_des_2)} -axisX Y -axisY DopingConcentration
+#-> Curve_1
+set_band_diagram {Plot_C1(n232_des_2)}
 #-> 0
-set_plot_prop -plot {Plot_n232_des_2} -hide
+set_axis_prop -plot Plot_C1(n232_des_2) -axis x -title "Distance (um)"
 #-> 0
-set_plot_prop -plot {Plot_1} -show
-select_plots {Plot_1}
-#-> Plot_1
+set_axis_prop -plot Plot_C1(n232_des_2) -axis x -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
 #-> 0
-remove_curves -plot Plot_1 {Curve_1}
-#-> Curve_1
-create_curve -plot Plot_1 -dataset {IdVd_n230_des} -axisX {drain OuterVoltage} -axisY2 {drain TotalCurrent}
-#-> Curve_3
-remove_curves -plot Plot_1 {Curve_3}
-#-> Curve_3
-create_curve -plot Plot_1 -dataset {IdVd_n230_des} -axisX {drain OuterVoltage} -axisY2 {drain TotalCurrent}
-#-> Curve_3
-remove_curves -plot Plot_1 {Curve_2 Curve_3}
-#-> Curve_2 Curve_3
-create_curve -plot Plot_1 -dataset {n230_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
-#-> Curve_1
-remove_curves -plot Plot_1 {Curve_1}
-#-> Curve_1
-create_curve -plot Plot_1 -dataset {IdVd_n230_des} -axisX {drain OuterVoltage} -axisY {drain TotalCurrent}
-#-> Curve_1
-set_axis_prop -plot Plot_1 -axis y -type log
+set_axis_prop -plot Plot_C1(n232_des_2) -axis y -title "Energy (eV)"
+#-> 0
+set_axis_prop -plot Plot_C1(n232_des_2) -axis y -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_C1(n232_des_2) -axis y -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_axis_prop -plot Plot_C1(n232_des_2) -axis y -title "Energy (eV)"
+#-> 0
+set_axis_prop -plot Plot_C1(n232_des_2) -axis y -show_title
+#-> 0
+set_plot_prop -plot {Plot_C1(n232_des_2)} -title "Band Diagram for Vg=3V"
+#-> 0
+set_plot_prop -plot {Plot_C1(n232_des_2)} -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+set_plot_prop -plot {Plot_C1(n232_des_2)} -title_font_family arial -title_font_size 20 -title_font_color #000000 -title_font_att normal
+#-> 0
+export_view /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/bandDiagramdefaultON.png -plots {Plot_C1(n232_des_2)} -format png -overwrite
+#-> 0
+export_view /home/student/Documents/ECE4225/Project/IndividualAnalysis/groupPresentationPlots/BandDiagramON.png -plots {Plot_C1(n232_des_2)} -format png
 #-> 0
 load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n230_des.plt
-#-> IdVd_n230_des_2
+#-> IdVd_n230_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n231_des.plt
+#-> IdVd_n231_des
 load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n232_des.plt
 #-> IdVd_n232_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n233_des.plt
+#-> IdVd_n233_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n234_des.plt
+#-> IdVd_n234_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n235_des.plt
+#-> IdVd_n235_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n236_des.plt
+#-> IdVd_n236_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n237_des.plt
+#-> IdVd_n237_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n238_des.plt
+#-> IdVd_n238_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n239_des.plt
+#-> IdVd_n239_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/IdVd_n240_des.plt
+#-> IdVd_n240_des
 load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n230_des.plt
-#-> n230_des_3
+#-> n230_des
 load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n230_des.tdr
-create_plot -dataset n230_des_4
-select_plots {Plot_n230_des_4}
-#-> Plot_n230_des_4
-#-> Plot_n230_des_4
-#-> n230_des_4
+create_plot -dataset n230_des_2
+select_plots {Plot_n230_des_2}
+#-> Plot_n230_des_2
+#-> Plot_n230_des_2
+#-> n230_des_2
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n231_des.plt
+#-> n231_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n231_des.tdr
+create_plot -dataset n231_des_2
+select_plots {Plot_n231_des_2}
+#-> Plot_n231_des_2
+#-> Plot_n231_des_2
+#-> n231_des_2
 load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n232_des.plt
 #-> n232_des_3
 load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n232_des.tdr
@@ -93,13 +109,9 @@ select_plots {Plot_n232_des_4}
 #-> Plot_n232_des_4
 #-> Plot_n232_des_4
 #-> n232_des_4
-set_plot_prop -plot {Plot_n232_des_4} -hide
-select_plots {Plot_n230_des_4}
-#-> Plot_n230_des_4
-#-> 0
-set_plot_prop -plot {Plot_n230_des_4} -hide
-select_plots {Plot_1}
-#-> Plot_1
-#-> 0
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n233_des.plt
+#-> n233_des
+load_file /home/student/Documents/ECE4225/Project/IndividualAnalysis/Task1_Copy/n233_des.tdr
 exit 0
+#-> n233_des_2
  
